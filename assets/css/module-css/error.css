@@ -1,0 +1,101 @@
+
+/** error-section **/
+
+.error-section{
+  position: relative;
+}
+
+.error-section .content-box{
+  position: relative;
+  display: block;
+}
+
+.error-section .content-box h2{
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+
+.error-section .content-box p{
+  color: #6A6A6A;
+  margin-bottom: 33px;
+}
+
+.error-section .content-box .theme-btn{
+  padding: 15px 30px;
+}
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .error-section{
+    padding: 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

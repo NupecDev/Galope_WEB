@@ -1,0 +1,184 @@
+
+/** portfolio-section **/
+
+.portfolio-section{
+  position: relative;
+}
+
+.portfolio-section .outer-container{
+  position: relative;
+  padding: 30px 30px 0px 30px;
+}
+
+.portfolio-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.portfolio-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #000;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.portfolio-block-one .inner-box .image-box img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.portfolio-block-one .inner-box:hover .image-box img{
+  opacity: 0.4;
+  transform: scale(1.05);
+}
+
+.portfolio-block-one .inner-box .view-btn{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-block-one .inner-box .view-btn a{
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  transform: scale(0,0);
+}
+
+.portfolio-block-one .inner-box:hover .view-btn a{
+  transform: scale(1,1);
+}
+
+.portfolio-block-one .inner-box .view-btn h3{
+  display: block;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 20px;
+}
+
+.portfolio-block-one .inner-box .view-btn h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.portfolio-block-one .inner-box .view-btn h3 a:hover{
+
+}
+
+.portfolio-style-two .outer-container{
+  margin: 0px -20px;
+}
+
+.portfolio-style-two .portfolio-block{
+  padding: 0px 35px;
+}
+
+.portfolio-style-two .sec-title .theme-btn{
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+}
+
+
+/** rtl-css **/
+
+.rtl .portfolio-style-two .sec-title .theme-btn{
+  right: inherit;
+  left: 0px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  
+}
+
+@media only screen and (max-width: 991px){
+  .portfolio-style-two{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .portfolio-style-two .sec-title .theme-btn{
+    position: relative;
+    bottom: 0px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .portfolio-style-two{
+    padding-bottom: 40px;
+  }
+
+  .portfolio-section.pt_120.pb_120{
+    padding: 40px 0px;
+  }
+
+  .portfolio-section.pt_150.pb_120{
+    padding: 70px 0px 40px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

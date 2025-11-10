@@ -1,0 +1,211 @@
+
+
+
+/*********************************** color ******************************************/
+
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover,
+.main-menu .navigation > li > ul > li > ul > li > a:hover,
+.scroll-to-top .scroll-bar-text,
+.main-header .info-list li a:hover,
+.main-header .info-list li i,
+.main-header .header-info .search-toggler:hover,
+.main-header .header-info .login-box a:hover,
+.main-header .social-links li a:hover,
+.main-header .menu-right-content .support-box a i,
+.main-header .menu-right-content .support-box a:hover,
+.search-popup .search-form fieldset input:focus + button,
+.search-popup .search-form fieldset button:hover,
+.sec-title .sub-title,
+.service-block-one .inner-box .lower-content h3 a:hover,
+.list-style-one li i,
+.course-block-one .inner-box .lower-content h3 a:hover,
+.funfact-block-one .inner-box:hover .icon-box,
+.content_block_two .content-box .inner-box .single-item .icon-box,
+.event-block-one .inner-box .lower-content .post-date,
+.event-block-one .inner-box .lower-content h3 a:hover,
+.shop-block-one .inner-box .lower-content h3 a:hover,
+.shop-block-one .inner-box .lower-content .price,
+.main-footer .links-widget .links-list li a:hover,
+.main-footer .contact-widget .info-list li .icon-box,
+.main-footer .contact-widget .info-list li a:hover,
+.footer-bottom p a:hover,
+.history-section .content-box .year,
+.course-block-two .inner-box .icon-box,
+.course-block-two .inner-box h3 a:hover,
+.pricing-block-one .pricing-table .table-content .feature-list li i,
+.pricing-block-one .pricing-table .title,
+.news-block-one .inner-box .lower-content .category,
+.news-block-one .inner-box .lower-content h3 a:hover,
+.news-block-one .inner-box .lower-content .post-info li i,
+.news-block-one .inner-box .lower-content .post-info li a:hover,
+.dark-footer .links-widget .links-list li a:hover,
+.dark-footer .contact-widget .info-list li a:hover,
+.dark-footer .footer-bottom p a:hover,
+.service-block-two .inner-box .icon-box,
+.service-block-two .inner-box h3 a:hover,
+.image_block_three .image-box .experience-box h2,
+.course-section.alternat-2 .course-block-one .inner-box .lower-content .icon-box,
+.course-block-one .inner-box .lower-content .category,
+.fluid-section .right-column .inner-box .rating,
+.team-block-one .inner-box .lower-content h3 a:hover,
+.about-style-five .list-style-one li i,
+.event-block-two .inner-box .content-box .post-info li i,
+.event-block-two .inner-box .content-box h3 a:hover,
+.course-block-three .inner-box .icon-box,
+.course-block-three .inner-box h3 a:hover,
+.event-details-content .content-one .post-info li i,
+.event-sidebar .sidebar-widget .info-list li a:hover,
+.portfolio-block-one .inner-box .view-btn h3 a:hover,
+.sign-section .form-inner .form-group label span,
+.sign-section .form-inner .other-option .forgot-password:hover,
+.sign-section .form-inner .lower-text p a,
+.course-block-one .inner-box .lower-content .icon-box,
+.course-sidebar .contact-widget .info-list li a:hover,
+.shop-sidebar .search-widget .form-group input:focus + button,
+.shop-sidebar .search-widget .form-group button:hover,
+.shop-sidebar .category-widget .category-list li a:hover,
+.product-details-content .content-box h3,
+.product-details-content .content-box .discription-box li span,
+.cart-section .cart-table tbody td h5 a:hover,
+.cart-section .total-cart span.color,
+.checkout-section .billing-content .form-inner .form-group label span,
+.checkout-section .order-info .cost-box li span.color,
+.blog-sidebar .search-widget .form-group input:focus + button,
+.blog-sidebar .search-widget .form-group button:hover,
+.blog-sidebar .category-widget .category-list li a i,
+.blog-sidebar .category-widget .category-list li a:hover,
+.blog-sidebar .post-widget .post h4 a:hover,
+.blog-sidebar .post-widget .post .post-date i,
+.news-block-one .inner-box .lower-content h2 a:hover,
+.blog-details-content .post-share-option .post-tag li a,
+.blog-details-content .post-share-option .social-links li a:hover,
+.info-block-one .inner-box p a:hover
+
+{
+  color: var(--theme-color);
+}
+
+
+/** background **/
+
+button.rtl,
+button.ltr,
+.chat-popup .close-chat,
+.theme-btn.btn-one,
+.main-header .outer-container .left-column .logo-box,
+.sec-title .sub-title:before,
+.sec-title.centred .sub-title:after,
+.service-block-one .inner-box .image-box:before,
+.service-block-one .inner-box .lower-content .link a:hover,
+.theme-btn.btn-two:before,
+.theme-btn.btn-two:after,
+.course-block-one .inner-box:hover .lower-content .icon-box,
+.chat-icon button,
+.content_block_two .content-box .inner-box .single-item:hover .icon-box,
+.nav-style-one .owl-nav button:before,
+.event-block-one .inner-box .image-box .location:before,
+.shop-block-one .inner-box .image-box .option-list li a:hover,
+.shop-block-one .inner-box .image-box .option-list li button:hover,
+.shop-block-one .inner-box .image-box .option-list li button:active,
+.shop-block-one .inner-box .image-box .option-list li button:focus,
+.content_block_three .content-box .accordion .acc-btn.active,
+.main-footer .social-links li a:hover,
+.history-section .content-box:before,
+.pricing-section .tab-btns li:before,
+.news-block-one .inner-box .image-box .post-date,
+.news-block-one .inner-box .lower-content .category:before,
+.service-block-two .inner-box .icon-box:before,
+.content_block_four .content-box .tab-btns li:before,
+.team-block-one .inner-box .lower-content .social-links li a:hover,
+.progress-box .bar-inner,
+.about-style-four .image-box .experience-box:before,
+.check-box input:checked + label:before,
+.course-sidebar .category-widget .category-list li a.current,
+.course-sidebar .category-widget .category-list li a:hover,
+.course-sidebar .contact-widget .info-list li i,
+.course-details-content .list-item li:before,
+.price-range-slider .ui-slider-range,
+.price-range-slider .ui-slider-handle,
+.pagination li a:hover,
+.pagination li a.current,
+.shop-details .feature-box .feature-list li:before,
+.cart-section .total-cart .shipping-cost .cost-list li .check-box label:after,
+.check-box-three input:checked + label:after,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.blog-details-content .content-one .list-item li:before,
+.blog-details-content .post-share-option .post-tag li a:hover,
+.info-block-one .inner-box .icon-box
+
+{
+  background: var(--theme-color);
+}
+
+
+
+
+/** border-color **/
+
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > .megamenu,
+.chat-popup .chat-form .form-group input:focus,
+.chat-popup .chat-form .form-group textarea:focus,
+.image_block_one .image-box .image-shape .shape-1,
+.theme-btn.btn-two:hover,
+.chooseus-section .image-box .shape-1,
+.cta-section .content-box .theme-btn.btn-two,
+.image_block_three .image-box .image-shape .shape-1,
+.team-block-one .inner-box .lower-content .social-links li a:hover,
+.skills-section .pattern-layer .pattern-1,
+.content_block_six .content-box .form-inner .form-group input:focus,
+.content_block_six .content-box .form-inner .form-group textarea:focus,
+.image_block_five .image-box .image-shape .shape-1,
+.about-style-six .image-column .image-shape .shape-1,
+.sign-section .form-inner .form-group input:focus,
+.check-box input:checked + label:before,
+.course-sidebar .category-widget .category-list li a.current,
+.course-sidebar .category-widget .category-list li a:hover,
+.shop-sidebar .search-widget .form-group input:focus,
+.product-details-content .slider-content .thumb-box li a.active,
+.cart-section .table-outer .coupon-box .form-group input:focus,
+.checkout-section .billing-content .form-inner .form-group input:focus,
+.check-box-three input:checked + label:before,
+.blog-sidebar .search-widget .form-group input:focus,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.pagination li a:hover,
+.pagination li a.current,
+.blog-details-content .post-share-option .post-tag li a,
+.blog-details-content .comment-box .form-group input:focus,
+.blog-details-content .comment-box .form-group textarea:focus,
+.info-block-one .inner-box:hover,
+.contact-style-two .content-box .form-inner .form-group input:focus,
+.contact-style-two .content-box .form-inner .form-group textarea:focus
+
+{
+  border-color: var(--theme-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

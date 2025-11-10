@@ -1,0 +1,178 @@
+
+/** chooseus-section **/
+
+.chooseus-section{
+  position: relative;
+}
+
+.chooseus-section .image-box{
+  position: relative;
+  display: block;
+}
+
+.chooseus-section .image-box img{
+  width: 100%;
+}
+
+.chooseus-section .image-box .shape-1{
+  position: absolute;
+  left: 130px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 26px;
+  -webkit-animation: zoom-fade 6s infinite linear;
+  animation: zoom-fade 6s infinite linear;
+}
+
+.chooseus-section .image-box .shape-2{
+  position: absolute;
+  left: 50px;
+  top: 17px;
+  width: 203px;
+  height: 203px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.content_block_two .content-box{
+  position: relative;
+  display: block;
+}
+
+.content_block_two .content-box .inner-box .single-item{
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.10);
+  margin-bottom: 20px;
+  border-radius: 20px 20px 75px 20px;
+  padding: 30px 50px 28px 145px;
+  max-width: 490px;
+}
+
+.content_block_two .content-box .inner-box .single-item:last-child{
+  margin-bottom: 0px;
+}
+
+.content_block_two .content-box .inner-box .single-item .icon-box{
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+  top: 30px;
+  background: #EFF2F2;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 500ms ease;
+}
+
+.content_block_two .content-box .inner-box .single-item:hover .icon-box{
+  color: #fff;
+}
+
+.content_block_two .content-box .inner-box .single-item h3{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+
+/** rtl-css **/
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  
+}
+
+@media only screen and (max-width: 991px){
+  .chooseus-section .image-box{
+    margin: 0px 0px 30px 0px;
+  }
+
+  .content_block_two .content-box{
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .chooseus-section{
+    padding: 70px 0px 65px 0px;
+  }
+
+  .chooseus-section .image-box .image-shape{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .content_block_two .content-box .inner-box .single-item{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .content_block_two .content-box .inner-box .single-item .icon-box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

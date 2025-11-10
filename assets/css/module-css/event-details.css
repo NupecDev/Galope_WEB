@@ -1,0 +1,274 @@
+
+/** event-details **/
+
+.event-details{
+  position: relative;
+}
+
+.event-details .big-image{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+}
+
+.event-details .big-image img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.event-details-content{
+  position: relative;
+  display: block;
+}
+
+.event-details-content .content-one .post-info{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.event-details-content .content-one .post-info li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 26px;
+  margin-right: 20px;
+}
+
+.event-details-content .content-one .post-info li:last-child{
+  margin: 0px !important;
+}
+
+.event-details-content .content-one .post-info li i{
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  font-size: 16px;
+}
+
+.event-details-content .content-one h2{
+  display: block;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.event-details-content p{
+  margin-bottom: 26px;
+}
+
+.event-details-content p:last-child{
+  margin-bottom: 0px;
+}
+
+.event-details-content .content-one .image{
+  position: relative;
+  display: block;
+  border-radius: 20px;
+}
+
+.event-details-content .content-one .image img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.event-details-content .content-two h3{
+  display: block;
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 22px;
+}
+
+.event-details-content .map-inner{
+  position: relative;
+  display: block;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.event-details-content .map-inner iframe{
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.event-sidebar{
+  position: relative;
+  display: block;
+}
+
+.event-sidebar .sidebar-widget{
+  position: relative;
+  display: block;
+  border: 1px solid #E5E5E5;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 42px 40px;
+}
+
+.event-sidebar .widget-title{
+  position: relative;
+  display: block;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 32px;
+}
+
+.event-sidebar .widget-title h3{
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.event-sidebar .sidebar-widget .info-list li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.event-sidebar .sidebar-widget .info-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.event-sidebar .sidebar-widget .info-list li span{
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  width: 135px;
+}
+
+.event-sidebar .sidebar-widget .info-list li a{
+  color: var(--text-color);
+}
+
+.event-sidebar .sidebar-widget .info-list li a:hover{
+
+}
+
+.event-sidebar .form-inner{
+  position: relative;
+  display: block;
+  background: #EBF2E9;
+  padding: 42px 40px 50px 40px;
+  border-radius: 20px;
+}
+
+.event-sidebar .form-inner .widget-title{
+  border-bottom: 1px solid rgba(28, 64, 61, 0.10);
+}
+
+.event-sidebar .form-inner .form-group{
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.event-sidebar .form-inner .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.event-sidebar .form-inner .form-group input[type='text'],
+.event-sidebar .form-inner .form-group .nice-select{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 0px 25px;
+  color: var(--text-color);
+}
+
+.event-sidebar .form-inner .form-group .nice-select{
+  line-height: 50px;
+  padding-right: 50px;
+}
+
+.event-sidebar .form-inner .form-group .theme-btn{
+  width: 100%;
+}
+
+
+/** rtl-css **/
+
+.rtl .event-details-content .content-one .post-info li{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .event-details-content{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .event-details{
+    padding: 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

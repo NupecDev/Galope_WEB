@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>GolFer - HTML 5 Template Preview</title>
+
+<!-- Fav Icon -->
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/nice-select.css" rel="stylesheet">
+<link href="assets/css/odometer.css" rel="stylesheet">
+<link href="assets/css/elpath.css" rel="stylesheet">
+<link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
+<link href="assets/css/rtl.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/module-css/header.css" rel="stylesheet">
+<link href="assets/css/module-css/page-title.css" rel="stylesheet">
+<link href="assets/css/module-css/course-details.css" rel="stylesheet">
+<link href="assets/css/module-css/faq.css" rel="stylesheet">
+<link href="assets/css/module-css/cta.css" rel="stylesheet">
+<link href="assets/css/module-css/footer.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+<body>
+
+    <div class="boxed_wrapper ltr">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="fal fa-times"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <!-- <div class="txt-loading">
+                            <span data-text-preloader="G" class="letters-loading">
+                                G
+                            </span>
+                            <span data-text-preloader="A" class="letters-loading">
+                                A
+                            </span>
+                            <span data-text-preloader="L" class="letters-loading">
+                                L
+                            </span>
+                            <span data-text-preloader="O" class="letters-loading">
+                                O
+                            </span>
+                            <span data-text-preloader="P" class="letters-loading">
+                                P
+                            </span>
+                            <span data-text-preloader="E" class="letters-loading">
+                                E
+                            </span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- page-direction -->
+        <div class="page_direction">
+            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
+            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
+        </div>
+        <!-- page-direction end -->
+
+
+        <div class="chat-icon"><button type="button" class="chat-toggler"><i class="icon-26"></i></button></div>
+
+
+        <!--chat popup-->
+        <div id="chat-popup" class="chat-popup">
+            <div class="popup-inner">
+                <div class="close-chat"><i class="icon-24"></i></div>
+                <div class="chat-form">
+                    <p>Please fill out the form below and we will get back to you as soon as possible.</p>
+                    <form method="post" action="index.html">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Text"></textarea>
+                        </div>
+                        <div class="form-group message-btn">
+                            <button type="submit" class="theme-btn btn-one">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Search Popup-->
+        <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box">
+                    <figure class="logo-box"><a href="index.html"><img src="assets/images/logos/Light.png" alt=""></a>
+                    </figure>
+                    <div class="close-search"><span class="fas fa-times"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value=""
+                                        placeholder="Type your keyword and hit" required>
+                                    <button type="submit"><i class="icon-4"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Video Popup-->
+        <div id="video-popup" class="video-popup">
+            <div class="popup-inner">
+                <div class="close-video"><span class="fas fa-times"></span></div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="video-content">
+                        <iframe width="560" height="auto" src="https://www.youtube.com/embed/kvfHSKojdiI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="top-inner">
+                    <ul class="info-list">
+                        <li><i class="icon-1"></i>Lun-Vie 9:00 am - 6:00 pm</li>
+                        <li><i class="icon-2"></i><a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a></li>
+                        <li><i class="icon-3"></i> Av. de las Fuentes No.14, Parque Industrial Bernardo Quintana, 76246
+                            El Marqués, Querétaro</li>
+                    </ul>
+                    <div class="header-info">
+                        <div class="search-toggler pr_30 mr_30"><i class="icon-4"></i></div>
+                        <!-- <div class="login-box p_relative pr_30 mr_30"><a href="login.html">Login</a></div> -->
+                        <ul class="social-links">
+                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                            <!-- <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-container p_relative pr_70">
+                    <div class="outer-box">
+                        <div class="left-column">
+                            <figure class="logo-box mr_50"><a href="index.html"><img src="assets/images/logos/Light.png"
+                                        alt=""></a></figure>
+                            <div class="menu-area">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler">
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                </div>
+                                <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class="current dropdown"><a href="#">Alimentos</a>
+                                                <ul>
+                                                    <li><a href="index.html">Balance</a></li>
+                                                    <li><a href="index-2.html">Reproductoras</a></li>
+                                                    <li><a href="index-3.html">Zen</a></li>
+                                                    <li><a href="index-4.html">Alto Rendimiento</a></li>
+                                                    <li><a href="index-5.html">300 Varas</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="current dropdown"><a href="#">Complementos</a>
+                                                <ul>
+                                                    <li><a href="index.html">Energy</a></li>
+                                                    <li><a href="index-2.html">Protein</a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- <li class="current dropdown"><a href="#">Home</a>
+                                                <ul>
+                                                    <li><a href="index.html">Home Main Course</a></li>
+                                                    <li><a href="index-2.html">Home Golf Accademy</a></li>
+                                                    <li><a href="index-3.html">Home Instructor</a></li>
+                                                    <li><a href="index-4.html">Home Golf Club</a></li>
+                                                    <li><a href="index-5.html">Home Driving Range</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li class="dropdown"><a href="#">Events</a>
+                                                        <ul>
+                                                            <li><a href="events.html">Events Grid</a></li>
+                                                            <li><a href="events-2.html">Events List</a></li>
+                                                            <li><a href="event-details.html">Event Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                                        <ul>
+                                                            <li><a href="portfolio.html">Portfolio Fullwidth</a></li>
+                                                            <li><a href="portfolio-2.html">Portfolio Grid 1</a></li>
+                                                            <li><a href="portfolio-3.html">Portfolio Grid 2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="about.html">About Us</a></li>
+                                                    <li><a href="academy.html">Academy</a></li>
+                                                    <li><a href="pricing.html">Membership Plan</a></li>
+                                                    <li><a href="faq.html">Faq'S</a></li>
+                                                    <li><a href="login.html">Log In</a></li>
+                                                    <li><a href="signup.html">Sign Up</a></li>
+                                                    <li><a href="error.html">404</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Courses</a>
+                                                <ul>
+                                                    <li><a href="courses.html">Courses 1</a></li>
+                                                    <li><a href="courses-2.html">Courses 2</a></li>
+                                                    <li><a href="course-details.html">Courses & Instructors</a></li>
+                                                    <li><a href="course-details-2.html">Golf Accommodation</a></li>
+                                                    <li><a href="course-details-3.html">Fitness Center</a></li>
+                                                    <li><a href="course-details-4.html">Golf Practice</a></li>
+                                                    <li><a href="course-details-5.html">Skill Development</a></li>
+                                                    <li><a href="course-details-6.html">Basic Foundation</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Shop</a>
+                                                <ul>
+                                                    <li><a href="shop.html">Shop Page</a></li>
+                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Blog</a>
+                                                <ul>
+                                                    <li><a href="blog.html">Blog Grid</a></li>
+                                                    <li><a href="blog-2.html">Blog Standard</a></li>
+                                                    <li><a href="blog-3.html">Blog List</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>   -->
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="https://naequina.com/">NAEQUINA</a></li>
+                                            <li><a href="contact.html">Contacto</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- <div class="menu-right-content">
+                            <div class="support-box mr_30"><a href="tel:4421961000"><i class="icon-5"></i> +52 (442) 196-1000</a></div>
+                            <div class="btn-box"><a href="index.html" class="theme-btn btn-one">Book A Visit</a></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-container p_relative pr_70">
+                    <div class="outer-box">
+                        <div class="left-column">
+                            <figure class="logo-box mr_50"><a href="index.html"><img src="assets/images/logos/Light.png"
+                                        alt=""></a></figure>
+                            <div class="menu-area">
+                                <nav class="main-menu clearfix">
+                                    <!--Keep This Empty / Menu will come through Javascript-->
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="support-box mr_30"><a href="tel:4421961000"><i class="icon-5"></i> +52 (442)
+                                    196-1000</a></div>
+                            <!-- <div class="btn-box"><a href="index.html" class="theme-btn btn-one">Book A Visit</a></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logos/Light.png" alt="" title=""></a>
+                </div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+524421961000">+52 (442) 196-1000</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+
+
+        <!-- page-title -->
+        <section class="page-title centred pt_190 pb_190">
+            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Courses & Instructors</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Courses & Instructors</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- course-details --> 
+        <section class="course-details pt_150 pb_150">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="course-sidebar mr_40">
+                            <div class="sidebar-widget category-widget">
+                                <div class="widget-title">
+                                    <h3>Our Courses</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="category-list clearfix">
+                                        <li><a href="course-details.html" class="current">Courses & Instructors <i class="icon-37"></i></a></li>
+                                        <li><a href="course-details-2.html">Golf Accommodation <i class="icon-37"></i></a></li>
+                                        <li><a href="course-details-3.html">Fitness Center <i class="icon-37"></i></a></li>
+                                        <li><a href="course-details-4.html">Golf Practice <i class="icon-37"></i></a></li>
+                                        <li><a href="course-details-5.html">Skill Development <i class="icon-37"></i></a></li>
+                                        <li><a href="course-details-6.html">Basic Foundation <i class="icon-37"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget contact-widget">
+                                <div class="widget-title">
+                                    <h3>Contact Info</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li><i class="icon-38"></i><span>684 West College St. Sun City, United States America, 064781.</span></li>
+                                        <li><i class="icon-39"></i><a href="tel:5284567592">+(528) 456-7592</a></li>
+                                        <li><i class="icon-40"></i><a href="mailto:example@info.com">example@info.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="course-details-content">
+                            <figure class="big-image"><img src="assets/images/resource/course-7.jpg" alt=""></figure>
+                            <div class="content-one mb_50">
+                                <h2>Courses & Instructors</h2>
+                                <p class="mb_50">Experience the ultimate golfing adventure with our meticulously maintained golf courses and world-class instructors. Our courses are designed to cater to golfers of all skill levels, from beginners looking to learn the basics to seasoned players seeking a challenging game.</p>
+                                <h3>Courses</h3>
+                                <p class="mb_25">Our golf courses are set in stunning landscapes, offering picturesque views and a serene environment to enhance your golfing experience. Each course is thoughtfully designed with varying levels of difficulty, featuring well-manicured fairways, strategically placed bunkers, and pristine greens.</p>
+                                <p>Whether you prefer the classic links-style courses or modern championship layouts, we have something to suit your preferences.</p>
+                            </div>
+                            <div class="content-two mb_60">
+                                <h3>Our facilities include</h3>
+                                <ul class="list-item clearfix mb_65">
+                                    <li><span>Practice Areas:</span>  Hone your skills at our extensive practice areas, including driving ranges,</li>
+                                    <li><span>Clubhouse Amenities:</span>  Enjoy the luxury of our clubhouse, complete with pro shops</li>
+                                    <li><span>Our Moments and Events:</span>  Participate in regular tournaments and events</li>
+                                </ul>
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/resource/course-8.jpg" alt=""></figure>
+                                    <div class="text-box">
+                                        <h3>How does this benefit you?</h3>
+                                        <p>Professional instructors provide tailored lessons based on your skill level and goals, helping you to improve your technique, strategy, and overall game.</p>
+                                        <a href="course-details.html" class="theme-btn btn-two">book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-three">
+                                <div class="content_block_three">
+                                    <div class="content-box mr_30">
+                                        <h3>Activities and Features</h3>
+                                        <ul class="accordion-box">
+                                            <li class="accordion block">
+                                                <div class="acc-btn">
+                                                    <h3>How To Purchase The Tickets For Groups?</h3>
+                                                    <div class="icon-box"><i class="icon-20"></i></div>
+                                                </div>
+                                                <div class="acc-content">
+                                                    <div class="text">
+                                                        <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="accordion block active-block">
+                                                <div class="acc-btn active">
+                                                    <h3>What Equipment Do I Need For Golfing?</h3>
+                                                    <div class="icon-box"><i class="icon-20"></i></div>
+                                                </div>
+                                                <div class="acc-content current">
+                                                    <div class="text">
+                                                        <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="accordion block">
+                                                <div class="acc-btn">
+                                                    <h3>Does Practicing Golf At Home Actually Work?</h3>
+                                                    <div class="icon-box"><i class="icon-20"></i></div>
+                                                </div>
+                                                <div class="acc-content">
+                                                    <div class="text">
+                                                        <p>Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- course-details end -->
+
+
+        <!-- cta-section -->
+        <section class="cta-section alternat-2 centred bg-color-2 pt_140 pb_150">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-14.png);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <div class="sec-title light mb_40">
+                        <span class="sub-title">our Facilities</span>
+                        <h2>Take Your Game To The <br />Next Level.</h2>
+                    </div>
+                    <div class="btn-box">
+                        <a href="signup.html" class="theme-btn btn-one">become a member</a>
+                        <a href="contact.html" class="theme-btn btn-two">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-section end -->
+
+
+        <!-- main-footer -->
+        <footer class="main-footer dark-footer">
+            <div class="auto-container">
+                <div class="widget-section pt_95 pb_95">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="about-widget footer-widget mr_40">
+                                <div class="widget-title">
+                                    <h3>About</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur diam ultricies leo etiam nibh tristique.</p>
+                                    <p>odio feugiat vitae libero vestibu viverra elementum luctus.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                            <div class="links-widget footer-widget ml_30">
+                                <div class="widget-title">
+                                    <h3>Links</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="index.html">Historic Timeline</a></li>
+                                        <li><a href="index.html">Career</a></li>
+                                        <li><a href="index.html">Membership</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="schedule-widget footer-widget ml_55">
+                                <div class="widget-title">
+                                    <h3>Working Hours</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <p>Tincidunt neque pretium lectus donec risus.</p>
+                                    <ul class="schedule-list clearfix">
+                                        <li>Mon - Fri: 9:00AM - 6:00PM</li>
+                                        <li>Sat - Sun: 8:00AM - 4:00PM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="contact-widget footer-widget">
+                                <div class="widget-title">
+                                    <h3>Get In Touch</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li>
+                                            <div class="icon-box"><i class="icon-3"></i></div>
+                                            Add:  New Hyde Park, NY 11040
+                                        </li>
+                                        <li>
+                                            <div class="icon-box"><i class="icon-2"></i></div>
+                                            Email:  <a href="mailto:example@info.com">example@info.com</a>
+                                        </li>
+                                        <li>
+                                            <div class="icon-box"><i class="icon-5"></i></div>
+                                            Phone:  <a href="tel:3336660000">333 666 0000</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="social-links">
+                                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom centred">
+                <div class="copyright"><p>Copyright 2024 by <a href="index.html">GolFer</a> All Right Reserved.</p></div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+        
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/scrolltop.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/odometer.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+</html>

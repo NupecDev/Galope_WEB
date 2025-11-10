@@ -1,0 +1,163 @@
+
+/** skills-section **/
+
+.skills-section{
+  position: relative;
+}
+
+.content_block_five .content-box{
+  position: relative;
+  display: block;
+}
+
+.content_block_five .content-box .progress-box .single-progress{
+  position: relative;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.content_block_five .content-box .progress-box .single-progress:last-child{
+  margin-bottom: 0px;
+}
+
+.content_block_five .content-box .progress-box .single-progress p{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+
+.content_block_five .content-box .progress-box .single-progress .bar-inner span{
+  position: absolute;
+  top: -28px;
+  right: 0px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.skills-section .image-layer{
+  position: absolute;
+  right: 188px;
+  bottom: 0px;
+}
+
+.skills-section .pattern-layer .pattern-1{
+  position: absolute;
+  left: 0px;
+  bottom: 305px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 26px;
+  -webkit-animation: zoom-fade 6s infinite linear;
+  animation: zoom-fade 6s infinite linear;
+}
+
+.skills-section .pattern-layer .pattern-2{
+  position: absolute;
+  left: -40px;
+  bottom: 220px;
+  width: 203px;
+  height: 203px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+
+/** rtl-css **/
+
+.rtl .skills-section .image-layer{
+  right: inherit;
+  left: 315px;
+}
+
+.rtl .content_block_five .content-box .progress-box .single-progress .bar-inner span{
+  right: inherit;
+  left: 0px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1600px){
+  .skills-section .image-layer{
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .skills-section .pattern-layer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .skills-section .image-layer{
+    display: none;
+  }
+
+  .content_block_five .content-box{
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .skills-section{
+    padding-bottom: 70px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

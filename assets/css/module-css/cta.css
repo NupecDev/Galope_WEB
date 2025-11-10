@@ -1,0 +1,167 @@
+
+/** cta-section **/
+
+.cta-section{
+  position: relative;
+}
+
+.cta-section .content-box{
+  position: relative;
+  max-width: 650px;
+}
+
+.cta-section .content-box .theme-btn.btn-one{
+  padding: 15px 30px;
+}
+
+.cta-section .content-box .theme-btn.btn-one:before,
+.cta-section .content-box .theme-btn.btn-one:after{
+  background: #fff;
+}
+
+.cta-section .content-box .theme-btn.btn-one:hover{
+  color: var(--theme-color) !important;
+}
+
+.cta-section .content-box .theme-btn.btn-two{
+  padding: 14px 30px;
+  color: var(--theme-color) !important;
+}
+
+.cta-section .content-box .theme-btn.btn-two:hover{
+  color: #fff !important;
+}
+
+.cta-section .content-box .btn-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cta-section .content-box .btn-box .theme-btn{
+  margin-right: 10px;
+}
+
+.cta-section .content-box .btn-box .theme-btn:last-child{
+  margin: 0px !important;
+}
+
+.cta-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cta-section.alternat-2 .content-box{
+  max-width: 100%;
+}
+
+.cta-section.alternat-2 .content-box .btn-box{
+  justify-content: center;
+}
+
+
+/** rtl-css **/
+
+.rtl .cta-section .content-box .btn-box .theme-btn{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .cta-section .image-layer{
+  right: inherit;
+  left: 200px;
+}
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .cta-section .image-layer{
+    right: 0px;
+  }
+
+  .rtl .cta-section .image-layer{
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .cta-section .image-layer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .cta-section{
+    padding: 65px 0px 70px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .cta-section .content-box .btn-box{
+    display: block;
+  }
+
+  .cta-section .content-box .btn-box .theme-btn{
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .rtl .cta-section .content-box .btn-box .theme-btn{
+    margin-left: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
