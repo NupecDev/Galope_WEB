@@ -1,0 +1,77 @@
+{"country": "Belize",
+  "states": [
+    {
+      "state": "Belize",
+      "cities": [
+        "Belize City",
+        "San Pedro",
+        "Caye Caulker",
+        "Ladyville",
+        "Hattieville",
+        "Burrell Boom",
+        "Maskall",
+        "Crooked Tree"
+      ]
+    },
+    {
+      "state": "Cayo",
+      "cities": [
+        "San Ignacio",
+        "Belmopan",
+        "Benque Viejo del Carmen",
+        "Santa Elena",
+        "Valley of Peace",
+        "Armenia",
+        "Unitedville",
+        "Bullet Tree Falls",
+        "Spanish Lookout"
+      ]
+    },
+    {
+      "state": "Corozal",
+      "cities": [
+        "Corozal Town",
+        "Consejo",
+        "Sarteneja",
+        "Chunox",
+        "Caledonia",
+        "Patchacan"
+      ]
+    },
+    {
+      "state": "Orange Walk",
+      "cities": [
+        "Orange Walk Town",
+        "Shipyard",
+        "Guinea Grass",
+        "San Jose Palmar",
+        "Trial Farm",
+        "Yo Creek",
+        "San Estevan",
+        "Tower Hill"
+      ]
+    },
+    {
+      "state": "Stann Creek",
+      "cities": [
+        "Dangriga",
+        "Hopkins",
+        "Placencia",
+        "Seine Bight",
+        "Maya Beach",
+        "Sittee River"
+      ]
+    },
+    {
+      "state": "Toledo",
+      "cities": [
+        "Punta Gorda",
+        "Barranco",
+        "Big Falls",
+        "San Antonio",
+        "Blue Creek",
+        "Monkey River Town"
+      ]
+    }
+  ]
+}

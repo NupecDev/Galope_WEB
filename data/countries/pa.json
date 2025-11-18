@@ -1,0 +1,156 @@
+{
+  "country":"Panama",
+  "states":[
+  {
+    "state": "Bocas del Toro",
+    "cities": [
+      "Bocas del Toro",
+      "Changuinola",
+      "Chiriquí Grande"
+    ]
+  },
+  {
+    "state": "Coclé",
+    "cities": [
+      "Penonomé",
+      "Aguadulce",
+      "Antón",
+      "La Pintada",
+      "Natá",
+      "Olá"
+    ]
+  },
+  {
+    "state": "Colón",
+    "cities": [
+      "Colón",
+      "Chagres",
+      "Donoso",
+      "Portobelo",
+      "Santa Isabel"
+    ]
+  },
+  {
+    "state": "Chiriquí",
+    "cities": [
+      "David",
+      "Alanje",
+      "Barú",
+      "Boquerón",
+      "Boquete",
+      "Bugaba",
+      "Dolega",
+      "Gualaca",
+      "Remedios",
+      "Renacimiento",
+      "San Félix",
+      "San Lorenzo",
+      "Tierras Altas",
+      "Tolé"
+    ]
+  },
+  {
+    "state": "Darién",
+    "cities": [
+      "La Palma",
+      "Chepigana",
+      "Pinogana",
+      "Santa Fe"
+    ]
+  },
+  {
+    "state": "Herrera",
+    "cities": [
+      "Chitré",
+      "Las Minas",
+      "Los Pozos",
+      "Ocú",
+      "Parita",
+      "Pesé",
+      "Santa María"
+    ]
+  },
+  {
+    "state": "Los Santos",
+    "cities": [
+      "Las Tablas",
+      "Guararé",
+      "Los Santos",
+      "Macaracas",
+      "Pedasí",
+      "Pocrí",
+      "Tonosí"
+    ]
+  },
+  {
+    "state": "Panamá",
+    "cities": [
+      "Panamá",
+      "Balboa",
+      "Chepo",
+      "Chimán",
+      "San Miguelito",
+      "Taboga"
+    ]
+  },
+  {
+    "state": "Panamá Oeste",
+    "cities": [
+      "La Chorrera",
+      "Arraiján",
+      "Capira",
+      "Chame",
+      "San Carlos"
+    ]
+  },
+  {
+    "state": "Veraguas",
+    "cities": [
+      "Santiago",
+      "Atalaya",
+      "Calobre",
+      "Cañazas",
+      "La Mesa",
+      "Las Palmas",
+      "Mariato",
+      "Montijo",
+      "Río de Jesús",
+      "San Francisco",
+      "Santa Fe",
+      "Santiago",
+      "Soná"
+    ]
+  },
+  {
+    "state": "Guna Yala",
+    "cities": [
+      "El Porvenir",
+      "Ailigandí",
+      "Narganá"
+    ]
+  },
+  {
+    "state": "Ngäbe-Buglé",
+    "cities": [
+      "Kankintú",
+      "Kusapín",
+      "Jirondai",
+      "Besikó",
+      "Mironó",
+      "Müna",
+      "Nole Düima",
+      "Ñürüm",
+      "Santa Catalina o Calovébora"
+    ]
+  },
+  {
+    "state": "Emberá-Wounaan",
+    "cities": [
+      "Unión Chocó",
+      "Llachina",
+      "Lajas Blancas",
+      "Manené",
+      "Playa Muerto"
+    ]
+  }
+]}

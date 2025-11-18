@@ -49,9 +49,14 @@
         ],
         "galleryimages": [
             "assets/images/balance/gallery1.jpg",
-            "assets/images/balance/gallery2.jpg",
-            "assets/images/balance/gallery3.jpg",
-            "assets/images/balance/gallery4.jpg"
+            "https://i.scdn.co/image/ab67616d0000b273400bfab93d3c597b70a49842",
+            "https://www.horseillustrated.com/wp-content/uploads/1-Trote-y-Galope.jpg",
+            "https://i.scdn.co/image/ab67616d0000b273400bfab93d3c597b70a49842",
+            "https://media-cdn.tripadvisor.com/media/photo-s/11/5f/db/44/galopar-sin-medida-con.jpg",
+            "https://www.horseillustrated.com/wp-content/uploads/1-Trote-y-Galope.jpg",
+            "https://i.scdn.co/image/ab67616d0000b273400bfab93d3c597b70a49842",
+            "https://www.horseillustrated.com/wp-content/uploads/1-Trote-y-Galope.jpg",
+            "https://www.ecuestre.es/contenidos/imagenes/articulo/6582b6fc8e5ff048c1c3676b/1703071273659-el-galope-1-invento-magico-de-la-evolucion.jpg"
         ],
         "faq": [
             {
@@ -301,7 +306,8 @@
             }
         ]
     },
-    {"product": "zen",
+    {
+        "product": "zen",
         "title": "GALOPE ZEN",
         "copy": "La diferencia entre la medalla de oro y el segundo lugar no se mide en centímetros. Se mide en la serenidad de una mente que confía en su cuerpo.",
         "tagline": "EL EQUILIBRIO DEL CAMPEÓN",
@@ -372,11 +378,14 @@
             {
                 "point": "30 días para ver mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
-            {                "point": "Soporte técnico durante transición"
+            {
+                "point": "Soporte técnico durante transición"
             },
-            {                "point": "Devolución completa si no hay resultados"
+            {
+                "point": "Devolución completa si no hay resultados"
             },
-            {                "point": "Protocolo personalizado incluido"
+            {
+                "point": "Protocolo personalizado incluido"
             }
         ],
         "beforeafter": [
@@ -400,13 +409,17 @@
             }
         ],
         "cases": [
-            {                "use": "Caballos de salto, doma clásica, adiestramiento y caballos en concursos"
+            {
+                "use": "Caballos de salto, doma clásica, adiestramiento y caballos en concursos"
             },
-            {                "use": "Atletas con tendencia a la hiperactividad, sensibles y nerviosos"
+            {
+                "use": "Atletas con tendencia a la hiperactividad, sensibles y nerviosos"
             },
-            {                "use": "Caballos sensibles en competencias"
+            {
+                "use": "Caballos sensibles en competencias"
             },
-            {                "use": "Manejo en la doma de potros y potrancas"
+            {
+                "use": "Manejo en la doma de potros y potrancas"
             }
         ],
         "downloadables": [
@@ -441,7 +454,6 @@
                 "link": "https://www.youtube.com/watch?v=video9"
             }
         ]
-
     },
     {
         "product": "alto-rendimiento",
@@ -476,8 +488,8 @@
                 "image": "assets/images/alto-rendimiento/testimonial1.jpg",
                 "name": "CARLOS HUMBERTO PERALTA",
                 "role": "Jinete de Salto Internacional",
-                "quote": "Eclipse es un caballo de 1.60m que competía a nivel nacional, pero nos faltaba esa potencia para saltar a internacional. Con GALOPE ALTO RENDIMIENTO su potencia en los últimos obstáculos cambió completamente. En 6 semanas pasamos de rozar barras a clears consistentes en 1.50m. La energía se mantiene hasta el último salto del recorrido. Es la diferencia entre competir y ganar."}
-            ,
+                "quote": "Eclipse es un caballo de 1.60m que competía a nivel nacional, pero nos faltaba esa potencia para saltar a internacional. Con GALOPE ALTO RENDIMIENTO su potencia en los últimos obstáculos cambió completamente. En 6 semanas pasamos de rozar barras a clears consistentes en 1.50m. La energía se mantiene hasta el último salto del recorrido. Es la diferencia entre competir y ganar."
+            },
             {
                 "image": "assets/images/alto-rendimiento/testimonial2.jpg",
                 "name": "DR. RICARDO VÁZQUEZ MORALES",
@@ -489,7 +501,8 @@
                 "name": "SOFÍA ELIZONDO RUIZ",
                 "role": "Entrenadora de Polo - 12 años de experiencia",
                 "quote": "Entreno 8 caballos de polo. ALTO RENDIMIENTO cambió mi string completo. Mis caballos mantienen velocidad y agilidad del primer al séptimo chukker. La diferencia es que no se 'queman' como antes - terminan el partido con energía controlada. Llevamos 4 torneos consecutivos con resultados superiores."
-            }],
+            }
+        ],
         "galleryimages": [
             "assets/images/alto-rendimiento/gallery1.jpg",
             "assets/images/alto-rendimiento/gallery2.jpg",
@@ -542,19 +555,26 @@
                     "Recuperación más rápida",
                     "Performance consistente en múltiples competencias"
                 ]
-            }],
+            }
+        ],
         "cases": [
-            {                "use": "Caballos de salto de alto nivel"
+            {
+                "use": "Caballos de salto de alto nivel"
             },
-            {                "use": "Caballos de reining, barriles, polos, endurance, carreras, hipódromo, bailadores, cala, escaramuzas"
+            {
+                "use": "Caballos de reining, barriles, polos, endurance, carreras, hipódromo, bailadores, cala, escaramuzas"
             },
-            {                "use": "Carreras de resistencia y velocidad"
+            {
+                "use": "Carreras de resistencia y velocidad"
             },
-            {                "use": "Atletas en preparación para competencias internacionales"
+            {
+                "use": "Atletas en preparación para competencias internacionales"
             },
-            {                "use": "Caballos con alta demanda energética"
+            {
+                "use": "Caballos con alta demanda energética"
             },
-            {                "use": "Polo"
+            {
+                "use": "Polo"
             }
         ],
         "downloadables": [
@@ -589,7 +609,8 @@
                 "link": "https://www.youtube.com/watch?v=video12"
             }
         ]
-    },{
+    },
+    {
         "product": "300-varas",
         "title": "GALOPE 300 VARAS",
         "copy": "En la charrería, las carreras, la tradición y la ciencia se encuentran. Donde el orgullo mexicano galopa con nutrición de vanguardia.",
@@ -635,7 +656,8 @@
                 "name": "INGENIERO ZOOTECNISTA JOSÉ LUIS TORRES",
                 "role": "Especialista en Nutrición de Caballos de Trabajo",
                 "quote": "300 VARAS es el único alimento que he encontrado específicamente pensado para caballos de trabajo. Las multipartículas son perfectas para paladares exigentes, y la microbiota equilibrada optimiza la digestión. He implementado en 8 ranchos con resultados consistentes."
-            }],
+            }
+        ],
         "galleryimages": [
             "assets/images/300-varas/gallery1.jpg",
             "assets/images/300-varas/gallery2.jpg",
@@ -647,20 +669,32 @@
                 "question": "¿300 Varas es específico solo para charrería?",
                 "answer": "Aunque está optimizado para charrería, es excelente para cualquier caballo de trabajo intenso y tradicional."
             },
-            {                "question": "¿La presentación multipartículas es diferente al extruido?",
+            {
+                "question": "¿La presentación multipartículas es diferente al extruido?",
                 "answer": "Sí. Las multipartículas ofrecen palatabilidad superior y digestión gradual, ideal para caballos de trabajo."
             },
-            {                "question": "¿Mejorará la resistencia en competencias largas?",
+            {
+                "question": "¿Mejorará la resistencia en competencias largas?",
                 "answer": "Definitivamente. La mutaci�n equilibrada optimiza la digestión de fibra, base de la resistencia equina."
-            }],
-        "guarantee": [
-            {                "point": "30 días para ver mejora en resistencia y condición general"
-            },            {                "point": "Soporte técnico durante transición"
-            },            {                "point": "Devolución completa si no hay resultados"
-            },            {                "point": "Protocolo personalizado incluido"
             }
-        ],        "beforeafter": [
-            {                "stage": "ANTES",
+        ],
+        "guarantee": [
+            {
+                "point": "30 días para ver mejora en resistencia y condición general"
+            },
+            {
+                "point": "Soporte técnico durante transición"
+            },
+            {
+                "point": "Devolución completa si no hay resultados"
+            },
+            {
+                "point": "Protocolo personalizado incluido"
+            }
+        ],
+        "beforeafter": [
+            {
+                "stage": "ANTES",
                 "points": [
                     "Falta de resistencia en competencias largas",
                     "Pelaje opaco y sin brillo",
@@ -676,34 +710,338 @@
                     "Mejoramiento en digestión, sin cólicos de origen por concentrados",
                     "Energía equilibrada durante todo el día"
                 ]
-            }],
+            }
+        ],
         "cases": [
-            {                "use": "Caballos de charrería y trabajo intenso"
+            {
+                "use": "Caballos de charrería y trabajo intenso"
             },
-            {                "use": "Caballos de rodeo y competencias tradicionales"
+            {
+                "use": "Caballos de rodeo y competencias tradicionales"
             },
-            {                "use": "Caballos de trabajo en ranchos y haciendas"
+            {
+                "use": "Caballos de trabajo en ranchos y haciendas"
             },
-            {                "use": "Caballos de monta y entrenamiento diario"
+            {
+                "use": "Caballos de monta y entrenamiento diario"
             },
-            {                "use": "Caballos con alta demanda física y resistencia"}],
+            {
+                "use": "Caballos con alta demanda física y resistencia"
+            }
+        ],
         "downloadables": [
-            {                "title": "Manual Completo Galope 300 Varas",
+            {
+                "title": "Manual Completo Galope 300 Varas",
                 "link": "assets/docs/Manual_Completo_Galope_300_Varas.pdf"
-            },            {                "title": "Formulación Galope 300 Varas",
+            },
+            {
+                "title": "Formulación Galope 300 Varas",
                 "link": "assets/docs/Formulacion_Galope_300_Varas.pdf"
-            },            {                "title": "Casos de Éxito en Charrería",
+            },
+            {
+                "title": "Casos de Éxito en Charrería",
                 "link": "assets/docs/Casos_de_Exito_en_Charreria.pdf"
-            },            {                "title": "La ciencia detrás de Galope 300 Varas",
-                "link": "assets/docs/Ciencia_Detras_de_Galope_300_Varas.pdf"}        ],
+            },
+            {
+                "title": "La ciencia detrás de Galope 300 Varas",
+                "link": "assets/docs/Ciencia_Detras_de_Galope_300_Varas.pdf"
+            }
+        ],
         "technicalvideos": [
-            {                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
+            {
+                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
                 "link": "https://www.youtube.com/watch?v=video13"
-            },            {                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope 300 Varas",
+            },
+            {
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope 300 Varas",
                 "link": "https://www.youtube.com/watch?v=video14"
-            },            {                "title": "Casos Clínicos: Transformaciones Documentadas en Charrería",
+            },
+            {
+                "title": "Casos Clínicos: Transformaciones Documentadas en Charrería",
                 "link": "https://www.youtube.com/watch?v=video15"
-            }        ]
+            }
+        ]
+    },{
+        "product": "energy",
+        "title": "GALOPE ENERGY",
+        "description": "La energía que no explota. La potencia que no se desvanece. El combustible que entiende el tiempo perfecto.",
+        "tagline": "ENERGÍA DE LIBERACIÓN CONTROLADA",
+        "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "benefits": [
+            "Liberación Controlada: Energía que llega cuando se necesita",
+            "Sin Picos de Glucosa: Potencia constante, nunca errática",
+            "Resistencia Prolongada: Para jornadas que no conocen límite",
+            "Digestibilidad Superior: Energía aprovechada al máximo"
+        ],
+        "cienciecebehind": "¿POR QUÉ LA ENERGÍA TRADICIONAL FALLA? Carbohidratos simples y exceso de carbohidratos complejos causan picos glucémicos seguidos de caídas bruscas. Esto genera fatiga prematura y alteración en el comportamiento: caballos agresivos o con signos parecidos a la depresión.\nLA CIENCIA DE LA LIBERACIÓN CONTROLADA La mayor parte de la energía proviene de aceites y pasta de soya + fibras fermentables = energía sostenida por 6-8 horas sin picos ni caídas glucémicas.",
+        "howitworks": [
+            "1. Almidones modificados donde la energía se libera gradualmente",
+            "2. Fibras fermentables alimentan microbiota productora de energía",
+            "3. Electrolitos optimizan hidratación celular",
+            "4. Mantiene energía constante sin alterar comportamiento"
+        ],
+        "specifications": [
+            "Proteína Cruda: Mín. 14.0%",
+            "Grasa Cruda: Mín. 7.0%",
+            "Fibra Cruda: Máx. 10.5%",
+            "Humedad: Máx. 12.0%",
+            "Contenido Neto: 20kg",
+            "Presentación: Partícula extruida"
+        ],
+        "technicalsheetlink": "assets/docs/Galope_Energy_Ficha_Tecnica.pdf",
+        "testimonials": [
+            {
+                "image": "assets/images/energy/testimonial1.jpg",
+                "name": "JOSÉ ANTONIO RAMÍREZ LÓPEZ",
+                "role": "Entrenador de Polo",
+                "quote": "En polo necesitas 4 caballos que rindan 7 chukkers sin declinar. GALOPE ENERGY cambió mi string completo. Mis caballos mantienen velocidad y agilidad del primer al último chukker. La diferencia es que no se 'queman' - terminan el partido con energía controlada. Mi handicap subió de 2 a 4 goals en esta temporada."
+            },
+            {
+                "image": "assets/images/energy/testimonial2.jpg",
+                "name": "VERÓNICA SANTAMARÍA TORRES",
+                "role": "Amazona de Resistencia",
+                "quote": "Competir en resistencia requiere energía por 8+ horas continuas. GALOPE ENERGY es el único alimento que me ha dado resultados consistentes. Tornado completa 120km manteniendo frecuencia cardíaca bajo 180 ppm. En la última competencia terminamos en 2do lugar nacional con excelente recuperación."
+            },
+            {
+                "image": "assets/images/energy/testimonial3.jpg",
+                "name": "DR. LUIS FERNANDO SOTO",
+                "role": "Veterinario Deportivo",
+                "quote": "Recomiendo GALOPE ENERGY para cualquier disciplina que requiera esfuerzo prolongado. He documentado mejoras en la mayoría de los casos donde se implementa correctamente. La liberación controlada evita acidosis y mantiene rendimiento sostenido."}],
+        "galleryimages": [
+            "assets/images/energy/gallery1.jpg",
+            "assets/images/energy/gallery2.jpg",
+            "assets/images/energy/gallery3.jpg",
+            "assets/images/energy/gallery4.jpg"
+        ],
+        "faq": [
+            {
+                "question": "¿Energy causará hiperactividad en mi caballo?",
+                "answer": "No. Energy proporciona energía de liberación controlada que mejora rendimiento sin afectar temperamento."
+            },
+            {
+                "question": "¿Cuándo veré mejoras en resistencia?",
+                "answer": "Las primeras mejoras se notan entre 2-3 semanas. El efecto completo se establece después de 1 mes de uso consistente."
+            },
+            {
+                "question": "¿Puedo combinarlo con otros productos Galope?",
+                "answer": "Absolutamente. Energy es ideal como complemento con cualquiera de nuestros alimentos base según las necesidades específicas."
+            }
+        ],
+        "guarantee": [
+            {
+                "point": "30 días para ver mejora en resistencia"
+            },
+            {                "point": "Soporte técnico durante transición"
+            },
+            {                "point": "Devolución completa si no hay resultados"
+            },
+            {                "point": "Protocolo personalizado incluido"
+            }
+        ],
+        "beforeafter": [
+            {
+                "stage": "ANTES",
+                "points": [
+                    "Fatiga en entrenamientos prolongados",
+                    "Energía inconsistente durante el día",
+                    "Recuperación lenta entre sesiones",
+                    "Rendimiento que declina progresivamente"
+                ]
+            },
+            {
+                "stage": "DESPUÉS (4-6 semanas)",
+                "points": [
+                    "Energía constante durante trabajo prolongado",
+                    "Vitalidad equilibrada todo el día",
+                    "Recuperación más eficiente",
+                    "Performance sostenida en múltiples sesiones"
+                ]
+            }
+        ],
+        "cases": [
+            {                "use": "Caballos de resistencia, polo, salto, reining, barriles, carreras de velocidad y endurance"
+            },
+            {
+                "use": "Atletas que requieren energía sostenida por más de 4 horas"
+            },
+            {
+                "use": "Caballos con tendencia a picos y caídas de energía"
+            },
+            {
+                "use": "Atletas en preparación para competencias de larga duración"}],
+        "downloadables": [
+            {
+                "title": "Manual Completo Galope Energy",
+                "link": "assets/docs/Manual_Completo_Galope_Energy.pdf"
+            },
+            {
+                "title": "Formulación Galope Energy",
+                "link": "assets/docs/Formulacion_Galope_Energy.pdf"
+            },
+            {
+                "title": "Casos de Éxito en Resistencia",
+                "link": "assets/docs/Casos_de_Exito_en_Resistencia.pdf"
+            },
+            {
+                "title": "La ciencia detrás de Galope Energy",
+                "link": "assets/docs/Ciencia_Detras_de_Galope_Energy.pdf"}
+        ],
+        "technicalvideos": [
+            {
+                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
+                "link": "https://www.youtube.com/watch?v=video16"
+            },
+            {
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Energy",
+                "link": "https://www.youtube.com/watch?v=video17"
+            },
+            {
+                "title": "Casos Clínicos: Transformaciones Documentadas en Resistencia",
+                "link": "https://www.youtube.com/watch?v=video18"
+            }
+        ]
+    },
+    {
+        "product": "protein",
+        "title": "GALOPE PROTEIN",
+        "description": "Los músculos que admiras no se construyeron solos. Se nutren con precisión científica.",
+        "tagline": "MÚSCULOS QUE HABLAN POR SÍ SOLOS",
+        "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "benefits": [
+            "Aminoácidos esenciales: Los bloques de construcción que no fallan",
+            "Síntesis Proteica Optimizada: Cada gramo trabaja al máximo",
+            "Recuperación Muscular: Para que el crecimiento nunca se detenga",
+            "Sistema Inmune Fortalecido: Salud que se nota por dentro y por fuera"
+        ],
+        "cienciecebehind": "¿POR QUÉ LA PROTEÍNA COMÚN NO ES SUFICIENTE? No todos los aminoácidos son iguales. Sin un perfil completo de aminoácidos esenciales, la síntesis proteica se detiene sin importar la cantidad total de proteína. LA CIENCIA DE LA CONSTRUCCIÓN MUSCULAR Los aminoácidos esenciales (leucina, isoleucina, valina, lisina, metionina, treonina, triptófano, fenilalanina, histidina) son catalizadores de síntesis proteica. Su proporción específica determina la velocidad de desarrollo muscular.",
+        "howitworks": [
+            "1. Aminoácidos esenciales activan síntesis proteica",
+            "2. BCAA estimulan crecimiento muscular dirigido",
+            "3. Antioxidantes protegen fibras celulares del músculo en desarrollo",
+            "4. Optimiza la formación de fibras musculares y desarrollo muscular"
+        ],
+        "specifications": [
+            "Proteína Cruda: Mín. 20.0%",
+            "Grasa Cruda: Mín. 6.0%",
+            "Fibra Cruda: Máx. 9.5%",
+            "Humedad: Máx. 12.0%",
+            "Contenido Neto: 20kg",
+            "Presentación: Partícula extruida"
+        ],
+        "technicalsheetlink": "assets/docs/Galope_Protein_Ficha_Tecnica.pdf",
+        "testimonials": [
+            {
+                "image": "assets/images/protein/testimonial1.jpg",
+                "name": "ALEJANDRO MARTÍN COSSÍO",
+                "role": "Preparador Físico Equino",
+                "quote": "Trabajo con 12 caballos jóvenes en desarrollo muscular. PROTEIN aceleró la ganancia muscular comparado con mi protocolo anterior. En 8 semanas, la línea superior mejoró visiblemente. Es inversión, no gasto. Mis clientes ven resultados que justifican completamente el costo."
+            },
+            {
+                "image": "assets/images/protein/testimonial2.jpg",
+                "name": "CLAUDIA FERNÁNDEZ ROMO",
+                "role": "Entrenadora de Doma",
+                "quote": "Tengo una yegua Hanoveriana que recuperaba de lesión en músculo semitendinoso. Con PROTEIN la recuperación fue más rápida que con suplementos tradicionales. Su línea superior ahora es superior a antes de la lesión. La recomiendo para cualquier rehabilitación muscular."
+            },
+            {
+                "image": "assets/images/protein/testimonial3.jpg",
+                "name": "DR. FERNANDO ESCALANTE",
+                "role": "Veterinario Especialista en Medicina Deportiva",
+                "quote": "PROTEIN tiene la mejor relación aminoácidos esenciales/no esenciales que he encontrado en el mercado mexicano. He recomendado a múltiples propietarios con caballos en desarrollo, y la mayoría reportan mejoras visibles en 6-8 semanas. La palatabilidad también es superior."}],
+        "galleryimages": [
+            "assets/images/protein/gallery1.jpg",
+            "assets/images/protein/gallery2.jpg",
+            "assets/images/protein/gallery3.jpg",
+            "assets/images/protein/gallery4.jpg"
+        ],
+        "faq": [
+            {
+                "question": "¿Protein es solo para caballos en crecimiento?",
+                "answer": "Beneficia a cualquier tipo de caballo, que realice cualquier disciplina deportiva y cualquier raza, que requieran un desarrollo o mantenimiento muscular superior, así como recuperación de lesiones."
+            },
+            {
+                "question": "¿Cuándo veré cambios en la musculatura?",
+                "answer": "Los primeros cambios se notan desde los 15 días. La transformación completa se aprecia a las 8-12 semanas con cambios que pueden observarse hasta los 8 meses de uso."
+            },
+            {
+                "question": "¿Puede usarse con caballos en competencia?",
+                "answer": "Absolutamente. Todos los ingredientes cumplen normativas deportivas internacionales."
+            }
+        ],
+        "guarantee": [
+            {
+                "point": "Resultados desde los 30 días para desarrollo muscular"
+            },
+            {
+                "point": "Soporte técnico durante transición"
+            },
+            {
+                "point": "Devolución completa si no hay resultados"
+            },
+            {
+                "point": "Protocolo personalizado incluido"}
+        ],
+        "beforeafter": [
+            {
+                "stage": "ANTES",
+                "points": [
+                    "Línea superior poco desarrollada",
+                    "Recuperación muscular lenta post ejercicio",
+                    "Desarrollo muscular insuficiente para disciplina",
+                    "Sistema inmune comprometido"
+                ]
+            },
+            {
+                "stage": "DESPUÉS (8-12 semanas)",
+                "points": [
+                    "Línea superior visiblemente mejorada",
+                    "Recuperación muscular acelerada",
+                    "Desarrollo muscular óptimo para disciplina",
+                    "Sistema inmune fortalecido"
+                ]}],
+        "cases": [
+            {
+                "use": "Caballos jóvenes en desarrollo"
+            },
+            {
+                "use": "Cualquier disciplina deportiva y raza"
+            },
+            {                "use": "Caballos en recuperación de lesiones musculares"
+            },            {
+                "use": "Caballos que requieren mantenimiento muscular superior"
+            },
+            {
+                "use": "Caballos con desgaste muscular"
+            },
+            {
+                "use": "Rehabilitación post-enfermedad o post quirúrgica"}],
+        "downloadables": [
+            {
+                "title": "Manual Completo Galope Protein",
+                "link": "assets/docs/Manual_Completo_Galope_Protein.pdf"
+            },
+            {
+                "title": "Formulación Galope Protein",
+                "link": "assets/docs/Formulacion_Galope_Protein.pdf"
+            },
+            {
+                "title": "Casos de Éxito en Desarrollo Muscular",
+                "link": "assets/docs/Casos_de_Exito_en_Desarrollo_Muscular.pdf"
+            },
+            {
+                "title": "La ciencia detrás de Galope Protein",
+                "link": "assets/docs/Ciencia_Detras_de_Galope_Protein.pdf"}
+        ],
+        "technicalvideos": [
+            {
+                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
+                "link": "https://www.youtube.com/watch?v=video19"
+            },
+            {
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Protein",
+                "link": "https://www.youtube.com/watch?v=video20"
+            },
+            {
+                "title": "Casos Clínicos: Transformaciones Documentadas en Desarrollo Muscular",
+                "link": "https://www.youtube.com/watch?v=video21"}]
     }
-
 ]

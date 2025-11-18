@@ -1,0 +1,241 @@
+{"country":"Nicaragua",
+  "states":[
+  {
+    "state": "Boaco",
+    "cities": [
+      "Boaco",
+      "Camoapa",
+      "San José de los Remates",
+      "San Lorenzo",
+      "Santa Lucía",
+      "Teustepe"
+    ]
+  },
+  {
+    "state": "Carazo",
+    "cities": [
+      "Jinotepe",
+      "Diriamba",
+      "Dolores",
+      "El Rosario",
+      "La Conquista",
+      "La Paz de Carazo",
+      "San Marcos",
+      "Santa Teresa"
+    ]
+  },
+  {
+    "state": "Chinandega",
+    "cities": [
+      "Chinandega",
+      "Chichigalpa",
+      "Cinco Pinos",
+      "Corinto",
+      "El Realejo",
+      "El Viejo",
+      "Posoltega",
+      "Puerto Morazán",
+      "San Francisco del Norte",
+      "San Pedro del Norte",
+      "Santo Tomás del Norte",
+      "Somotillo",
+      "Villanueva"
+    ]
+  },
+  {
+    "state": "Chontales",
+    "cities": [
+      "Juigalpa",
+      "Acoyapa",
+      "Comalapa",
+      "Cuapa",
+      "El Coral",
+      "La Libertad",
+      "San Francisco de Cuapa",
+      "San Pedro de Lóvago",
+      "Santo Domingo",
+      "Santo Tomás",
+      "Villa Sandino"
+    ]
+  },
+  {
+    "state": "Estelí",
+    "cities": [
+      "Estelí",
+      "Condega",
+      "La Trinidad",
+      "Pueblo Nuevo",
+      "San Juan de Limay",
+      "San Nicolás"
+    ]
+  },
+  {
+    "state": "Granada",
+    "cities": [
+      "Granada",
+      "Diriá",
+      "Diriomo",
+      "Nandaime"
+    ]
+  },
+  {
+    "state": "Jinotega",
+    "cities": [
+      "Jinotega",
+      "El Cuá",
+      "La Concordia",
+      "San José de Bocay",
+      "San Rafael del Norte",
+      "San Sebastián de Yalí",
+      "Santa María de Pantasma",
+      "Wiwilí de Jinotega"
+    ]
+  },
+  {
+    "state": "León",
+    "cities": [
+      "León",
+      "Achuapa",
+      "El Jicaral",
+      "La Paz Centro",
+      "Larreynaga",
+      "Nagarote",
+      "Quezalguaque",
+      "Santa Rosa del Peñón",
+      "Telica",
+      "El Sauce",
+      "Malpaisillo"
+    ]
+  },
+  {
+    "state": "Madriz",
+    "cities": [
+      "Somoto",
+      "Las Sabanas",
+      "Palacagüina",
+      "San José de Cusmapa",
+      "San Juan de Río Coco",
+      "Telpaneca",
+      "Totogalpa",
+      "Yalagüina"
+    ]
+  },
+  {
+    "state": "Managua",
+    "cities": [
+      "Managua",
+      "Ciudad Sandino",
+      "El Crucero",
+      "Mateare",
+      "San Francisco Libre",
+      "San Rafael del Sur",
+      "Ticuantepe",
+      "Tipitapa",
+      "Villa El Carmen"
+    ]
+  },
+  {
+    "state": "Masaya",
+    "cities": [
+      "Masaya",
+      "Catarina",
+      "La Concepción",
+      "Masatepe",
+      "Nandasmo",
+      "Nindirí",
+      "Niquinohomo",
+      "San Juan de Oriente",
+      "Tisma"
+    ]
+  },
+  {
+    "state": "Matagalpa",
+    "cities": [
+      "Matagalpa",
+      "Ciudad Darío",
+      "El Tuma-La Dalia",
+      "Esquipulas",
+      "Matiguás",
+      "Muy Muy",
+      "Rancho Grande",
+      "Río Blanco",
+      "San Dionisio",
+      "San Isidro",
+      "San Ramón",
+      "Sébaco",
+      "Terrabona"
+    ]
+  },
+  {
+    "state": "Nueva Segovia",
+    "cities": [
+      "Ocotal",
+      "Ciudad Antigua",
+      "Dipilto",
+      "El Jícaro",
+      "Jalapa",
+      "Macuelizo",
+      "Mozonte",
+      "Murra",
+      "Quilalí",
+      "San Fernando",
+      "Santa María",
+      "Wiwilí de Nueva Segovia"
+    ]
+  },
+  {
+    "state": "Rivas",
+    "cities": [
+      "Rivas",
+      "Altagracia",
+      "Belén",
+      "Buenos Aires",
+      "Cárdenas",
+      "Moyogalpa",
+      "Potosí",
+      "San Jorge",
+      "San Juan del Sur",
+      "Tola"
+    ]
+  },
+  {
+    "state": "Río San Juan",
+    "cities": [
+      "San Carlos",
+      "El Almendro",
+      "El Castillo",
+      "Morrito",
+      "San Juan de Nicaragua",
+      "San Miguelito"
+    ]
+  },
+  {
+    "state": "RAAN (Costa Caribe Norte)",
+    "cities": [
+      "Bilwi (Puerto Cabezas)",
+      "Bonanza",
+      "Mulukukú",
+      "Prinzapolka",
+      "Rosita",
+      "Siuna",
+      "Waslala",
+      "Waspán"
+    ]
+  },
+  {
+    "state": "RAAS (Costa Caribe Sur)",
+    "cities": [
+      "Bluefields",
+      "Corn Island",
+      "Desembocadura de Río Grande",
+      "El Ayote",
+      "El Rama",
+      "Kukra Hill",
+      "La Cruz de Río Grande",
+      "Laguna de Perlas",
+      "Muelle de los Bueyes",
+      "Nueva Guinea",
+      "Paiwas"
+    ]
+  }
+]}

@@ -1,0 +1,320 @@
+{
+  "country": "Republica Dominicana",
+  "states":[
+  {
+    "state": "Distrito Nacional",
+    "cities": [
+      "Santo Domingo de Guzmán"
+    ]
+  },
+  {
+    "state": "Azua",
+    "cities": [
+      "Azua de Compostela",
+      "Estebanía",
+      "Guayabal",
+      "Las Charcas",
+      "Las Yayas de Viajama",
+      "Padre Las Casas",
+      "Peralta",
+      "Pueblo Viejo",
+      "Sabana Yegua",
+      "Tábara Arriba"
+    ]
+  },
+  {
+    "state": "Baoruco",
+    "cities": [
+      "Neiba",
+      "Galván",
+      "Los Ríos",
+      "Tamayo",
+      "Villa Jaragua"
+    ]
+  },
+  {
+    "state": "Barahona",
+    "cities": [
+      "Santa Cruz de Barahona",
+      "Cabral",
+      "El Peñón",
+      "Enriquillo",
+      "Fundación",
+      "Jaquimeyes",
+      "La Ciénaga",
+      "Las Salinas",
+      "Paraíso",
+      "Polo",
+      "Vicente Noble"
+    ]
+  },
+  {
+    "state": "Dajabón",
+    "cities": [
+      "Dajabón",
+      "El Pino",
+      "Loma de Cabrera",
+      "Partido",
+      "Restauración"
+    ]
+  },
+  {
+    "state": "Duarte",
+    "cities": [
+      "San Francisco de Macorís",
+      "Arenoso",
+      "Castillo",
+      "Eugenio María de Hostos",
+      "Las Guáranas",
+      "Pimentel",
+      "Villa Riva"
+    ]
+  },
+  {
+    "state": "Elías Piña",
+    "cities": [
+      "Comendador",
+      "Bánica",
+      "El Llano",
+      "Hondo Valle",
+      "Juan Santiago",
+      "Pedro Santana"
+    ]
+  },
+  {
+    "state": "El Seibo",
+    "cities": [
+      "Santa Cruz de El Seibo",
+      "Miches"
+    ]
+  },
+  {
+    "state": "Espaillat",
+    "cities": [
+      "Moca",
+      "Cayetano Germosén",
+      "Gaspar Hernández",
+      "Jamao al Norte"
+    ]
+  },
+  {
+    "state": "Hato Mayor",
+    "cities": [
+      "Hato Mayor del Rey",
+      "El Valle",
+      "Sabana de la Mar"
+    ]
+  },
+  {
+    "state": "Hermanas Mirabal",
+    "cities": [
+      "Salcedo",
+      "Tenares",
+      "Villa Tapia"
+    ]
+  },
+  {
+    "state": "Independencia",
+    "cities": [
+      "Jimani",
+      "Cristóbal",
+      "Duvergé",
+      "La Descubierta",
+      "Mella",
+      "Postrer Río"
+    ]
+  },
+  {
+    "state": "La Altagracia",
+    "cities": [
+      "Higüey",
+      "San Rafael del Yuma"
+    ]
+  },
+  {
+    "state": "La Romana",
+    "cities": [
+      "La Romana",
+      "Guaymate",
+      "Villa Hermosa"
+    ]
+  },
+  {
+    "state": "La Vega",
+    "cities": [
+      "Concepción de La Vega",
+      "Constanza",
+      "Jarabacoa",
+      "Jima Abajo"
+    ]
+  },
+  {
+    "state": "María Trinidad Sánchez",
+    "cities": [
+      "Nagua",
+      "Cabrera",
+      "El Factor",
+      "Río San Juan"
+    ]
+  },
+  {
+    "state": "Monseñor Nouel",
+    "cities": [
+      "Bonao",
+      "Maimón",
+      "Piedra Blanca"
+    ]
+  },
+  {
+    "state": "Monte Cristi",
+    "cities": [
+      "San Fernando de Monte Cristi",
+      "Castañuela",
+      "Guayubín",
+      "Las Matas de Santa Cruz",
+      "Pepillo Salcedo",
+      "Villa Vásquez"
+    ]
+  },
+  {
+    "state": "Monte Plata",
+    "cities": [
+      "Monte Plata",
+      "Bayaguana",
+      "Peralvillo",
+      "Sabana Grande de Boyá",
+      "Yamasá"
+    ]
+  },
+  {
+    "state": "Pedernales",
+    "cities": [
+      "Pedernales",
+      "Oviedo"
+    ]
+  },
+  {
+    "state": "Peravia",
+    "cities": [
+      "Baní",
+      "Nizao",
+      "Matanzas"
+    ]
+  },
+  {
+    "state": "Puerto Plata",
+    "cities": [
+      "Puerto Plata",
+      "Altamira",
+      "Guananico",
+      "Imbert",
+      "Los Hidalgos",
+      "Luperón",
+      "Sosúa",
+      "Villa Isabela",
+      "Villa Montellano"
+    ]
+  },
+  {
+    "state": "Samaná",
+    "cities": [
+      "Santa Bárbara de Samaná",
+      "Las Terrenas",
+      "Sánchez"
+    ]
+  },
+  {
+    "state": "San Cristóbal",
+    "cities": [
+      "San Cristóbal",
+      "Bajos de Haina",
+      "Cambita Garabitos",
+      "Los Cacaos",
+      "Sabana Grande de Palenque",
+      "San Gregorio de Nigua",
+      "Villa Altagracia",
+      "Yaguate"
+    ]
+  },
+  {
+    "state": "San José de Ocoa",
+    "cities": [
+      "San José de Ocoa",
+      "Rancho Arriba",
+      "Sabana Larga"
+    ]
+  },
+  {
+    "state": "San Juan",
+    "cities": [
+      "San Juan de la Maguana",
+      "Bohechío",
+      "El Cercado",
+      "Juan de Herrera",
+      "Las Matas de Farfán",
+      "Vallejuelo"
+    ]
+  },
+  {
+    "state": "San Pedro de Macorís",
+    "cities": [
+      "San Pedro de Macorís",
+      "Consuelo",
+      "Guayacanes",
+      "Quisqueya",
+      "Ramón Santana",
+      "San José de Los Llanos"
+    ]
+  },
+  {
+    "state": "Sánchez Ramírez",
+    "cities": [
+      "Cotuí",
+      "Cevicos",
+      "Fantino",
+      "La Mata"
+    ]
+  },
+  {
+    "state": "Santiago",
+    "cities": [
+      "Santiago de los Caballeros",
+      "Bisonó",
+      "Jánico",
+      "Licey al Medio",
+      "Puñal",
+      "Sabana Iglesia",
+      "San José de las Matas",
+      "Tamboril",
+      "Villa González"
+    ]
+  },
+  {
+    "state": "Santiago Rodríguez",
+    "cities": [
+      "San Ignacio de Sabaneta",
+      "Los Almácigos",
+      "Monción"
+    ]
+  },
+  {
+    "state": "Santo Domingo",
+    "cities": [
+      "Santo Domingo Este",
+      "Santo Domingo Oeste",
+      "Santo Domingo Norte",
+      "Boca Chica",
+      "San Antonio de Guerra",
+      "Los Alcarrizos",
+      "Pedro Brand"
+    ]
+  },
+  {
+    "state": "Valverde",
+    "cities": [
+      "Mao",
+      "Esperanza",
+      "Laguna Salada"
+    ]
+  }
+]}
