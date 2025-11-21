@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>GolFer - HTML 5 Template Preview</title>
+<title>Galope</title>
 
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -352,10 +352,10 @@
             <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1>Blog Grid</h1>
+                    <h1>Blog</h1>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Blog Grid</li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>Blog</li>
                     </ul>
                 </div>
             </div>
@@ -371,12 +371,12 @@
                         <div class="blog-sidebar mr_30">
                             <div class="sidebar-widget search-widget mb_40">
                                 <div class="widget-title mb_20">
-                                    <h3>Search</h3>
+                                    <h3>Buscar</h3>
                                 </div>
                                 <div class="search-form">
-                                    <form method="post" action="blog.html">
+                                    <form method="post" action="blog.html" id="search-form">
                                         <div class="form-group">
-                                            <input type="search" name="search-field" placeholder="Search..." required>
+                                            <input type="search" name="search-field" placeholder="Buscar..." required>
                                             <button type="submit"><i class="icon-4"></i></button>
                                         </div>
                                     </form>
@@ -384,361 +384,49 @@
                             </div>
                             <div class="sidebar-widget category-widget mb_35">
                                 <div class="widget-title mb_15">
-                                    <h3>Categories</h3>
+                                    <h3>Categorias</h3>
                                 </div>
                                 <div class="widget-content">
-                                    <ul class="category-list clearfix">
-                                        <li><a href="blog-details.html">Championship Courses<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Course Management<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Resort Courses<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Beginner Golf<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Golf Lessons<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Swing Mechanics<i class="far fa-angle-right"></i></a></li>
+                                    <ul class="category-list clearfix" id="categories-list">
+                                        <!-- Categories will be loaded dynamically here -->
                                     </ul>
                                 </div>
                             </div>
                             <div class="sidebar-widget post-widget mb_40">
                                 <div class="widget-title mb_20">
-                                    <h3>Latest News</h3>
+                                    <h3>Blogs Recientes</h3>
                                 </div>
-                                <div class="post-widget">
-                                    <div class="post">
-                                        <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/post-1.jpg" alt=""></a></figure>
-                                        <h4><a href="blog-details.html">Key Golf Gadgets for the Determined</a></h4>
-                                        <span class="post-date"><i class="icon-17"></i>20 Aug, 2024</span>
-                                    </div>
-                                    <div class="post">
-                                        <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/post-2.jpg" alt=""></a></figure>
-                                        <h4><a href="blog-details.html">Join our Club & Stay Updated</a></h4>
-                                        <span class="post-date"><i class="icon-17"></i>19 Aug, 2024</span>
-                                    </div>
-                                    <div class="post">
-                                        <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/post-3.jpg" alt=""></a></figure>
-                                        <h4><a href="blog-details.html">Golfing on a Budget Best Public Courses</a></h4>
-                                        <span class="post-date"><i class="icon-17"></i>18 Aug, 2024</span>
-                                    </div>
+                                <div class="post-widget" id="recent-posts-container">
+                                    <!-- Recent posts will be loaded dynamically here -->
                                 </div>
                             </div>
-                            <div class="sidebar-widget category-widget archives-widget mb_35">
+                            
+                            <!-- <div class="sidebar-widget tags-widget">
                                 <div class="widget-title mb_20">
-                                    <h3>Archives</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="category-list clearfix">
-                                        <li><a href="blog-details.html">Fearuary 16, 2023<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Fearuary 26, 2023<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">Fearuary 27, 2023<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">March 06, 2023<i class="far fa-angle-right"></i></a></li>
-                                        <li><a href="blog-details.html">March 17, 2023<i class="far fa-angle-right"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-widget gallery-widget mb_30">
-                                <div class="widget-title mb_20">
-                                    <h3>Photo Gallery</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="image-list clearfix">
-                                        <li>
-                                            <figure class="image"><a href="assets/images/news/gallery-1.jpg" class="lightbox-image" data-fancybox='gallery'><img src="assets/images/news/gallery-1.jpg" alt=""></a></figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image"><a href="assets/images/news/gallery-2.jpg" class="lightbox-image" data-fancybox='gallery'><img src="assets/images/news/gallery-2.jpg" alt=""></a></figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image"><a href="assets/images/news/gallery-3.jpg" class="lightbox-image" data-fancybox='gallery'><img src="assets/images/news/gallery-3.jpg" alt=""></a></figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image"><a href="assets/images/news/gallery-4.jpg" class="lightbox-image" data-fancybox='gallery'><img src="assets/images/news/gallery-4.jpg" alt=""></a></figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image"><a href="assets/images/news/gallery-5.jpg" class="lightbox-image" data-fancybox='gallery'><img src="assets/images/news/gallery-5.jpg" alt=""></a></figure>
-                                        </li>
-                                        <li>
-                                            <figure class="image"><a href="assets/images/news/gallery-6.jpg" class="lightbox-image" data-fancybox='gallery'><img src="assets/images/news/gallery-6.jpg" alt=""></a></figure>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-widget tags-widget">
-                                <div class="widget-title mb_20">
-                                    <h3>Popular Tags</h3>
+                                    <h3>Tags Populares</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="tags-list clearfix">
-                                        <li><a href="blog-details.html">Golf Course Design</a></li>
-                                        <li><a href="blog-details.html">Golf Travel</a></li>
-                                        <li><a href="blog-details.html">Crewed Yachts</a></li>
-                                        <li><a href="blog-details.html">Luxury Golf Resorts</a></li>
-                                        <li><a href="blog-details.html">Golf Cruises</a></li>
-                                        <li><a href="blog-details.html">Golf Tips</a></li>
+                                        <li><a href="blog-details.html">Nutrición Equina</a></li>
+                                        <li><a href="blog-details.html">Alimentación para Caballos</a></li>
+                                        <li><a href="blog-details.html">Suplementos</a></li>
+                                        <li><a href="blog-details.html">Salud Animal</a></li>
+                                        <li><a href="blog-details.html">Entrenamiento</a></li>
+                                        <li><a href="blog-details.html">Consejos Nutricionales</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="blog-grid-content">
-                            <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
-                                                <span class="post-date">08 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Key Golf Gadgets for the Determined Golfer</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Devon Lane</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>20</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
-                                                <span class="post-date">07 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Join our Club & Stay Updated with Your Game Scores</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Somir Da</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>13</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
-                                                <span class="post-date">06 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Appropriate Golfing Outfits for Gentlemen</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-6.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-6.jpg" alt=""></a></figure>
-                                                <span class="post-date">05 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Golfing on a Budget Best Public Courses You Can Afford</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-7.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-7.jpg" alt=""></a></figure>
-                                                <span class="post-date">05 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Tips for Choosing the Right Golf Course</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-8.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-8.jpg" alt=""></a></figure>
-                                                <span class="post-date">04 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Family Fun on the Greens Best Golf Courses for All Ages</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-9.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-9.jpg" alt=""></a></figure>
-                                                <span class="post-date">04 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Understanding the Game’s Fundamentals</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-10.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-10.jpg" alt=""></a></figure>
-                                                <span class="post-date">03 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Your Game Scores Exercises to Enhance Your Performance</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-11.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-11.jpg" alt=""></a></figure>
-                                                <span class="post-date">02 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Celebrating Female Golfers and Their Achievements</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 news-block">
-                                    <div class="news-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><a href="blog-details.html"><img src="assets/images/news/news-12.jpg" alt=""></a></figure>
-                                                <figure class="overlay-image"><a href="blog-details.html"><img src="assets/images/news/news-12.jpg" alt=""></a></figure>
-                                                <span class="post-date">02 DEC</span>
-                                            </div>
-                                            <div class="lower-content">
-                                                <span class="category">Management</span>
-                                                <h3><a href="blog-details.html">Encouraging the Next Generation of Golfers</a></h3>
-                                                <ul class="post-info">
-                                                    <li class="author">
-                                                        <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                                        <a href="blog-details.html">By Alex Hels</a>
-                                                    </li>
-                                                    <li><i class="icon-26"></i>25</li>
-                                                </ul>
-                                                <div class="btn-box pt_18">
-                                                    <a href="blog-details.html" class="theme-btn btn-two">Read more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="row clearfix" id="blog-posts-container">
+                                <!-- Blog posts will be loaded dynamically here -->
                             </div>
-                            <div class="pagination-wrapper pt_20 centred">
-                                <ul class="pagination clearfix">
-                                    <li><a href="blog.html"><i class="icon-6"></i></a></li>
-                                    <li><a href="blog.html" class="current">1</a></li>
-                                    <li><a href="blog.html">2</a></li>
-                                    <li><a href="blog.html">3</a></li>
-                                    <li><a href="blog.html"><i class="icon-7"></i></a></li>
-                                </ul>
+
+                            </div>
+                            <div class="pagination-wrapper pt_20 centred" id="pagination-container">
+                                <!-- Pagination will be loaded dynamically here -->
                             </div>
                         </div>
                     </div>
@@ -746,91 +434,74 @@
             </div>
         </section>
         <!-- sidebar-page-container end -->
-
-
-        <!-- cta-section -->
-        <section class="cta-section alternat-2 centred bg-color-2 pt_140 pb_150">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-14.png);"></div>
-            <div class="auto-container">
-                <div class="content-box">
-                    <div class="sec-title light mb_40">
-                        <span class="sub-title">our Facilities</span>
-                        <h2>Take Your Game To The <br />Next Level.</h2>
-                    </div>
-                    <div class="btn-box">
-                        <a href="signup.html" class="theme-btn btn-one">become a member</a>
-                        <a href="contact.html" class="theme-btn btn-two">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- cta-section end -->
+c
 
 
         <!-- main-footer -->
-        <footer class="main-footer dark-footer">
+        <footer class="main-footer pt_150">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
             <div class="auto-container">
+                <div class="footer-top">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12 col-sm-12 logo-column">
+                            <figure class="footer-logo"><a href="index.html"><img src="assets/images/logos/Light.png"
+                                        alt=""></a></figure>
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-sm-12 subscribe-column">
+                            <div class="subscribe-content">
+                                <h3>Suscribirse</h3>
+                                <div class="form-inner">
+                                    <form method="post" action="contact.html">
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Correo electrónico" required>
+                                            <button type="submit" class="theme-btn btn-one">Suscribirse</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="widget-section pt_95 pb_95">
                     <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                        <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
                             <div class="about-widget footer-widget mr_40">
-                                <div class="widget-title">
+                                <!-- <div class="widget-title">
                                     <h3>About</h3>
-                                </div>
+                                </div> -->
                                 <div class="widget-content">
-                                    <p>Lorem ipsum dolor sit amet consectetur diam ultricies leo etiam nibh tristique.</p>
-                                    <p>odio feugiat vitae libero vestibu viverra elementum luctus.</p>
+                                    <p>"Hecho en México con ciencia e innovación de clase mundial. Para caballos
+                                        extraordinarios y las personas que los aman."</p>
+                                    <p>"Porque cada caballo merece alcanzar su máximo potencial. Porque cada propietario
+                                        merece ver a su campeón brillar. Porque la nutrición correcta no es un lujo, es
+                                        una necesidad que transforma vidas." </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                            <div class="links-widget footer-widget ml_30">
-                                <div class="widget-title">
-                                    <h3>Links</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="links-list clearfix">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
-                                        <li><a href="index.html">Historic Timeline</a></li>
-                                        <li><a href="index.html">Career</a></li>
-                                        <li><a href="index.html">Membership</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="schedule-widget footer-widget ml_55">
-                                <div class="widget-title">
-                                    <h3>Working Hours</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <p>Tincidunt neque pretium lectus donec risus.</p>
-                                    <ul class="schedule-list clearfix">
-                                        <li>Mon - Fri: 9:00AM - 6:00PM</li>
-                                        <li>Sat - Sun: 8:00AM - 4:00PM</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
                             <div class="contact-widget footer-widget">
                                 <div class="widget-title">
-                                    <h3>Get In Touch</h3>
+                                    <h3>Póngase en contacto con nosotros</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
                                         <li>
+                                            <div class="icon-box"><i class="icon-17"></i></div>
+                                            Lun - Vie: 9:00AM - 6:00PM
+                                        </li>
+                                        <li>
                                             <div class="icon-box"><i class="icon-3"></i></div>
-                                            Add:  New Hyde Park, NY 11040
+                                            Av. de las Fuentes No.14, Parque Industrial Bernardo Quintana, C.P. 76246 El
+                                            Marqués, Querétaro
                                         </li>
                                         <li>
                                             <div class="icon-box"><i class="icon-2"></i></div>
-                                            Email:  <a href="mailto:example@info.com">example@info.com</a>
+                                            Email: <a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a>
                                         </li>
                                         <li>
                                             <div class="icon-box"><i class="icon-5"></i></div>
-                                            Phone:  <a href="tel:3336660000">333 666 0000</a>
+                                            Phone: <a href="tel:3336660000">333 666 0000</a>
                                         </li>
                                     </ul>
                                     <ul class="social-links">
@@ -846,10 +517,14 @@
                 </div>
             </div>
             <div class="footer-bottom centred">
-                <div class="copyright"><p>Copyright 2024 by <a href="index.html">GolFer</a> All Right Reserved.</p></div>
+                <div class="copyright">
+                    <p>© 2025 Nueva Tecnología en Alimentación, S.A. de C.V. | Todos los derechos reservados </p>
+
+                </div>
             </div>
         </footer>
         <!-- main-footer end -->
+
 
 
 
@@ -882,6 +557,189 @@
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
+
+    <!-- Custom script for dynamic blog loading -->
+    <script>
+        let allPosts = [];
+        let filteredPosts = [];
+        let currentPage = 1;
+        const postsPerPage = 4;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchBlogPosts();
+
+            // Search functionality
+            document.getElementById('search-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const query = document.querySelector('input[name="search-field"]').value.toLowerCase().trim();
+                if (query === '') {
+                    filteredPosts = [...allPosts];
+                } else {
+                    filteredPosts = allPosts.filter(post => {
+                        const title = post.title ? post.title.toLowerCase() : '';
+                        const mainPhrase = post.main_phrase ? post.main_phrase.toLowerCase() : '';
+                        const content = post.content ? post.content.toLowerCase() : '';
+                        let tags = '';
+                        if (post.tags) {
+                            if (typeof post.tags === 'string') {
+                                tags = post.tags.toLowerCase();
+                            } else if (Array.isArray(post.tags)) {
+                                tags = post.tags.join(' ').toLowerCase();
+                            }
+                        }
+                        return title.includes(query) ||
+                               mainPhrase.includes(query) ||
+                               content.includes(query) ||
+                               tags.includes(query);
+                    });
+                }
+                currentPage = 1;
+                displayBlogPosts(currentPage);
+                setupPagination();
+            });
+        });
+
+        function fetchBlogPosts() {
+            fetch('https://api.nucan.com.mx/blog/getAll')
+                .then(response => response.json())
+                .then(data => {
+                    allPosts = data;
+                    filteredPosts = [...allPosts];
+                    displayBlogPosts(currentPage);
+                    setupPagination();
+                    setupCategories();
+                    setupRecentPosts();
+                })
+                .catch(error => {
+                    console.error('Error fetching blog posts:', error);
+                    document.getElementById('blog-posts-container').innerHTML = '<p>Error loading blog posts.</p>';
+                });
+        }
+
+        function displayBlogPosts(page) {
+            const container = document.getElementById('blog-posts-container');
+            container.innerHTML = '';
+
+            const startIndex = (page - 1) * postsPerPage;
+            const endIndex = startIndex + postsPerPage;
+            const postsToShow = filteredPosts.slice(startIndex, endIndex);
+
+            postsToShow.forEach(post => {
+                const postDate = new Date(post.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
+                const postHTML = `
+                    <div class="col-lg-6 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><a href="blog-details.html?id=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></a></figure>
+                                    <figure class="overlay-image"><a href="blog-details.html?id=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></a></figure>
+                                    <span class="post-date">${postDate}</span>
+                                </div>
+                                <div class="lower-content">
+                                    <span class="category">${post.section || 'General'}</span>
+                                    <h3><a href="blog-details.html?id=${post.id}">${post.title}</a></h3>
+                                    <ul class="post-info">
+                                        <li class="author">
+                                            <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
+                                            <a href="blog-details.html?id=${post.id}">${post.main_phrase}</a>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="btn-box pt_18">
+                                        <a href="blog-details.html?id=${post.id}" class="theme-btn btn-two">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += postHTML;
+            });
+        }
+
+        function setupPagination() {
+            const paginationContainer = document.getElementById('pagination-container');
+            const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+
+            if (totalPages <= 1) {
+                paginationContainer.innerHTML = '';
+                return;
+            }
+
+            let paginationHTML = '<ul class="pagination clearfix">';
+
+            // Previous button
+            if (currentPage > 1) {
+                paginationHTML += `<li><a href="#" onclick="changePage(${currentPage - 1})"><i class="icon-6"></i></a></li>`;
+            } else {
+                paginationHTML += `<li><a href="#" class="disabled"><i class="icon-6"></i></a></li>`;
+            }
+
+            // Current page number
+            paginationHTML += `<li><a href="#" class="current">${currentPage}</a></li>`;
+
+            // Next button
+            if (currentPage < totalPages) {
+                paginationHTML += `<li><a href="#" onclick="changePage(${currentPage + 1})"><i class="icon-7"></i></a></li>`;
+            } else {
+                paginationHTML += `<li><a href="#" class="disabled"><i class="icon-7"></i></a></li>`;
+            }
+
+            paginationHTML += '</ul>';
+            paginationContainer.innerHTML = paginationHTML;
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            displayBlogPosts(currentPage);
+            setupPagination();
+            // Scroll to top of blog section
+            document.querySelector('.sidebar-page-container').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function setupCategories() {
+            const categoriesContainer = document.getElementById('categories-list');
+            const uniqueSections = [...new Set(allPosts.map(post => post.section).filter(section => section && section.trim() !== ''))];
+
+            categoriesContainer.innerHTML = '';
+            if (uniqueSections.length === 0) {
+                categoriesContainer.innerHTML = '<li><span>No categories available</span></li>';
+                return;
+            }
+
+            uniqueSections.forEach(section => {
+                const categoryHTML = `
+                    <li><a href="#" onclick="filterByCategory('${section}')">${section}<i class="far fa-angle-right"></i></a></li>
+                `;
+                categoriesContainer.innerHTML += categoryHTML;
+            });
+        }
+
+        function filterByCategory(section) {
+            filteredPosts = allPosts.filter(post => post.section === section);
+            currentPage = 1;
+            displayBlogPosts(currentPage);
+            setupPagination();
+        }
+
+        function setupRecentPosts() {
+            const recentContainer = document.getElementById('recent-posts-container');
+            const recentPosts = allPosts.slice().sort((a, b) => new Date(b.post_date) - new Date(a.post_date)).slice(0, 3);
+
+            recentContainer.innerHTML = '';
+            recentPosts.forEach(post => {
+                const postDate = new Date(post.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
+                const postHTML = `
+                    <div class="post">
+                        <figure class="image-box"><a href="blog-details.html?id=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></a></figure>
+                        <h4><a href="blog-details.html?id=${post.id}">${post.title}</a></h4>
+                        <span class="post-date"><i class="icon-17"></i>${postDate}</span>
+                    </div>
+                `;
+                recentContainer.innerHTML += postHTML;
+            });
+        }
+    </script>
 
 </body><!-- End of .page_wrapper -->
 </html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <title>GolFer - HTML 5 Template Preview</title>
+    <title>Galope</title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -24,7 +24,6 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
     <link href="assets/css/odometer.css" rel="stylesheet">
     <link href="assets/css/elpath.css" rel="stylesheet">
     <link href="assets/css/jquery-ui.css" rel="stylesheet">
@@ -450,22 +449,22 @@
                                                 <option value="sv">El Salvador</option>
                                             </select>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 ">
-                                            <select name="state" id="state" required
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <select name="state" id="state" required class="form-select"
                                                 onchange="updateSelectedState.call(this)">
                                                 <option value="" selected disabled>Selecciona Estado</option>
                                             </select>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12">
-                                            <select name="city" id="city" required>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                            <select name="city" id="city" required class="form-select">
                                                 <option value="" selected disabled>Selecciona Ciudad</option>
                                             </select>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                             <input type="text" name="subject" placeholder="Asunto" required>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea name="message" placeholder="Type message"></textarea>
+                                            <textarea name="message" placeholder="Escribe tu mensaje"></textarea>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                             <button type="submit" class="theme-btn btn-one"
@@ -493,16 +492,17 @@
 
         <!-- cta-section -->
         <section class="cta-section alternat-2 centred bg-color-2 pt_140 pb_150">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-14.png);"></div>
+            <div class="pattern-layer" style="background-image: url(./assets/images/shape/shape-14.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <div class="sec-title light mb_40">
-                        <span class="sub-title">our Facilities</span>
-                        <h2>Take Your Game To The <br />Next Level.</h2>
+                        <span class="sub-title">ÚNETE A NUESTRO NEWSLETTER</span>
+                        <h2> AVANCES EN NUTRICIÓN EQUINA </h2>
+                        <p>Recibe casos de éxito y consejos prácticos directamente en tu correo.</p>
                     </div>
                     <div class="btn-box">
-                        <a href="signup.html" class="theme-btn btn-one">become a member</a>
-                        <a href="contact.html" class="theme-btn btn-two">Contact Us</a>
+                        <a href="signup.html" class="theme-btn btn-one">Suscribete</a>
+                        <a href="contact.html" class="theme-btn btn-two">Contáctanos</a>
                     </div>
                 </div>
             </div>
@@ -511,66 +511,66 @@
 
 
         <!-- main-footer -->
-        <footer class="main-footer dark-footer">
+        <footer class="main-footer pt_150">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
             <div class="auto-container">
+                <div class="footer-top">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12 col-sm-12 logo-column">
+                            <figure class="footer-logo"><a href="index.html"><img src="assets/images/logos/Light.png"
+                                        alt=""></a></figure>
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-sm-12 subscribe-column">
+                            <div class="subscribe-content">
+                                <h3>Suscribirse</h3>
+                                <div class="form-inner">
+                                    <form method="post" action="contact.html">
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Correo electrónico" required>
+                                            <button type="submit" class="theme-btn btn-one">Suscribirse</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="widget-section pt_95 pb_95">
                     <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                        <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
                             <div class="about-widget footer-widget mr_40">
-                                <div class="widget-title">
+                                <!-- <div class="widget-title">
                                     <h3>About</h3>
-                                </div>
+                                </div> -->
                                 <div class="widget-content">
-                                    <p>Lorem ipsum dolor sit amet consectetur diam ultricies leo etiam nibh tristique.
-                                    </p>
-                                    <p>odio feugiat vitae libero vestibu viverra elementum luctus.</p>
+                                    <p>"Hecho en México con ciencia e innovación de clase mundial. Para caballos
+                                        extraordinarios y las personas que los aman."</p>
+                                    <p>"Porque cada caballo merece alcanzar su máximo potencial. Porque cada propietario
+                                        merece ver a su campeón brillar. Porque la nutrición correcta no es un lujo, es
+                                        una necesidad que transforma vidas." </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                            <div class="links-widget footer-widget ml_30">
-                                <div class="widget-title">
-                                    <h3>Links</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="links-list clearfix">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
-                                        <li><a href="index.html">Historic Timeline</a></li>
-                                        <li><a href="index.html">Career</a></li>
-                                        <li><a href="index.html">Membership</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="schedule-widget footer-widget ml_55">
-                                <div class="widget-title">
-                                    <h3>Working Hours</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <p>Tincidunt neque pretium lectus donec risus.</p>
-                                    <ul class="schedule-list clearfix">
-                                        <li>Mon - Fri: 9:00AM - 6:00PM</li>
-                                        <li>Sat - Sun: 8:00AM - 4:00PM</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
                             <div class="contact-widget footer-widget">
                                 <div class="widget-title">
-                                    <h3>Get In Touch</h3>
+                                    <h3>Póngase en contacto con nosotros</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
                                         <li>
+                                            <div class="icon-box"><i class="icon-17"></i></div>
+                                            Lun - Vie: 9:00AM - 6:00PM
+                                        </li>
+                                        <li>
                                             <div class="icon-box"><i class="icon-3"></i></div>
-                                            Add: New Hyde Park, NY 11040
+                                            Av. de las Fuentes No.14, Parque Industrial Bernardo Quintana, C.P. 76246 El
+                                            Marqués, Querétaro
                                         </li>
                                         <li>
                                             <div class="icon-box"><i class="icon-2"></i></div>
-                                            Email: <a href="mailto:example@info.com">example@info.com</a>
+                                            Email: <a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a>
                                         </li>
                                         <li>
                                             <div class="icon-box"><i class="icon-5"></i></div>
@@ -591,7 +591,8 @@
             </div>
             <div class="footer-bottom centred">
                 <div class="copyright">
-                    <p>Copyright 2024 by <a href="index.html">GolFer</a> All Right Reserved.</p>
+                    <p>© 2025 Nueva Tecnología en Alimentación, S.A. de C.V. | Todos los derechos reservados </p>
+
                 </div>
             </div>
         </footer>
@@ -619,7 +620,6 @@
     <script src="assets/js/appear.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/scrolltop.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
     <script src="assets/js/odometer.js"></script>
@@ -653,14 +653,6 @@
                         option.textContent = state.state;
                         stateSelect.appendChild(option);
                     });
-
-                    // If using jQuery nice-select, update its UI
-                    if (window.jQuery && typeof jQuery.fn.niceSelect === 'function') {
-                        jQuery(stateSelect).niceSelect('destroy');
-                        jQuery(stateSelect).niceSelect();
-                        jQuery(citySelect).niceSelect('destroy');
-                        jQuery(citySelect).niceSelect();
-                    }
                 })
                 .catch(err => console.error('Error loading country data:', err));
         }
@@ -693,14 +685,6 @@
                         option.textContent = city;
                         citySelect.appendChild(option);
                     });
-
-                    // If using jQuery nice-select, update its UI
-                    if (window.jQuery && typeof jQuery.fn.niceSelect === 'function') {
-                        jQuery(stateSelect).niceSelect('destroy');
-                        jQuery(stateSelect).niceSelect();
-                        jQuery(citySelect).niceSelect('destroy');
-                        jQuery(citySelect).niceSelect();
-                    }
                 })
                 .catch(err => console.error('Error loading country data:', err));
         }
@@ -735,9 +719,6 @@
                                 option.textContent = city;
                                 citySelect.appendChild(option);
                             });
-                        }
-                        if (window.jQuery && typeof jQuery.fn.niceSelect === 'function') {
-                            jQuery(citySelect).niceSelect('update');
                         }
                     })
                     .catch(err => console.error('Error loading cities:', err));
