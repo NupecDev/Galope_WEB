@@ -2,6 +2,8 @@
     {
         "product": "balance",
         "title": "GALOPE BALANCE",
+        "backgroundimage": "assets/images/balance/background.jpg",
+        "packageimage": "assets/images/balance/package.png",
         "copy": "La perfección no está en la intensidad. Está en el equilibrio que sostiene la excelencia día tras día.",
         "tagline": "EQUILIBRIO NUTRICIONAL",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
@@ -159,6 +161,8 @@
     {
         "product": "reproductoras",
         "title": "GALOPE REPRODUCTORAS",
+        "backgroundimage": "assets/images/reproductoras/background.jpg",
+        "packageimage": "assets/images/reproductoras/package.png",
         "copy": "No es solo genética. Es el futuro que alimentas desde su primer latido.",
         "tagline": "DONDE COMIENZA LA GRANDEZA",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
@@ -309,6 +313,8 @@
     {
         "product": "zen",
         "title": "GALOPE ZEN",
+        "backgroundimage": "assets/images/zen/background.jpg",
+        "packageimage": "assets/images/zen/package.png",
         "copy": "La diferencia entre la medalla de oro y el segundo lugar no se mide en centímetros. Se mide en la serenidad de una mente que confía en su cuerpo.",
         "tagline": "EL EQUILIBRIO DEL CAMPEÓN",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
@@ -458,6 +464,8 @@
     {
         "product": "alto-rendimiento",
         "title": "GALOPE ALTO RENDIMIENTO",
+        "backgroundimage": "assets/images/alto-rendimiento/background.jpg",
+        "packageimage": "assets/images/alto-rendimiento/package.png",
         "copy": "El segundo lugar no existe en el diccionario de los campeones. Solo existe el próximo objetivo por superar.",
         "tagline": "ENERGÍA QUE TRANSFORMA LÍMITES EN RÉCORDS",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
@@ -613,6 +621,8 @@
     {
         "product": "300-varas",
         "title": "GALOPE 300 VARAS",
+        "backgroundimage": "assets/images/300-varas/background.jpg",
+        "packageimage": "assets/images/300-varas/package.png",
         "copy": "En la charrería, las carreras, la tradición y la ciencia se encuentran. Donde el orgullo mexicano galopa con nutrición de vanguardia.",
         "tagline": "TRADICIÓN CON CIENCIA MUNDIAL",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
@@ -764,6 +774,8 @@
     },{
         "product": "energy",
         "title": "GALOPE ENERGY",
+        "backgroundimage": "assets/images/energy/background.jpg",
+        "packageimage": "assets/images/energy/package.png",
         "description": "La energía que no explota. La potencia que no se desvanece. El combustible que entiende el tiempo perfecto.",
         "tagline": "ENERGÍA DE LIBERACIÓN CONTROLADA",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
@@ -904,6 +916,8 @@
     {
         "product": "protein",
         "title": "GALOPE PROTEIN",
+        "backgroundimage": "assets/images/protein/background.jpg",
+        "packageimage": "assets/images/protein/package.png",
         "description": "Los músculos que admiras no se construyeron solos. Se nutren con precisión científica.",
         "tagline": "MÚSCULOS QUE HABLAN POR SÍ SOLOS",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",

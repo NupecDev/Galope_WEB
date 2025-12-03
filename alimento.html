@@ -353,7 +353,7 @@
 
         <!-- page-title -->
         <section class="page-title centred pt_190 pb_190">
-            <div class="bg-layer" style="background-image: url(./assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" id="cover-product" style="background-image: url(./assets/images/background/page-title.jpg);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <h1 id="product-title">Product not specified</h1>
@@ -425,7 +425,8 @@
                                 </ul>
                                 <div class="inner-box">
                                     <figure class="image-box"><img id="how-it-works-image"
-                                            src="./assets/images/resource/course-8.jpg" alt=""></figure>
+                                            src="./assets/images/resource/course-8.jpg" alt="" class="package-image"></figure>
+                                    <!-- background-image goes here -->
                                     <div class="text-box">
                                         <h3 id="how-it-works-title">How does this benefit you?</h3>
                                         <ul id="how-it-works-description" class="list-item clearfix"></ul>
@@ -686,6 +687,11 @@
             // Update product name and copy
             document.getElementById('product-name').textContent = product.title;
             document.getElementById('product-copy').textContent = product.copy;
+
+            // Update main image
+            document.getElementById('cover-product').style.backgroundImage = `url(${product.backgroundimage || './assets/images/background/page-title.jpg'})`;
+            document.getElementById('how-it-works-image').src = product.packageimage || './assets/images/resource/course-8.jpg';
+
 
             // Update video
             let videoUrl = product.video;

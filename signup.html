@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Galope</title>
+    <title>Galope</title>
 
-<!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 
-<!-- Stylesheets -->
-<link href="assets/css/font-awesome-all.css" rel="stylesheet">
-<link href="assets/css/flaticon.css" rel="stylesheet">
-<link href="assets/css/owl.css" rel="stylesheet">
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/nice-select.css" rel="stylesheet">
-<link href="assets/css/odometer.css" rel="stylesheet">
-<link href="assets/css/elpath.css" rel="stylesheet">
-<link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
-<link href="assets/css/rtl.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/module-css/header.css" rel="stylesheet">
-<link href="assets/css/module-css/page-title.css" rel="stylesheet">
-<link href="assets/css/module-css/login.css" rel="stylesheet">
-<link href="assets/css/module-css/cta.css" rel="stylesheet">
-<link href="assets/css/module-css/footer.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
-
+    <!-- Stylesheets -->
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <!-- <link href="assets/css/nice-select.css" rel="stylesheet"> -->
+    <link href="assets/css/odometer.css" rel="stylesheet">
+    <link href="assets/css/elpath.css" rel="stylesheet">
+    <link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
+    <link href="assets/css/rtl.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/module-css/header.css" rel="stylesheet">
+    <link href="assets/css/module-css/page-title.css" rel="stylesheet">
+    <link href="assets/css/module-css/login.css" rel="stylesheet">
+    <link href="assets/css/module-css/cta.css" rel="stylesheet">
+    <link href="assets/css/module-css/footer.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/module-css/contact.css" rel="stylesheet">
 </head>
 
 
 <!-- page wrapper -->
+
 <body>
 
     <div class="boxed_wrapper ltr">
@@ -371,7 +376,7 @@
                 <div class="form-inner">
                     <form method="post" action="signup.html">
                         <div class="form-group">
-                            <label>Name</label>
+                            <label>Nombre</label>
                             <input type="text" name="name" required>
                         </div>
                         <div class="form-group">
@@ -379,24 +384,89 @@
                             <input type="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label>Phone</label>
+                            <label>Teléfono</label>
                             <input type="text" name="phone" required>
                         </div>
                         <div class="form-group">
-                            <label>Password</label>
-                            <input type="password" name="password" required>
+                            <label>País</label>
+                            <select name="country" id="country" required class="form-select"
+                                                onchange="updateSelectedCountry.call(this)">
+                                                <option value="" selected disabled>Selecciona País</option>
+                                                <option value="mx">México</option>
+                                                <option value="col">Colombia</option>
+                                                <option value="bz">Brazil</option>
+                                                <option value="cr">Costa Rica</option>
+                                                <option value="cu">Cuba</option>
+                                                <option value="gt">Guatemala</option>
+                                                <option value="hn">Honduras</option>
+                                                <option value="ni">Nicaragua</option>
+                                                <option value="pa">Panamá</option>
+                                                <option value="rd">República Dominicana</option>
+                                                <option value="sv">El Salvador</option>
+                                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Estado</label>
+                            <select name="state" id="state" required class="form-select"
+                                                onchange="updateSelectedState.call(this)">
+                                                <option value="" selected disabled>Selecciona Estado</option>
+                                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Ciudad</label>
+                                <select name="city" id="city" required class="form-select">
+                                                <option value="" selected disabled>Selecciona Ciudad</option>
+                                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Número de caballos</label>
+                            <select name="horse-num" id="horse-num" class="form-select">
+                                <option value="1">1</option>
+                                <option value="2-5">2-5</option>
+                                <option value="6-15">6-15</option>
+                                <option value="16+">16+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Disciplina principal</label>
+                            <select name="horse-activity" id="horse-activity" class="form-select">
+                                <option value="Doma">Doma</option>
+                                <option value="Carreras">Carreras</option>
+                                <option value="Salto">Salto</option>
+                                <option value="Endurance">Endurance</option>
+                                <option value="Recreativo">Recreativo</option>
+                                <option value="Charrería">Charrería</option>
+                                <option value="Reining">Reining</option>
+                                <option value="Bailadores">Bailadores</option>
+                                <option value="Polo">Polo</option>
+                                <option value="Carreras de Polos">Carreras de Polos</option>
+                                <option value="Barriles">Barriles</option>
+                                <option value="Hipódromo">Hipódromo</option>
+                                <option value="Carreras parejeras">Carreras parejeras</option>
+                                <option value="Cala">Cala</option>
+                                <option value="Escaramuzas">Escaramuzas</option>
+                                <option value="Caballos de conformación">Caballos de conformación</option>
+                                <option value="Trabajos de campo">Trabajos de campo</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>¿Qué problema quieres resolver?</label>
+                            <textarea name="problem-description" id="problem-description" rows="4" cols="50"
+                                placeholder="Cuéntanos más sobre ti y tus caballos..." class="border">
+                            </textarea>
                         </div>
                         <div class="form-group message-btn">
                             <button type="submit" class="theme-btn btn-one">Regístrate</button>
                         </div>
-                    </form>                    
+                    </form>
                 </div>
             </div>
         </section>
         <!-- sign-section end -->
 
 
- <!-- main-footer -->
+        <!-- main-footer -->
         <footer class="main-footer pt_150">
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
             <div class="auto-container">
@@ -493,8 +563,9 @@
                 <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
             </svg>
         </div>
-        
+
     </div>
+
 
 
     <!-- jequery plugins -->
@@ -507,13 +578,112 @@
     <script src="assets/js/appear.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/scrolltop.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
     <script src="assets/js/odometer.js"></script>
+    <script src="assets/js/bxslider.js"></script>
+    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
+    <script>
+        function updateSelectedCountry() {
+            const selectedCountry = this.value;
+
+            if (!selectedCountry) return;
+
+            fetch(`./data/countries/${selectedCountry}.json`)
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(data => {
+                    const stateSelect = document.getElementById('state');
+                    const citySelect = document.getElementById('city');
+
+                    // Clear previous options
+                    stateSelect.innerHTML = '<option value="" selected disabled>Selecciona Estado</option>';
+                    citySelect.innerHTML = '<option value="" selected disabled>Selecciona Ciudad</option>';
+
+                    data.states.forEach(state => {
+                        const option = document.createElement('option');
+                        option.value = state.state;
+                        option.textContent = state.state;
+                        stateSelect.appendChild(option);
+                    });
+                })
+                .catch(err => console.error('Error loading country data:', err));
+        }
+
+
+        function updateSelectedState() {
+            const selectedState = this.value;
+            const selectedCountry = document.getElementById('country').value;
+
+            if (!selectedState) return;
+
+            fetch(`./data/countries/${selectedCountry}.json`)
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(data => {
+                    const stateSelect = document.getElementById('state');
+                    const citySelect = document.getElementById('city');
+                    const cities = data.states.find(state => state.state === selectedState)?.cities || [];
+
+
+                    // Clear previous options
+                    // stateSelect.innerHTML = '<option value="">Selecciona Estado</option>';
+                    citySelect.innerHTML = '<option value="" selected disabled>Selecciona Ciudad</option>';
+
+                    cities.forEach(city => {
+                        const option = document.createElement('option');
+                        option.value = city;
+                        option.textContent = city;
+                        citySelect.appendChild(option);
+                    });
+                })
+                .catch(err => console.error('Error loading country data:', err));
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Ensure nice-select is initialized if used
+            if (window.jQuery && typeof jQuery.fn.niceSelect === 'function') {
+                jQuery('#country, #state, #city').niceSelect();
+            }
+
+            const countrySelect = document.getElementById('country');
+            const stateSelect = document.getElementById('state');
+            const citySelect = document.getElementById('city');
+
+            stateSelect.addEventListener('change', function () {
+                const selectedState = this.value;
+                const selectedCountry = countrySelect.value;
+                if (!selectedCountry || !selectedState) return;
+
+                fetch(`./data/countries/${selectedCountry}.json`)
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.json();
+                    })
+                    .then(data => {
+                        citySelect.innerHTML = '<option value="">Selecciona Ciudad</option>';
+                        const stateData = data.states.find(s => s.state === selectedState);
+                        if (stateData && stateData.cities) {
+                            stateData.cities.forEach(city => {
+                                const option = document.createElement('option');
+                                option.value = city;
+                                option.textContent = city;
+                                citySelect.appendChild(option);
+                            });
+                        }
+                    })
+                    .catch(err => console.error('Error loading cities:', err));
+            });
+        });
+    </script>
 
 </body><!-- End of .page_wrapper -->
+
 </html>

@@ -106,7 +106,7 @@ button.ltr,
 .chat-icon button,
 .content_block_two .content-box .inner-box .single-item:hover .icon-box,
 .nav-style-one .owl-nav button:before,
-.event-block-one .inner-box .image-box .location:before,
+.event-block-one .inner-box .image-box 
 .shop-block-one .inner-box .image-box .option-list li a:hover,
 .shop-block-one .inner-box .image-box .option-list li button:hover,
 .shop-block-one .inner-box .image-box .option-list li button:active,
@@ -144,7 +144,7 @@ button.ltr,
 }
 
 
-
+/* .location:before, */
 
 /** border-color **/
 
