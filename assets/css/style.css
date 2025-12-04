@@ -71,8 +71,8 @@
    /* --theme-color: #77A96A; */
    --theme-color: #282D46;
    --secondary-color: #394374;
-   --text-color: #1C3D40;
-   --title-color: #1C3D40;
+   --text-color: #000000;
+   --title-color: #000000;
    --title-color-light: #ffffff;
    --text-font: "DM Sans", sans-serif;
    --title-font: "Marcellus", serif;
@@ -228,7 +228,7 @@
    /* height: 5vh; */
    padding-left: 10%;
    padding-right: 10%;
-   width: 90%;
+   width: 80%;   
  }
 
  /* Preloader */
@@ -452,6 +452,10 @@
 
  html.lenis {
    height: auto;
+ }
+
+ .logo-card-back{
+    background-color: #ffffff94 !important;
  }
 
  .balance-product {
@@ -703,10 +707,14 @@
 
 
 
- .sec-title {
+ .sec-title{
    position: relative;
-   display: block;
+   display: block;   
  }
+
+ /* .sec-title-light h2, p, span{
+  color: #fff;
+ } */
 
  .sec-title .sub-title {
    position: relative;
@@ -751,7 +759,7 @@
    text-transform: uppercase;
  }
 
- .sec-title.light h2 h3 {
+ .sec-title.light h2 h3 p{
    color: #fff;
  }
 
@@ -768,6 +776,9 @@
    margin-bottom: 34px;
  }
 
+.slide-light h2 h3 p{
+  color: #fff;
+}
 
 
 
@@ -1003,7 +1014,7 @@
    width: 60px;
    height: 60px;
    line-height: 66px;
-   background: #fff;
+   background: #73737364;
    color: var(--text-color);
    text-align: center;
    border-radius: 50%;

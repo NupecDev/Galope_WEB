@@ -20,7 +20,7 @@
   
 .banner-carousel .slide-item{
   position: relative;
-  padding: 174px 0px 258px 0px;
+  padding: 174px 0px 258px 0px;  
 }
 
 .banner-carousel .content-box{
@@ -28,6 +28,7 @@
   display: block;
   max-width: 850px;
   z-index: 5;
+  color: #fff;
 }
   
 .banner-carousel .slide-item .bg-layer{
@@ -64,6 +65,7 @@
   margin-bottom: 12px;
   text-transform: uppercase;
   opacity: 0;
+  color: #fff;
   -webkit-transform: translateY(-50px);
   -moz-transform: translateY(-50px);
   -ms-transform: translateY(-50px);
@@ -98,6 +100,7 @@
   text-transform: uppercase;
   margin-bottom: 18px;
   opacity: 0;
+  color: #fff;
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
   -ms-transform: translateY(50px);
@@ -129,6 +132,7 @@
   line-height: 32px;
   margin-bottom: 30px;
   opacity: 0;
+  color: #fff;
   -webkit-transform: translateY(50px);
   -moz-transform: translateY(50px);
   -ms-transform: translateY(50px);
@@ -186,7 +190,7 @@
 .banner-carousel .owl-nav{
   position: absolute;
   left: 0px;
-  top: 50%;
+  top: 75%;
   margin-top: -30px;
   width: 100%;
 }
