@@ -1,4 +1,6 @@
- /* Css For Golfer */
+@import url('https://use.typekit.net/buf8dqq.css');
+
+/* Css For Golfer */
 
  /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -74,8 +76,11 @@
    --text-color: #000000;
    --title-color: #000000;
    --title-color-light: #ffffff;
-   --text-font: "DM Sans", sans-serif;
-   --title-font: "Marcellus", serif;
+   --product-title-font: "Collier", sans-serif;
+   /* --text-font: "DM Sans", sans-serif; */
+    --text-font: "myriad-pro", sans-serif;
+   /* --title-font: "Marcellus", serif; */
+    --title-font: "Collier", sans-serif;
    --zen-color: #524689;
    --alto_rendimiento-color: #C09E00;
    --reproductoras-color: #B74C6F;

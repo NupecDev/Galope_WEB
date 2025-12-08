@@ -20,7 +20,7 @@
 .main-footer .footer-top{
   position: relative;
   display: block;
-  background: rgba(67, 97, 94, 0.20);
+  /* background: rgba(67, 97, 94, 0.20); */
   padding: 30px 50px;
   border-radius: 10px;
 }
