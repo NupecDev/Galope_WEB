@@ -7,6 +7,7 @@
         "copy": "La perfección no está en la intensidad. Está en el equilibrio que sostiene la excelencia día tras día.",
         "tagline": "EQUILIBRIO NUTRICIONAL",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Bajo en Almidón: Digestión que fluye sin complicaciones",
             "Omega 3 Optimizado: Salud que brilla desde adentro",
@@ -166,6 +167,7 @@
         "copy": "No es solo genética. Es el futuro que alimentas desde su primer latido.",
         "tagline": "DONDE COMIENZA LA GRANDEZA",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Ácido Fólico: Para desarrollo exitoso en gestación",
             "DHA y Omega 3: Cerebros que nacen para destacar",
@@ -318,6 +320,7 @@
         "copy": "La diferencia entre la medalla de oro y el segundo lugar no se mide en centímetros. Se mide en la serenidad de una mente que confía en su cuerpo.",
         "tagline": "EL EQUILIBRIO DEL CAMPEÓN",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Triptófano: Como la calma antes de la tormenta perfecta",
             "Complejo B Optimizado: Energía mental que nunca grita, siempre susurra",
@@ -469,6 +472,7 @@
         "copy": "El segundo lugar no existe en el diccionario de los campeones. Solo existe el próximo objetivo por superar.",
         "tagline": "ENERGÍA QUE TRANSFORMA LÍMITES EN RÉCORDS",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Aminoácidos esenciales: Continua formación de masa muscular",
             "Energía Controlada: Potencia que no quema, impulsa",
@@ -625,7 +629,8 @@
         "packageimage": "assets/images/300-varas/package.png",
         "copy": "En la charrería, las carreras, la tradición y la ciencia se encuentran. Donde el orgullo mexicano galopa con nutrición de vanguardia.",
         "tagline": "TRADICIÓN CON CIENCIA MUNDIAL",
-        "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video":"https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Microbiota equilibrada: Digestión que respeta la naturaleza equina",
             "Belleza Natural: Pelaje y presencia que honran la tradición",
@@ -779,6 +784,7 @@
         "description": "La energía que no explota. La potencia que no se desvanece. El combustible que entiende el tiempo perfecto.",
         "tagline": "ENERGÍA DE LIBERACIÓN CONTROLADA",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Liberación Controlada: Energía que llega cuando se necesita",
             "Sin Picos de Glucosa: Potencia constante, nunca errática",
@@ -921,6 +927,7 @@
         "description": "Los músculos que admiras no se construyeron solos. Se nutren con precisión científica.",
         "tagline": "MÚSCULOS QUE HABLAN POR SÍ SOLOS",
         "video": "https://youtu.be/r7qovpFAGrQ?si=j7z2erpkwSP_q-so",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Aminoácidos esenciales: Los bloques de construcción que no fallan",
             "Síntesis Proteica Optimizada: Cada gramo trabaja al máximo",

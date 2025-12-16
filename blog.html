@@ -350,7 +350,7 @@
 
         <!-- page-title -->
         <section class="page-title centred pt_190 pb_190">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" style="background-image: url(assets/images/background/Blog-Portada.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <h1>Blog</h1>
@@ -604,7 +604,7 @@ c
         });
 
         function fetchBlogPosts() {
-            fetch('https://api.nucan.com.mx/blog/getAll')
+            fetch('http://localhost:8007/blog/getAll')
                 .then(response => response.json())
                 .then(data => {
                     allPosts = data;

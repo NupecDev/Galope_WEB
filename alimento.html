@@ -16,7 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/buf8dqq.css">
+    <link rel="stylesheet" href="https://use.typekit.net/buf8dqq.css">
 
     <!-- Stylesheets -->
     <link href="./assets/css/font-awesome-all.css" rel="stylesheet">
@@ -205,9 +205,11 @@
                                             <li class="current dropdown"><a href="#">Alimentos</a>
                                                 <ul>
                                                     <li><a href="alimento.html?product=balance">Balance</a></li>
-                                                    <li><a href="alimento.html?product=reproductoras">Reproductoras</a></li>
+                                                    <li><a href="alimento.html?product=reproductoras">Reproductoras</a>
+                                                    </li>
                                                     <li><a href="alimento.html?product=zen">Zen</a></li>
-                                                    <li><a href="alimento.html?product=alto-rendimiento">Alto Rendimiento</a></li>
+                                                    <li><a href="alimento.html?product=alto-rendimiento">Alto
+                                                            Rendimiento</a></li>
                                                     <li><a href="alimento.html?product=300-varas">300 Varas</a></li>
                                                 </ul>
                                             </li>
@@ -354,7 +356,8 @@
 
         <!-- page-title -->
         <section class="page-title centred pt_190 pb_190">
-            <div class="bg-layer" id="cover-product" style="background-image: url(./assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" id="cover-product"
+                style="background-image: url(./assets/images/background/page-title.jpg);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <h1 id="product-title">Product not specified</h1>
@@ -426,7 +429,8 @@
                                 </ul>
                                 <div class="inner-box">
                                     <figure class="image-box"><img id="how-it-works-image"
-                                            src="./assets/images/resource/course-8.jpg" alt="" class="package-image"></figure>
+                                            src="./assets/images/resource/course-8.jpg" alt="" class="package-image">
+                                    </figure>
                                     <!-- background-image goes here -->
                                     <div class="text-box">
                                         <h3 id="how-it-works-title">How does this benefit you?</h3>
@@ -435,6 +439,22 @@
                                     </div>
                                 </div>
                             </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="video-banner" class="video-banner mb_60">
+                <!-- Video Banner will be populated here -->
+            </div>
+            <div class="auto-container">
+                <div class="row clearfix">
+
+
+                    <!-- <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side"></div> -->
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="course-details-content">
                             <div class="content-two mb_60">
                                 <h3>Especificaciones Técnicas</h3>
                                 <ul class="list-item clearfix mb_65" id="specifications-list">
@@ -511,8 +531,8 @@
                         <p class="text-white">Recibe casos de éxito y consejos prácticos directamente en tu correo.</p>
                     </div>
                     <div class="btn-box">
-                        <a href="signup.html" class="theme-btn btn-one">Suscribete</a>
-                        <a href="contact.html" class="theme-btn btn-two">Contáctanos</a>
+                        <a href="signup.html" class="theme-btn btn-one border">Suscribete</a>
+                        <a href="contact.html" class="theme-btn btn-one border">Contáctanos</a>
                     </div>
                 </div>
             </div>
@@ -877,19 +897,36 @@
                 });
             }
 
+            // Update video banner
+            const videoBanner = document.getElementById('video-banner');
+            videoBanner.innerHTML = '';
+            if (product['video-banner']) {
+                let videoElement;
+                // Local video file from assets folder
+                videoElement = `
+                    <div class="video-banner-container" style="width: 100vw; max-width: 100vw; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                        <video width="100%" height="450" autoplay muted loop style="display: block;">
+                            <source src="${product['video-banner']}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                `;
+                videoBanner.innerHTML = videoElement;
+            }
+
             // Update technical videos
             //const technicalvideosContainer = document.getElementById('technicalvideos-container');
             //technicalvideosContainer.innerHTML = '';
             //if (product.technicalvideos) {
-                //product.technicalvideos.forEach(video => {
-                    //const videoDiv = document.createElement('div');
-                    //videoDiv.className = 'video-item mb_20';
-                    //videoDiv.innerHTML = `
-                        //<h5>${video.title}</h5>
-                        //<a href="${video.link}" target="_blank" class="theme-btn btn-two">Ver Video</a>
-                    //`;
-                    //technicalvideosContainer.appendChild(videoDiv);
-                //});
+            //product.technicalvideos.forEach(video => {
+            //const videoDiv = document.createElement('div');
+            //videoDiv.className = 'video-item mb_20';
+            //videoDiv.innerHTML = `
+            //<h5>${video.title}</h5>
+            //<a href="${video.link}" target="_blank" class="theme-btn btn-two">Ver Video</a>
+            //`;
+            //technicalvideosContainer.appendChild(videoDiv);
+            //});
             //}
 
             // Update contact info if needed (placeholder)

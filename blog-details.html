@@ -408,8 +408,8 @@
                         <p class="text-white">Recibe casos de éxito y consejos prácticos directamente en tu correo.</p>
                     </div>
                     <div class="btn-box">
-                        <a href="signup.html" class="theme-btn btn-one">Suscribete</a>
-                        <a href="contact.html" class="theme-btn btn-two">Contáctanos</a>
+                        <a href="signup.html" class="theme-btn btn-one border">Suscribete</a>
+                        <a href="contact.html" class="theme-btn btn-one border">Contáctanos</a>
                     </div>
                 </div>
             </div>
@@ -591,7 +591,8 @@
         });
 
         function fetchBlogDetails(id) {
-            fetch(`https://api.nucan.com.mx/blog/${id}`)
+            fetch(`http://localhost:8007/blog/${id}`)
+            
                 .then(response => response.json())
                 .then(post => {
                     displayBlogDetails(post);
@@ -643,7 +644,7 @@ console.log('Post Date:', post);
         }
 
         function fetchBlogPosts() {
-            fetch('https://api.nucan.com.mx/blog/getAll')
+            fetch('http://localhost:8007/blog/getAll')
                 .then(response => response.json())
                 .then(data => {
                     allPosts = data;
