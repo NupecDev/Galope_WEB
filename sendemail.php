@@ -1,12 +1,6 @@
 <?php
 
-// Define some constants
-define( "RECIPIENT_NAME", "Galope" );
-define( "RECIPIENT_EMAIL", "emora@gponutec.com" );
-
-
 // Read the form values
-$success = false;
 $userName = isset( $_POST['username'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['username'] ) : "";
 $senderEmail = isset( $_POST['email'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['email'] ) : "";
 $userPhone = isset( $_POST['phone'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['phone'] ) : "";
@@ -16,20 +10,58 @@ $userCity = isset( $_POST['city'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/"
 $userSubject = isset( $_POST['subject'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
 $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
 
-// If all values exist, send the email
+// If all values exist, call the API
 if ( $userName && $senderEmail && $userPhone && $userSubject && $message) {
-  $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
-  $headers = "From: " . $userName . "";
-  $msgBody = " Name: ". $userName . " Email: ". $senderEmail . " Phone: ". $userPhone . " Subject: ". $userSubject . " Message: " . $message . "";
-  $success = mail( $recipient, $headers, $msgBody );
+  // Prepare the data for the API
+  $data = array(
+    'name' => $userName,
+    'email' => $senderEmail,
+    'number' => $userPhone,
+    'country' => $userCountry,
+    'state' => $userState,
+    'city' => $userCity,
+    'subject' => $userSubject,
+    'message' => $message
+  );
 
-  //Set Location After Successsfull Submission
-  header('Location: contact.html?message=Successfull');
-}
+  // Initialize cURL
+  $ch = curl_init();
 
-else{
-	//Set Location After Unsuccesssfull Submission
-  	header('Location: contact.html?message=Failed');	
+  // Set the API endpoint
+  curl_setopt($ch, CURLOPT_URL, 'http://localhost:8007/send-email');
+  curl_setopt($ch, CURLOPT_POST, true);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+  curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+  // Execute the request
+  $response = curl_exec($ch);
+
+  // Check for errors
+  if (curl_errno($ch)) {
+    $success = false;
+  } else {
+    // Check the HTTP status code
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    if ($http_code >= 200 && $http_code < 300) {
+      $success = true;
+    } else {
+      $success = false;
+    }
+  }
+
+  // Close cURL
+  curl_close($ch);
+
+  // Set Location After Submission
+  if ($success) {
+    header('Location: contact.html?message=Successfull');
+  } else {
+    header('Location: contact.html?message=Failed');
+  }
+} else {
+  // Set Location After Unsuccessful Submission
+  header('Location: contact.html?message=Failed');
 }
 
 ?>
