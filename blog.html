@@ -604,7 +604,7 @@ c
         });
 
         function fetchBlogPosts() {
-            fetch('http://localhost:8007/blog/getAll')
+            fetch('https://api.galopemx.com/blog/getAll')
                 .then(response => response.json())
                 .then(data => {
                     allPosts = data;

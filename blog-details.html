@@ -591,7 +591,7 @@
         });
 
         function fetchBlogDetails(id) {
-            fetch(`http://localhost:8007/blog/${id}`)
+            fetch(`https://api.galopemx.com/blog/${id}`)
             
                 .then(response => response.json())
                 .then(post => {
@@ -644,7 +644,7 @@ console.log('Post Date:', post);
         }
 
         function fetchBlogPosts() {
-            fetch('http://localhost:8007/blog/getAll')
+            fetch('https://api.galopemx.com/blog/getAll')
                 .then(response => response.json())
                 .then(data => {
                     allPosts = data;

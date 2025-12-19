@@ -28,7 +28,7 @@ if ( $userName && $senderEmail && $userPhone && $userSubject && $message) {
   $ch = curl_init();
 
   // Set the API endpoint
-  curl_setopt($ch, CURLOPT_URL, 'http://localhost:8007/send-email');
+  curl_setopt($ch, CURLOPT_URL, 'https://api.galopemx.com/send-email');
   curl_setopt($ch, CURLOPT_POST, true);
   curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
   curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
