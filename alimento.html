@@ -442,18 +442,7 @@
 
 
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div id="video-banner" class="video-banner mb_60">
-                <!-- Video Banner will be populated here -->
-            </div>
-            <div class="auto-container">
-                <div class="row clearfix">
 
-
-                    <!-- <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side"></div> -->
-                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="course-details-content">
                             <div class="content-two mb_60">
                                 <h3>Especificaciones Técnicas</h3>
@@ -496,26 +485,30 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="content-two mb_60 mt_50">
+                            <!-- <div class="content-two mb_60 mt_50">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h3>Descargables</h3>
                                         <ul class="list-item clearfix mb_65" id="downloadables-list">
-                                            <!-- Downloadables will be populated here -->
+                                            -- Downloadables will be populated here --
                                         </ul>
                                     </div>
-                                    <!-- <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <h3>Videos Técnicos</h3>
                                         <div id="technicalvideos-container">
                                             Technical videos will be populated here
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
+
                 </div>
             </div>
+            <!-- <div id="video-banner" class="video-banner mb_60">                
+            </div> -->
+
         </section>
         <!-- product-details end -->
 
@@ -887,32 +880,32 @@
             }
 
             // Update downloadables
-            const downloadablesList = document.getElementById('downloadables-list');
-            downloadablesList.innerHTML = '';
-            if (product.downloadables) {
-                product.downloadables.forEach(downloadable => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span></span> <a href="${downloadable.link}" target="_blank">${downloadable.title}</a>`;
-                    downloadablesList.appendChild(li);
-                });
-            }
+            // const downloadablesList = document.getElementById('downloadables-list');
+            // downloadablesList.innerHTML = '';
+            // if (product.downloadables) {
+            //     product.downloadables.forEach(downloadable => {
+            //         const li = document.createElement('li');
+            //         li.innerHTML = `<span></span> <a href="${downloadable.link}" target="_blank">${downloadable.title}</a>`;
+            //         downloadablesList.appendChild(li);
+            //     });
+            // }
 
             // Update video banner
-            const videoBanner = document.getElementById('video-banner');
-            videoBanner.innerHTML = '';
-            if (product['video-banner']) {
-                let videoElement;
-                // Local video file from assets folder
-                videoElement = `
-                    <div class="video-banner-container" style="width: 100vw; max-width: 100vw; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                        <video width="100%" height="450" autoplay muted loop style="display: block;">
-                            <source src="${product['video-banner']}" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                `;
-                videoBanner.innerHTML = videoElement;
-            }
+            // const videoBanner = document.getElementById('video-banner');
+            // videoBanner.innerHTML = '';
+            // if (product['video-banner']) {
+            //     let videoElement;
+            //     // Local video file from assets folder
+            //     videoElement = `
+            //         <div class="video-banner-container" style="width: 100vw; max-width: 100vw; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            //             <video width="100%" height="450" autoplay muted loop style="display: block;">
+            //                 <source src="${product['video-banner']}" type="video/mp4">
+            //                 Your browser does not support the video tag.
+            //             </video>
+            //         </div>
+            //     `;
+            //     videoBanner.innerHTML = videoElement;
+            // }
 
             // Update technical videos
             //const technicalvideosContainer = document.getElementById('technicalvideos-container');
