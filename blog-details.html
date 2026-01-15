@@ -186,7 +186,7 @@
                         <!-- <div class="login-box p_relative pr_30 mr_30"><a href="login.html">Login</a></div> -->
                         <ul class="social-links">
                             <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/galope_gruponutec/?hl=en"><i class="fab fa-instagram"></i></a></li>
                             <!-- <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li> -->
                         </ul>
                     </div>
@@ -500,7 +500,7 @@
                                     <ul class="social-links">
                                         <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.instagram.com/galope_gruponutec/?hl=en"><i class="fab fa-instagram"></i></a></li>
                                         <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>
@@ -632,7 +632,7 @@ console.log('Post Date:', post);
                 <div class="news-block-one">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></figure>
+                            <figure class="image"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}" loading="lazy"></figure>
                             <span class="post-date">${postDate}</span>
                         </div>
                         <div class="lower-content">
@@ -708,7 +708,7 @@ console.log('Post Date:', post);
                 const postDate = new Date(post.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
                 const postHTML = `
                     <div class="post">
-                        <figure class="image-box"><a href="blog-details.html?blog=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></a></figure>
+                        <figure class="image-box"><a href="blog-details.html?blog=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}" loading="lazy"></a></figure>
                         <h4><a href="blog-details.html?blog=${post.id}">${post.title}</a></h4>
                         <span class="post-date"><i class="icon-17"></i>${postDate}</span>
                     </div>
