@@ -6,6 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
 <title>Galope</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9L5N852S5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Y9L5N852S5',{
+     page_path: window.location.pathname + window.location.search
+  });
+</script>
 
 <!-- Fav Icon -->
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -548,7 +558,14 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
-            const blogId = urlParams.get('id');
+            const blogId = urlParams.get('blog');
+
+            // Send custom event for blog view
+            if (blogId) {
+                gtag('event', 'view_blog', {
+                    blog: blogId
+                });
+            }
 
             if (blogId) {
                 fetchBlogDetails(blogId);
@@ -691,8 +708,8 @@ console.log('Post Date:', post);
                 const postDate = new Date(post.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
                 const postHTML = `
                     <div class="post">
-                        <figure class="image-box"><a href="blog-details.html?id=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></a></figure>
-                        <h4><a href="blog-details.html?id=${post.id}">${post.title}</a></h4>
+                        <figure class="image-box"><a href="blog-details.html?blog=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}"></a></figure>
+                        <h4><a href="blog-details.html?blog=${post.id}">${post.title}</a></h4>
                         <span class="post-date"><i class="icon-17"></i>${postDate}</span>
                     </div>
                 `;

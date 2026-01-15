@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <title>Galope</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9L5N852S5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Y9L5N852S5',{
+     page_path: window.location.pathname + window.location.search
+  });
+</script>
 
     <!-- Fav Icon -->
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
@@ -661,6 +671,13 @@
             // Get URL parameters
             const urlParams = new URLSearchParams(window.location.search);
             const productParam = urlParams.get('product');
+
+            // Send custom event for product view
+            if (productParam) {
+                gtag('event', 'view_product', {
+                    product: productParam
+                });
+            }
 
             // Fetch product data
             fetch('data/products.json')
