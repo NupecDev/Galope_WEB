@@ -22,10 +22,12 @@
             "4. Antioxidantes naturales protegen contra estrés oxidativo"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 13.5%",
-            "Grasa Cruda: Mín. 6.5%",
+            "Proteína Cruda: Mín. 13.0%",
+            "Grasa Cruda: Mín. 7.0%",
             "Fibra Cruda: Máx. 12.0%",
             "Humedad: Máx. 12.0%",
+            "Cenizas: Máx. 11.0%",
+            "ELN: 45.0%",
             "Contenido Neto: 20kg",
             "Presentación: Partícula extruida"
         ],
@@ -201,10 +203,12 @@
             "4. Minerales quelados aseguran absorción máxima"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 18.0%",
-            "Grasa Cruda: Mín. 7.5%",
-            "Fibra Cruda: Máx. 10.0%",
-            "Humedad: Máx. 12.0%",
+            "Proteína Cruda: Mín. 12.0%",
+            "Grasa Cruda: Mín. 3.0%",
+            "Fibra Cruda: Máx. 12.0%",
+            "Humedad: Máx. 6.5%",
+            "Cenizas: Máx. 6.0%",
+            "ELN: 60.5%",
             "Contenido Neto: 20kg",
             "Presentación: Partícula extruida"
         ],
@@ -380,8 +384,10 @@
         "specifications": [
             "Proteína Cruda: Mín. 12.0%",
             "Grasa Cruda: Mín. 6.5%",
-            "Fibra Cruda: Máx. 11.0%",
-            "Humedad: Máx. 12.0%",
+            "Fibra Cruda: Máx. 12.0%",
+            "Humedad: Máx. 11.0%",
+            "Cenizas: Máx. 10.0%",
+            "ELN: 48.5%",
             "Contenido Neto: 20kg",
             "Presentación: Partícula extruida"
         ],
@@ -554,10 +560,12 @@
             "4. Maximiza VO2 y reduce tiempo de recuperación"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 16.0%",
-            "Grasa Cruda: Mín. 8.0%",
-            "Fibra Cruda: Máx. 9.0%",
-            "Humedad: Máx. 12.0%",
+            "Proteína Cruda: Mín. 14.0%",
+            "Grasa Cruda: Mín. 5.0%",
+            "Fibra Cruda: Máx. 12.0%",
+            "Humedad: Máx. 7.5%",
+            "Cenizas: Máx. 6.5%",
+            "ELN: 55%",
             "Contenido Neto: 25kg",
             "Presentación: Partícula extruida"
         ],
@@ -736,10 +744,12 @@
             "4. Libre de polvos evita problemas respiratorios"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 12.5%",
-            "Grasa Cruda: Mín. 6.0%",
-            "Fibra Cruda: Máx. 13.0%",
-            "Humedad: Máx. 12.0%",
+            "Proteína Cruda: Mín. 12.0%",
+            "Grasa Cruda: Mín. 3.5%",
+            "Fibra Cruda: Máx. 11.5%",
+            "Humedad: Máx. 6.0%",
+            "Cenizas: Máx. 7.0%",
+            "ELN: 60.0%",
             "Contenido Neto: 15kg",
             "Presentación: Multipartículas"
         ],
@@ -891,7 +901,8 @@
                 "link": "https://www.youtube.com/watch?v=video15"
             }
         ]
-    },{
+    },
+    {
         "product": "energy",
         "title": "GALOPE ENERGY",
         "backgroundimage": "assets/images/energy/background.png",
@@ -914,10 +925,12 @@
             "4. Mantiene energía constante sin alterar comportamiento"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 14.0%",
-            "Grasa Cruda: Mín. 7.0%",
-            "Fibra Cruda: Máx. 10.5%",
-            "Humedad: Máx. 12.0%",
+            "Proteína Cruda: Mín. 12.0%",
+            "Grasa Cruda: Mín. 16.0%",
+            "Fibra Cruda: Máx. 10.0%",
+            "Humedad: Máx. 5.0%",
+            "Cenizas: Máx. 6.5%",
+            "ELN: 50.5%",
             "Contenido Neto: 20kg",
             "Presentación: Partícula extruida"
         ],
@@ -1081,10 +1094,12 @@
             "4. Optimiza la formación de fibras musculares y desarrollo muscular"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 20.0%",
-            "Grasa Cruda: Mín. 6.0%",
-            "Fibra Cruda: Máx. 9.5%",
-            "Humedad: Máx. 12.0%",
+            "Proteína Cruda: Mín. 26.0%",
+            "Grasa Cruda: Mín. 4.5%",
+            "Fibra Cruda: Máx. 10.0%",
+            "Humedad: Máx. 5.0%",
+            "Cenizas: Máx. 9.0%",
+            "ELN: 45.5%",
             "Contenido Neto: 20kg",
             "Presentación: Partícula extruida"
         ],
