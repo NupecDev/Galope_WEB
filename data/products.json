@@ -28,7 +28,7 @@
             "Humedad: Máx. 12.0%",
             "Cenizas: Máx. 11.0%",
             "ELN: 45.0%",
-            "Contenido Neto: 20kg",
+            "Contenido Neto: 25kg",
             "Presentación: Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Balance_Ficha_Tecnica.pdf",
@@ -566,7 +566,7 @@
             "Humedad: Máx. 7.5%",
             "Cenizas: Máx. 6.5%",
             "ELN: 55%",
-            "Contenido Neto: 25kg",
+            "Contenido Neto: 20kg",
             "Presentación: Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Alto_Rendimiento_Ficha_Tecnica.pdf",
@@ -750,7 +750,7 @@
             "Humedad: Máx. 6.0%",
             "Cenizas: Máx. 7.0%",
             "ELN: 60.0%",
-            "Contenido Neto: 15kg",
+            "Contenido Neto: 25kg",
             "Presentación: Multipartículas"
         ],
         "technicalsheetlink": "assets/docs/Galope_300_Varas_Ficha_Tecnica.pdf",
@@ -931,7 +931,7 @@
             "Humedad: Máx. 5.0%",
             "Cenizas: Máx. 6.5%",
             "ELN: 50.5%",
-            "Contenido Neto: 20kg",
+            "Contenido Neto: 15kg",
             "Presentación: Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Energy_Ficha_Tecnica.pdf",
@@ -1100,7 +1100,7 @@
             "Humedad: Máx. 5.0%",
             "Cenizas: Máx. 9.0%",
             "ELN: 45.5%",
-            "Contenido Neto: 20kg",
+            "Contenido Neto: 15kg",
             "Presentación: Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Protein_Ficha_Tecnica.pdf",
