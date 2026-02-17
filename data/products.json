@@ -1,7 +1,7 @@
 [
     {
         "product": "balance",
-        "title": "GALOPE BALANCE",
+        "title": "GALOPE® BALANCE",
         "backgroundimage": "assets/images/balance/background.png",
         "packageimage": "assets/images/balance/package.png",
         "copy": "La perfección no está en la intensidad. Está en el equilibrio que sostiene la excelencia día tras día.",
@@ -85,7 +85,7 @@
         "faq": [
             {
                 "question": "¿Balance es suficiente para caballos activos?",
-                "answer": "Balance es ideal para caballos sin actividad física, actividad física ligera y moderada. Para alta competencia recomendamos Galope Alto Rendimiento o Galope ZEN mezclado con los complementos Galope Energy y Galope Protein."
+                "answer": "Balance es ideal para caballos sin actividad física, actividad física ligera y moderada. Para alta competencia recomendamos Galope® Alto Rendimiento o Galope® ZEN mezclado con los complementos Galope® Energy y Galope® Protein."
             },
             {
                 "question": "¿Ayuda con problemas digestivos?",
@@ -149,11 +149,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope Balance",
+                "title": "Manual Completo Galope® Balance",
                 "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
             },
             {
-                "title": "Formulación Galope Balance",
+                "title": "Formulación Galope® Balance",
                 "link": "assets/docs/Formulacion_Galope_Balance.pdf"
             },
             {
@@ -161,7 +161,7 @@
                 "link": "assets/docs/Casos_de_Exito_Salud_General.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope Balance",
+                "title": "La ciencia detrás de Galope® Balance",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Balance.pdf"
             }
         ],
@@ -171,7 +171,7 @@
                 "link": "https://www.youtube.com/watch?v=video1"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Balance",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Balance",
                 "link": "https://www.youtube.com/watch?v=video2"
             },
             {
@@ -182,7 +182,7 @@
     },
     {
         "product": "reproductoras",
-        "title": "GALOPE REPRODUCTORAS",
+        "title": "GALOPE® REPRODUCTORAS",
         "backgroundimage": "assets/images/reproductoras/background.png",
         "packageimage": "assets/images/reproductoras/package.png",
         "copy": "No es solo genética. Es el futuro que alimentas desde su primer latido.",
@@ -328,11 +328,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope Reproductoras",
+                "title": "Manual Completo Galope® Reproductoras",
                 "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
             },
             {
-                "title": "Formulación Galope Reproductoras",
+                "title": "Formulación Galope® Reproductoras",
                 "link": "assets/docs/Formulacion_Galope_Reproductoras.pdf"
             },
             {
@@ -340,7 +340,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Crianza.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope Reproductoras",
+                "title": "La ciencia detrás de Galope® Reproductoras",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Reproductoras.pdf"
             }
         ],
@@ -350,7 +350,7 @@
                 "link": "https://www.youtube.com/watch?v=video4"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Reproductoras",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Reproductoras",
                 "link": "https://www.youtube.com/watch?v=video5"
             },
             {
@@ -361,7 +361,7 @@
     },
     {
         "product": "zen",
-        "title": "GALOPE ZEN",
+        "title": "GALOPE® ZEN",
         "backgroundimage": "assets/images/zen/background.png",
         "packageimage": "assets/images/zen/package.png",
         "copy": "La diferencia entre la medalla de oro y el segundo lugar no se mide en centímetros. Se mide en la serenidad de una mente que confía en su cuerpo.",
@@ -445,7 +445,7 @@
         "faq": [
             {
                 "question": "¿Galope ZEN sedará a mi caballo?",
-                "answer": "No. Galope ZEN equilibra neurotransmisores naturalmente sin efectos sedantes. Mantiene energía mientras mejora concentración."
+                "answer": "No. Galope® ZEN equilibra neurotransmisores naturalmente sin efectos sedantes. Mantiene energía mientras mejora concentración."
             },
             {
                 "question": "¿Cuánto tiempo tarda en hacer efecto?",
@@ -453,7 +453,7 @@
             },
             {
                 "question": "¿Puedo usarlo con otros complementos?",
-                "answer": "Sí, ZEN es compatible con los complementos Galope Energy y Galope Protein. Consulta con nuestro técnico nutricionista para protocolo específico."
+                "answer": "Sí, ZEN es compatible con los complementos Galope® Energy y Galope® Protein. Consulta con nuestro técnico nutricionista para protocolo específico."
             }
         ],
         "guarantee": [
@@ -506,11 +506,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope ZEN",
+                "title": "Manual Completo Galope® ZEN",
                 "link": "assets/docs/Manual_Completo_Galope_ZEN.pdf"
             },
             {
-                "title": "Formulación Galope ZEN",
+                "title": "Formulación Galope® ZEN",
                 "link": "assets/docs/Formulacion_Galope_ZEN.pdf"
             },
             {
@@ -518,7 +518,7 @@
                 "link": "assets/docs/Casos_de_Exito.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope ZEN",
+                "title": "La ciencia detrás de Galope® ZEN",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_ZEN.pdf"
             }
         ],
@@ -528,7 +528,7 @@
                 "link": "https://www.youtube.com/watch?v=video7"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope ZEN",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® ZEN",
                 "link": "https://www.youtube.com/watch?v=video8"
             },
             {
@@ -539,7 +539,7 @@
     },
     {
         "product": "alto-rendimiento",
-        "title": "GALOPE ALTO RENDIMIENTO",
+        "title": "GALOPE® ALTO RENDIMIENTO",
         "backgroundimage": "assets/images/alto-rendimiento/background.png",
         "packageimage": "assets/images/alto-rendimiento/package.png",
         "copy": "El segundo lugar no existe en el diccionario de los campeones. Solo existe el próximo objetivo por superar.",
@@ -575,13 +575,13 @@
                 "image": "assets/images/alto-rendimiento/Carlos.png",
                 "name": "CARLOS HUMBERTO PERALTA",
                 "role": "Jinete de Salto Internacional",
-                "quote": "Eclipse es un caballo de 1.60m que competía a nivel nacional, pero nos faltaba esa potencia para saltar a internacional. Con GALOPE ALTO RENDIMIENTO su potencia en los últimos obstáculos cambió completamente. En 6 semanas pasamos de rozar barras a clears consistentes en 1.50m. La energía se mantiene hasta el último salto del recorrido. Es la diferencia entre competir y ganar."
+                "quote": "Eclipse es un caballo de 1.60m que competía a nivel nacional, pero nos faltaba esa potencia para saltar a internacional. Con GALOPE® ALTO RENDIMIENTO su potencia en los últimos obstáculos cambió completamente. En 6 semanas pasamos de rozar barras a clears consistentes en 1.50m. La energía se mantiene hasta el último salto del recorrido. Es la diferencia entre competir y ganar."
             },
             {
                 "image": "assets/images/alto-rendimiento/DrRicardo.jpeg",
                 "name": "DR. RICARDO VÁZQUEZ MORALES",
                 "role": "Veterinario Deportivo - 18 años de experiencia",
-                "quote": "Recomiendo GALOPE ALTO RENDIMIENTO a caballos con alta demanda atlética. La fórmula de aminoácidos es superior a productos importados que cuestan el doble. He visto mejoras en la mayoría de caballos que lo consumen. La recuperación post-ejercicio es notablemente más rápida, especialmente en la síntesis de lactato."
+                "quote": "Recomiendo GALOPE® ALTO RENDIMIENTO a caballos con alta demanda atlética. La fórmula de aminoácidos es superior a productos importados que cuestan el doble. He visto mejoras en la mayoría de caballos que lo consumen. La recuperación post-ejercicio es notablemente más rápida, especialmente en la síntesis de lactato."
             },
             {
                 "image": "assets/images/alto-rendimiento/Sofia.jpeg",
@@ -690,11 +690,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope Alto Rendimiento",
+                "title": "Manual Completo Galope® Alto Rendimiento",
                 "link": "assets/docs/Manual_Completo_Galope_Alto_Rendimiento.pdf"
             },
             {
-                "title": "Formulación Galope Alto Rendimiento",
+                "title": "Formulación Galope® Alto Rendimiento",
                 "link": "assets/docs/Formulacion_Galope_Alto_Rendimiento.pdf"
             },
             {
@@ -702,7 +702,7 @@
                 "link": "assets/docs/Casos_de_Exito_Deportivos.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope Alto Rendimiento",
+                "title": "La ciencia detrás de Galope® Alto Rendimiento",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Alto_Rendimiento.pdf"
             }
         ],
@@ -712,7 +712,7 @@
                 "link": "https://www.youtube.com/watch?v=video10"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Alto Rendimiento",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Alto Rendimiento",
                 "link": "https://www.youtube.com/watch?v=video11"
             },
             {
@@ -723,7 +723,7 @@
     },
     {
         "product": "300-varas",
-        "title": "GALOPE 300 VARAS",
+        "title": "GALOPE® 300 VARAS",
         "backgroundimage": "assets/images/300-varas/background.png",
         "packageimage": "assets/images/300-varas/package.png",
         "copy": "En la charrería, las carreras, la tradición y la ciencia se encuentran. Donde el orgullo mexicano galopa con nutrición de vanguardia.",
@@ -871,11 +871,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope 300 Varas",
+                "title": "Manual Completo Galope® 300 Varas",
                 "link": "assets/docs/Manual_Completo_Galope_300_Varas.pdf"
             },
             {
-                "title": "Formulación Galope 300 Varas",
+                "title": "Formulación Galope® 300 Varas",
                 "link": "assets/docs/Formulacion_Galope_300_Varas.pdf"
             },
             {
@@ -883,7 +883,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Charreria.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope 300 Varas",
+                "title": "La ciencia detrás de Galope® 300 Varas",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_300_Varas.pdf"
             }
         ],
@@ -893,7 +893,7 @@
                 "link": "https://www.youtube.com/watch?v=video13"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope 300 Varas",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® 300 Varas",
                 "link": "https://www.youtube.com/watch?v=video14"
             },
             {
@@ -904,7 +904,7 @@
     },
     {
         "product": "energy",
-        "title": "GALOPE ENERGY",
+        "title": "GALOPE® ENERGY",
         "backgroundimage": "assets/images/energy/background.png",
         "packageimage": "assets/images/energy/package.png",
         "description": "La energía que no explota. La potencia que no se desvanece. El combustible que entiende el tiempo perfecto.",
@@ -940,19 +940,19 @@
                 "image": "assets/images/energy/JoseAntonio.jpeg",
                 "name": "JOSÉ ANTONIO RAMÍREZ LÓPEZ",
                 "role": "Entrenador de Polo",
-                "quote": "En polo necesitas 4 caballos que rindan 7 chukkers sin declinar. GALOPE ENERGY cambió mi string completo. Mis caballos mantienen velocidad y agilidad del primer al último chukker. La diferencia es que no se 'queman' - terminan el partido con energía controlada. Mi handicap subió de 2 a 4 goals en esta temporada."
+                "quote": "En polo necesitas 4 caballos que rindan 7 chukkers sin declinar. GALOPE® ENERGY cambió mi string completo. Mis caballos mantienen velocidad y agilidad del primer al último chukker. La diferencia es que no se 'queman' - terminan el partido con energía controlada. Mi handicap subió de 2 a 4 goals en esta temporada."
             },
             {
                 "image": "assets/images/energy/Veronica.jpeg",
                 "name": "VERÓNICA SANTAMARÍA TORRES",
                 "role": "Amazona de Resistencia",
-                "quote": "Competir en resistencia requiere energía por 8+ horas continuas. GALOPE ENERGY es el único alimento que me ha dado resultados consistentes. Tornado completa 120km manteniendo frecuencia cardíaca bajo 180 ppm. En la última competencia terminamos en 2do lugar nacional con excelente recuperación."
+                "quote": "Competir en resistencia requiere energía por 8+ horas continuas. GALOPE® ENERGY es el único alimento que me ha dado resultados consistentes. Tornado completa 120km manteniendo frecuencia cardíaca bajo 180 ppm. En la última competencia terminamos en 2do lugar nacional con excelente recuperación."
             },
             {
                 "image": "assets/images/energy/DrLuis.jpeg",
                 "name": "DR. LUIS FERNANDO SOTO",
                 "role": "Veterinario Deportivo",
-                "quote": "Recomiendo GALOPE ENERGY para cualquier disciplina que requiera esfuerzo prolongado. He documentado mejoras en la mayoría de los casos donde se implementa correctamente. La liberación controlada evita acidosis y mantiene rendimiento sostenido."}],
+                "quote": "Recomiendo GALOPE® ENERGY para cualquier disciplina que requiera esfuerzo prolongado. He documentado mejoras en la mayoría de los casos donde se implementa correctamente. La liberación controlada evita acidosis y mantiene rendimiento sostenido."}],
         "galleryimages": [
             "assets/images/gallery/G1.jpg",
             "assets/images/gallery/G2.jpg",
@@ -993,7 +993,7 @@
                 "answer": "Las primeras mejoras se notan entre 2-3 semanas. El efecto completo se establece después de 1 mes de uso consistente."
             },
             {
-                "question": "¿Puedo combinarlo con otros productos Galope?",
+                "question": "¿Puedo combinarlo con otros productos Galope®?",
                 "answer": "Absolutamente. Energy es ideal como complemento con cualquiera de nuestros alimentos base según las necesidades específicas."
             }
         ],
@@ -1041,11 +1041,11 @@
                 "use": "Atletas en preparación para competencias de larga duración"}],
         "downloadables": [
             {
-                "title": "Manual Completo Galope Energy",
+                "title": "Manual Completo Galope® Energy",
                 "link": "assets/docs/Manual_Completo_Galope_Energy.pdf"
             },
             {
-                "title": "Formulación Galope Energy",
+                "title": "Formulación Galope® Energy",
                 "link": "assets/docs/Formulacion_Galope_Energy.pdf"
             },
             {
@@ -1053,7 +1053,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Resistencia.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope Energy",
+                "title": "La ciencia detrás de Galope® Energy",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Energy.pdf"}
         ],
         "technicalvideos": [
@@ -1062,7 +1062,7 @@
                 "link": "https://www.youtube.com/watch?v=video16"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Energy",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Energy",
                 "link": "https://www.youtube.com/watch?v=video17"
             },
             {
@@ -1073,7 +1073,7 @@
     },
     {
         "product": "protein",
-        "title": "GALOPE PROTEIN",
+        "title": "GALOPE® PROTEIN",
         "backgroundimage": "assets/images/protein/background.png",
         "packageimage": "assets/images/protein/package.png",
         "description": "Los músculos que admiras no se construyeron solos. Se nutren con precisión científica.",
@@ -1215,11 +1215,11 @@
                 "use": "Rehabilitación post-enfermedad o post quirúrgica"}],
         "downloadables": [
             {
-                "title": "Manual Completo Galope Protein",
+                "title": "Manual Completo Galope® Protein",
                 "link": "assets/docs/Manual_Completo_Galope_Protein.pdf"
             },
             {
-                "title": "Formulación Galope Protein",
+                "title": "Formulación Galope® Protein",
                 "link": "assets/docs/Formulacion_Galope_Protein.pdf"
             },
             {
@@ -1227,7 +1227,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Desarrollo_Muscular.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope Protein",
+                "title": "La ciencia detrás de Galope® Protein",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Protein.pdf"}
         ],
         "technicalvideos": [
@@ -1236,7 +1236,7 @@
                 "link": "https://www.youtube.com/watch?v=video19"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope Protein",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Protein",
                 "link": "https://www.youtube.com/watch?v=video20"
             },
             {

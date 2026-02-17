@@ -208,8 +208,8 @@
 			animateOut: 'fadeOut',
     		animateIn: 'fadeIn',
     		active: true,
-			smartSpeed: 1000,
-			autoplay: 10000,
+			smartSpeed: 15000,
+			autoplay: 20000,
             navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
             responsive:{
                 0:{
@@ -246,7 +246,7 @@
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 1000,
+			autoplay: 20000,
 			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
 			responsive:{
 				0:{
@@ -277,7 +277,7 @@
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 1000,
+			autoplay: 20000,
 			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
 			responsive:{
 				0:{
@@ -308,7 +308,7 @@
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 1000,
+			autoplay: 20000,
 			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
 			responsive:{
 				0:{
@@ -339,7 +339,7 @@
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 1000,
+			autoplay: false,
 			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
 			responsive:{
 				0:{
@@ -370,7 +370,7 @@
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 1000,
+			autoplay: false,
 			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
 			responsive:{
 				0:{
