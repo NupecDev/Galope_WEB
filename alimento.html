@@ -218,17 +218,17 @@
                                         <ul class="navigation clearfix">
                                             <li class="current dropdown"><a href="#">Alimentos</a>
                                                 <ul>
-                                                    <li><a href="alimento.html?product=zen">Zen</a></li>
-                                                    <li><a href="alimento.html?product=alto-rendimiento">Alto Rendimiento</a></li>
-                                                    <li><a href="alimento.html?product=reproductoras">Reproductoras</a></li>
-                                                    <li><a href="alimento.html?product=balance">Balance</a></li>
-                                                    <li><a href="alimento.html?product=300-varas">300 Varas</a></li>
+                                                    <li><a href="alimento.html?product=zen">GALOPE® ZEN</a></li>
+                                                    <li><a href="alimento.html?product=alto-rendimiento">GALOPE® ALTO RENDIMIENTO</a></li>
+                                                    <li><a href="alimento.html?product=reproductoras">GALOPE® REPRODUCTORAS</a></li>
+                                                    <li><a href="alimento.html?product=balance">GALOPE® BALANCE</a></li>
+                                                    <li><a href="alimento.html?product=300-varas">GALOPE® 300 VARAS</a></li>
                                                 </ul>
                                             </li>
                                             <li class="current dropdown"><a href="#">Complementos</a>
                                                 <ul>
-                                                    <li><a href="alimento.html?product=energy">Energy</a></li>
-                                                    <li><a href="alimento.html?product=protein">Protein</a></li>
+                                                    <li><a href="alimento.html?product=energy">GALOPE® Energy</a></li>
+                                                    <li><a href="alimento.html?product=protein">GALOPE® Protein</a></li>
                                                 </ul>
                                             </li>
                                             <!-- <li class="current dropdown"><a href="#">Home</a>
@@ -374,8 +374,8 @@
                 <div class="content-box">
                     <h1 id="product-title">Product not specified</h1>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li id="breadcrumb-product">Product not specified</li>
+                        <!-- <li><a href="index.html">Inicio</a></li> -->
+                        <!-- <li id="breadcrumb-product">Product not specified</li> -->
                     </ul>
                 </div>
             </div>
@@ -391,7 +391,7 @@
                         <div class="course-sidebar mr_40">
                             <div class="sidebar-widget category-widget">
                                 <div class="widget-title">
-                                    <h3 id="sidebar-title">Nuestros Productos</h3>
+                                    <h3 id="sidebar-title">NUESTROS PRODUCTOS</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="category-list clearfix" id="product-list">
@@ -401,7 +401,7 @@
                             </div>
                             <div class="sidebar-widget contact-widget">
                                 <div class="widget-title">
-                                    <h3>Contacto</h3>
+                                    <h3>CONTACTO</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
@@ -432,7 +432,7 @@
                                 <!-- <iframe id="product-video" width="560" height="315" src="" title="Product Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                                 <h3 id="product-tagline">Tagline</h3>
                                 <p id="product-description" class="mb_25">Detailed description.</p>
-                                <p id="product-description-2">Additional description.</p>
+                                <!-- <p id="product-description-2">Additional description.</p> -->
                             </div>
                             <div class="content-two mb_60">
                                 <h3>Beneficios</h3>
@@ -606,7 +606,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
                             <div class="contact-widget footer-widget">
                                 <div class="widget-title">
-                                    <h3>Póngase en contacto con nosotros</h3>
+                                    <h3>PÓNGASE EN CONTACTO CON NOSOTROS</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="info-list clearfix">
@@ -625,7 +625,7 @@
                                         </li>
                                         <li>
                                             <div class="icon-box"><i class="icon-5 text-white"></i></div>
-                                            Phone: <a href="tel:4421961000">442 196 1000</a>
+                                            Teléfono: <a href="tel:4421961000">442 196 1000</a>
                                         </li>
                                     </ul>
                                     <ul class="social-links">
@@ -731,7 +731,7 @@
         function loadProductData(product) {
             // Update page title and breadcrumb
             document.getElementById('product-title').textContent = product.title;
-            document.getElementById('breadcrumb-product').textContent = product.title;
+            // document.getElementById('breadcrumb-product').textContent = product.title;
 
             // Update product name and copy
             document.getElementById('product-name').textContent = product.title;
@@ -753,7 +753,7 @@
             // Update tagline and descriptions
             document.getElementById('product-tagline').textContent = product.tagline;
             document.getElementById('product-description').textContent = product.cienciecebehind || 'Description not available';
-            document.getElementById('product-description-2').textContent = product.howitworks ? product.howitworks.join(' ') : '';
+            //document.getElementById('product-description-2').textContent = product.howitworks ? product.howitworks.join(' ') : '';
 
             // Update benefits
             const benefitsList = document.getElementById('benefits-list');

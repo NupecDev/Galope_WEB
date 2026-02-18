@@ -12,6 +12,7 @@
 
 .cta-section .content-box .theme-btn.btn-one{
   padding: 15px 30px;
+  border: 1px solid #FFFFFF;
 }
 
 .cta-section .content-box .theme-btn.btn-one:before,

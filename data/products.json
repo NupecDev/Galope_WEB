@@ -1,365 +1,5 @@
 [
     {
-        "product": "balance",
-        "title": "GALOPE® BALANCE",
-        "backgroundimage": "assets/images/balance/background.png",
-        "packageimage": "assets/images/balance/package.png",
-        "copy": "La perfección no está en la intensidad. Está en el equilibrio que sostiene la excelencia día tras día.",
-        "tagline": "EQUILIBRIO NUTRICIONAL",        
-        "video": "https://youtu.be/FqCzjsBo-Zs?si=yNX79XXBNXSy-Ikx",
-        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
-        "benefits": [
-            "Bajo en Almidón: Digestión que fluye sin complicaciones",
-            "Omega 3 Optimizado: Salud que brilla desde adentro",
-            "Fibras de calidad: El sistema digestivo que funciona como reloj",
-            "Antioxidantes Naturales: Juventud que se nota en cada movimiento"
-        ],
-        "cienciecebehind": "¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO? Dietas altas en almidón alteran el pH intestinal, generan acidosis subclínica y comprometen la absorción de nutrientes esenciales. Además favorecen el desarrollo de enfermedades metabólicas como: cólico, laminitis, hiperlipemia y resistencia a la insulina. LA CIENCIA DEL EQUILIBRIO DIGESTIVO Fibras fermentables + bajo almidón = microbiota saludable que produce vitaminas B y optimiza digestión de forrajes.",
-        "howitworks": [
-            "1. Bajo almidón mantiene pH intestinal óptimo",
-            "2. Omega 3 reduce inflamación sistémica",
-            "3. Fibras de calidad alimentan microbiota beneficiosa",
-            "4. Antioxidantes naturales protegen contra estrés oxidativo"
-        ],
-        "specifications": [
-            "Proteína Cruda: Mín. 13.0%",
-            "Grasa Cruda: Mín. 7.0%",
-            "Fibra Cruda: Máx. 12.0%",
-            "Humedad: Máx. 12.0%",
-            "Cenizas: Máx. 11.0%",
-            "ELN: 45.0%",
-            "Contenido Neto: 25kg",
-            "Presentación: Partícula extruida"
-        ],
-        "technicalsheetlink": "assets/docs/Galope_Balance_Ficha_Tecnica.pdf",
-        "testimonials": [
-            {
-                "image": "assets/images/balance/Patricia.jpeg",
-                "name": "PATRICIA HERRERA DOMÍNGUEZ",
-                "role": "Propietaria Hacienda San Miguel",
-                "quote": "Tengo 23 caballos de diferentes disciplinas. BALANCE se volvió mi base nutricional universal. Digestiones perfectas, pelajes brillantes, temperamentos equilibrados. El veterinario dice que mis caballos tienen la salud más consistente que ha visto. Es el producto que cambió mi manera de alimentar."
-            },
-            {
-                "image": "assets/images/balance/Roberto.jpeg",
-                "name": "ROBERTO SILVA MENDOZA",
-                "role": "Caballerango Jefe",
-                "quote": "Manejo 45 caballos diario. BALANCE simplificó mi trabajo y mejoró resultados. Cero cólicos en 8 meses, pelajes brillantes en todos, y los caballos están más calmados para el trabajo. Los patrones están sorprendidos con la condición general de la caballada."
-            },
-            {
-                "image": "assets/images/balance/Carmen.jpeg",
-                "name": "DRA. CARMEN ELIZABETH TORRES",
-                "role": "Veterinaria Equina",
-                "quote": "Recomiendo BALANCE para caballos con problemas digestivos crónicos. En casos tratados, la mayoría mostró mejoras significativas en 4-6 semanas. La reducción de almidón y el balance de fibras realmente optimiza la salud gastrointestinal."
-            }
-        ],
-        "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
-        ],
-        "faq": [
-            {
-                "question": "¿Balance es suficiente para caballos activos?",
-                "answer": "Balance es ideal para caballos sin actividad física, actividad física ligera y moderada. Para alta competencia recomendamos Galope® Alto Rendimiento o Galope® ZEN mezclado con los complementos Galope® Energy y Galope® Protein."
-            },
-            {
-                "question": "¿Ayuda con problemas digestivos?",
-                "answer": "Sí. Su bajo contenido de almidón y fibras de calidad optimizan la salud digestiva y previenen cólicos, evitando procesos inflamatorios en todo el tracto gastrointestinal."
-            },
-            {
-                "question": "¿Cuánto tiempo para ver mejoras en pelaje?",
-                "answer": "Los cambios en pelaje y condición general se notan en las primeras 3 semanas de uso."
-            }
-        ],
-        "guarantee": [
-            {
-                "point": "30 días para ver mejora en condición general"
-            },
-            {
-                "point": "Soporte técnico durante transición"
-            },
-            {
-                "point": "Devolución completa si no hay resultados"
-            },
-            {
-                "point": "Protocolo personalizado incluido"
-            }
-        ],
-        "beforeafter": [
-            {
-                "stage": "ANTES",
-                "points": [
-                    "Pelaje opaco y sin brillo",
-                    "Digestiones irregulares o problemáticas",
-                    "Energía inconsistente durante el día",
-                    "Condición corporal variable"
-                ]
-            },
-            {
-                "stage": "DESPUÉS (3 semanas)",
-                "points": [
-                    "Pelaje brillante y sedoso naturalmente",
-                    "Mejoramiento en digestión, sin cólicos de origen por concentrados",
-                    "Energía equilibrada durante todo el día",
-                    "Condición corporal óptima mantenida constantemente"
-                ]
-            }
-        ],
-        "cases": [
-            {
-                "use": "Caballos de mantenimiento (sin actividad física, actividad física ligera y moderada)"
-            },
-            {
-                "use": "Équidos con sensibilidad digestiva"
-            },
-            {
-                "use": "Caballos senior o con metabolismo lento"
-            },
-            {
-                "use": "Caballos recreativos y de terapia"
-            },
-            {
-                "use": "Caballos con enfermedades metabólicas como: laminitis, cólicos recurrentes, hiperlipemia y resistencia a la insulina"
-            }
-        ],
-        "downloadables": [
-            {
-                "title": "Manual Completo Galope® Balance",
-                "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
-            },
-            {
-                "title": "Formulación Galope® Balance",
-                "link": "assets/docs/Formulacion_Galope_Balance.pdf"
-            },
-            {
-                "title": "Casos de Éxito en Salud General",
-                "link": "assets/docs/Casos_de_Exito_Salud_General.pdf"
-            },
-            {
-                "title": "La ciencia detrás de Galope® Balance",
-                "link": "assets/docs/Ciencia_Detras_de_Galope_Balance.pdf"
-            }
-        ],
-        "technicalvideos": [
-            {
-                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
-                "link": "https://www.youtube.com/watch?v=video1"
-            },
-            {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Balance",
-                "link": "https://www.youtube.com/watch?v=video2"
-            },
-            {
-                "title": "Casos Clínicos: Transformaciones Documentadas en Salud Integral",
-                "link": "https://www.youtube.com/watch?v=video3"
-            }
-        ]
-    },
-    {
-        "product": "reproductoras",
-        "title": "GALOPE® REPRODUCTORAS",
-        "backgroundimage": "assets/images/reproductoras/background.png",
-        "packageimage": "assets/images/reproductoras/package.png",
-        "copy": "No es solo genética. Es el futuro que alimentas desde su primer latido.",
-        "tagline": "DONDE COMIENZA LA GRANDEZA",
-        "video": "https://youtu.be/U5q3uLf7FM4?si=yg2ZI0pyAK2OuF_P",
-        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
-        "benefits": [
-            "Ácido Fólico: Para desarrollo exitoso en gestación",
-            "DHA y Omega 3: Cerebros que nacen para destacar",
-            "Calcio Biodisponible: Huesos fuertes desde el primer día",
-            "Proteína de calidad: Dos vidas que crecen sin compromiso"
-        ],
-        "cienciecebehind": "¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA? Los primeros 60 días de gestación determinan el desarrollo neurológico. Deficiencias nutricionales en este período son irreversibles. LA CIENCIA DEL DESARROLLO FETAL El ácido fólico previene defectos del tubo neural. Los ácidos grasos omega-3 son fundamentales para el desarrollo del sistema nervioso central.",
-        "howitworks": [
-            "1. Ácido fólico optimiza división celular",
-            "2. DHA forma membranas neuronales",
-            "3. Proteínas de alta calidad nutren dos metabolismos",
-            "4. Minerales quelados aseguran absorción máxima"
-        ],
-        "specifications": [
-            "Proteína Cruda: Mín. 12.0%",
-            "Grasa Cruda: Mín. 3.0%",
-            "Fibra Cruda: Máx. 12.0%",
-            "Humedad: Máx. 6.5%",
-            "Cenizas: Máx. 6.0%",
-            "ELN: 60.5%",
-            "Contenido Neto: 20kg",
-            "Presentación: Partícula extruida"
-        ],
-        "technicalsheetlink": "assets/docs/Galope_Reproductoras_Ficha_Tecnica.pdf",
-        "testimonials": [
-            {
-                "image": "assets/images/reproductoras/Marina.jpeg",
-                "name": "MARINA GONZÁLEZ TORRES",
-                "role": "Criadora Pura Sangre Inglés",
-                "quote": "Esperanza era una yegua de elite, pero tenía problemas de fertilidad. Con REPRODUCTORAS, no solo logró preñez en el segundo servicio, sino que el potro nació con peso superior al promedio. Su desarrollo a los 3 meses supera todo lo que he visto en 20 años de crianza. La inversión se recupera con el primer potro."
-            },
-            {
-                "image": "assets/images/reproductoras/Patricia.jpeg",
-                "name": "DR. PATRICIA MORENO VEGA",
-                "role": "Especialista en Reproducción Equina",
-                "quote": "He supervisado múltiples gestaciones con REPRODUCTORAS en los últimos dos años. La mayoría de potros nacieron con peso superior al promedio racial, y el desarrollo temprano es notablemente superior. La concentración de ácido fólico y DHA es la correcta según literatura internacional."
-            },
-            {
-                "image": "assets/images/reproductoras/Alejandro.jpeg",
-                "name": "ALEJANDRO CHÁZARO RUIZ",
-                "role": "Criador Cuarto de Milla",
-                "quote": "Tengo 12 yeguas reproductoras. Desde que uso REPRODUCTORAS, mis potros se venden más caros porque su conformación y desarrollo son evidentemente superiores. Las yeguas mantienen condición corporal óptima durante lactancia, algo que no lograba con otros alimentos."
-            }
-        ],
-        "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
-        ],
-        "faq": [
-            {
-                "question": "¿Cuándo comenzar a darlo en gestación?",
-                "answer": "Idealmente desde 15 días antes de la monta natural o inseminación artificial. Si ya está preñada, comenzar inmediatamente para maximizar beneficios."
-            },
-            {
-                "question": "¿Puedo usarlo en sementales activos?",
-                "answer": "Sí, REPRODUCTORAS mejora calidad y motilidad espermática y libido en sementales con actividad reproductiva."
-            },
-            {
-                "question": "¿Es seguro durante toda la gestación?",
-                "answer": "Completamente seguro. Está formulado específicamente para las necesidades cambiantes de gestación y lactancia."
-            }
-        ],
-        "guarantee": [
-            {
-                "point": "Mejora en condición reproductiva"
-            },
-            {
-                "point": "Soporte técnico veterinario especializado durante gestación"
-            },
-            {
-                "point": "Devolución completa si no hay resultados"
-            },
-            {
-                "point": "Protocolo personalizado por etapa reproductiva incluido"
-            }
-        ],
-        "beforeafter": [
-            {
-                "stage": "ANTES",
-                "points": [
-                    "Dificultades de concepción recurrentes",
-                    "Potros con peso inferior al promedio racial",
-                    "Yeguas con pérdida de condición corporal en lactancia"
-                ]
-            },
-            {
-                "stage": "DESPUÉS (6-10 semanas)",
-                "points": [
-                    "Mejores tasas de preñez",
-                    "Potros alcanzan los parámetros ideales para su talla y peso, acorde a su raza",
-                    "Yeguas mantienen condición corporal óptima durante lactancia"
-                ]
-            }
-        ],
-        "cases": [
-            {
-                "use": "Yeguas en gestación y lactancia"
-            },
-            {
-                "use": "Sementales en temporada reproductiva activa"
-            },
-            {
-                "use": "Potras y potros en crecimiento"
-            },
-            {
-                "use": "Programas de mejoramiento genético"
-            },
-            {
-                "use": "Yeguas con historial de problemas reproductivos"
-            }
-        ],
-        "downloadables": [
-            {
-                "title": "Manual Completo Galope® Reproductoras",
-                "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
-            },
-            {
-                "title": "Formulación Galope® Reproductoras",
-                "link": "assets/docs/Formulacion_Galope_Reproductoras.pdf"
-            },
-            {
-                "title": "Casos de Éxito en Crianza",
-                "link": "assets/docs/Casos_de_Exito_en_Crianza.pdf"
-            },
-            {
-                "title": "La ciencia detrás de Galope® Reproductoras",
-                "link": "assets/docs/Ciencia_Detras_de_Galope_Reproductoras.pdf"
-            }
-        ],
-        "technicalvideos": [
-            {
-                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
-                "link": "https://www.youtube.com/watch?v=video4"
-            },
-            {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Reproductoras",
-                "link": "https://www.youtube.com/watch?v=video5"
-            },
-            {
-                "title": "Casos Clínicos: Transformaciones Documentadas en Crianza",
-                "link": "https://www.youtube.com/watch?v=video6"
-            }
-        ]
-    },
-    {
         "product": "zen",
         "title": "GALOPE® ZEN",
         "backgroundimage": "assets/images/zen/background.png",
@@ -374,7 +14,7 @@
             "Minerales Equilibrados: La recuperación que tu campeón merece",
             "L-Arginina Activa: Circulación que alimenta la excelencia"
         ],
-        "cienciecebehind": "¿POR QUÉ LOS CABALLOS SE ESTRESAN? El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de proteínas y afectan la coordinacióncircular. LA CIENCIA DEL TRIPTÓFANO L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos.",
+        "cienciecebehind": "¿POR QUÉ LOS CABALLOS SE ESTRESAN? <br> El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de proteínas y afectan la coordinación circular. LA CIENCIA DEL TRIPTÓFANO L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos.",
         "howitworks": [
             "1. Triptófano cruza barrera hematoencefálica",
             "2. Se convierte en serotonina",
@@ -722,13 +362,373 @@
         ]
     },
     {
+        "product": "reproductoras",
+        "title": "GALOPE® REPRODUCTORAS",
+        "backgroundimage": "assets/images/reproductoras/background.png",
+        "packageimage": "assets/images/reproductoras/package.png",
+        "copy": "No es solo genética. Es el futuro que alimentas desde su primer latido.",
+        "tagline": "DONDE COMIENZA LA GRANDEZA",
+        "video": "https://youtu.be/U5q3uLf7FM4?si=yg2ZI0pyAK2OuF_P",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
+        "benefits": [
+            "Ácido Fólico: Para desarrollo exitoso en gestación",
+            "DHA y Omega 3: Cerebros que nacen para destacar",
+            "Calcio Biodisponible: Huesos fuertes desde el primer día",
+            "Proteína de calidad: Dos vidas que crecen sin compromiso"
+        ],
+        "cienciecebehind": "¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA? Los primeros 60 días de gestación determinan el desarrollo neurológico. Deficiencias nutricionales en este período son irreversibles. LA CIENCIA DEL DESARROLLO FETAL El ácido fólico previene defectos del tubo neural. Los ácidos grasos omega-3 son fundamentales para el desarrollo del sistema nervioso central.",
+        "howitworks": [
+            "1. Ácido fólico optimiza división celular",
+            "2. DHA forma membranas neuronales",
+            "3. Proteínas de alta calidad nutren dos metabolismos",
+            "4. Minerales quelados aseguran absorción máxima"
+        ],
+        "specifications": [
+            "Proteína Cruda: Mín. 12.0%",
+            "Grasa Cruda: Mín. 3.0%",
+            "Fibra Cruda: Máx. 12.0%",
+            "Humedad: Máx. 6.5%",
+            "Cenizas: Máx. 6.0%",
+            "ELN: 60.5%",
+            "Contenido Neto: 20kg",
+            "Presentación: Partícula extruida"
+        ],
+        "technicalsheetlink": "assets/docs/Galope_Reproductoras_Ficha_Tecnica.pdf",
+        "testimonials": [
+            {
+                "image": "assets/images/reproductoras/Marina.jpeg",
+                "name": "MARINA GONZÁLEZ TORRES",
+                "role": "Criadora Pura Sangre Inglés",
+                "quote": "Esperanza era una yegua de elite, pero tenía problemas de fertilidad. Con REPRODUCTORAS, no solo logró preñez en el segundo servicio, sino que el potro nació con peso superior al promedio. Su desarrollo a los 3 meses supera todo lo que he visto en 20 años de crianza. La inversión se recupera con el primer potro."
+            },
+            {
+                "image": "assets/images/reproductoras/Patricia.jpeg",
+                "name": "DR. PATRICIA MORENO VEGA",
+                "role": "Especialista en Reproducción Equina",
+                "quote": "He supervisado múltiples gestaciones con REPRODUCTORAS en los últimos dos años. La mayoría de potros nacieron con peso superior al promedio racial, y el desarrollo temprano es notablemente superior. La concentración de ácido fólico y DHA es la correcta según literatura internacional."
+            },
+            {
+                "image": "assets/images/reproductoras/Alejandro.jpeg",
+                "name": "ALEJANDRO CHÁZARO RUIZ",
+                "role": "Criador Cuarto de Milla",
+                "quote": "Tengo 12 yeguas reproductoras. Desde que uso REPRODUCTORAS, mis potros se venden más caros porque su conformación y desarrollo son evidentemente superiores. Las yeguas mantienen condición corporal óptima durante lactancia, algo que no lograba con otros alimentos."
+            }
+        ],
+        "galleryimages": [
+            "assets/images/gallery/G1.jpg",
+            "assets/images/gallery/G2.jpg",
+            "assets/images/gallery/G3.jpg",
+            "assets/images/gallery/G4.jpg",
+            "assets/images/gallery/G5.jpg",
+            "assets/images/gallery/G6.jpg",
+            "assets/images/gallery/G7.jpg",
+            "assets/images/gallery/G8.jpg",
+            "assets/images/gallery/G9.jpg",
+            "assets/images/gallery/G10.jpg",
+            "assets/images/gallery/G11.jpg",
+            "assets/images/gallery/G12.jpg",
+            "assets/images/gallery/G13.jpg",
+            "assets/images/gallery/G14.jpg",
+            "assets/images/gallery/G15.jpg",
+            "assets/images/gallery/G16.jpg",
+            "assets/images/gallery/G17.jpg",
+            "assets/images/gallery/G18.jpg",
+            "assets/images/gallery/G19.jpg",
+            "assets/images/gallery/G20.jpg",
+            "assets/images/gallery/G21.jpg",
+            "assets/images/gallery/G22.jpg",
+            "assets/images/gallery/G23.jpg",
+            "assets/images/gallery/G24.jpg",
+            "assets/images/gallery/G25.jpg",
+            "assets/images/gallery/G26.jpg",
+            "assets/images/gallery/G27.jpg",
+            "assets/images/gallery/G28.jpg"
+        ],
+        "faq": [
+            {
+                "question": "¿Cuándo comenzar a darlo en gestación?",
+                "answer": "Idealmente desde 15 días antes de la monta natural o inseminación artificial. Si ya está preñada, comenzar inmediatamente para maximizar beneficios."
+            },
+            {
+                "question": "¿Puedo usarlo en sementales activos?",
+                "answer": "Sí, REPRODUCTORAS mejora calidad y motilidad espermática y libido en sementales con actividad reproductiva."
+            },
+            {
+                "question": "¿Es seguro durante toda la gestación?",
+                "answer": "Completamente seguro. Está formulado específicamente para las necesidades cambiantes de gestación y lactancia."
+            }
+        ],
+        "guarantee": [
+            {
+                "point": "Mejora en condición reproductiva"
+            },
+            {
+                "point": "Soporte técnico veterinario especializado durante gestación"
+            },
+            {
+                "point": "Devolución completa si no hay resultados"
+            },
+            {
+                "point": "Protocolo personalizado por etapa reproductiva incluido"
+            }
+        ],
+        "beforeafter": [
+            {
+                "stage": "ANTES",
+                "points": [
+                    "Dificultades de concepción recurrentes",
+                    "Potros con peso inferior al promedio racial",
+                    "Yeguas con pérdida de condición corporal en lactancia"
+                ]
+            },
+            {
+                "stage": "DESPUÉS (6-10 semanas)",
+                "points": [
+                    "Mejores tasas de preñez",
+                    "Potros alcanzan los parámetros ideales para su talla y peso, acorde a su raza",
+                    "Yeguas mantienen condición corporal óptima durante lactancia"
+                ]
+            }
+        ],
+        "cases": [
+            {
+                "use": "Yeguas en gestación y lactancia"
+            },
+            {
+                "use": "Sementales en temporada reproductiva activa"
+            },
+            {
+                "use": "Potras y potros en crecimiento"
+            },
+            {
+                "use": "Programas de mejoramiento genético"
+            },
+            {
+                "use": "Yeguas con historial de problemas reproductivos"
+            }
+        ],
+        "downloadables": [
+            {
+                "title": "Manual Completo Galope® Reproductoras",
+                "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
+            },
+            {
+                "title": "Formulación Galope® Reproductoras",
+                "link": "assets/docs/Formulacion_Galope_Reproductoras.pdf"
+            },
+            {
+                "title": "Casos de Éxito en Crianza",
+                "link": "assets/docs/Casos_de_Exito_en_Crianza.pdf"
+            },
+            {
+                "title": "La ciencia detrás de Galope® Reproductoras",
+                "link": "assets/docs/Ciencia_Detras_de_Galope_Reproductoras.pdf"
+            }
+        ],
+        "technicalvideos": [
+            {
+                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
+                "link": "https://www.youtube.com/watch?v=video4"
+            },
+            {
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Reproductoras",
+                "link": "https://www.youtube.com/watch?v=video5"
+            },
+            {
+                "title": "Casos Clínicos: Transformaciones Documentadas en Crianza",
+                "link": "https://www.youtube.com/watch?v=video6"
+            }
+        ]
+    },
+    {
+        "product": "balance",
+        "title": "GALOPE® BALANCE",
+        "backgroundimage": "assets/images/balance/background.png",
+        "packageimage": "assets/images/balance/package.png",
+        "copy": "La perfección no está en la intensidad. Está en el equilibrio que sostiene la excelencia día tras día.",
+        "tagline": "EQUILIBRIO NUTRICIONAL",
+        "video": "https://youtu.be/FqCzjsBo-Zs?si=yNX79XXBNXSy-Ikx",
+        "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
+        "benefits": [
+            "Bajo en Almidón: Digestión que fluye sin complicaciones",
+            "Omega 3 Optimizado: Salud que brilla desde adentro",
+            "Fibras de calidad: El sistema digestivo que funciona como reloj",
+            "Antioxidantes Naturales: Juventud que se nota en cada movimiento"
+        ],
+        "cienciecebehind": "¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO? Dietas altas en almidón alteran el pH intestinal, generan acidosis subclínica y comprometen la absorción de nutrientes esenciales. Además favorecen el desarrollo de enfermedades metabólicas como: cólico, laminitis, hiperlipemia y resistencia a la insulina. LA CIENCIA DEL EQUILIBRIO DIGESTIVO Fibras fermentables + bajo almidón = microbiota saludable que produce vitaminas B y optimiza digestión de forrajes.",
+        "howitworks": [
+            "1. Bajo almidón mantiene pH intestinal óptimo",
+            "2. Omega 3 reduce inflamación sistémica",
+            "3. Fibras de calidad alimentan microbiota beneficiosa",
+            "4. Antioxidantes naturales protegen contra estrés oxidativo"
+        ],
+        "specifications": [
+            "Proteína Cruda: Mín. 13.0%",
+            "Grasa Cruda: Mín. 7.0%",
+            "Fibra Cruda: Máx. 12.0%",
+            "Humedad: Máx. 12.0%",
+            "Cenizas: Máx. 11.0%",
+            "ELN: 45.0%",
+            "Contenido Neto: 25kg",
+            "Presentación: Partícula extruida"
+        ],
+        "technicalsheetlink": "assets/docs/Galope_Balance_Ficha_Tecnica.pdf",
+        "testimonials": [
+            {
+                "image": "assets/images/balance/Patricia.jpeg",
+                "name": "PATRICIA HERRERA DOMÍNGUEZ",
+                "role": "Propietaria Hacienda San Miguel",
+                "quote": "Tengo 23 caballos de diferentes disciplinas. BALANCE se volvió mi base nutricional universal. Digestiones perfectas, pelajes brillantes, temperamentos equilibrados. El veterinario dice que mis caballos tienen la salud más consistente que ha visto. Es el producto que cambió mi manera de alimentar."
+            },
+            {
+                "image": "assets/images/balance/Roberto.jpeg",
+                "name": "ROBERTO SILVA MENDOZA",
+                "role": "Caballerango Jefe",
+                "quote": "Manejo 45 caballos diario. BALANCE simplificó mi trabajo y mejoró resultados. Cero cólicos en 8 meses, pelajes brillantes en todos, y los caballos están más calmados para el trabajo. Los patrones están sorprendidos con la condición general de la caballada."
+            },
+            {
+                "image": "assets/images/balance/Carmen.jpeg",
+                "name": "DRA. CARMEN ELIZABETH TORRES",
+                "role": "Veterinaria Equina",
+                "quote": "Recomiendo BALANCE para caballos con problemas digestivos crónicos. En casos tratados, la mayoría mostró mejoras significativas en 4-6 semanas. La reducción de almidón y el balance de fibras realmente optimiza la salud gastrointestinal."
+            }
+        ],
+        "galleryimages": [
+            "assets/images/gallery/G1.jpg",
+            "assets/images/gallery/G2.jpg",
+            "assets/images/gallery/G3.jpg",
+            "assets/images/gallery/G4.jpg",
+            "assets/images/gallery/G5.jpg",
+            "assets/images/gallery/G6.jpg",
+            "assets/images/gallery/G7.jpg",
+            "assets/images/gallery/G8.jpg",
+            "assets/images/gallery/G9.jpg",
+            "assets/images/gallery/G10.jpg",
+            "assets/images/gallery/G11.jpg",
+            "assets/images/gallery/G12.jpg",
+            "assets/images/gallery/G13.jpg",
+            "assets/images/gallery/G14.jpg",
+            "assets/images/gallery/G15.jpg",
+            "assets/images/gallery/G16.jpg",
+            "assets/images/gallery/G17.jpg",
+            "assets/images/gallery/G18.jpg",
+            "assets/images/gallery/G19.jpg",
+            "assets/images/gallery/G20.jpg",
+            "assets/images/gallery/G21.jpg",
+            "assets/images/gallery/G22.jpg",
+            "assets/images/gallery/G23.jpg",
+            "assets/images/gallery/G24.jpg",
+            "assets/images/gallery/G25.jpg",
+            "assets/images/gallery/G26.jpg",
+            "assets/images/gallery/G27.jpg",
+            "assets/images/gallery/G28.jpg"
+        ],
+        "faq": [
+            {
+                "question": "¿Balance es suficiente para caballos activos?",
+                "answer": "Balance es ideal para caballos sin actividad física, actividad física ligera y moderada. Para alta competencia recomendamos Galope® Alto Rendimiento o Galope® ZEN mezclado con los complementos Galope® Energy y Galope® Protein."
+            },
+            {
+                "question": "¿Ayuda con problemas digestivos?",
+                "answer": "Sí. Su bajo contenido de almidón y fibras de calidad optimizan la salud digestiva y previenen cólicos, evitando procesos inflamatorios en todo el tracto gastrointestinal."
+            },
+            {
+                "question": "¿Cuánto tiempo para ver mejoras en pelaje?",
+                "answer": "Los cambios en pelaje y condición general se notan en las primeras 3 semanas de uso."
+            }
+        ],
+        "guarantee": [
+            {
+                "point": "30 días para ver mejora en condición general"
+            },
+            {
+                "point": "Soporte técnico durante transición"
+            },
+            {
+                "point": "Devolución completa si no hay resultados"
+            },
+            {
+                "point": "Protocolo personalizado incluido"
+            }
+        ],
+        "beforeafter": [
+            {
+                "stage": "ANTES",
+                "points": [
+                    "Pelaje opaco y sin brillo",
+                    "Digestiones irregulares o problemáticas",
+                    "Energía inconsistente durante el día",
+                    "Condición corporal variable"
+                ]
+            },
+            {
+                "stage": "DESPUÉS (3 semanas)",
+                "points": [
+                    "Pelaje brillante y sedoso naturalmente",
+                    "Mejoramiento en digestión, sin cólicos de origen por concentrados",
+                    "Energía equilibrada durante todo el día",
+                    "Condición corporal óptima mantenida constantemente"
+                ]
+            }
+        ],
+        "cases": [
+            {
+                "use": "Caballos de mantenimiento (sin actividad física, actividad física ligera y moderada)"
+            },
+            {
+                "use": "Équidos con sensibilidad digestiva"
+            },
+            {
+                "use": "Caballos senior o con metabolismo lento"
+            },
+            {
+                "use": "Caballos recreativos y de terapia"
+            },
+            {
+                "use": "Caballos con enfermedades metabólicas como: laminitis, cólicos recurrentes, hiperlipemia y resistencia a la insulina"
+            }
+        ],
+        "downloadables": [
+            {
+                "title": "Manual Completo Galope® Balance",
+                "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
+            },
+            {
+                "title": "Formulación Galope® Balance",
+                "link": "assets/docs/Formulacion_Galope_Balance.pdf"
+            },
+            {
+                "title": "Casos de Éxito en Salud General",
+                "link": "assets/docs/Casos_de_Exito_Salud_General.pdf"
+            },
+            {
+                "title": "La ciencia detrás de Galope® Balance",
+                "link": "assets/docs/Ciencia_Detras_de_Galope_Balance.pdf"
+            }
+        ],
+        "technicalvideos": [
+            {
+                "title": "Proceso de Extrusión: Ciencia en Cada Partícula",
+                "link": "https://www.youtube.com/watch?v=video1"
+            },
+            {
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Balance",
+                "link": "https://www.youtube.com/watch?v=video2"
+            },
+            {
+                "title": "Casos Clínicos: Transformaciones Documentadas en Salud Integral",
+                "link": "https://www.youtube.com/watch?v=video3"
+            }
+        ]
+    },
+    {
         "product": "300-varas",
         "title": "GALOPE® 300 VARAS",
         "backgroundimage": "assets/images/300-varas/background.png",
         "packageimage": "assets/images/300-varas/package.png",
         "copy": "En la charrería, las carreras, la tradición y la ciencia se encuentran. Donde el orgullo mexicano galopa con nutrición de vanguardia.",
         "tagline": "TRADICIÓN CON CIENCIA MUNDIAL",
-        "video":"https://youtu.be/hpGTde6h5Sw?si=02_scQ0bfrS73vlD",
+        "video": "https://youtu.be/hpGTde6h5Sw?si=02_scQ0bfrS73vlD",
         "video-banner": "assets/images/300-varas/VideoPrueba.mp4",
         "benefits": [
             "Microbiota equilibrada: Digestión que respeta la naturaleza equina",
@@ -952,7 +952,9 @@
                 "image": "assets/images/energy/DrLuis.jpeg",
                 "name": "DR. LUIS FERNANDO SOTO",
                 "role": "Veterinario Deportivo",
-                "quote": "Recomiendo GALOPE® ENERGY para cualquier disciplina que requiera esfuerzo prolongado. He documentado mejoras en la mayoría de los casos donde se implementa correctamente. La liberación controlada evita acidosis y mantiene rendimiento sostenido."}],
+                "quote": "Recomiendo GALOPE® ENERGY para cualquier disciplina que requiera esfuerzo prolongado. He documentado mejoras en la mayoría de los casos donde se implementa correctamente. La liberación controlada evita acidosis y mantiene rendimiento sostenido."
+            }
+        ],
         "galleryimages": [
             "assets/images/gallery/G1.jpg",
             "assets/images/gallery/G2.jpg",
@@ -1001,11 +1003,14 @@
             {
                 "point": "30 días para ver mejora en resistencia"
             },
-            {                "point": "Soporte técnico durante transición"
+            {
+                "point": "Soporte técnico durante transición"
             },
-            {                "point": "Devolución completa si no hay resultados"
+            {
+                "point": "Devolución completa si no hay resultados"
             },
-            {                "point": "Protocolo personalizado incluido"
+            {
+                "point": "Protocolo personalizado incluido"
             }
         ],
         "beforeafter": [
@@ -1029,7 +1034,8 @@
             }
         ],
         "cases": [
-            {                "use": "Caballos de resistencia, polo, salto, reining, barriles, carreras de velocidad y endurance"
+            {
+                "use": "Caballos de resistencia, polo, salto, reining, barriles, carreras de velocidad y endurance"
             },
             {
                 "use": "Atletas que requieren energía sostenida por más de 4 horas"
@@ -1038,7 +1044,9 @@
                 "use": "Caballos con tendencia a picos y caídas de energía"
             },
             {
-                "use": "Atletas en preparación para competencias de larga duración"}],
+                "use": "Atletas en preparación para competencias de larga duración"
+            }
+        ],
         "downloadables": [
             {
                 "title": "Manual Completo Galope® Energy",
@@ -1054,7 +1062,8 @@
             },
             {
                 "title": "La ciencia detrás de Galope® Energy",
-                "link": "assets/docs/Ciencia_Detras_de_Galope_Energy.pdf"}
+                "link": "assets/docs/Ciencia_Detras_de_Galope_Energy.pdf"
+            }
         ],
         "technicalvideos": [
             {
@@ -1121,7 +1130,9 @@
                 "image": "assets/images/protein/DrFernando.jpeg",
                 "name": "DR. FERNANDO ESCALANTE",
                 "role": "Veterinario Especialista en Medicina Deportiva",
-                "quote": "PROTEIN tiene la mejor relación aminoácidos esenciales/no esenciales que he encontrado en el mercado mexicano. He recomendado a múltiples propietarios con caballos en desarrollo, y la mayoría reportan mejoras visibles en 6-8 semanas. La palatabilidad también es superior."}],
+                "quote": "PROTEIN tiene la mejor relación aminoácidos esenciales/no esenciales que he encontrado en el mercado mexicano. He recomendado a múltiples propietarios con caballos en desarrollo, y la mayoría reportan mejoras visibles en 6-8 semanas. La palatabilidad también es superior."
+            }
+        ],
         "galleryimages": [
             "assets/images/gallery/G1.jpg",
             "assets/images/gallery/G2.jpg",
@@ -1177,7 +1188,8 @@
                 "point": "Devolución completa si no hay resultados"
             },
             {
-                "point": "Protocolo personalizado incluido"}
+                "point": "Protocolo personalizado incluido"
+            }
         ],
         "beforeafter": [
             {
@@ -1196,7 +1208,9 @@
                     "Recuperación muscular acelerada",
                     "Desarrollo muscular óptimo para disciplina",
                     "Sistema inmune fortalecido"
-                ]}],
+                ]
+            }
+        ],
         "cases": [
             {
                 "use": "Caballos jóvenes en desarrollo"
@@ -1204,15 +1218,19 @@
             {
                 "use": "Cualquier disciplina deportiva y raza"
             },
-            {                "use": "Caballos en recuperación de lesiones musculares"
-            },            {
+            {
+                "use": "Caballos en recuperación de lesiones musculares"
+            },
+            {
                 "use": "Caballos que requieren mantenimiento muscular superior"
             },
             {
                 "use": "Caballos con desgaste muscular"
             },
             {
-                "use": "Rehabilitación post-enfermedad o post quirúrgica"}],
+                "use": "Rehabilitación post-enfermedad o post quirúrgica"
+            }
+        ],
         "downloadables": [
             {
                 "title": "Manual Completo Galope® Protein",
@@ -1228,7 +1246,8 @@
             },
             {
                 "title": "La ciencia detrás de Galope® Protein",
-                "link": "assets/docs/Ciencia_Detras_de_Galope_Protein.pdf"}
+                "link": "assets/docs/Ciencia_Detras_de_Galope_Protein.pdf"
+            }
         ],
         "technicalvideos": [
             {
@@ -1241,6 +1260,8 @@
             },
             {
                 "title": "Casos Clínicos: Transformaciones Documentadas en Desarrollo Muscular",
-                "link": "https://www.youtube.com/watch?v=video21"}]
+                "link": "https://www.youtube.com/watch?v=video21"
+            }
+        ]
     }
 ]
