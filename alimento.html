@@ -435,7 +435,7 @@
                                 <!-- <p id="product-description-2">Additional description.</p> -->
                             </div>
                             <div class="content-two mb_60">
-                                <h3>Beneficios</h3>
+                                <h3>BENEFICIOS</h3>
                                 <ul class="list-item clearfix mb_65" id="benefits-list">
                                     <!-- Benefits will be populated here -->
                                 </ul>
@@ -446,7 +446,7 @@
                                     <!-- background-image goes here -->
                                     <div class="text-box">
                                         <h3 id="how-it-works-title">How does this benefit you?</h3>
-                                        <ul id="how-it-works-description" class="list-item clearfix"></ul>
+                                        <ul id="how-it-works-description" class=" clearfix" style="list-style: none;"></ul>
                                         <!-- <a href="#" class="theme-btn btn-two" id="cta-button">Learn More</a> -->
                                     </div>
                                 </div>
@@ -464,7 +464,7 @@
                                 <div class="inner-box">
 
                                     <div class="text-box">
-                                        <h3>Especificaciones Técnicas</h3>
+                                        <h3>ESPECIFICACIONES TÉCNICAS</h3>
                                         <ul class="list-item clearfix mb_65" id="specifications-list">
                                             <!-- Specifications will be populated here -->
                                         </ul>
@@ -476,26 +476,26 @@
 
                             </div>
                             <div class="content-two mb_60">
-                                <h3>Testimonios</h3>
+                                <h3>TESTIMONIOS</h3>
                                 <div id="testimonials-container">
                                     <!-- Testimonials will be populated here -->
                                 </div>
                             </div>
                             <div class="content-two mb_60">
-                                <h3>Galería</h3>
+                                <h3>GALERÍA</h3>
                                 <div id="gallery-container">
                                     <!-- Gallery images will be populated here -->
                                 </div>
                             </div>
                             <div class="content-two mb_60">
-                                <h3>Garantía</h3>
+                                <h3>GARANTÍA</h3>
                                 <ul class="list-item clearfix mb_65" id="guarantee-list">
                                     <!-- Guarantee points will be populated here -->
                                 </ul>
                             </div>
 
                             <div class="content-two mb_60">
-                                <h3>Casos de Uso</h3>
+                                <h3>CASOS DE USO</h3>
                                 <ul class="list-item clearfix mb_65" id="cases-list">
                                     <!-- Cases will be populated here -->
                                 </ul>
@@ -549,8 +549,8 @@
                         <p class="text-white">Recibe casos de éxito y consejos prácticos directamente en tu correo.</p>
                     </div>
                     <div class="btn-box">
-                        <a href="signup.html" class="theme-btn btn-one border">Suscribete</a>
-                        <a href="contact.html" class="theme-btn btn-one border">Contáctanos</a>
+                        <a href="signup.html" class="theme-btn btn-one border">SUSCRÍBETE</a>
+                        <a href="contact.html" class="theme-btn btn-one border">CONTÁCTANOS</a>
                     </div>
                 </div>
             </div>
@@ -752,7 +752,7 @@
 
             // Update tagline and descriptions
             document.getElementById('product-tagline').textContent = product.tagline;
-            document.getElementById('product-description').textContent = product.cienciecebehind || 'Description not available';
+            document.getElementById('product-description').innerHTML = product.cienciecebehind || 'Description not available';
             //document.getElementById('product-description-2').textContent = product.howitworks ? product.howitworks.join(' ') : '';
 
             // Update benefits
@@ -767,7 +767,7 @@
             }
 
             // Update how it works section
-            document.getElementById('how-it-works-title').textContent = 'Cómo Funciona';
+            document.getElementById('how-it-works-title').textContent = 'CÓMO FUNCIONA';
             const howItWorksList = document.getElementById('how-it-works-description');
             howItWorksList.innerHTML = '';
             if (product.howitworks) {

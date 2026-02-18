@@ -14,7 +14,7 @@
             "Minerales Equilibrados: La recuperación que tu campeón merece",
             "L-Arginina Activa: Circulación que alimenta la excelencia"
         ],
-        "cienciecebehind": "¿POR QUÉ LOS CABALLOS SE ESTRESAN? <br> El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de proteínas y afectan la coordinación circular. LA CIENCIA DEL TRIPTÓFANO L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos.",
+        "cienciecebehind": "<strong>¿POR QUÉ LOS CABALLOS SE ESTRESAN?</strong> <br> El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de proteínas y afectan la coordinación circular. <br><br> <strong>LA CIENCIA DEL TRIPTÓFANO</strong> <br> L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos.",
         "howitworks": [
             "1. Triptófano cruza barrera hematoencefálica",
             "2. Se convierte en serotonina",
@@ -22,14 +22,14 @@
             "4. Mejora concentración y coordinación"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 12.0%",
-            "Grasa Cruda: Mín. 6.5%",
-            "Fibra Cruda: Máx. 12.0%",
-            "Humedad: Máx. 11.0%",
-            "Cenizas: Máx. 10.0%",
-            "ELN: 48.5%",
-            "Contenido Neto: 20kg",
-            "Presentación: Partícula extruida"
+            "<strong>Proteína Cruda:</strong> Mín. 12.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 6.5%",
+            "<strong>Fibra Cruda:</strong> Máx. 11.0%",
+            "<strong>Humedad:</strong> Máx. 12.0%",
+            "<strong>Cenizas:</strong> Máx. 10.0%",
+            "<strong>ELN:</strong> 48.5%",
+            "<strong>Contenido Neto:</strong> 20kg",
+            "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_ZEN_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -37,19 +37,19 @@
                 "image": "assets/images/zen/SofiaCastillo.png",
                 "name": "SOFÍA CASTILLO MARTÍNEZ",
                 "role": "Amazona de Doma Clásica – Campeona Panamericana",
-                "quote": "Emperador era un caballo talentoso, pero extremadamente reactivo en competencias. Después de implementar ZEN con la dosificación exacta para trabajo muy intenso, los cambios fueron evidentes en la tercera semana. Su concentración durante las reprises mejoró dramáticamente - pasamos de promediar 73.2% a 76.8% en nuestras pruebas de Gran Premio. Lo más impresionante es que mantiene toda su energía y brillantez, pero ahora canalizada hacia la precisión. ZEN equilibra."
+                "quote": "Emperador era un caballo talentoso, pero extremadamente reactivo en competencias. Después de implementar GALOPE® ZEN con la dosificación exacta para trabajo muy intenso, los cambios fueron evidentes en la tercera semana. Su concentración durante las reprises mejoró dramáticamente - pasamos de promediar 73.2% a 76.8% en nuestras pruebas de Gran Premio. Lo más impresionante es que mantiene toda su energía y brillantez, pero ahora canalizada hacia la precisión. GALOPE® ZEN equilibra."
             },
             {
                 "image": "assets/images/zen/AlejandraRuiz.jpeg",
                 "name": "ALEJANDRA RUIZ CORTÉS",
                 "role": "Entrenadora de Doma Centro Ecuestre La Silla, Monterrey - 12 años de experiencia",
-                "quote": "Entreno 8 caballos de doma de diferentes propietarios. ZEN ha sido mi secreto para caballos nerviosos. Tengo un caso específico: yegua Hanoveriana que perdía concentración en reprises largas. Después de 4 semanas con ZEN, su atención sostenida mejoró dramáticamente. Ahora completa Grand Prix sin perder precisión. El triptófano realmente funciona sin sedar."
+                "quote": "Entreno 8 caballos de doma de diferentes propietarios. GALOPE® ZEN ha sido mi secreto para caballos nerviosos. Tengo un caso específico: yegua Hanoveriana que perdía concentración en reprises largas. Después de 4 semanas con GALOPE® ZEN, su atención sostenida mejoró dramáticamente. Ahora completa Grand Prix sin perder precisión. El triptófano realmente funciona sin sedar."
             },
             {
                 "image": "assets/images/zen/Pablo.jpeg",
                 "name": "VETERINARIO DR. PABLO MENDOZA",
                 "role": "Especialista en Medicina Deportiva Equina",
-                "quote": "He recomendado ZEN a múltiples clientes con caballos hiperactivos. La mayoría mostró mejoras medibles en concentración dentro de las primeras 3 semanas. La fórmula es científicamente sólida: triptófano biodisponible + complejo B para metabolismo de neurotransmisores. Es el único alimento que he encontrado que calma sin comprometer el rendimiento atlético."
+                "quote": "He recomendado GALOPE® ZEN a múltiples clientes con caballos hiperactivos. La mayoría mostró mejoras medibles en concentración dentro de las primeras 3 semanas. La fórmula es científicamente sólida: triptófano biodisponible + complejo B para metabolismo de neurotransmisores. Es el único alimento que he encontrado que calma sin comprometer el rendimiento atlético."
             }
         ],
         "galleryimages": [
@@ -84,16 +84,16 @@
         ],
         "faq": [
             {
-                "question": "¿Galope ZEN sedará a mi caballo?",
-                "answer": "No. Galope® ZEN equilibra neurotransmisores naturalmente sin efectos sedantes. Mantiene energía mientras mejora concentración."
+                "question": "GALOPE® ZEN SEDARÁ A MI CABALLO?",
+                "answer": "No. GALOPE® ZEN equilibra neurotransmisores naturalmente sin efectos sedantes. Mantiene energía mientras mejora concentración."
             },
             {
-                "question": "¿Cuánto tiempo tarda en hacer efecto?",
+                "question": "¿CUÁNTO TIEMPO TARDA EN HACER EFECTO?",
                 "answer": "Los primeros cambios se notan entre 10-15 días. El efecto completo se establece a las 4-6 semanas."
             },
             {
-                "question": "¿Puedo usarlo con otros complementos?",
-                "answer": "Sí, ZEN es compatible con los complementos Galope® Energy y Galope® Protein. Consulta con nuestro técnico nutricionista para protocolo específico."
+                "question": "¿PUEDO USARLO CON OTROS COMPLEMENTOS?",
+                "answer": "Sí, GALOPE® ZEN es compatible con los complementos GALOPE® ENERGY y GALOPE® PROTEIN. Consulta con nuestro técnico nutricionista para protocolo específico."
             }
         ],
         "guarantee": [
@@ -146,11 +146,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® ZEN",
+                "title": "Manual Completo GALOPE® ZEN",
                 "link": "assets/docs/Manual_Completo_Galope_ZEN.pdf"
             },
             {
-                "title": "Formulación Galope® ZEN",
+                "title": "Formulación GALOPE® ZEN",
                 "link": "assets/docs/Formulacion_Galope_ZEN.pdf"
             },
             {
@@ -158,7 +158,7 @@
                 "link": "assets/docs/Casos_de_Exito.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® ZEN",
+                "title": "La ciencia detrás de GALOPE® ZEN",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_ZEN.pdf"
             }
         ],
@@ -168,7 +168,7 @@
                 "link": "https://www.youtube.com/watch?v=video7"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® ZEN",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado GALOPE® ZEN",
                 "link": "https://www.youtube.com/watch?v=video8"
             },
             {
@@ -192,7 +192,7 @@
             "Recuperación Acelerada: Porque el descanso también es entrenamiento",
             "Resistencia Prolongada: Para cuando rendirse no es una opción"
         ],
-        "cienciecebehind": "¿POR QUÉ LOS ATLETAS EQUINOS NECESITAN MÁS? Durante ejercicio intenso, los músculos consumen glucógeno a velocidades extremas. Sin reposición adecuada de aminoácidos, aparece fatiga muscular prematura. LA CIENCIA DE LOS AMINOÁCIDOS L-lisina y metionina son aminoácidos limitantes en equinos. Su disponibilidad determina la síntesis proteica muscular y la capacidad de recuperación.",
+        "cienciecebehind": "<strong>¿POR QUÉ LOS ATLETAS EQUINOS NECESITAN MÁS?</strong> <br>Durante ejercicio intenso, los músculos consumen glucógeno a velocidades extremas. Sin reposición adecuada de aminoácidos, aparece fatiga muscular prematura.<br><br><strong>LA CIENCIA DE LOS AMINOÁCIDOS</strong><br> L-lisina y metionina son aminoácidos limitantes en equinos. Su disponibilidad determina la síntesis proteica muscular y la capacidad de recuperación.",
         "howitworks": [
             "1. Aminoácidos biodisponibles alimentan síntesis proteica",
             "2. Carbohidratos complejos liberan energía gradualmente",
@@ -200,14 +200,14 @@
             "4. Maximiza VO2 y reduce tiempo de recuperación"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 14.0%",
-            "Grasa Cruda: Mín. 5.0%",
-            "Fibra Cruda: Máx. 12.0%",
-            "Humedad: Máx. 7.5%",
-            "Cenizas: Máx. 6.5%",
-            "ELN: 55%",
-            "Contenido Neto: 20kg",
-            "Presentación: Partícula extruida"
+            "<strong>Proteína Cruda:</strong> Mín. 14.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 5.0%",
+            "<strong>Fibra Cruda:</strong> Máx. 7.5%",
+            "<strong>Humedad:</strong> Máx. 12.0%",
+            "<strong>Cenizas:</strong> Máx. 6.5%",
+            "<strong>ELN:</strong> 55%",
+            "<strong>Contenido Neto:</strong> 20kg",
+            "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Alto_Rendimiento_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -227,7 +227,7 @@
                 "image": "assets/images/alto-rendimiento/Sofia.jpeg",
                 "name": "SOFÍA ELIZONDO RUIZ",
                 "role": "Entrenadora de Polo - 12 años de experiencia",
-                "quote": "Entreno 8 caballos de polo. ALTO RENDIMIENTO cambió mi string completo. Mis caballos mantienen velocidad y agilidad del primer al séptimo chukker. La diferencia es que no se 'queman' como antes - terminan el partido con energía controlada. Llevamos 4 torneos consecutivos con resultados superiores."
+                "quote": "Entreno 8 caballos de polo. GALOPE® ALTO RENDIMIENTO cambió mi string completo. Mis caballos mantienen velocidad y agilidad del primer al séptimo chukker. La diferencia es que no se 'queman' como antes - terminan el partido con energía controlada. Llevamos 4 torneos consecutivos con resultados superiores."
             }
         ],
         "galleryimages": [
@@ -262,15 +262,15 @@
         ],
         "faq": [
             {
-                "question": "¿Alto Rendimiento afectará el temperamento de mi caballo?",
-                "answer": "No. Alto Rendimiento proporciona energía controlada sin alterar el comportamiento. Mantiene el temperamento mientras optimiza la capacidad atlética."
+                "question": "¿GALOPE® ALTO RENDIMIENTO AFECTARÁ EL TEMPERAMENTO DE MI CABALLO?",
+                "answer": "No. GALOPE® ALTO RENDIMIENTO proporciona energía controlada sin alterar el comportamiento. Mantiene el temperamento mientras optimiza la capacidad atlética."
             },
             {
-                "question": "¿Cuándo veré mejoras en resistencia?",
+                "question": "¿CUÁNDO VERÉ MEJORAS EN RESISTENCIA?",
                 "answer": "Las mejoras en resistencia y recuperación suelen notarse entre 3-4 semanas de uso constante."
             },
             {
-                "question": "¿Es seguro para competencias oficiales?",
+                "question": "¿ES SEGURO PARA COMPETENCIAS OFICIALES?",
                 "answer": "Absolutamente. Todos los ingredientes están aprobados por FEI y organizaciones deportivas de nivel internacional."
             }
         ],
@@ -330,11 +330,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® Alto Rendimiento",
+                "title": "Manual Completo GALOPE® ALTO RENDIMIENTO",
                 "link": "assets/docs/Manual_Completo_Galope_Alto_Rendimiento.pdf"
             },
             {
-                "title": "Formulación Galope® Alto Rendimiento",
+                "title": "Formulación GALOPE® ALTO RENDIMIENTO",
                 "link": "assets/docs/Formulacion_Galope_Alto_Rendimiento.pdf"
             },
             {
@@ -342,7 +342,7 @@
                 "link": "assets/docs/Casos_de_Exito_Deportivos.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® Alto Rendimiento",
+                "title": "La ciencia detrás de GALOPE® ALTO RENDIMIENTO",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Alto_Rendimiento.pdf"
             }
         ],
@@ -352,7 +352,7 @@
                 "link": "https://www.youtube.com/watch?v=video10"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Alto Rendimiento",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado GALOPE® ALTO RENDIMIENTO",
                 "link": "https://www.youtube.com/watch?v=video11"
             },
             {
@@ -376,7 +376,7 @@
             "Calcio Biodisponible: Huesos fuertes desde el primer día",
             "Proteína de calidad: Dos vidas que crecen sin compromiso"
         ],
-        "cienciecebehind": "¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA? Los primeros 60 días de gestación determinan el desarrollo neurológico. Deficiencias nutricionales en este período son irreversibles. LA CIENCIA DEL DESARROLLO FETAL El ácido fólico previene defectos del tubo neural. Los ácidos grasos omega-3 son fundamentales para el desarrollo del sistema nervioso central.",
+        "cienciecebehind": "<strong>¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA?</strong><br> Los primeros 60 días de gestación determinan el desarrollo neurológico. Deficiencias nutricionales en este período son irreversibles. <br><br><strong>LA CIENCIA DEL DESARROLLO FETAL</strong><br> El ácido fólico previene defectos del tubo neural. Los ácidos grasos omega-3 son fundamentales para el desarrollo del sistema nervioso central.",
         "howitworks": [
             "1. Ácido fólico optimiza división celular",
             "2. DHA forma membranas neuronales",
@@ -384,14 +384,14 @@
             "4. Minerales quelados aseguran absorción máxima"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 12.0%",
-            "Grasa Cruda: Mín. 3.0%",
-            "Fibra Cruda: Máx. 12.0%",
-            "Humedad: Máx. 6.5%",
-            "Cenizas: Máx. 6.0%",
-            "ELN: 60.5%",
-            "Contenido Neto: 20kg",
-            "Presentación: Partícula extruida"
+            "<strong>Proteína Cruda:</strong> Mín. 12.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 3.0%",
+            "<strong>Fibra Cruda:</strong> Máx. 6.5%",
+            "<strong>Humedad:</strong> Máx. 12.0%",
+            "<strong>Cenizas:</strong> Máx. 6.0%",
+            "<strong>ELN:</strong> 60.5%",
+            "<strong>Contenido Neto:</strong> 20kg",
+            "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Reproductoras_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -399,19 +399,19 @@
                 "image": "assets/images/reproductoras/Marina.jpeg",
                 "name": "MARINA GONZÁLEZ TORRES",
                 "role": "Criadora Pura Sangre Inglés",
-                "quote": "Esperanza era una yegua de elite, pero tenía problemas de fertilidad. Con REPRODUCTORAS, no solo logró preñez en el segundo servicio, sino que el potro nació con peso superior al promedio. Su desarrollo a los 3 meses supera todo lo que he visto en 20 años de crianza. La inversión se recupera con el primer potro."
+                "quote": "Esperanza era una yegua de elite, pero tenía problemas de fertilidad. Con GALOPE® REPRODUCTORAS, no solo logró preñez en el segundo servicio, sino que el potro nació con peso superior al promedio. Su desarrollo a los 3 meses supera todo lo que he visto en 20 años de crianza. La inversión se recupera con el primer potro."
             },
             {
                 "image": "assets/images/reproductoras/Patricia.jpeg",
                 "name": "DR. PATRICIA MORENO VEGA",
                 "role": "Especialista en Reproducción Equina",
-                "quote": "He supervisado múltiples gestaciones con REPRODUCTORAS en los últimos dos años. La mayoría de potros nacieron con peso superior al promedio racial, y el desarrollo temprano es notablemente superior. La concentración de ácido fólico y DHA es la correcta según literatura internacional."
+                "quote": "He supervisado múltiples gestaciones con GALOPE® REPRODUCTORAS en los últimos dos años. La mayoría de potros nacieron con peso superior al promedio racial, y el desarrollo temprano es notablemente superior. La concentración de ácido fólico y DHA es la correcta según literatura internacional."
             },
             {
                 "image": "assets/images/reproductoras/Alejandro.jpeg",
                 "name": "ALEJANDRO CHÁZARO RUIZ",
                 "role": "Criador Cuarto de Milla",
-                "quote": "Tengo 12 yeguas reproductoras. Desde que uso REPRODUCTORAS, mis potros se venden más caros porque su conformación y desarrollo son evidentemente superiores. Las yeguas mantienen condición corporal óptima durante lactancia, algo que no lograba con otros alimentos."
+                "quote": "Tengo 12 yeguas reproductoras. Desde que uso GALOPE® REPRODUCTORAS, mis potros se venden más caros porque su conformación y desarrollo son evidentemente superiores. Las yeguas mantienen condición corporal óptima durante lactancia, algo que no lograba con otros alimentos."
             }
         ],
         "galleryimages": [
@@ -446,15 +446,15 @@
         ],
         "faq": [
             {
-                "question": "¿Cuándo comenzar a darlo en gestación?",
+                "question": "¿CUÁNDO COMENZAR A DARLO EN GESTACIÓN?",
                 "answer": "Idealmente desde 15 días antes de la monta natural o inseminación artificial. Si ya está preñada, comenzar inmediatamente para maximizar beneficios."
             },
             {
-                "question": "¿Puedo usarlo en sementales activos?",
-                "answer": "Sí, REPRODUCTORAS mejora calidad y motilidad espermática y libido en sementales con actividad reproductiva."
+                "question": "¿PUEDO USARLO EN SEMENTALES ACTIVOS?",
+                "answer": "Sí, GALOPE® REPRODUCTORAS mejora calidad y motilidad espermática y libido en sementales con actividad reproductiva."
             },
             {
-                "question": "¿Es seguro durante toda la gestación?",
+                "question": "¿ES SEGURO DURANTE TODA LA GESTACIÓN?",
                 "answer": "Completamente seguro. Está formulado específicamente para las necesidades cambiantes de gestación y lactancia."
             }
         ],
@@ -509,11 +509,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® Reproductoras",
+                "title": "Manual Completo  Reproductoras",
                 "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
             },
             {
-                "title": "Formulación Galope® Reproductoras",
+                "title": "Formulación  Reproductoras",
                 "link": "assets/docs/Formulacion_Galope_Reproductoras.pdf"
             },
             {
@@ -521,7 +521,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Crianza.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® Reproductoras",
+                "title": "La ciencia detrás de  Reproductoras",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Reproductoras.pdf"
             }
         ],
@@ -531,7 +531,7 @@
                 "link": "https://www.youtube.com/watch?v=video4"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Reproductoras",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado  Reproductoras",
                 "link": "https://www.youtube.com/watch?v=video5"
             },
             {
@@ -555,7 +555,7 @@
             "Fibras de calidad: El sistema digestivo que funciona como reloj",
             "Antioxidantes Naturales: Juventud que se nota en cada movimiento"
         ],
-        "cienciecebehind": "¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO? Dietas altas en almidón alteran el pH intestinal, generan acidosis subclínica y comprometen la absorción de nutrientes esenciales. Además favorecen el desarrollo de enfermedades metabólicas como: cólico, laminitis, hiperlipemia y resistencia a la insulina. LA CIENCIA DEL EQUILIBRIO DIGESTIVO Fibras fermentables + bajo almidón = microbiota saludable que produce vitaminas B y optimiza digestión de forrajes.",
+        "cienciecebehind": "<strong>¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO?</strong><br> Dietas altas en almidón alteran el pH intestinal, generan acidosis subclínica y comprometen la absorción de nutrientes esenciales. Además favorecen el desarrollo de enfermedades metabólicas como: cólico, laminitis, hiperlipemia y resistencia a la insulina. <br><br><strong>LA CIENCIA DEL EQUILIBRIO DIGESTIVO</strong><br> Fibras fermentables + bajo almidón = microbiota saludable que produce vitaminas B y optimiza digestión de forrajes.",
         "howitworks": [
             "1. Bajo almidón mantiene pH intestinal óptimo",
             "2. Omega 3 reduce inflamación sistémica",
@@ -563,14 +563,14 @@
             "4. Antioxidantes naturales protegen contra estrés oxidativo"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 13.0%",
-            "Grasa Cruda: Mín. 7.0%",
-            "Fibra Cruda: Máx. 12.0%",
-            "Humedad: Máx. 12.0%",
-            "Cenizas: Máx. 11.0%",
-            "ELN: 45.0%",
-            "Contenido Neto: 25kg",
-            "Presentación: Partícula extruida"
+            "<strong>Proteína Cruda:</strong> Mín. 13.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 7.0%",
+            "<strong>Fibra Cruda:</strong> Máx. 12.0%",
+            "<strong>Humedad:</strong> Máx. 12.0%",
+            "<strong>Cenizas:</strong> Máx. 11.0%",
+            "<strong>ELN:</strong> 45.0%",
+            "<strong>Contenido Neto:</strong> 25kg",
+            "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Balance_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -578,19 +578,19 @@
                 "image": "assets/images/balance/Patricia.jpeg",
                 "name": "PATRICIA HERRERA DOMÍNGUEZ",
                 "role": "Propietaria Hacienda San Miguel",
-                "quote": "Tengo 23 caballos de diferentes disciplinas. BALANCE se volvió mi base nutricional universal. Digestiones perfectas, pelajes brillantes, temperamentos equilibrados. El veterinario dice que mis caballos tienen la salud más consistente que ha visto. Es el producto que cambió mi manera de alimentar."
+                "quote": "Tengo 23 caballos de diferentes disciplinas. GALOPE® BALANCE se volvió mi base nutricional universal. Digestiones perfectas, pelajes brillantes, temperamentos equilibrados. El veterinario dice que mis caballos tienen la salud más consistente que ha visto. Es el producto que cambió mi manera de alimentar."
             },
             {
                 "image": "assets/images/balance/Roberto.jpeg",
                 "name": "ROBERTO SILVA MENDOZA",
                 "role": "Caballerango Jefe",
-                "quote": "Manejo 45 caballos diario. BALANCE simplificó mi trabajo y mejoró resultados. Cero cólicos en 8 meses, pelajes brillantes en todos, y los caballos están más calmados para el trabajo. Los patrones están sorprendidos con la condición general de la caballada."
+                "quote": "Manejo 45 caballos diario. GALOPE® BALANCE simplificó mi trabajo y mejoró resultados. Cero cólicos en 8 meses, pelajes brillantes en todos, y los caballos están más calmados para el trabajo. Los patrones están sorprendidos con la condición general de la caballada."
             },
             {
                 "image": "assets/images/balance/Carmen.jpeg",
                 "name": "DRA. CARMEN ELIZABETH TORRES",
                 "role": "Veterinaria Equina",
-                "quote": "Recomiendo BALANCE para caballos con problemas digestivos crónicos. En casos tratados, la mayoría mostró mejoras significativas en 4-6 semanas. La reducción de almidón y el balance de fibras realmente optimiza la salud gastrointestinal."
+                "quote": "Recomiendo GALOPE® BALANCE para caballos con problemas digestivos crónicos. En casos tratados, la mayoría mostró mejoras significativas en 4-6 semanas. La reducción de almidón y el balance de fibras realmente optimiza la salud gastrointestinal."
             }
         ],
         "galleryimages": [
@@ -625,15 +625,15 @@
         ],
         "faq": [
             {
-                "question": "¿Balance es suficiente para caballos activos?",
-                "answer": "Balance es ideal para caballos sin actividad física, actividad física ligera y moderada. Para alta competencia recomendamos Galope® Alto Rendimiento o Galope® ZEN mezclado con los complementos Galope® Energy y Galope® Protein."
+                "question": "¿GALOPE® BALANCE ES SUFICIENTE PARA CABALLOS ACTIVOS?",
+                "answer": "GALOPE® BALANCE es ideal para caballos sin actividad física, actividad física ligera y moderada. Para alta competencia recomendamos GALOPE® ALTO RENDIMIENTO o GALOPE® ZEN mezclado con los complementos GALOPE® ENERGY y GALOPE® PROTEIN."
             },
             {
-                "question": "¿Ayuda con problemas digestivos?",
+                "question": "¿AYUDA CON PROBLEMAS DIGESTIVOS?",
                 "answer": "Sí. Su bajo contenido de almidón y fibras de calidad optimizan la salud digestiva y previenen cólicos, evitando procesos inflamatorios en todo el tracto gastrointestinal."
             },
             {
-                "question": "¿Cuánto tiempo para ver mejoras en pelaje?",
+                "question": "¿CUÁNTO TIEMPO PARA VER MEJORAS EN PELAJE?",
                 "answer": "Los cambios en pelaje y condición general se notan en las primeras 3 semanas de uso."
             }
         ],
@@ -690,11 +690,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® Balance",
+                "title": "Manual Completo  Balance",
                 "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
             },
             {
-                "title": "Formulación Galope® Balance",
+                "title": "Formulación  Balance",
                 "link": "assets/docs/Formulacion_Galope_Balance.pdf"
             },
             {
@@ -702,7 +702,7 @@
                 "link": "assets/docs/Casos_de_Exito_Salud_General.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® Balance",
+                "title": "La ciencia detrás de  Balance",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Balance.pdf"
             }
         ],
@@ -712,7 +712,7 @@
                 "link": "https://www.youtube.com/watch?v=video1"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Balance",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado  Balance",
                 "link": "https://www.youtube.com/watch?v=video2"
             },
             {
@@ -736,7 +736,7 @@
             "Resistencia: Para jornadas que no admiten descanso",
             "Libre de Polvos: Pureza en cada bocado, respeto en cada grano"
         ],
-        "cienciecebehind": "¿POR QUÉ LA CHARRERÍA EXIGE NUTRICIÓN ESPECÍFICA? Competencias de charrería requieren agilidad en suertes cortas seguidas de recuperación rápida. El sistema digestivo debe optimizar la nutrición disponible. LA CIENCIA DE LA MICROBIOTA EQUILIBRADA Prebióticos y probióticos específicos alimentan microorganismos beneficiosos que fermentan fibra eficientemente.",
+        "cienciecebehind": "<strong>¿POR QUÉ LA CHARRERÍA EXIGE NUTRICIÓN ESPECÍFICA?</strong><br>Competencias de charrería requieren agilidad en suertes cortas seguidas de recuperación rápida. El sistema digestivo debe optimizar la nutrición disponible.<br><br><strong>LA CIENCIA DE LA MICROBIOTA EQUILIBRADA</strong><br> Prebióticos y probióticos específicos alimentan microorganismos beneficiosos que fermentan fibra eficientemente.",
         "howitworks": [
             "1. Prebióticos y probióticos nutren microbiota especializada",
             "2. Multipartículas aseguran palatabilidad superior",
@@ -744,14 +744,14 @@
             "4. Libre de polvos evita problemas respiratorios"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 12.0%",
-            "Grasa Cruda: Mín. 3.5%",
-            "Fibra Cruda: Máx. 11.5%",
-            "Humedad: Máx. 6.0%",
-            "Cenizas: Máx. 7.0%",
-            "ELN: 60.0%",
-            "Contenido Neto: 25kg",
-            "Presentación: Multipartículas"
+            "<strong>Proteína Cruda:</strong> Mín. 12.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 3.5%",
+            "<strong>Fibra Cruda:</strong> Máx. 6.0%",
+            "<strong>Humedad:</strong> Máx. 11.5%",
+            "<strong>Cenizas:</strong> Máx. 7.0%",
+            "<strong>ELN:</strong> 60.0%",
+            "<strong>Contenido Neto:</strong> 25kg",
+            "<strong>Presentación:</strong> Multipartículas"
         ],
         "technicalsheetlink": "assets/docs/Galope_300_Varas_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -759,19 +759,19 @@
                 "image": "assets/images/300-varas/Ernesto.png",
                 "name": "MAESTRO CHARRO ERNESTO VILLA HERNÁNDEZ",
                 "role": "Campeón Nacional de Charrería",
-                "quote": "Palomo llevaba 15 años conmigo, pero ya no tenía la resistencia para competencias largas. Con 300 VARAS recuperó la fuerza de sus mejores años. En el Nacional pasado completó las 10 suertes sin fatiga visible. Es como si hubiera rejuvenecido 5 años. La tradición merece ciencia."
+                "quote": "Palomo llevaba 15 años conmigo, pero ya no tenía la resistencia para competencias largas. Con GALOPE® 300 VARAS recuperó la fuerza de sus mejores años. En el Nacional pasado completó las 10 suertes sin fatiga visible. Es como si hubiera rejuvenecido 5 años. La tradición merece ciencia."
             },
             {
                 "image": "assets/images/300-varas/MariaElena.png",
                 "name": "MARÍA ELENA RODRÍGUEZ CUEVAS",
                 "role": "Escaramuzera",
-                "quote": "Mis tres yeguas de escaramuza necesitaban resistencia para coreografías complejas de 8 minutos. Con 300 VARAS mantienen elegancia y potencia durante toda la rutina. Sus pelajes brillan como nunca, y la coordinación en grupo mejoró porque terminan con la misma energía que empiezan."
+                "quote": "Mis tres yeguas de escaramuza necesitaban resistencia para coreografías complejas de 8 minutos. Con GALOPE® 300 VARAS mantienen elegancia y potencia durante toda la rutina. Sus pelajes brillan como nunca, y la coordinación en grupo mejoró porque terminan con la misma energía que empiezan."
             },
             {
                 "image": "assets/images/300-varas/Jose.png",
                 "name": "INGENIERO ZOOTECNISTA JOSÉ LUIS TORRES",
                 "role": "Especialista en Nutrición de Caballos de Trabajo",
-                "quote": "300 VARAS es el único alimento que he encontrado específicamente pensado para caballos de trabajo. Las multipartículas son perfectas para paladares exigentes, y la microbiota equilibrada optimiza la digestión. He implementado en 8 ranchos con resultados consistentes."
+                "quote": "GALOPE® 300 VARAS es el único alimento que he encontrado específicamente pensado para caballos de trabajo. Las multipartículas son perfectas para paladares exigentes, y la microbiota equilibrada optimiza la digestión. He implementado en 8 ranchos con resultados consistentes."
             }
         ],
         "galleryimages": [
@@ -806,16 +806,16 @@
         ],
         "faq": [
             {
-                "question": "¿300 Varas es específico solo para charrería?",
+                "question": "¿GALOPE® 300 VARAS ES ESPECÍFICO SOLO PARA CHARRERÍA?",
                 "answer": "Aunque está optimizado para charrería, es excelente para cualquier caballo de trabajo intenso y tradicional."
             },
             {
-                "question": "¿La presentación multipartículas es diferente al extruido?",
+                "question": "¿LA PRESENTACIÓN MULTIPARTÍCULAS ES DIFERENTE AL EXTRUIDO?",
                 "answer": "Sí. Las multipartículas ofrecen palatabilidad superior y digestión gradual, ideal para caballos de trabajo."
             },
             {
-                "question": "¿Mejorará la resistencia en competencias largas?",
-                "answer": "Definitivamente. La mutaci�n equilibrada optimiza la digestión de fibra, base de la resistencia equina."
+                "question": "¿MEJORARÁ LA RESISTENCIA EN COMPETENCIAS LARGAS?",
+                "answer": "Definitivamente. La mutación equilibrada optimiza la digestión de fibra, base de la resistencia equina."
             }
         ],
         "guarantee": [
@@ -871,11 +871,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® 300 Varas",
+                "title": "Manual Completo GALOPE® 300 VARAS",
                 "link": "assets/docs/Manual_Completo_Galope_300_Varas.pdf"
             },
             {
-                "title": "Formulación Galope® 300 Varas",
+                "title": "Formulación GALOPE® 300 VARAS",
                 "link": "assets/docs/Formulacion_Galope_300_Varas.pdf"
             },
             {
@@ -883,7 +883,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Charreria.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® 300 Varas",
+                "title": "La ciencia detrás de GALOPE® 300 VARAS",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_300_Varas.pdf"
             }
         ],
@@ -893,7 +893,7 @@
                 "link": "https://www.youtube.com/watch?v=video13"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® 300 Varas",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado GALOPE® 300 VARAS",
                 "link": "https://www.youtube.com/watch?v=video14"
             },
             {
@@ -917,7 +917,7 @@
             "Resistencia Prolongada: Para jornadas que no conocen límite",
             "Digestibilidad Superior: Energía aprovechada al máximo"
         ],
-        "cienciecebehind": "¿POR QUÉ LA ENERGÍA TRADICIONAL FALLA? Carbohidratos simples y exceso de carbohidratos complejos causan picos glucémicos seguidos de caídas bruscas. Esto genera fatiga prematura y alteración en el comportamiento: caballos agresivos o con signos parecidos a la depresión.\nLA CIENCIA DE LA LIBERACIÓN CONTROLADA La mayor parte de la energía proviene de aceites y pasta de soya + fibras fermentables = energía sostenida por 6-8 horas sin picos ni caídas glucémicas.",
+        "cienciecebehind": "<strong>¿POR QUÉ LA ENERGÍA TRADICIONAL FALLA?</strong><br> Carbohidratos simples y exceso de carbohidratos complejos causan picos glucémicos seguidos de caídas bruscas. Esto genera fatiga prematura y alteración en el comportamiento: caballos agresivos o con signos parecidos a la depresión.<br><br><strong>LA CIENCIA DE LA LIBERACIÓN CONTROLADA</strong><br> La mayor parte de la energía proviene de aceites y pasta de soya + fibras fermentables = energía sostenida por 6-8 horas sin picos ni caídas glucémicas.",
         "howitworks": [
             "1. Almidones modificados donde la energía se libera gradualmente",
             "2. Fibras fermentables alimentan microbiota productora de energía",
@@ -925,14 +925,14 @@
             "4. Mantiene energía constante sin alterar comportamiento"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 12.0%",
-            "Grasa Cruda: Mín. 16.0%",
-            "Fibra Cruda: Máx. 10.0%",
-            "Humedad: Máx. 5.0%",
-            "Cenizas: Máx. 6.5%",
-            "ELN: 50.5%",
-            "Contenido Neto: 15kg",
-            "Presentación: Partícula extruida"
+            "<strong>Proteína Cruda:</strong> Mín. 12.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 16.0%",
+            "<strong>Fibra Cruda:</strong> Máx. 5.0%",
+            "<strong>Humedad:</strong> Máx. 10.0%",
+            "<strong>Cenizas:</strong> Máx. 6.5%",
+            "<strong>ELN:</strong> 50.5%",
+            "<strong>Contenido Neto:</strong> 15kg",
+            "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Energy_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -987,16 +987,16 @@
         ],
         "faq": [
             {
-                "question": "¿Energy causará hiperactividad en mi caballo?",
-                "answer": "No. Energy proporciona energía de liberación controlada que mejora rendimiento sin afectar temperamento."
+                "question": "¿GALOPE® ENERGY CAUSARÁ HIPERACTIVIDAD EN MI CABALLO?",
+                "answer": "No. GALOPE® ENERGY proporciona energía de liberación controlada que mejora rendimiento sin afectar temperamento."
             },
             {
-                "question": "¿Cuándo veré mejoras en resistencia?",
+                "question": "¿CUÁNDO VERÉ MEJORAS EN RESISTENCIA?",
                 "answer": "Las primeras mejoras se notan entre 2-3 semanas. El efecto completo se establece después de 1 mes de uso consistente."
             },
             {
-                "question": "¿Puedo combinarlo con otros productos Galope®?",
-                "answer": "Absolutamente. Energy es ideal como complemento con cualquiera de nuestros alimentos base según las necesidades específicas."
+                "question": "¿PUEDO COMBINARLO CON OTROS PRODUCTOS ?",
+                "answer": "Absolutamente. GALOPE® ENERGY es ideal como complemento con cualquiera de nuestros alimentos base según las necesidades específicas."
             }
         ],
         "guarantee": [
@@ -1049,11 +1049,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® Energy",
+                "title": "Manual Completo GALOPE® ENERGY",
                 "link": "assets/docs/Manual_Completo_Galope_Energy.pdf"
             },
             {
-                "title": "Formulación Galope® Energy",
+                "title": "Formulación GALOPE® ENERGY",
                 "link": "assets/docs/Formulacion_Galope_Energy.pdf"
             },
             {
@@ -1061,7 +1061,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Resistencia.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® Energy",
+                "title": "La ciencia detrás de GALOPE® ENERGY",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Energy.pdf"
             }
         ],
@@ -1071,7 +1071,7 @@
                 "link": "https://www.youtube.com/watch?v=video16"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Energy",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado GALOPE® ENERGY",
                 "link": "https://www.youtube.com/watch?v=video17"
             },
             {
@@ -1095,7 +1095,7 @@
             "Recuperación Muscular: Para que el crecimiento nunca se detenga",
             "Sistema Inmune Fortalecido: Salud que se nota por dentro y por fuera"
         ],
-        "cienciecebehind": "¿POR QUÉ LA PROTEÍNA COMÚN NO ES SUFICIENTE? No todos los aminoácidos son iguales. Sin un perfil completo de aminoácidos esenciales, la síntesis proteica se detiene sin importar la cantidad total de proteína. LA CIENCIA DE LA CONSTRUCCIÓN MUSCULAR Los aminoácidos esenciales (leucina, isoleucina, valina, lisina, metionina, treonina, triptófano, fenilalanina, histidina) son catalizadores de síntesis proteica. Su proporción específica determina la velocidad de desarrollo muscular.",
+        "cienciecebehind": "<strong>¿POR QUÉ LA PROTEÍNA COMÚN NO ES SUFICIENTE?</strong><br> No todos los aminoácidos son iguales. Sin un perfil completo de aminoácidos esenciales, la síntesis proteica se detiene sin importar la cantidad total de proteína. <br><br><strong>LA CIENCIA DE LA CONSTRUCCIÓN MUSCULAR</strong><br> Los aminoácidos esenciales (leucina, isoleucina, valina, lisina, metionina, treonina, triptófano, fenilalanina, histidina) son catalizadores de síntesis proteica. Su proporción específica determina la velocidad de desarrollo muscular.",
         "howitworks": [
             "1. Aminoácidos esenciales activan síntesis proteica",
             "2. BCAA estimulan crecimiento muscular dirigido",
@@ -1103,14 +1103,14 @@
             "4. Optimiza la formación de fibras musculares y desarrollo muscular"
         ],
         "specifications": [
-            "Proteína Cruda: Mín. 26.0%",
-            "Grasa Cruda: Mín. 4.5%",
-            "Fibra Cruda: Máx. 10.0%",
-            "Humedad: Máx. 5.0%",
-            "Cenizas: Máx. 9.0%",
-            "ELN: 45.5%",
-            "Contenido Neto: 15kg",
-            "Presentación: Partícula extruida"
+            "<strong>Proteína Cruda:</strong> Mín. 26.0%",
+            "<strong>Grasa Cruda:</strong> Mín. 4.5%",
+            "<strong>Fibra Cruda:</strong> Máx. 5.0%",
+            "<strong>Humedad:</strong> Máx. 10.0%",
+            "<strong>Cenizas:</strong> Máx. 9.0%",
+            "<strong>ELN:</strong> 45.5%",
+            "<strong>Contenido Neto:</strong> 15kg",
+            "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Protein_Ficha_Tecnica.pdf",
         "testimonials": [
@@ -1118,19 +1118,19 @@
                 "image": "assets/images/protein/AlejandroMartin.jpeg",
                 "name": "ALEJANDRO MARTÍN COSSÍO",
                 "role": "Preparador Físico Equino",
-                "quote": "Trabajo con 12 caballos jóvenes en desarrollo muscular. PROTEIN aceleró la ganancia muscular comparado con mi protocolo anterior. En 8 semanas, la línea superior mejoró visiblemente. Es inversión, no gasto. Mis clientes ven resultados que justifican completamente el costo."
+                "quote": "Trabajo con 12 caballos jóvenes en desarrollo muscular. GALOPE® PROTEIN aceleró la ganancia muscular comparado con mi protocolo anterior. En 8 semanas, la línea superior mejoró visiblemente. Es inversión, no gasto. Mis clientes ven resultados que justifican completamente el costo."
             },
             {
                 "image": "assets/images/protein/ClaudiaFernandez.jpeg",
                 "name": "CLAUDIA FERNÁNDEZ ROMO",
                 "role": "Entrenadora de Doma",
-                "quote": "Tengo una yegua Hanoveriana que recuperaba de lesión en músculo semitendinoso. Con PROTEIN la recuperación fue más rápida que con suplementos tradicionales. Su línea superior ahora es superior a antes de la lesión. La recomiendo para cualquier rehabilitación muscular."
+                "quote": "Tengo una yegua Hanoveriana que recuperaba de lesión en músculo semitendinoso. Con GALOPE® PROTEIN la recuperación fue más rápida que con suplementos tradicionales. Su línea superior ahora es superior a antes de la lesión. La recomiendo para cualquier rehabilitación muscular."
             },
             {
                 "image": "assets/images/protein/DrFernando.jpeg",
                 "name": "DR. FERNANDO ESCALANTE",
                 "role": "Veterinario Especialista en Medicina Deportiva",
-                "quote": "PROTEIN tiene la mejor relación aminoácidos esenciales/no esenciales que he encontrado en el mercado mexicano. He recomendado a múltiples propietarios con caballos en desarrollo, y la mayoría reportan mejoras visibles en 6-8 semanas. La palatabilidad también es superior."
+                "quote": "GALOPE® PROTEIN tiene la mejor relación aminoácidos esenciales/no esenciales que he encontrado en el mercado mexicano. He recomendado a múltiples propietarios con caballos en desarrollo, y la mayoría reportan mejoras visibles en 6-8 semanas. La palatabilidad también es superior."
             }
         ],
         "galleryimages": [
@@ -1165,15 +1165,15 @@
         ],
         "faq": [
             {
-                "question": "¿Protein es solo para caballos en crecimiento?",
+                "question": "¿GALOPE® PROTEIN ES SOLO PARA CABALLOS EN CRECIMIENTO?",
                 "answer": "Beneficia a cualquier tipo de caballo, que realice cualquier disciplina deportiva y cualquier raza, que requieran un desarrollo o mantenimiento muscular superior, así como recuperación de lesiones."
             },
             {
-                "question": "¿Cuándo veré cambios en la musculatura?",
+                "question": "¿CUÁNDO VERÉ CAMBIOS EN LA MUSCULATURA?",
                 "answer": "Los primeros cambios se notan desde los 15 días. La transformación completa se aprecia a las 8-12 semanas con cambios que pueden observarse hasta los 8 meses de uso."
             },
             {
-                "question": "¿Puede usarse con caballos en competencia?",
+                "question": "¿PUEDE USARSE CON CABALLOS EN COMPETENCIA?",
                 "answer": "Absolutamente. Todos los ingredientes cumplen normativas deportivas internacionales."
             }
         ],
@@ -1233,11 +1233,11 @@
         ],
         "downloadables": [
             {
-                "title": "Manual Completo Galope® Protein",
+                "title": "Manual Completo GALOPE® PROTEIN",
                 "link": "assets/docs/Manual_Completo_Galope_Protein.pdf"
             },
             {
-                "title": "Formulación Galope® Protein",
+                "title": "Formulación GALOPE® PROTEIN",
                 "link": "assets/docs/Formulacion_Galope_Protein.pdf"
             },
             {
@@ -1245,7 +1245,7 @@
                 "link": "assets/docs/Casos_de_Exito_en_Desarrollo_Muscular.pdf"
             },
             {
-                "title": "La ciencia detrás de Galope® Protein",
+                "title": "La ciencia detrás de GALOPE® PROTEIN",
                 "link": "assets/docs/Ciencia_Detras_de_Galope_Protein.pdf"
             }
         ],
@@ -1255,7 +1255,7 @@
                 "link": "https://www.youtube.com/watch?v=video19"
             },
             {
-                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado Galope® Protein",
+                "title": "Digestión Equina: Lo Que Sucede Después de Cada Bocado GALOPE® PROTEIN",
                 "link": "https://www.youtube.com/watch?v=video20"
             },
             {
