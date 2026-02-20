@@ -285,7 +285,7 @@
                                                     <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
                                             </li>   -->
-                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog.html">BLOG</a></li>
                                             <li><a href="https://naequina.com/">NAEQUINA</a></li>
                                             <li><a href="contact.html">Contacto</a></li>
                                         </ul>
@@ -363,11 +363,11 @@
             <div class="bg-layer" style="background-image: url(assets/images/background/Blog-Portada.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <h1>Blog</h1>
-                    <ul class="bread-crumb clearfix">
+                    <h1>BLOG</h1>
+                    <!-- <ul class="bread-crumb clearfix">
                         <li><a href="index.html">Inicio</a></li>
-                        <li>Blog</li>
-                    </ul>
+                        <li>BLOG</li>
+                    </ul> -->
                 </div>
             </div>
         </section>
@@ -382,12 +382,12 @@
                         <div class="blog-sidebar mr_30">
                             <div class="sidebar-widget search-widget mb_40">
                                 <div class="widget-title mb_20">
-                                    <h3>Buscar</h3>
+                                    <h3>BUSCAR</h3>
                                 </div>
                                 <div class="search-form">
                                     <form method="post" action="blog.html" id="search-form">
                                         <div class="form-group">
-                                            <input type="search" name="search-field" placeholder="Buscar..." required>
+                                            <input type="search" name="search-field" placeholder="BUSCAR..." required>
                                             <button type="submit"><i class="icon-4"></i></button>
                                         </div>
                                     </form>
@@ -395,7 +395,7 @@
                             </div>
                             <div class="sidebar-widget category-widget mb_35">
                                 <div class="widget-title mb_15">
-                                    <h3>Categorias</h3>
+                                    <h3>CATEGORIAS</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="category-list clearfix" id="categories-list">
@@ -405,7 +405,7 @@
                             </div>
                             <div class="sidebar-widget post-widget mb_40">
                                 <div class="widget-title mb_20">
-                                    <h3>Blogs Recientes</h3>
+                                    <h3>BLOGS RECIENTES</h3>
                                 </div>
                                 <div class="post-widget" id="recent-posts-container">
                                     <!-- Recent posts will be loaded dynamically here -->
@@ -649,7 +649,7 @@ c
                                     <span class="post-date">${postDate}</span>
                                 </div>
                                 <div class="lower-content">
-                                    <span class="category">${post.section || 'General'}</span>
+                                    <span class="category">GALOPE® ${post.section || 'General'}</span>
                                     <h3><a href="blog-details.html?blog=${post.id}">${post.title}</a></h3>
                                     <ul class="post-info">
                                         <li class="author">
@@ -722,7 +722,7 @@ c
 
             uniqueSections.forEach(section => {
                 const categoryHTML = `
-                    <li><a href="#" onclick="filterByCategory('${section}')">${section}<i class="far fa-angle-right"></i></a></li>
+                    <li><a href="#" onclick="filterByCategory('${section}')">GALOPE® ${section.toUpperCase()}<i class="far fa-angle-right"></i></a></li>
                 `;
                 categoriesContainer.innerHTML += categoryHTML;
             });
