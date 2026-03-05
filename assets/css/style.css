@@ -11,14 +11,14 @@
   font-family: 'Antonio';
   src: url('../fonts/Antonio-Bold.ttf') format('truetype');
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
 }
 
 @font-face {
   font-family: 'Antonio';
   src: url('../fonts/Antonio-Light.ttf') format('truetype');
   font-weight: 300;
-  font-style: normal;
+  font-style: light;
 }
 
 /* Css For Golfer */
@@ -232,7 +232,6 @@ p {
 
 h1,
 h2,
-h4,
 h5,
 h6 {
   position: relative;
@@ -256,7 +255,10 @@ h3 {
 
 .custom-text {
   font-family: 'Antonio';
-  font-weight: 400;
+  /* font-weight: 400; */
+}
+.custom-sub-text{
+  font-family: var(--title-font);
 }
 
 .logo-cards {
