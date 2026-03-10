@@ -1,0 +1,25 @@
+/* Custom styles to reduce space between header and text in banner section */
+.banner-carousel .content-box h2 {
+    margin-bottom: 10px; /* Reduced from 18px */
+}
+
+.banner-carousel .content-box .custom-sub-text {
+    margin-top: 0;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px; /* Add space for the bullet */
+}
+
+/* Add bullets to h4 elements with custom-sub-text class */
+.banner-carousel .content-box .custom-sub-text::before {
+    content: "•"; /* Bullet character */
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff; /* Same color as the text */
+}
+
+.banner-carousel .content-box p {
+    margin-bottom: 15px; /* Reduced from 30px */
+}
