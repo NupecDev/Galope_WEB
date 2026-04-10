@@ -388,7 +388,7 @@
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                         <div class="blog-sidebar mr_30">
-                            <div class="sidebar-widget search-widget mb_40">
+                            <!-- <div class="sidebar-widget search-widget mb_40">
                                 <div class="widget-title mb_20">
                                     <h3>BUSCAR</h3>
                                 </div>
@@ -400,7 +400,7 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="sidebar-widget category-widget mb_35">
                                 <div class="widget-title mb_15">
                                     <h3>CATEGORÍAS</h3>
@@ -651,18 +651,19 @@
                 const card = document.createElement('div');
                 card.style.cssText = 'width:calc(50% - 12px); min-width:260px; flex:1 1 260px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08);';
                 card.innerHTML = `
-            <div class="gallery-flip" style="position:relative; width:100%; padding-top:65%; overflow:hidden; cursor:pointer;"
-                 onmouseenter="showAfter(this)" onmouseleave="showBefore(this)">
+<div class="gallery-flip case-image" style="position:relative; width:100%; padding-top:65%; overflow:hidden; cursor:pointer;"
+                 data-case-id="${c.id}" data-before="${c.before_img}" data-after="${c.after_img}" data-title="${c.title}"
+                 onmouseenter="showAfter(this)" onmouseleave="showBefore(this)" onclick="openCaseModal(this)">
                 <img class="img-before" src="${c.before_img}" alt="Antes: ${c.title}"
                      style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.4s ease;">
                 <img class="img-after" src="${c.after_img}" alt="Después: ${c.title}"
                      style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.4s ease;opacity:0;">
                 <span style="position:absolute;top:10px;left:10px;background:rgba(0,0,0,0.6);color:#fff;font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;letter-spacing:0.05em;pointer-events:none;" class="before-label">ANTES</span>
-                <span style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.45);color:#fff;font-size:11px;padding:3px 8px;border-radius:999px;pointer-events:none;">Click → DESPUÉS</span>
+                <span style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.45);color:#fff;font-size:11px;padding:3px 8px;border-radius:999px;pointer-events:none;">Click para fullscreen</span>
             </div>
-            <div style="padding:16px 18px 18px;">
+                <div style="padding:16px 18px 18px;">
                 <span class="product-tag" data-product="${c.products_combo ? c.products_combo[0] || c.product : c.product}" style="display:inline-block;font-size:11px;font-weight:600;color:#fff;border-radius:999px;padding:3px 12px;margin-bottom:8px;letter-spacing:0.04em;text-transform:uppercase;">GALOPE® ${label}</span>
-                <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1a1a1a;">${c.title}</h3>
+                <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1a1a1a;" class="case-title" data-title="${c.title}">${c.title}</h3>
                 <p style="font-size:13px;color:#555;line-height:1.55;margin:0 0 10px;">${c.caption}</p>
                 <p style="font-size:12px;color:#888;border-top:1px solid #f0f0f0;padding-top:8px;margin:0;">
                     — ${c.products_combo ? c.products_combo.map(p => productLabels[p] || p).join(' + ') : (productLabels[c.product] || c.product)}
@@ -767,6 +768,100 @@
         // `;
         //     }).join('');
         // }
+        // Case modal functions
+        function openCaseModal(el) {
+            document.getElementById('modal-before').src = el.dataset.before;
+            document.getElementById('modal-after').src = el.dataset.after;
+            document.getElementById('modal-title').textContent = el.dataset.title;
+            document.getElementById('case-modal').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        // REPLACE with this:
+        function closeCaseModal() {
+            document.getElementById('case-modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Modal interactions
+        document.addEventListener('click', function (e) {
+            if (e.target.id === 'case-modal') closeCaseModal();
+        });
+
+        document.getElementById('case-modal').addEventListener('mouseenter', function () {
+            document.querySelector('#case-modal #modal-before').style.opacity = '0';
+            document.querySelector('#case-modal #modal-after').style.opacity = '1';
+        });
+
+        document.getElementById('case-modal').addEventListener('mouseleave', function () {
+            document.querySelector('#case-modal #modal-before').style.opacity = '1';
+            document.querySelector('#case-modal #modal-after').style.opacity = '0';
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeCaseModal();
+        });
+    </script>
+
+    <!-- Case Modal Fullscreen -->
+    <div id="case-modal"
+        style="display:none;position:fixed;z-index:99999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.95);justify-content:center;align-items:center;flex-direction:column;">
+        <span onclick="closeCaseModal()"
+            style="position:absolute;top:20px;right:30px;color:#f1f1f1;font-size:40px;font-weight:bold;cursor:pointer;z-index:10;">&times;</span>
+        <div id="modal-title"
+            style="color:#fff;font-size:18px;font-weight:600;text-align:center;margin-bottom:16px;padding:0 60px;z-index:10;">
+        </div>
+        <div style="display:flex;gap:12px;width:90vw;height:80vh;">
+            <!-- ANTES -->
+            <div style="flex:1;position:relative;overflow:hidden;border-radius:8px;">
+                <img id="modal-before" src="" alt="Antes" style="width:100%;height:100%;object-fit:contain;">
+                <span
+                    style="position:absolute;top:12px;left:12px;background:rgba(0,0,0,0.6);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;">ANTES</span>
+            </div>
+            <!-- DESPUÉS -->
+            <div style="flex:1;position:relative;overflow:hidden;border-radius:8px;">
+                <img id="modal-after" src="" alt="Después" style="width:100%;height:100%;object-fit:contain;">
+                <span
+                    style="position:absolute;top:12px;left:12px;background:rgba(0,0,0,0.6);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;">DESPUÉS</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            let isDragging = false;
+
+            function setSliderPosition(pct) {
+                pct = Math.max(0, Math.min(100, pct));
+                document.getElementById('before-wrapper').style.width = pct + '%';
+                document.getElementById('slider-line').style.left = pct + '%';
+            }
+
+            function getPct(clientX) {
+                const rect = document.getElementById('slider-container').getBoundingClientRect();
+                return ((clientX - rect.left) / rect.width) * 100;
+            }
+
+            // Mouse
+            document.getElementById('slider-container').addEventListener('mousedown', function (e) {
+                isDragging = true;
+                setSliderPosition(getPct(e.clientX));
+            });
+            document.addEventListener('mousemove', function (e) {
+                if (isDragging) setSliderPosition(getPct(e.clientX));
+            });
+            document.addEventListener('mouseup', function () { isDragging = false; });
+
+            // Touch
+            document.getElementById('slider-container').addEventListener('touchstart', function (e) {
+                isDragging = true;
+                setSliderPosition(getPct(e.touches[0].clientX));
+            }, { passive: true });
+            document.addEventListener('touchmove', function (e) {
+                if (isDragging) setSliderPosition(getPct(e.touches[0].clientX));
+            }, { passive: true });
+            document.addEventListener('touchend', function () { isDragging = false; });
+        })();
     </script>
 
 </body><!-- End of .page_wrapper -->
