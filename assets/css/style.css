@@ -515,12 +515,35 @@ html.lenis {
   background-color: var(--varas-color) !important;
 }
 
+.product-tag[data-product="alto-rendimiento"],
 .alto-rendimiento-product {
   background-color: var(--alto_rendimiento-color) !important;
 }
 
+.product-tag[data-product="zen"],
 .zen-product {
   background-color: var(--zen-color) !important;
+}
+
+.product-tag[data-product="reproductoras"] {
+  background-color: var(--reproductoras-color) !important;
+}
+
+.product-tag[data-product="energy"] {
+  background-color: var(--energy-color) !important;
+}
+
+.product-tag[data-product="protein"] {
+  background-color: var(--protein-color) !important;
+}
+
+.product-tag[data-product="balance"] {
+  background-color: var(--balance-color) !important;
+}
+
+.product-tag[data-product="300-varas"],
+.product-tag[data-product="varas"] {
+  background-color: var(--varas-color) !important;
 }
 
 /** button **/

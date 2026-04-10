@@ -13,13 +13,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-Y9L5N852S5', {
-            send_page_view: false
-        });
-        gtag('event', 'page_view', {
-            page_path: window.location.pathname + window.location.search,
-            page_title: document.title
-        });
+        gtag('config', 'G-Y9L5N852S5');
     </script>
 
     <!-- Fav Icon -->
@@ -50,7 +44,6 @@
     <link href="assets/css/module-css/page-title.css" rel="stylesheet">
     <link href="assets/css/module-css/news.css" rel="stylesheet">
     <link href="assets/css/module-css/blog-sidebar.css" rel="stylesheet">
-    <link href="assets/css/module-css/blog-details.css" rel="stylesheet">
     <link href="assets/css/module-css/cta.css" rel="stylesheet">
     <link href="assets/css/module-css/footer.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
@@ -372,21 +365,60 @@
         </div>
         <!-- End Mobile Menu -->
 
+
+        <!-- page-title -->
+        <section class="page-title centred pt_190 pb_190">
+            <div class="bg-layer" style="background-image: url(assets/images/background/Blog-Portada.png);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Casos de Éxito</h1>
+                    <!-- <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>BLOG</li>
+                    </ul> -->
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
         <!-- sidebar-page-container -->
         <section class="sidebar-page-container pt_150 pb_150">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                         <div class="blog-sidebar mr_30">
-
-                            <div class="sidebar-widget post-widget mb_40">
+                            <div class="sidebar-widget search-widget mb_40">
+                                <div class="widget-title mb_20">
+                                    <h3>BUSCAR</h3>
+                                </div>
+                                <div class="search-form">
+                                    <form method="post" action="blog.html" id="search-form">
+                                        <div class="form-group">
+                                            <input type="search" name="search-field" placeholder="BUSCAR..." required>
+                                            <button type="submit"><i class="icon-4"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="sidebar-widget category-widget mb_35">
+                                <div class="widget-title mb_15">
+                                    <h3>CATEGORÍAS</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="category-list clearfix" id="categories-list">
+                                        <!-- Categories will be loaded dynamically here -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <div class="sidebar-widget post-widget mb_40">
                                 <div class="widget-title mb_20">
                                     <h3>BLOGS RECIENTES</h3>
                                 </div>
                                 <div class="post-widget" id="recent-posts-container">
-                                    <!-- Recent posts will be loaded dynamically here -->
+                                    
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- <div class="sidebar-widget tags-widget">
                                 <div class="widget-title mb_20">
@@ -405,40 +437,22 @@
                             </div> -->
                         </div>
                     </div>
-
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                        <div class="blog-details-content">
-                            <div id="blog-details-content">
-                                <!-- Blog details will be loaded dynamically here -->
-                            </div>
-
+                        <div class="blog-grid-content" id="gallery-container" class="isotope">
+                            <!-- Gallery cases loaded dynamically here -->
                         </div>
+
+                    </div>
+                    <div class="pagination-wrapper pt_20 centred" id="pagination-container">
+                        <!-- Pagination will be loaded dynamically here -->
                     </div>
                 </div>
             </div>
     </div>
+    </div>
     </section>
     <!-- sidebar-page-container end -->
-
-
-    <!-- cta-section -->
-    <section class="cta-section alternat-2 centred bg-color-2 pt_140 pb_150">
-        <div class="pattern-layer" style="background-image: url(./assets/images/shape/shape-2.png);"></div>
-        <div class="auto-container">
-            <div class="content-box">
-                <div class="sec-title light mb_40">
-                    <span class="sub-title text-white">ÚNETE A NUESTRO NEWSLETTER</span>
-                    <h2 class="text-white"> AVANCES EN NUTRICIÓN EQUINA </h2>
-                    <p class="text-white">Recibe casos de éxito y consejos prácticos directamente en tu correo.</p>
-                </div>
-                <div class="btn-box">
-                    <a href="signup.html" class="theme-btn btn-one border">SUSCRÍBETE</a>
-                    <a href="contact.html" class="theme-btn btn-one border">Contáctanos</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- cta-section end -->
+    c
 
 
     <!-- main-footer -->
@@ -532,6 +546,8 @@
     <!-- main-footer end -->
 
 
+
+
     <!--Scroll to top-->
     <div class="scroll-to-top">
         <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
@@ -564,175 +580,193 @@
 
     <!-- Custom script for dynamic blog loading -->
     <script>
-        let allPosts = [];
-        let filteredPosts = [];
+        let allCases = [];
+        let filteredCases = [];
         let currentPage = 1;
-        const postsPerPage = 4;
+        const casesPerPage = 6;
+
+        const productLabels = {
+            'zen': 'ZEN',
+            'alto-rendimiento': 'Alto Rendimiento',
+            'reproductoras': 'Reproductoras',
+            'balance': 'Balance',
+            '300-varas': '300 Varas',
+            'energy': 'Energy',
+            'protein': 'Protein'
+        };
 
         document.addEventListener('DOMContentLoaded', function () {
-            const urlParams = new URLSearchParams(window.location.search);
-            const blogId = urlParams.get('blog');
+            fetchGalleryCases();
 
-            // Send custom event for blog view
-            if (blogId) {
-                gtag('event', 'view_blog', {
-                    blog: blogId
-                });
-            }
-
-            if (blogId) {
-                fetchBlogDetails(blogId);
-            } else {
-                console.error('No blog ID provided in URL');
-                document.getElementById('blog-details-content').innerHTML = '<p>No blog post found.</p>';
-            }
-
-            fetchBlogPosts(); // For sidebar
-
-            // Search functionality
             document.getElementById('search-form').addEventListener('submit', function (e) {
                 e.preventDefault();
                 const query = document.querySelector('input[name="search-field"]').value.toLowerCase().trim();
-                if (query === '') {
-                    filteredPosts = [...allPosts];
-                } else {
-                    filteredPosts = allPosts.filter(post => {
-                        const title = post.title ? post.title.toLowerCase() : '';
-                        const mainPhrase = post.main_phrase ? post.main_phrase.toLowerCase() : '';
-                        const content = post.content ? post.content.toLowerCase() : '';
-                        let tags = '';
-                        if (post.tags) {
-                            if (typeof post.tags === 'string') {
-                                tags = post.tags.toLowerCase();
-                            } else if (Array.isArray(post.tags)) {
-                                tags = post.tags.join(' ').toLowerCase();
-                            }
-                        }
-                        return title.includes(query) ||
-                            mainPhrase.includes(query) ||
-                            content.includes(query) ||
-                            tags.includes(query);
-                    });
-                }
+                filteredCases = query === ''
+                    ? [...allCases]
+                    : allCases.filter(c =>
+                        (c.title || '').toLowerCase().includes(query) ||
+                        (c.caption || '').toLowerCase().includes(query) ||
+                        (c.testimonial || (c.products_combo ? c.products_combo.map(p => productLabels[p] || p).join(' + ') : (productLabels[c.product] || c.product)) || '').toLowerCase().includes(query)
+                    );
                 currentPage = 1;
-                displayBlogPosts(currentPage);
+                displayGallery(currentPage);
                 setupPagination();
             });
         });
 
-        function fetchBlogDetails(id) {
-            fetch(`https://api.galopemx.com/blog/${id}`)
-
-                .then(response => response.json())
-                .then(post => {
-                    displayBlogDetails(post);
+        function fetchGalleryCases() {
+            fetch('data/gallery-cases.json')
+                .then(r => r.json())
+                .then(data => {
+                    allCases = data;
+                    filteredCases = [...allCases];
+                    displayGallery(currentPage);
+                    setupPagination();
+                    setupCategories();
+                    // setupRecentPosts();
                 })
-                .catch(error => {
-                    console.error('Error fetching blog details:', error);
-                    document.getElementById('blog-details-content').innerHTML = '<p>Error loading blog post.</p>';
+                .catch(err => {
+                    console.error('Error fetching gallery cases:', err);
+                    document.getElementById('gallery-container').innerHTML = '<p>Error al cargar los casos.</p>';
                 });
         }
 
-        function displayBlogDetails(post) {
-            const container = document.getElementById('blog-details-content');
-            if (!container) {
-                console.error('Container element not found');
+        function displayGallery(page) {
+            const container = document.getElementById('gallery-container');
+            container.innerHTML = '';
+            container.style.display = 'flex';
+            container.style.flexWrap = 'wrap';
+            container.style.gap = '24px';
+
+            const start = (page - 1) * casesPerPage;
+            const items = filteredCases.slice(start, start + casesPerPage);
+
+            if (items.length === 0) {
+                container.innerHTML = '<p style="padding:40px 0; color:#888;">No se encontraron casos.</p>';
                 return;
             }
-            const postDate = new Date(post.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
-            console.log('Post Date:', post);
-            const postHTML = `
-                <div class="news-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}" loading="lazy"></figure>
-                            <span class="post-date">${postDate}</span>
-                        </div>
-                        <div class="lower-content">
-                            <span class="category">GALOPE® ${post.section || 'General'}</span>
-                            <h2>${post.title}</h2>
-                           
-                             <div class="text-box">                                     
-                                            <blockquote>
-                                                <div class="icon-box"><img src="assets/images/icons/icon-6.png" alt=""></div>
-                                                <h4>${post.main_phrase || 'Main Phrase not available.'}</h4>                                                
-                                            </blockquote>
-                                        </div>
-                            <div class="text-box">
-                                <p class="mb_30">${post.content || 'Content not available.'}</p>
-                            </div>
-                            <br>
-                             <ul class="post-info">
-                                <li class="author">
-                                    <div class="image"><img src="assets/images/news/author-1.png" alt=""></div>
-                                    <a href="#">${post.author || 'Author'}</a>
-                                </li>
-                            </ul>
-                        </div>
 
-                        
-                    </div>
-                </div>
-            `;
-            container.innerHTML = postHTML;
+            items.forEach(c => {
+                const label = productLabels[c.product] || c.product;
+                const card = document.createElement('div');
+                card.style.cssText = 'width:calc(50% - 12px); min-width:260px; flex:1 1 260px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08);';
+                card.innerHTML = `
+            <div class="gallery-flip" style="position:relative; width:100%; padding-top:65%; overflow:hidden; cursor:pointer;"
+                 onmouseenter="showAfter(this)" onmouseleave="showBefore(this)">
+                <img class="img-before" src="${c.before_img}" alt="Antes: ${c.title}"
+                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.4s ease;">
+                <img class="img-after" src="${c.after_img}" alt="Después: ${c.title}"
+                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.4s ease;opacity:0;">
+                <span style="position:absolute;top:10px;left:10px;background:rgba(0,0,0,0.6);color:#fff;font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;letter-spacing:0.05em;pointer-events:none;" class="before-label">ANTES</span>
+                <span style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.45);color:#fff;font-size:11px;padding:3px 8px;border-radius:999px;pointer-events:none;">Click → DESPUÉS</span>
+            </div>
+            <div style="padding:16px 18px 18px;">
+                <span class="product-tag" data-product="${c.products_combo ? c.products_combo[0] || c.product : c.product}" style="display:inline-block;font-size:11px;font-weight:600;color:#fff;border-radius:999px;padding:3px 12px;margin-bottom:8px;letter-spacing:0.04em;text-transform:uppercase;">GALOPE® ${label}</span>
+                <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1a1a1a;">${c.title}</h3>
+                <p style="font-size:13px;color:#555;line-height:1.55;margin:0 0 10px;">${c.caption}</p>
+                <p style="font-size:12px;color:#888;border-top:1px solid #f0f0f0;padding-top:8px;margin:0;">
+                    — ${c.products_combo ? c.products_combo.map(p => productLabels[p] || p).join(' + ') : (productLabels[c.product] || c.product)}
+                </p>
+            </div>
+        `;
+                container.appendChild(card);
+            });
         }
 
-        function fetchBlogPosts() {
-            fetch('https://api.galopemx.com/blog/getAll')
-                .then(response => response.json())
-                .then(data => {
-                    allPosts = data;
-                    filteredPosts = [...allPosts];
-                    // setupCategories();
-                    setupRecentPosts();
-                })
-                .catch(error => {
-                    console.error('Error fetching blog posts:', error);
-                });
+        function showAfter(el) {
+            el.querySelector('.img-before').style.opacity = '0';
+            el.querySelector('.img-after').style.opacity = '1';
+            el.querySelector('.before-label').textContent = 'DESPUÉS';
+        }
+
+        function showBefore(el) {
+            el.querySelector('.img-before').style.opacity = '1';
+            el.querySelector('.img-after').style.opacity = '0';
+            el.querySelector('.before-label').textContent = 'ANTES';
+        }
+
+        function setupPagination() {
+            const container = document.getElementById('pagination-container');
+            const totalPages = Math.ceil(filteredCases.length / casesPerPage);
+
+            if (totalPages <= 1) { container.innerHTML = ''; return; }
+
+            let html = '<ul class="pagination clearfix">';
+            if (currentPage > 1)
+                html += `<li><a href="#" onclick="changePage(${currentPage - 1}); return false;"><i class="icon-6"></i></a></li>`;
+            else
+                html += `<li><a class="disabled"><i class="icon-6"></i></a></li>`;
+
+            html += `<li><a class="current">${currentPage}</a></li>`;
+
+            if (currentPage < totalPages)
+                html += `<li><a href="#" onclick="changePage(${currentPage + 1}); return false;"><i class="icon-7"></i></a></li>`;
+            else
+                html += `<li><a class="disabled"><i class="icon-7"></i></a></li>`;
+
+            html += '</ul>';
+            container.innerHTML = html;
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            displayGallery(currentPage);
+            setupPagination();
+            document.querySelector('.sidebar-page-container').scrollIntoView({ behavior: 'smooth' });
         }
 
         function setupCategories() {
-            const categoriesContainer = document.getElementById('categories-list');
-            const uniqueSections = [...new Set(allPosts.map(post => post.section).filter(section => section && section.trim() !== ''))];
-
-            categoriesContainer.innerHTML = '';
-            if (uniqueSections.length === 0) {
-                categoriesContainer.innerHTML = '<li><span>No categories available</span></li>';
-                return;
-            }
-
-            uniqueSections.forEach(section => {
-                const categoryHTML = `
-                    <li><a href="#" onclick="filterByCategory('${section}')">${section}<i class="far fa-angle-right"></i></a></li>
-                `;
-                categoriesContainer.innerHTML += categoryHTML;
+            const container = document.getElementById('categories-list');
+            const allProducts = new Set();
+            allCases.forEach(c => {
+                allProducts.add(c.product);
+                if (c.products_combo) {
+                    c.products_combo.forEach(p => allProducts.add(p));
+                }
             });
+            const products = Array.from(allProducts);
+
+            container.innerHTML = products.map(p => `
+        <li>
+            <a href="#" onclick="filterByProduct('${p}'); return false;">
+                ${(productLabels[p] || p).toUpperCase()}
+                <span style="float:right;background:#f0f0f0;border-radius:999px;padding:1px 8px;font-size:11px;">
+                    ${allCases.filter(c => c.product === p || (c.products_combo && c.products_combo.includes(p))).length}
+                </span>
+                <i class="far fa-angle-right"></i>
+            </a>
+        </li>
+    `).join('');
         }
 
-        function filterByCategory(section) {
-            filteredPosts = allPosts.filter(post => post.section === section);
+        function filterByProduct(product) {
+            filteredCases = allCases.filter(c => c.product === product || (c.products_combo && c.products_combo.includes(product)));
             currentPage = 1;
-            displayBlogPosts(currentPage);
+            displayGallery(currentPage);
             setupPagination();
         }
 
-        function setupRecentPosts() {
-            const recentContainer = document.getElementById('recent-posts-container');
-            const recentPosts = allPosts.slice().sort((a, b) => new Date(b.post_date) - new Date(a.post_date)).slice(0, 3);
+        // function setupRecentPosts() {
+        //     const container = document.getElementById('recent-posts-container');
+        //     const recent = [...allCases]
+        //         .sort((a, b) => new Date(b.post_date) - new Date(a.post_date))
+        //         .slice(0, 3);
 
-            recentContainer.innerHTML = '';
-            recentPosts.forEach(post => {
-                const postDate = new Date(post.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
-                const postHTML = `
-                    <div class="post">
-                        <figure class="image-box"><a href="blog-details.html?blog=${post.id}"><img src="${post.main_img || post.background_img || 'assets/images/news/default.jpg'}" alt="${post.title}" loading="lazy"></a></figure>
-                        <h4><a href="blog-details.html?blog=${post.id}">${post.title}</a></h4>
-                        <span class="post-date"><i class="icon-17"></i>${postDate}</span>
-                    </div>
-                `;
-                recentContainer.innerHTML += postHTML;
-            });
-        }
+        //     container.innerHTML = recent.map(c => {
+        //         const date = new Date(c.post_date).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' }).toUpperCase();
+        //         return `
+        //     <div class="post" style="display:flex;gap:12px;margin-bottom:16px;align-items:flex-start;">
+        //         <figure class="image-box" style="flex-shrink:0;width:70px;height:55px;overflow:hidden;border-radius:6px;margin:0;">
+        //             <img src="${c.before_img}" alt="${c.title}" style="width:100%;height:100%;object-fit:cover;">
+        //         </figure>
+        //         <div>
+        //             <h4 style="font-size:13px;margin:0 0 4px;line-height:1.4;">${c.title}</h4>
+        //             <span class="post-date" style="font-size:11px;color:#888;"><i class="icon-17"></i> ${date}</span>
+        //         </div>
+        //     </div>
+        // `;
+        //     }).join('');
+        // }
     </script>
 
 </body><!-- End of .page_wrapper -->

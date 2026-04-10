@@ -10,16 +10,6 @@
     padding-left: 20px; /* Add space for the bullet */
 }
 
-/* Add bullets to h4 elements with custom-sub-text class */
-.banner-carousel .content-box .custom-sub-text::before {
-    content: "•"; /* Bullet character */
-    position: absolute;
-    left: 0;
-    font-size: 20px;
-    line-height: 1;
-    color: #fff; /* Same color as the text */
-}
-
 .banner-carousel .content-box p {
     margin-bottom: 15px; /* Reduced from 30px */
 }
