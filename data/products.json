@@ -9,12 +9,12 @@
         "video": "https://youtu.be/jx7xmbzPRAY?si=JAG9Toi-12LXMtXS",
         "feeding-guide": "assets/images/zen/Tabla-Zen.png",
         "benefits": [
-            "<strong>Triptófano:</strong> Precursor de serotonina que favorece la relajacion y concentracion del caballo",
+            "<strong>Triptófano:</strong> Precursor de serotonina que favorece la relajación y concentracion del caballo",
             "<strong>Complejo B optimizado:</strong> Mejora la conducción nerviosa",
-            "<strong>Minerales equilibrados:</strong> Fovorece la recuperacion del caballo.",
-            "<strong>Aminoaciods esenciales:</strong> Mejoran la condición  general del caballo como los cascos y el pelo."
+            "<strong>Minerales equilibrados:</strong> Favorece la recuperacion del caballo.",
+            "<strong>Aminoácidos esenciales:</strong> Mejoran la condición  general del caballo como los cascos y el pelo."
         ],
-        "cienciecebehind": "<strong>¿POR QUÉ LOS CABALLOS SE ESTRESAN?</strong> <br> El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de los nutrientes. <br><br> <strong>LA CIENCIA DEL TRIPTÓFANO</strong> <br> L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos. <br> Una nutrición completa muy baja en almidon con ingredientes inovadores como pulido de arroz y pulpa de remolacha.",
+        "cienciecebehind": "<strong>¿POR QUÉ LOS CABALLOS SE ESTRESAN?</strong> <br> El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de los nutrientes. <br><br> <strong>LA CIENCIA DEL TRIPTÓFANO</strong> <br> L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos. <br> Una nutrición completa muy baja en almidon con ingredientes innovadores como pulido de arroz y pulpa de remolacha.",
         "howitworks": [
             "1. Triptófano cruza barrera hematoencefálica",
             "2. Se convierte en serotonina",
@@ -331,7 +331,7 @@
             "<strong>Ácido fólico:</strong> Para desarrollo exitoso en gestación",
             "<strong>DHA y Omega 3:</strong> Cerebros que nacen para destacar",
             "<strong>Calcio biodisponible:</strong> Huesos fuertes desde el primer día",
-            "<strong>Proteína de calidad:</strong> Favorece el crecimiento del feto grantizando la condicion de la yegua."
+            "<strong>Proteína de calidad:</strong> Favorece el crecimiento del feto garantizando la condicion de la yegua."
         ],
         "cienciecebehind": "<strong>¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA?</strong><br> El ácido fólico previene defectos del tubo neural, mientras que los ácidos grasos omega-3 son fundamentales para la formación del sistema nervioso central. <br><br><strong>Es crucial intensificar el aporte nutricional durante el tercer tercio de la gestación</strong><br> ya que es en esta etapa final donde ocurre el mayor desarrollo físico y ganancia de peso del feto, demandando el máximo nivel de energía y minerales de la yegua.",
         "howitworks": [
@@ -829,7 +829,7 @@
         "feeding-guide": "assets/images/energy/Tabla-Energy.png",
         "benefits": [
             "<strong>Liberación controlada:</strong> Energía que no fermenta y no altera la conducta",
-            "<strong>Sin picos de glucosa:</strong> No se utilizan fuentes de carboidratos",
+            "<strong>Sin picos de glucosa:</strong> No se utilizan fuentes de carbohidratos",
             "<strong>Resistencia prolongada:</strong> Fuentes de grasas altamente digestible. Aportando energia sin alterar el comportamiento.",
             "<strong>Digestibilidad superior:</strong> Energía aprovechada al máximo"
         ],
