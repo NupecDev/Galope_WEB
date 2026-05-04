@@ -619,12 +619,51 @@
 	When document is on ready, do
 	========================================================================== */
 
-	jQuery(document).on('ready', function () {
+jQuery(document).on('ready', function () {
 		(function ($) {
 			// add your functions
 			directionswitch();
 		})(jQuery);
 	});
+
+// Play testimonial video in modal
+	function playTestimonialVideo(button, videoSrc) {
+		// Stop any other playing videos first
+		$('.testimonial-video').each(function() {
+			this.pause();
+			$(this).remove();
+		});
+		$('.video-btn button').show();
+		
+		// Create modal video
+		var modal = $('<div class="testimonial-video-modal" style="position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:9999;display:flex;align-items:center;justify-content:center;"></div>');
+		var video = $('<video class="testimonial-video-modal" controls autoplay style="max-width:90%;max-height:90%;border-radius:8px;"></video>');
+		var closeBtn = $('<button style="position:absolute;top:20px;right:30px;font-size:40px;color:#fff;background:none;border:none;cursor:pointer;z-index:10000;">&times;</button>');
+		
+		video.attr('src', videoSrc);
+		modal.append(video);
+		modal.append(closeBtn);
+		$('body').append(modal);
+		
+		// Close modal on button click
+		closeBtn.on('click', function() {
+			modal.remove();
+			$('.video-btn button').show();
+		});
+		
+		// Close modal on background click
+		modal.on('click', function(e) {
+			if (e.target === modal[0]) {
+				modal.remove();
+				$('.video-btn button').show();
+			}
+		});
+		
+		$(button).hide();
+	}
+
+	// Make function globally available
+	window.playTestimonialVideo = playTestimonialVideo;
 
 
 
