@@ -302,14 +302,14 @@
 	}
 
 
-    // three-item-carousel
+// three-item-carousel
 	if ($('.three-item-carousel').length) {
 		$('.three-item-carousel').owlCarousel({
 			loop:true,
 			margin:30,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 20000,
+			autoplay: false,
 			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
 			responsive:{
 				0:{
