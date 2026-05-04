@@ -486,6 +486,9 @@
                                     
                                 </ul> -->
                                 <div class="text-box">
+                                    <h3>MENOS KILOS POR DÍA</h3>
+                                </div>
+                                <div class="text-box">
                                     <h3>GUÍA DE ALIMENTACIÓN</h3>
                                 </div>
                                 <div class="inner-box">
@@ -525,6 +528,10 @@
                                 <ul class="list-item clearfix mb_65" id="cases-list">
                                     <!-- Cases will be populated here -->
                                 </ul>
+                            </div>
+                            <div class="content-two mb_60" id="complement-section">
+                                <!-- <h3>COMPLEMENTO RECOMENDADO</h3> -->
+                                <h5 id="complement-text"></h5>
                             </div>
                             <div class="content-three">
                                 <div class="content_block_three">
@@ -926,13 +933,28 @@
                 });
             }
 
+            // Update complement section
+            const complementSection = document.getElementById('complement-section');
+            const complementText = document.getElementById('complement-text');
+            if (product.recomendation) {
+                complementText.textContent = product.recomendation;
+                complementSection.style.display = 'block';
+            } else {
+                complementSection.style.display = 'none';
+            }
+
             // Update downloadables
             const downloadablesList = document.getElementById('downloadables-list');
             downloadablesList.innerHTML = '';
             if (product.downloadables) {
                 product.downloadables.forEach(downloadable => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span></span> <a href="${downloadable.link}" target="_blank">${downloadable.title}</a>`;
+                    const li = document.createElement('div');
+                    li.innerHTML = `
+                    <br>
+                        <a href="${downloadable.link}" target="_blank" class="theme-btn btn-one" download>
+                            <i class="fas fa-download"></i> ${downloadable.title}
+                        </a>
+                    `;
                     downloadablesList.appendChild(li);
                 });
             }
@@ -980,98 +1002,107 @@
             document.getElementById('product-copy').textContent = message;
         }
     </script>
-<!-- Feeding Guide Modal -->
-<div id="feeding-guide-modal" onclick="handleModalClick(event)" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); align-items:center; justify-content:center; overflow:hidden;">
-    <button onclick="document.getElementById('feeding-guide-modal').style.display='none'; document.body.style.overflow=''; resetZoom();" style="position:absolute; top:20px; right:28px; background:none; border:none; color:#fff; font-size:36px; line-height:1; cursor:pointer; z-index:10000;">&times;</button>
+    <!-- Feeding Guide Modal -->
+    <div id="feeding-guide-modal" onclick="handleModalClick(event)"
+        style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); align-items:center; justify-content:center; overflow:hidden;">
+        <button
+            onclick="document.getElementById('feeding-guide-modal').style.display='none'; document.body.style.overflow=''; resetZoom();"
+            style="position:absolute; top:20px; right:28px; background:none; border:none; color:#fff; font-size:36px; line-height:1; cursor:pointer; z-index:10000;">&times;</button>
 
-    <!-- Zoom controls -->
-    <div style="position:absolute; bottom:24px; left:50%; transform:translateX(-50%); display:flex; align-items:center; gap:12px; z-index:10000;">
-        <button onclick="adjustZoom(-0.25)" style="background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; width:36px; height:36px; border-radius:50%; font-size:20px; cursor:pointer; line-height:1;">−</button>
-        <span id="zoom-label" style="color:#fff; font-size:13px; min-width:40px; text-align:center;">100%</span>
-        <button onclick="adjustZoom(0.25)" style="background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; width:36px; height:36px; border-radius:50%; font-size:20px; cursor:pointer; line-height:1;">+</button>
-        <button onclick="resetZoom()" style="background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; height:36px; padding:0 14px; border-radius:18px; font-size:12px; cursor:pointer;">Reset</button>
+        <!-- Zoom controls -->
+        <div
+            style="position:absolute; bottom:24px; left:50%; transform:translateX(-50%); display:flex; align-items:center; gap:12px; z-index:10000;">
+            <button onclick="adjustZoom(-0.25)"
+                style="background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; width:36px; height:36px; border-radius:50%; font-size:20px; cursor:pointer; line-height:1;">−</button>
+            <span id="zoom-label" style="color:#fff; font-size:13px; min-width:40px; text-align:center;">100%</span>
+            <button onclick="adjustZoom(0.25)"
+                style="background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; width:36px; height:36px; border-radius:50%; font-size:20px; cursor:pointer; line-height:1;">+</button>
+            <button onclick="resetZoom()"
+                style="background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.3); color:#fff; height:36px; padding:0 14px; border-radius:18px; font-size:12px; cursor:pointer;">Reset</button>
+        </div>
+
+        <div id="feeding-guide-img-wrapper"
+            style="width:98vw; height:92vh; overflow:auto; display:flex; align-items:flex-start; justify-content:flex-start;">
+            <img id="feeding-guide-modal-img" src="" alt="Guía de alimentación"
+                style="display:block; border-radius:8px;" onclick="event.stopPropagation()">
+        </div>
     </div>
 
-    <div id="feeding-guide-img-wrapper" style="width:98vw; height:92vh; overflow:auto; display:flex; align-items:flex-start; justify-content:flex-start;">
-        <img id="feeding-guide-modal-img" src="" alt="Guía de alimentación" style="display:block; border-radius:8px;" onclick="event.stopPropagation()">
-    </div>
-</div>
+    <script>
+        let currentZoom = 1;
+        let baseWidth = 0;
+        const MIN_ZOOM = 0.5;
+        const MAX_ZOOM = 4;
 
-<script>
-    let currentZoom = 1;
-    let baseWidth = 0;
-    const MIN_ZOOM = 0.5;
-    const MAX_ZOOM = 4;
+        function openFeedingModal(src) {
+            const img = document.getElementById('feeding-guide-modal-img');
+            img.src = src;
+            const modal = document.getElementById('feeding-guide-modal');
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
 
-    function openFeedingModal(src) {
-        const img = document.getElementById('feeding-guide-modal-img');
-        img.src = src;
-        const modal = document.getElementById('feeding-guide-modal');
-        modal.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-
-        img.onload = function() {
-            baseWidth = img.naturalWidth;
-            resetZoom();
-        };
-        // If already loaded (cached)
-        if (img.complete && img.naturalWidth) {
-            baseWidth = img.naturalWidth;
-            resetZoom();
-        }
-    }
-
-    function adjustZoom(delta) {
-        currentZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, currentZoom + delta));
-        applyZoom();
-    }
-
-    function resetZoom() {
-        currentZoom = 1;
-        applyZoom();
-    }
-
-    function applyZoom() {
-        const img = document.getElementById('feeding-guide-modal-img');
-        const wrapper = document.getElementById('feeding-guide-img-wrapper');
-        const newWidth = baseWidth * currentZoom;
-        img.style.width = newWidth + 'px';
-        img.style.height = 'auto';
-        document.getElementById('zoom-label').textContent = Math.round(currentZoom * 100) + '%';
-        wrapper.style.cursor = currentZoom > 1 ? 'grab' : 'zoom-in';
-        // Center image when smaller than wrapper
-        const wrapperW = wrapper.clientWidth;
-        const wrapperH = wrapper.clientHeight;
-        wrapper.style.alignItems = newWidth < wrapperW ? 'center' : 'flex-start';
-        wrapper.style.justifyContent = newWidth < wrapperW ? 'center' : 'flex-start';
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('feeding-guide-img-wrapper').addEventListener('wheel', function(e) {
-            if (document.getElementById('feeding-guide-modal').style.display === 'flex') {
-                e.preventDefault();
-                adjustZoom(e.deltaY < 0 ? 0.15 : -0.15);
+            img.onload = function () {
+                baseWidth = img.naturalWidth;
+                resetZoom();
+            };
+            // If already loaded (cached)
+            if (img.complete && img.naturalWidth) {
+                baseWidth = img.naturalWidth;
+                resetZoom();
             }
-        }, { passive: false });
-    });
-
-    function handleModalClick(e) {
-        if (e.target === document.getElementById('feeding-guide-modal')) {
-            document.getElementById('feeding-guide-modal').style.display = 'none';
-            document.body.style.overflow = '';
-            resetZoom();
         }
-    }
 
-    document.addEventListener('keydown', function(e) {
-        const modal = document.getElementById('feeding-guide-modal');
-        if (modal.style.display !== 'flex') return;
-        if (e.key === 'Escape') { modal.style.display = 'none'; document.body.style.overflow = ''; resetZoom(); }
-        if (e.key === '+' || e.key === '=') adjustZoom(0.25);
-        if (e.key === '-') adjustZoom(-0.25);
-        if (e.key === '0') resetZoom();
-    });
-</script>
+        function adjustZoom(delta) {
+            currentZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, currentZoom + delta));
+            applyZoom();
+        }
+
+        function resetZoom() {
+            currentZoom = 1;
+            applyZoom();
+        }
+
+        function applyZoom() {
+            const img = document.getElementById('feeding-guide-modal-img');
+            const wrapper = document.getElementById('feeding-guide-img-wrapper');
+            const newWidth = baseWidth * currentZoom;
+            img.style.width = newWidth + 'px';
+            img.style.height = 'auto';
+            document.getElementById('zoom-label').textContent = Math.round(currentZoom * 100) + '%';
+            wrapper.style.cursor = currentZoom > 1 ? 'grab' : 'zoom-in';
+            // Center image when smaller than wrapper
+            const wrapperW = wrapper.clientWidth;
+            const wrapperH = wrapper.clientHeight;
+            wrapper.style.alignItems = newWidth < wrapperW ? 'center' : 'flex-start';
+            wrapper.style.justifyContent = newWidth < wrapperW ? 'center' : 'flex-start';
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('feeding-guide-img-wrapper').addEventListener('wheel', function (e) {
+                if (document.getElementById('feeding-guide-modal').style.display === 'flex') {
+                    e.preventDefault();
+                    adjustZoom(e.deltaY < 0 ? 0.15 : -0.15);
+                }
+            }, { passive: false });
+        });
+
+        function handleModalClick(e) {
+            if (e.target === document.getElementById('feeding-guide-modal')) {
+                document.getElementById('feeding-guide-modal').style.display = 'none';
+                document.body.style.overflow = '';
+                resetZoom();
+            }
+        }
+
+        document.addEventListener('keydown', function (e) {
+            const modal = document.getElementById('feeding-guide-modal');
+            if (modal.style.display !== 'flex') return;
+            if (e.key === 'Escape') { modal.style.display = 'none'; document.body.style.overflow = ''; resetZoom(); }
+            if (e.key === '+' || e.key === '=') adjustZoom(0.25);
+            if (e.key === '-') adjustZoom(-0.25);
+            if (e.key === '0') resetZoom();
+        });
+    </script>
 </body><!-- End of .page_wrapper -->
 
 </html>

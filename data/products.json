@@ -9,10 +9,10 @@
         "video": "https://youtu.be/jx7xmbzPRAY?si=JAG9Toi-12LXMtXS",
         "feeding-guide": "assets/images/zen/Tabla-Zen.png",
         "benefits": [
-            "<strong>Triptófano:</strong> Precursor de serotonina que favorece la relajación y concentracion del caballo",
-            "<strong>Complejo B optimizado:</strong> Mejora la conducción nerviosa",
-            "<strong>Minerales equilibrados:</strong> Favorece la recuperacion del caballo.",
-            "<strong>Aminoácidos esenciales:</strong> Mejoran la condición  general del caballo como los cascos y el pelo."
+            "<strong>Triptófano:</strong> Precursor de la serotonina que favorece la relajación y concentración del caballo.",
+            "<strong>Complejo B optimizado:</strong> Mejora la conducción nerviosa.",
+            "<strong>Minerales equilibrados:</strong> Favorece la recuperación general de tu caballo.",
+            "<strong>Aminoácidos esenciales:</strong> Mejoran la condición general del caballo además de los cascos y el pelo."
         ],
         "cienciecebehind": "<strong>¿POR QUÉ LOS CABALLOS SE ESTRESAN?</strong> <br> El estrés en caballos deportivos no es psicológico - es bioquímico. Niveles altos de cortisol inhiben la síntesis de los nutrientes. <br><br> <strong>LA CIENCIA DEL TRIPTÓFANO</strong> <br> L-triptófano es precursor de serotonina, neurotransmisor que regula estado de ánimo y concentración. Debe estar biodisponible y en proporción correcta con otros aminoácidos. <br> Una nutrición completa muy baja en almidon con ingredientes innovadores como pulido de arroz y pulpa de remolacha.",
         "howitworks": [
@@ -98,13 +98,13 @@
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores."
             },
             {
-                "point": "Soporte técnico durante transición"
+                "point": "Soporte técnico durante la transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -129,25 +129,27 @@
         ],
         "cases": [
             {
-                "use": "Cualquier caballo y disciplina deportiva."
+                "use": "Cualquier tipo de caballo en cualquier disciplina deportiva"
             },
             {
-                "use": "Atletas con tendencia a la hiperactividad, sensibles y nerviosos"
+                "use": "Caballos atletas con tendencia a la hiperactividad, sensibles y nerviosos"
             },
             {
-                "use": "Controla el comportamiento de yeguas en celo."
+                "use": "Controla la conducta en las yeguas en celo"
             },
             {
                 "use": "Manejo en la doma de potros y potrancas"
-            },
-            {
-                "use": "Para mejores resultados recomendamos complementar con (GALOPE® PROTEIN y GALOPE® ENERGY)."    
             }
         ],
+        "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual Completo GALOPE® ZEN",
+                "title": "Manual GALOPE® ZEN",
                 "link": "assets/docs/Manual_Completo_Galope_ZEN.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® ZEN",
+                "link": "assets/docs/NUT_GALOPE_ZEN_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
@@ -292,15 +294,17 @@
         "cases": [
             {
                 "use": "Cualquier caballo y disciplina deportiva."
-            },
-            {
-                "use": "Para mejores resultados recomendamos complementar con (GALOPE® PROTEIN y GALOPE® ENERGY)."    
             }
         ],
+        "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual Completo GALOPE® ALTO RENDIMIENTO",
+                "title": "Manual GALOPE® ALTO RENDIMIENTO",
                 "link": "assets/docs/Manual_Completo_Galope_Alto_Rendimiento.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® ALTO RENDIMIENTO",
+                "link": "assets/docs/NUT_GALOPE_ALTO_RENDIMIENTO_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
@@ -462,15 +466,17 @@
             },
             {
                 "use": "Yeguas con historial de problemas reproductivos"
-            },
-            {
-                "use": "Para mejores resultados recomendamos complementar con (GALOPE® PROTEIN y GALOPE® ENERGY)."    
             }
         ],
+        "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual Completo  Reproductoras",
+                "title": "Manual GALOPE® Reproductoras",
                 "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® Reproductoras",
+                "link": "assets/docs/NUT_GALOPE_REPRODUCTORAS_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
@@ -631,15 +637,17 @@
             },
             {
                 "use": "Caballos con enfermedades metabólicas como: laminitis, cólicos recurrentes, hiperlipemia y resistencia a la insulina"
-            },
-            {
-                "use": "Para mejores resultados recomendamos complementar con (GALOPE® PROTEIN y GALOPE® ENERGY)."    
             }
         ],
+        "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual Completo  Balance",
+                "title": "Manual GALOPE® Balance",
                 "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® Balance",
+                "link": "assets/docs/NUT_GALOPE_BALANCE_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
@@ -792,15 +800,17 @@
             },
             {
                 "use": "Caballos para todas las disciplinas deportivas"
-            },
-            {
-                "use": "Para mejores resultados recomendamos complementar con (GALOPE® PROTEIN y GALOPE® ENERGY)."    
             }
         ],
+        "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual Completo GALOPE® 300 VARAS",
+                "title": "Manual GALOPE® 300 VARAS",
                 "link": "assets/docs/Manual_Completo_Galope_300_Varas.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® 300 VARAS",
+                "link": "assets/docs/NUT_GALOPE_300_VARAS_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
@@ -957,10 +967,15 @@
                 "use": "Como fuente de energia para yeguas gestantes y potros en desarrollo."
             }
         ],
+        "recomendation": "",
         "downloadables": [
             {
-                "title": "Manual Completo GALOPE® ENERGY",
+                "title": "Manual GALOPE® ENERGY",
                 "link": "assets/docs/Manual_Completo_Galope_Energy.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® ENERGY",
+                "link": "assets/docs/NUT_GALOPE_ENERGY_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
@@ -1129,10 +1144,15 @@
                 "use": "Para caballos inmunodeprimidos."
             }
         ],
+        "recomendation": "",
         "downloadables": [
             {
-                "title": "Manual Completo GALOPE® PROTEIN",
+                "title": "Manual GALOPE® PROTEIN",
                 "link": "assets/docs/Manual_Completo_Galope_Protein.pdf"
+            },
+            {
+                "title": "Folleto GALOPE® PROTEIN",
+                "link": "assets/docs/NUT_GALOPE_PROTEIN_FOLLETO.pdf"
             }
         ],
         "technicalvideos": [
