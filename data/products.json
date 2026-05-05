@@ -172,17 +172,17 @@
         "title": "GALOPE® ALTO RENDIMIENTO",
         "backgroundimage": "assets/images/alto-rendimiento/background.png",
         "packageimage": "assets/images/alto-rendimiento/package.png",
-        "copy": "El segundo lugar no existe en el diccionario de los campeones. Solo existe el próximo objetivo por superar.",
+        "copy": "El primer lugar existe en el diccionario de los campeones, seguido del próximo objetivo por superar.",
         "tagline": "ENERGÍA QUE TRANSFORMA LÍMITES EN RÉCORDS",
         "video": "https://youtu.be/zypr8kwAgf8?si=UMviBYstjwmb8DnA",
         "feeding-guide": "assets/images/alto-rendimiento/Tabla-Alto-Rendimiento.png",
         "benefits": [
-            "<strong>Aminoácidos esenciales:</strong> Continúa formación de masa muscular",
-            "<strong>Energía controlada:</strong> Potencia que no quema, impulsa",
-            "<strong>Recuperación acelerada:</strong> Aporte de los nutrientes esenciales para la recuperación",
-            "<strong>Resistencia prolongada:</strong> Logra mantener el rendimiento."
+            "<strong>Aminoácidos esenciales:</strong> Continúa formación de masa muscular.",
+            "<strong>Energía controlada:</strong> Potencia que impulsa y que no altera el comportamiento.",
+            "<strong>Recuperación acelerada:</strong> Aporta nutrientes esenciales para una rápida recuperación.",
+            "<strong>Resistencia prolongada:</strong> Logra mantener el máximo desempeño de manera continua."
         ],
-        "cienciecebehind": "<strong>¿POR QUÉ LOS ATLETAS EQUINOS NECESITAN MÁS?</strong> <br>Durante el ejercicio el caballo requiere de nutrientes de alto valor biológico para su óptimo desempeño y mejorar la recuperación. Sin reposición adecuada de aminoácidos, aparece fatiga muscular prematura.",
+        "cienciecebehind": "<strong>¿POR QUÉ LOS ATLETAS EQUINOS NECESITAN MÁS?</strong> <br> Durante el ejercicio físico intenso los caballos requieren nutrientes de alto valor biológico para su óptimo desempeño y eficiente recuperación. Sin reposición adecuada de aminoácidos, aparece fatiga muscular prematura.",
         "howitworks": [
             "1. Aminoácidos biodisponibles alimentan síntesis proteica",
             "2. Carbohidratos complejos liberan energía gradualmente",
@@ -253,22 +253,22 @@
         "faq": [
             {
                 "question": "¿GALOPE® ALTO RENDIMIENTO AFECTARÁ EL TEMPERAMENTO DE MI CABALLO?",
-                "answer": "GALOPE® ALTO RENDIMIENTO no afectará el rendimiento ya que proporciona energía controlada sin alterar el comportamiento. Mantiene el temperamento mientras optimiza la capacidad atlética."
+                "answer": "GALOPE® ALTO RENDIMIENTO no afectará el rendimiento por que proporciona energía controlada sin alterar el comportamiento. Mantiene el temperamento mientras optimiza la capacidad atlética."
             },
             {
-                "question": "¿CUÁNDO VERÉ MEJORAS EN RESISTENCIA?",
+                "question": "¿CUÁNDO VERÉ RESULTADOS?",
                 "answer": "Los primeros cambios positivos pueden observarse a partir de los 15 días de uso constante. Si bien el beneficio metabólico completo se establece entre las 4 y 6 semanas, la transformación física y de comportamiento es un proceso evolutivo que continúa optimizándose mes con mes."
             }
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
             {
                 "point": "Soporte técnico durante transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -293,7 +293,10 @@
         ],
         "cases": [
             {
-                "use": "Cualquier caballo y disciplina deportiva."
+                "use": "Cualquier tipo de caballo en cualquier disciplina deportiva."
+            },
+            {
+                "use": "Salto, carreras de carriles e hipódromo, reining, team roping, bailadores, endurance, polo, charrería, barriles, cala, escaramuzas, caballos de conformación, trabajo de campo y sementales con trabajo físico."
             }
         ],
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
