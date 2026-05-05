@@ -753,7 +753,7 @@
 
             // Update product name and copy
             document.getElementById('product-name').textContent = product.title;
-            document.getElementById('product-copy').textContent = product.copy;
+            document.getElementById('product-copy').innerHTML = product.copy;
 
             // Update main image
             document.getElementById('cover-product').style.backgroundImage = `url(${product.backgroundimage || './assets/images/background/page-title.jpg'})`;

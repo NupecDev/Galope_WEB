@@ -330,7 +330,7 @@
         "title": "GALOPE® REPRODUCTORAS",
         "backgroundimage": "assets/images/reproductoras/background.png",
         "packageimage": "assets/images/reproductoras/package.png",
-        "copy": "Es el futuro que alimentas desde su primer latido. No es solo genética.",
+        "copy": "Es el futuro que alimentas desde su primer latido, no es solo genética.",
         "tagline": "DONDE COMIENZA LA GRANDEZA",
         "video": "https://youtu.be/jUtyYDrWsyg?si=tu6qK6j9DYJ4TnvT",
         "feeding-guide": "assets/images/reproductoras/Tabla-Reproductoras.png",
@@ -338,9 +338,9 @@
             "<strong>Ácido fólico:</strong> Para desarrollo exitoso en gestación",
             "<strong>DHA y Omega 3:</strong> Cerebros que nacen para destacar",
             "<strong>Calcio biodisponible:</strong> Huesos fuertes desde el primer día",
-            "<strong>Proteína de calidad:</strong> Favorece el crecimiento del feto garantizando la condicion de la yegua."
+            "<strong>Proteína de calidad:</strong> Optimizando el desarrollo del potro y garantizando la condición corporal de la yegua."
         ],
-        "cienciecebehind": "<strong>¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA?</strong><br> El ácido fólico previene defectos del tubo neural, mientras que los ácidos grasos omega-3 son fundamentales para la formación del sistema nervioso central. <br><br><strong>Es crucial intensificar el aporte nutricional durante el tercer tercio de la gestación</strong><br> ya que es en esta etapa final donde ocurre el mayor desarrollo físico y ganancia de peso del feto, demandando el máximo nivel de energía y minerales de la yegua.",
+        "cienciecebehind": "<strong>¿POR QUÉ LA NUTRICIÓN REPRODUCTIVA ES CRÍTICA?</strong><br> El ácido fólico previene defectos del tubo neural, mientras que los ácidos grasos omega-3 son fundamentales para la formación del sistema nervioso central. <br><br>Es crucial intensificar el aporte nutricional durante el tercer tercio de la gestación ya que es en esta etapa final donde ocurre el mayor desarrollo físico y ganancia de peso del feto, demandando el máximo nivel de energía y minerales de la yegua.",
         "howitworks": [
             "1. Ácido fólico optimiza división celular",
             "2. DHA forma membranas neuronales",
@@ -419,18 +419,18 @@
             },
             {
                 "question": "¿ES SEGURO DURANTE TODA LA GESTACIÓN?",
-                "answer": "Completamente seguro. Está formulado específicamente para las necesidades que se requieren durante los 3 tercios de gestacion y la lactancia."
+                "answer": "Completamente seguro. Está formulado específicamente para las necesidades que se requieren durante los tres tercios de gestacion y la lactancia."
             }
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
             {
-                "point": "Soporte técnico durante transición"
+                "point": "Soporte técnico durante la transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -502,17 +502,17 @@
         "title": "GALOPE® BALANCE",
         "backgroundimage": "assets/images/balance/background.png",
         "packageimage": "assets/images/balance/package.png",
-        "copy": "Nutrición avanzada con una fórmula ultra baja en almidón que utiliza ingredientes innovadores como pulpa de remolacha y pulido de arroz. Gracias a su alto contenido de Gamma Oryzanol (Omega 9), ofrece una potente acción antioxidante y antiinflamatoria que protege la salud muscular y digestiva de tu caballo.",
+        "copy": "Nutrición avanzada con una fórmula ultra baja en almidón que utiliza ingredientes innovadores como pulido de arroz y pulpa de remolacha.<br> Gracias a su alto contenido de Gamma Oryzanol = Omega 9, ofrece una potente acción antioxidante y antiinflamatoria que protege la salud muscular y digestiva de tu caballo.",
         "tagline": "EQUILIBRIO NUTRICIONAL",
         "video": "https://youtu.be/atVY1lNjrUU?si=PNmAO_lcT5ddIooE",
         "feeding-guide": "assets/images/balance/Tabla-Balance.png",
         "benefits": [
             "<strong>Bajo en almidón:</strong> Digestión que fluye sin complicaciones",
-            "<strong>Omega 3,6 y mayormente 9:</strong> Propiedades antiinflamatorias dirigidas a todo el tracto intestinal",
-            "<strong>Fibras de calidad:</strong> Mejoramiento de la salud intestinal",
-            "<strong>Potentes Antioxidantes:</strong> Protege la célula contra radicales libres."
+            "<strong>Omega 3, Omega 6 y en mayor cantidad Omega 9:</strong> Propiedades antiinflamatorias digeridas al tracto gastrointestinal",
+            "<strong>Fibras de calidad:</strong> Mejorando la salud intestinal",
+            "<strong>Potentes Antioxidantes:</strong> Protege las células con radicales libres (protegiendo la vida celular)"
         ],
-        "cienciecebehind": "<strong>¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO?</strong><br> Las dietas altas en almidón no solo afectan el peso; alteran drásticamente el pH intestinal, lo que genera acidosis en el ciego y colon. Este ambiente ácido compromete seriamente la salud de la microbiota, afectando la absorción de nutrientes y aumentando el riesgo de enfermedades metabólicas como: <br><ul><li>- Cólico y Laminitis.</li> <li>- Resistencia a la insulina.</li></ul>",
+        "cienciecebehind": "<strong>¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO?</strong><br> Las dietas altas en almidón alteran drásticamente el pH intestinal, lo que genera acidosis en ciego y colon comprometiendo la salud de la microbiota. <br> La elevada ingesta de almidones provoca el desarrollo de enfermedades metabólicas como: cólicos, laminitis, hiperlipemia y resistencia a la insulina.",
         "howitworks": [
             "1. Bajo almidón mantiene pH intestinal óptimo",
             "2. Omega 3 reduce inflamación sistémica",
