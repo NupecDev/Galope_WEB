@@ -583,11 +583,11 @@
         "faq": [
             {
                 "question": "¿GALOPE® BALANCE SE RECOMIENDA PARA CABALLOS ACTIVOS?",
-                "answer": "GALOPE® BALANCE es ideal para mantenimiento, caballos sin actividad física, actividad física ligera y moderada."
+                "answer": "GALOPE® BALANCE es ideal para caballos con actividad física de ligera a moderada y mantenimiento."
             },
             {
                 "question": "¿AYUDA CON PROBLEMAS DIGESTIVOS?",
-                "answer": "Sí. Su bajo contenido de almidón y fibras de calidad optimizan la salud digestiva, previniendo el desarollo de enfermedades metabolicas."
+                "answer": "Sí. Su bajo contenido de almidón y fibras de calidad optimizan la salud digestiva, previniendo el desarollo de enfermedades metabólicas, evitando procesos inflamatorios en todo el tracto gastrointestinal."
             },
             {
                 "question": "¿CUÁNTO TIEMPO PARA VER MEJORAS?",
@@ -596,13 +596,13 @@
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
             {
-                "point": "Soporte técnico durante transición"
+                "point": "Soporte técnico durante la transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -627,10 +627,10 @@
         ],
         "cases": [
             {
-                "use": "Caballos de mantenimiento (sin actividad física, actividad física ligera y moderada)"
+                "use": "Caballos con trabajo ligero a moderado, todas las disciplinas deportivas"
             },
             {
-                "use": "Équidos con intolerantes al almidón"
+                "use": "Equidos intolerantes a los almidones"
             },
             {
                 "use": "Caballos senior o con metabolismo lento"
@@ -640,6 +640,9 @@
             },
             {
                 "use": "Caballos con enfermedades metabólicas como: laminitis, cólicos recurrentes, hiperlipemia y resistencia a la insulina"
+            },
+            {
+                "use": "Caballos en mantenimiento"
             }
         ],
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
@@ -673,7 +676,7 @@
         "title": "GALOPE® 300 VARAS",
         "backgroundimage": "assets/images/300-varas/background.png",
         "packageimage": "assets/images/300-varas/package.png",
-        "copy": "En las carreras, la charrería, la tradición y la ciencia se encuentran. Alimento extruido, granos de grado de consumo humano y pulpa de remolacha.",
+        "copy": "En las carreras, la charrería, la tradición y la ciencia se encuentran. Producto elaborado con partículas extruidas, granos grado consumo humano y pulpa de remolacha.",
         "tagline": "TRADICIÓN CON CIENCIA MUNDIAL",
         "video": "https://youtu.be/lriE_FnrYxI?si=8w1AnBZpTQnfAaAg",
         "feeding-guide": "assets/images/300-varas/Tabla-300-Varas.png",
@@ -684,7 +687,7 @@
             "<strong>Libre de polvos:</strong> Evitando enfermedades respiratorias",
             "<strong>Excelente palatabilidad</strong>"
         ],
-        "cienciecebehind": "<strong>¿POR QUÉ LA CHARRERÍA Y CARRERAS EXIGEN NUTRICIÓN ESPECÍFICA?</strong><br>Las competencias requieren un alto desempeño seguido de una recuperación rápida. Optimizando la salud digestiva.",
+        "cienciecebehind": "<strong>¿POR QUÉ LAS CARRERAS PAREJERAS Y LA CHARRERÍA EXIGEN NUTRICIÓN ESPECÍFICA?</strong><br>Las competencias requieren un alto desempeño seguido de una recuperación rápida, optimizando la salud digestiva.",
         "howitworks": [
             "1. Prebióticos y probióticos nutren microbiota especializada",
             "2. Multipartículas aseguran palatabilidad superior",
@@ -759,7 +762,7 @@
             },
             {
                 "question": "¿LA PRESENTACIÓN MOLLY ES DIFERENTE A MULTIPARTÍCULAS?",
-                "answer": "Sí. El molly ofrece palatabilidad superior y digestión gradual, ideal para caballos de trabajo."
+                "answer": "Sí. El muesli ofrece mayor palatabilidad y digestibilidad, ideal para caballos de trabajo."
             },
             {
                 "question": "¿MEJORARÁ LA RESISTENCIA EN COMPETENCIAS?",
@@ -768,13 +771,13 @@
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
             {
-                "point": "Soporte técnico durante transición"
+                "point": "Soporte técnico durante la transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -799,10 +802,7 @@
         ],
         "cases": [
             {
-                "use": "Caballos de trabajo intenso a muy intenso"
-            },
-            {
-                "use": "Caballos para todas las disciplinas deportivas"
+                "use": "Caballos de trabajo intenso y muy intenso, para todas las disciplinas deportivas"
             }
         ],
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
@@ -834,6 +834,7 @@
     {
         "product": "energy",
         "title": "GALOPE® ENERGY",
+        "copy": null,
         "backgroundimage": "assets/images/energy/background.png",
         "packageimage": "assets/images/energy/package.png",
         "description": "La energía que no explota. La potencia que no se desvanece. El combustible que entiende el tiempo perfecto.",
@@ -917,26 +918,26 @@
         "faq": [
             {
                 "question": "¿GALOPE® ENERGY PROVOCARÁ HIPERACTIVIDAD EN MI CABALLO?",
-                "answer": "No. GALOPE® ENERGY proporciona energía de liberación controlada que mejora rendimiento sin afectar temperamento."
+                "answer": "GALOPE® ENERGY proporciona energía de liberación controlada que mejora rendimiento sin afectar temperamento."
             },
             {
                 "question": "¿CUÁNDO VERÉ MEJORAS EN RESISTENCIA?",
-                "answer": "Las primeras mejoras se notan entre 2-3 semanas. El efecto completo se establece después de 1 mes de uso consistente."
+                "answer": "Los primeros cambios positivos pueden observarse a partir de los 15 días de uso constante. Si bien el beneficio metabólico completo se establece entre las 4 y 6 semanas, la transformación física y de comportamiento es un proceso evolutivo que continúa optimizándose mes con mes."
             },
             {
-                "question": "¿PUEDO COMBINARLO CON OTROS PRODUCTOS ?",
+                "question": "¿PUEDO COMBINARLO CON OTROS PRODUCTOS?",
                 "answer": "Absolutamente. GALOPE® ENERGY es ideal como complemento con cualquiera de nuestros alimentos base según las necesidades específicas. Potencializando los resultados."
             }
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
             {
-                "point": "Soporte técnico durante transición"
+                "point": "Soporte técnico durante la transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -961,16 +962,19 @@
         ],
         "cases": [
             {
-                "use": "Para cualquier raza y cualquier disciplina deportiva."
+                "use": "Para cualquier raza de caballos y cualquier disciplina deportiva."
             },
             {
                 "use": "Atletas que requieren energía sostenida de larga duración."
             },
             {
-                "use": "Como fuente de energia para yeguas gestantes y potros en desarrollo."
+                "use": "Como fuente de energía para yeguas gestantes y potros en desarrollo."
+            },
+            {
+                "use": "Aporta fuente de energía segura para potencializarla"
             }
         ],
-        "recomendation": "",
+        "recomendation": "PARA POTENCIAR SUS BENEFICIOS, RECOMENDAMOS ADMINISTRAR CON GALOPE® ZEN, GALOPE® ALTO RENDIMIENTO, GALOPE® REPRODUCTORAS, GALOPE® BALANCE Y GALOPE® 300 VARAS.",
         "downloadables": [
             {
                 "title": "Manual GALOPE® ENERGY",
@@ -999,6 +1003,7 @@
     {
         "product": "protein",
         "title": "GALOPE® PROTEIN",
+        "copy": null,
         "backgroundimage": "assets/images/protein/background.png",
         "packageimage": "assets/images/protein/package.png",
         "description": "Los músculos que admiras no se construyeron solos. Se nutren con precisión científica.",
@@ -1006,12 +1011,13 @@
         "video": "https://youtu.be/XpXmOa-IR6U?si=L8hZ3xc2hA9WssEV",
         "feeding-guide": "assets/images/protein/Tabla-Protein.png",
         "benefits": [
-            "<strong>Aminoácidos esenciales:</strong> Promover ganancia muscular.",
-            "<strong>Síntesis proteica optimizada:</strong> Aporta los elementos necesarios para la restauracion de fibras musculares.",
+            "<strong>Aminoácidos esenciales:</strong> Promueven la ganancia muscular.",
+            "<strong>Síntesis proteica optimizada:</strong> Aporta los elementos necesarios para garantizar la restauración de fibras musculares.",
             "<strong>Recuperación muscular:</strong> Restablece el funcionamiento de fibras dañadas.",
-            "<strong>Precursor natural de la creatina:</strong> Promueve la síntesis de creatina de manera natural."
+            "<strong>Precursor natural de la creatina:</strong> Promueve la síntesis de creatina de manera natural.",
+            "Activa las funciones reproductivas  y mejora el sistema inmune."
         ],
-        "cienciecebehind": "<strong>¿POR QUÉ LA PROTEÍNA COMÚN NO ES SUFICIENTE?</strong><br> No todos los aminoácidos son iguales. Sin un perfil completo de aminoácidos esenciales, la síntesis proteica no es eficiente sin importar la cantidad total de proteína. <br><br><strong>LA CIENCIA DE LA CONSTRUCCIÓN MUSCULAR</strong><br> Los aminoácidos esenciales (leucina, isoleucina, valina, lisina, metionina, treonina, triptófano, fenilalanina, histidina) promueven la ganancia muscular.",
+        "cienciecebehind": "<strong>¿POR QUÉ LA PROTEÍNA COMÚN NO ES SUFICIENTE?</strong><br> No todos los aminoácidos son iguales. Sin un perfil completo de aminoácidos esenciales, la síntesis proteica no es eficiente sin importar la cantidad total de proteína.<br><br><strong>LA CIENCIA DE LA CONSTRUCCIÓN MUSCULAR</strong><br> Los aminoácidos esenciales (histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptófano y valina) promueven la ganancia muscular.",
         "howitworks": [
             "1. Aminoácidos esenciales activan síntesis proteica",
             "2. BCAA estimulan crecimiento muscular dirigido",
@@ -1086,22 +1092,22 @@
             },
             {
                 "question": "¿CUÁNDO VERÉ CAMBIOS EN LA MUSCULATURA?",
-                "answer": "Los primeros cambios se notan desde los 15 días. La transformación completa se aprecia a las 8-12 semanas con cambios que pueden observarse de manera continua."
+                "answer": "Los primeros cambios positivos pueden observarse a partir de los 15 días de uso constante. Si bien el beneficio metabólico completo se establece entre las 4 y 6 semanas, la transformación física y de comportamiento es un proceso evolutivo que continúa optimizándose mes con mes."
             },
             {
                 "question": "¿PUEDE USARSE CON CABALLOS EN COMPETENCIA?",
-                "answer": "Absolutamente. Ya que contiene ingredientes de alto valor biologico."
+                "answer": "Absolutamente, gracias al gran valor biológico de todos los nutrientes."
             }
         ],
         "guarantee": [
             {
-                "point": "Desde los 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
+                "point": "A partir de 15 días se puede ver la mejora en concentración y cambio en condición corporal, cuello y posteriores"
             },
             {
-                "point": "Soporte técnico durante transición"
+                "point": "Soporte técnico durante la transición"
             },
             {
-                "point": "Protocolo personalizado incluido"
+                "point": "Protocolo de dieta personalizado"
             }
         ],
         "beforeafter": [
@@ -1126,25 +1132,28 @@
         ],
         "cases": [
             {
-                "use": "Potros y potrancas en desarrollo"
+                "use": "Para cualquier raza de caballo y cualquier disciplina deportiva."
             },
             {
-                "use": "Cualquier disciplina deportiva y raza"
+                "use": "Potros y potrancas en desarrollo"
             },
             {
                 "use": "Caballos en recuperación de lesiones musculares"
             },
             {
-                "use": "Caballos que requieren mantenimiento muscular superior"
+                "use": "Caballos que requieren mejoramiento muscular superior"
             },
             {
                 "use": "Caballos con desgaste muscular"
             },
             {
-                "use": "Recuperacion o rehabilitación post-enfermedad o post quirúrgica"
+                "use": "Recuperación y rehabilitación post-enfermedad o post quirúrgica"
             },
             {
-                "use": "Para caballos inmunodeprimidos."
+                "use": "Caballos inmunodeprimidos"
+            },
+            {
+                "use":"Mejoramiento de la calidad de la leche de la yegua"
             }
         ],
         "recomendation": "",
