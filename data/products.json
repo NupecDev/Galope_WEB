@@ -132,11 +132,11 @@
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® ZEN",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_ZEN.pdf"
             },
             {
-                "title": "Folleto GALOPE® ZEN",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_ZEN_FOLLETO.pdf"
             }
         ],
@@ -209,34 +209,14 @@
             }
         ],
         "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_1.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_2.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_3.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_4.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_5.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_6.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_7.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_8.jpg"
         ],
         "faq": [
             {
@@ -290,11 +270,11 @@
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® ALTO RENDIMIENTO",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_Alto_Rendimiento.pdf"
             },
             {
-                "title": "Folleto GALOPE® ALTO RENDIMIENTO",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_ALTO_RENDIMIENTO_FOLLETO.pdf"
             }
         ],
@@ -346,36 +326,15 @@
             "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/Galope_Reproductoras_Ficha_Tecnica.pdf",
-     
         "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_1.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_2.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_3.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_4.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_5.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_6.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_7.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_8.jpg"
         ],
         "faq": [
             {
@@ -443,11 +402,11 @@
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® Reproductoras",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
             },
             {
-                "title": "Folleto GALOPE® Reproductoras",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_REPRODUCTORAS_FOLLETO.pdf"
             }
         ],
@@ -508,34 +467,14 @@
             }
         ],
         "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
+            "assets/images/balance/Gallery-Balance/imagen_balance_1.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_2.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_3.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_4.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_5.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_6.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_7.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_8.jpg"
         ],
         "faq": [
             {
@@ -605,11 +544,11 @@
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® Balance",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
             },
             {
-                "title": "Folleto GALOPE® Balance",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_BALANCE_FOLLETO.pdf"
             }
         ],
@@ -671,34 +610,14 @@
             }
         ],
         "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_1.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_2.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_3.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_4.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_5.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_6.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_7.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_8.jpg"
         ],
         "faq": [
             {
@@ -753,11 +672,11 @@
         "recomendation": "PARA MEJORES RESULTADOS RECOMENDAMOS COMPLEMENTAR CON GALOPE® PROTEIN Y GALOPE® ENERGY.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® 300 VARAS",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_300_Varas.pdf"
             },
             {
-                "title": "Folleto GALOPE® 300 VARAS",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_300_VARAS_FOLLETO.pdf"
             }
         ],
@@ -816,37 +735,23 @@
                 "name": "Juan Rafael Durán Segura",
                 "role": "Rancho el Serrotito",
                 "quote": "Ambos concursos morfológicos y de funcionalidad, los mejores productos del mercado equino."
+            },
+            {
+                "image": "assets/images/energy/adolfo_de_la_torre.jpg",
+                "name": "Adolfo de la Torre",
+                "role": "Experto en Team Roping",
+                "quote": "Uso GALOPE® por que para mi, mis caballos son lo mas importante en una competencia así que ellos necesitan de la mejor alimentación para el alto rendimiento y así mismo lucir en las mejores carnes y con el mejor brillo dentro de la arena."
             }
         ],
         "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
+            "assets/images/energy/Gallery-Energy/imagen_energy_1.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_2.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_3.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_4.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_5.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_6.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_7.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_8.jpg"
         ],
         "faq": [
             {
@@ -910,11 +815,11 @@
         "recomendation": "PARA POTENCIAR SUS BENEFICIOS, RECOMENDAMOS ADMINISTRAR CON GALOPE® ZEN, GALOPE® ALTO RENDIMIENTO, GALOPE® REPRODUCTORAS, GALOPE® BALANCE Y GALOPE® 300 VARAS.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® ENERGY",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_Energy.pdf"
             },
             {
-                "title": "Folleto GALOPE® ENERGY",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_ENERGY_FOLLETO.pdf"
             }
         ],
@@ -983,34 +888,14 @@
             }
         ],
         "galleryimages": [
-            "assets/images/gallery/G1.jpg",
-            "assets/images/gallery/G2.jpg",
-            "assets/images/gallery/G3.jpg",
-            "assets/images/gallery/G4.jpg",
-            "assets/images/gallery/G5.jpg",
-            "assets/images/gallery/G6.jpg",
-            "assets/images/gallery/G7.jpg",
-            "assets/images/gallery/G8.jpg",
-            "assets/images/gallery/G9.jpg",
-            "assets/images/gallery/G10.jpg",
-            "assets/images/gallery/G11.jpg",
-            "assets/images/gallery/G12.jpg",
-            "assets/images/gallery/G13.jpg",
-            "assets/images/gallery/G14.jpg",
-            "assets/images/gallery/G15.jpg",
-            "assets/images/gallery/G16.jpg",
-            "assets/images/gallery/G17.jpg",
-            "assets/images/gallery/G18.jpg",
-            "assets/images/gallery/G19.jpg",
-            "assets/images/gallery/G20.jpg",
-            "assets/images/gallery/G21.jpg",
-            "assets/images/gallery/G22.jpg",
-            "assets/images/gallery/G23.jpg",
-            "assets/images/gallery/G24.jpg",
-            "assets/images/gallery/G25.jpg",
-            "assets/images/gallery/G26.jpg",
-            "assets/images/gallery/G27.jpg",
-            "assets/images/gallery/G28.jpg"
+            "assets/images/protein/Gallery-Protein/imagen_protein_1.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_2.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_3.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_4.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_5.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_6.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_7.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_8.jpg"
         ],
         "faq": [
             {
@@ -1083,14 +968,14 @@
                 "use": "Mejoramiento de la calidad de la leche de la yegua"
             }
         ],
-        "recomendation": "",
+        "recomendation": "PARA POTENCIAR SUS BENEFICIOS, RECOMENDAMOS ADMINISTRAR CON GALOPE® ZEN, GALOPE® ALTO RENDIMIENTO, GALOPE® REPRODUCTORAS, GALOPE® BALANCE Y GALOPE® 300 VARAS.",
         "downloadables": [
             {
-                "title": "Manual GALOPE® PROTEIN",
+                "title": "DESCARGAR FICHA TÉCNICA",
                 "link": "assets/docs/Manual_Completo_Galope_Protein.pdf"
             },
             {
-                "title": "Folleto GALOPE® PROTEIN",
+                "title": "DESCARGAR FOLLETO",
                 "link": "assets/docs/NUT_GALOPE_PROTEIN_FOLLETO.pdf"
             }
         ],

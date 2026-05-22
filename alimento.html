@@ -456,7 +456,30 @@
                                     </div> -->
                                 </div>
                             </div>
+                            <div class="content-two mb_60 col-lg-12">
+                                <!-- <h3>Especificaciones Técnicas</h3>
+                                <ul class="list-item clearfix mb_65" id="specifications-list">
+                                    
+                                </ul> -->
+                                <div class="text-box">
+                                    <h3>MENOS KILOS POR DÍA</h3>
+                                </div>
+                                <!-- <div class="text-box">
+                                    <h3>GUÍA DE ALIMENTACIÓN</h3>
+                                </div> -->
+                                <div class="inner-box">
+                                    <figure>
+                                        <img id="feeding-guide-image" src="" alt="" loading="lazy">
+                                    </figure>
+                                </div>
+                                <p>Ejemplo basado en un caballo de 500 kilogramos, descargue la ficha técnica a
+                                    continuacion.</p>
+                                <br>
+                                <div class="row" id="downloadables-list">
 
+                                </div>
+
+                            </div>
 
                         </div>
 
@@ -480,32 +503,9 @@
                                 </div>
 
                             </div>
-                            <div class="content-two mb_60 col-lg-12">
-                                <!-- <h3>Especificaciones Técnicas</h3>
-                                <ul class="list-item clearfix mb_65" id="specifications-list">
-                                    
-                                </ul> -->
-                                <div class="text-box">
-                                    <h3>MENOS KILOS POR DÍA</h3>
-                                </div>
-                                <div class="text-box">
-                                    <h3>GUÍA DE ALIMENTACIÓN</h3>
-                                </div>
-                                <div class="inner-box">
-                                    <figure>
-                                        <img id="feeding-guide-image" src="" alt="" loading="lazy">
-                                    </figure>
-                                </div>
-                                <p>Ejemplo basado en un caballo de 500 kilogramos, descargue la guia completa a
-                                    continuacion.</p>
-                                <br>
-                                <ul class="list-item clearfix mb_65" id="downloadables-list">
-                                    <!-- -- Downloadables will be populated here -- -->
-                                </ul>
-                            </div>
 
                             <div class="content-two mb_60">
-                                <h3>TESTIMONIOS</h3>
+                                <!-- <h3>TESTIMONIOS</h3> -->
                                 <div id="testimonials-container">
                                     <!-- Testimonials will be populated here -->
                                 </div>
@@ -821,6 +821,8 @@
             testimonialsContainer.innerHTML = '';
             testimonialsContainer.className = 'owl-carousel owl-theme';
             if (product.testimonials) {
+                const headerTestimonial = document.createElement('div');
+                headerTestimonial.innerHTML = `<h3>TESTIMONIOS</h3>`;                  
                 product.testimonials.forEach(testimonial => {
                     const testimonialDiv = document.createElement('div');
                     testimonialDiv.className = 'testimonial-item';
@@ -948,14 +950,14 @@
             downloadablesList.innerHTML = '';
             if (product.downloadables) {
                 product.downloadables.forEach(downloadable => {
-                    const li = document.createElement('div');
-                    li.innerHTML = `
-                    <br>
+                    const col = document.createElement('div');
+                    col.className = 'col-auto';
+                    col.innerHTML = `
                         <a href="${downloadable.link}" target="_blank" class="theme-btn btn-one" download>
                             <i class="fas fa-download"></i> ${downloadable.title}
                         </a>
                     `;
-                    downloadablesList.appendChild(li);
+                    downloadablesList.appendChild(col);
                 });
             }
 
