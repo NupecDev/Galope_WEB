@@ -220,7 +220,7 @@
                                                 </ul>
                                             </li>
                                             </li>
-                                            <li class="current dropdown"><a href="#">Complementos</a>
+                                            <li class="current dropdown"><a href="#">Concentrados</a>
                                                 <ul>
                                                     <li><a href="alimento.html?product=energy">GALOPE® ENERGY</a></li>
                                                     <li><a href="alimento.html?product=protein">GALOPE® PROTEIN</a></li>
@@ -382,7 +382,8 @@
                     <h2>REGÍSTRATE</h2>
                 </div>
                 <div class="form-inner">
-                    <form method="post" action="signup.html">
+                    <form method="post" action="sendemail.php" id="signup-form">
+                        <input type="hidden" name="form-source" value="signup">
                         <div class="form-group">
                             <label>Nombre</label>
                             <input type="text" name="name" required>
@@ -457,6 +458,10 @@
                                 <option value="Trabajos de campo">Trabajos de campo</option>
                                 <option value="otro">Otro</option>
                             </select>
+                        </div>
+                        <div class="form-group" id="horse-activity-other-group" style="display: none;">
+                            <label>Especifica la disciplina</label>
+                            <input type="text" name="horse-activity-other" id="horse-activity-other" class="form-control" placeholder="Escribe la disciplina">
                         </div>
                         <!-- <div class="form-group">
                             <label>¿Qué problema quieres resolver?</label>
@@ -594,9 +599,31 @@
     <script src="assets/js/bxslider.js"></script>
     <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
 
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
     <script>
+        // Check for message parameter and display styled alert
+        const urlParams = new URLSearchParams(window.location.search);
+        const submissionMessage = urlParams.get('message');
+        if (submissionMessage === 'Successfull') {
+            Swal.fire({
+                icon: 'success',
+                title: '¡Registro enviado exitosamente!',
+                text: 'Gracias por registrarte. Nos pondremos en contacto contigo pronto.',
+                confirmButtonText: 'Aceptar'
+            });
+        } else if (submissionMessage === 'Failed') {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error al enviar el registro',
+                text: 'Por favor, inténtalo de nuevo.',
+                confirmButtonText: 'Aceptar'
+            });
+        }
+
         function updateSelectedCountry() {
             const selectedCountry = this.value;
 
@@ -691,6 +718,39 @@
                     })
                     .catch(err => console.error('Error loading cities:', err));
             });
+
+            // Mostrar campo de texto cuando se selecciona "Otro" en Disciplina principal
+            const horseActivitySelect = document.getElementById('horse-activity');
+            const horseActivityOtherGroup = document.getElementById('horse-activity-other-group');
+            const horseActivityOtherInput = document.getElementById('horse-activity-other');
+            const signupForm = horseActivitySelect ? horseActivitySelect.closest('form') : null;
+
+            if (horseActivitySelect && horseActivityOtherGroup && horseActivityOtherInput) {
+                horseActivitySelect.addEventListener('change', function () {
+                    if (this.value === 'otro') {
+                        horseActivityOtherGroup.style.display = '';
+                        horseActivityOtherInput.setAttribute('required', 'required');
+                    } else {
+                        horseActivityOtherGroup.style.display = 'none';
+                        horseActivityOtherInput.removeAttribute('required');
+                        horseActivityOtherInput.value = '';
+                    }
+                });
+
+                // Al enviar, si se eligió "Otro", usar el texto escrito como valor final
+                if (signupForm) {
+                    signupForm.addEventListener('submit', function () {
+                        if (horseActivitySelect.value === 'otro' && horseActivityOtherInput.value.trim() !== '') {
+                            horseActivitySelect.querySelectorAll('option[data-custom="true"]').forEach(opt => opt.remove());
+                            const customOption = document.createElement('option');
+                            customOption.value = horseActivityOtherInput.value.trim();
+                            customOption.setAttribute('data-custom', 'true');
+                            customOption.selected = true;
+                            horseActivitySelect.appendChild(customOption);
+                        }
+                    });
+                }
+            }
         });
     </script>
 

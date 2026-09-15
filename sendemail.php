@@ -1,18 +1,44 @@
 <?php
 
 // Read the form values
-$userName = isset( $_POST['username'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['username'] ) : "";
+$userName = isset( $_POST['username'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['username'] ) : ( isset( $_POST['name'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['name'] ) : "" );
 $senderEmail = isset( $_POST['email'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['email'] ) : "";
 $userPhone = isset( $_POST['phone'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['phone'] ) : "";
 $userCountry = isset( $_POST['country'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['country'] ) : "";
 $userState = isset( $_POST['state'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['state'] ) : "";
 $userCity = isset( $_POST['city'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['city'] ) : "";
-$userSubject = isset( $_POST['subject'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
-$message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
+$horseNum = isset( $_POST['horse-num'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['horse-num'] ) : "";
+$horseActivity = isset( $_POST['horse-activity'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9áéíóúÁÉÍÓÚñÑ]/u", "", $_POST['horse-activity'] ) : "";
+$userSubject = isset( $_POST['subject'] ) && trim( $_POST['subject'] ) !== "" ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['subject'] ) : "Nuevo registro en Galope";
+$message = isset( $_POST['message'] ) && trim( $_POST['message'] ) !== "" ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
+
+// If this came from the signup form, build a message body from the extra fields
+if ( $message === "" && ( $horseNum || $horseActivity ) ) {
+  $messageLines = array();
+  if ( $horseNum ) {
+    $messageLines[] = "Número de caballos: " . $horseNum;
+  }
+  if ( $horseActivity ) {
+    $messageLines[] = "Disciplina principal: " . $horseActivity;
+  }
+  $message = implode( "\n", $messageLines );
+}
+
+// Determine where to redirect back to based on the referring form
+$redirectPage = 'contact.html';
+if ( isset( $_POST['form-source'] ) ) {
+  if ( $_POST['form-source'] === 'signup' ) {
+    $redirectPage = 'signup.html';
+  } elseif ( $_POST['form-source'] === 'contact' ) {
+    $redirectPage = 'contact.html';
+  }
+} elseif ( !empty( $_SERVER['HTTP_REFERER'] ) && strpos( $_SERVER['HTTP_REFERER'], 'signup.html' ) !== false ) {
+  $redirectPage = 'signup.html';
+}
 
 // If all values exist, call the API
 if ( $userName && $senderEmail && $userPhone && $userSubject && $message) {
-  // Prepare the data for the API
+  // Prepare the data for the API (mailing.py expects a JSON body via Pydantic)
   $data = array(
     'name' => $userName,
     'email' => $senderEmail,
@@ -55,13 +81,13 @@ if ( $userName && $senderEmail && $userPhone && $userSubject && $message) {
 
   // Set Location After Submission
   if ($success) {
-    header('Location: contact.html?message=Successfull');
+    header('Location: ' . $redirectPage . '?message=Successfull');
   } else {
-    header('Location: contact.html?message=Failed');
+    header('Location: ' . $redirectPage . '?message=Failed');
   }
 } else {
   // Set Location After Unsuccessful Submission
-  header('Location: contact.html?message=Failed');
+  header('Location: ' . $redirectPage . '?message=Failed');
 }
 
 ?>
