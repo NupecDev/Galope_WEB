@@ -123,7 +123,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_ZEN.pdf"
+                "link": "assets/docs/NUT_GALOPE_ZEN_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
@@ -261,7 +261,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_Alto_Rendimiento.pdf"
+                "link": "assets/docs/NUT_GALOPE_ALTO_RENDIMIENTO_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
@@ -393,7 +393,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_Reproductoras.pdf"
+                "link": "assets/docs/NUT_GALOPE_REPRODUCTORAS_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
@@ -425,10 +425,10 @@
         "video": "https://youtu.be/_4D-BBfkskY?si=_MkrpssMa3rP0a4k",
         "feeding-guide": "assets/images/balance/Tabla-Balance.png",
         "benefits": [
-            "<strong>Bajo en almidón:</strong> Digestión que fluye sin complicaciones",
-            "<strong>Omega 3, Omega 6 y en mayor cantidad Omega 9:</strong> Propiedades antiinflamatorias digeridas al tracto gastrointestinal",
-            "<strong>Fibras de calidad:</strong> Mejorando la salud intestinal",
-            "<strong>Potentes Antioxidantes:</strong> Protege las células con radicales libres (protegiendo la vida celular)"
+            "<strong>Bajo en almidón:</strong> Digestión que fluye sin complicaciones.",
+            "<strong>Omega 3, Omega 6 y en mayor cantidad Omega 9:</strong> Propiedades antiinflamatorias digeridas al tracto gastrointestinal.",
+            "<strong>Fibras de calidad:</strong> Mejorando la salud intestinal.",
+            "<strong>Potentes Antioxidantes:</strong> Protege las células con radicales libres (protegiendo la vida celular)."
         ],
         "cienciecebehind": "<strong>¿POR QUÉ EL EXCESO DE ALMIDÓN ES PROBLEMÁTICO?</strong><br> Las dietas altas en almidón alteran drásticamente el pH intestinal, lo que genera acidosis en ciego y colon comprometiendo la salud de la microbiota. <br> La elevada ingesta de almidones provoca el desarrollo de enfermedades metabólicas como: cólicos, laminitis, hiperlipemia y resistencia a la insulina.",
         "howitworks": [
@@ -535,7 +535,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_Balance.pdf"
+                "link": "assets/docs/NUT_GALOPE_BALANCE_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
@@ -663,7 +663,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_300_Varas.pdf"
+                "link": "assets/docs/NUT_GALOPE_300_VARAS_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
@@ -812,7 +812,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_Energy.pdf"
+                "link": "assets/docs/NUT_GALOPE_ENERGY_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
@@ -970,7 +970,7 @@
         "downloadables": [
             {
                 "title": "DESCARGAR FICHA TÉCNICA",
-                "link": "assets/docs/Manual_Completo_Galope_Protein.pdf"
+                "link": "assets/docs/NUT_GALOPE_PROTEIN_FICHA_TECNICA.pdf"
             },
             {
                 "title": "DESCARGAR FOLLETO",
