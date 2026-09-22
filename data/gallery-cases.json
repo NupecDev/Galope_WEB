@@ -1,206 +1,415 @@
 [
   {
     "id": 1,
-    "product": "alto-rendimiento",
-    "title": "¡Cambio a 30 días de su consumo!",
-    "before_img": "assets/images/casos/id-1-before.png",
-    "after_img": "assets/images/casos/id-1-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 30 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-15"
+    "product": "evolution",
+    "products_combo": [
+      "evolution",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 5 MESES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-1.jpg"
   },
   {
     "id": 2,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 15 días de su consumo!",
-    "before_img": "assets/images/casos/id-2-before.png",
-    "after_img": "assets/images/casos/id-2-after.png",
-    "caption": "¡Tuvo una ganancia de peso de 23 libras en 15 días!",
-    "testimonial": null,
-    "post_date": "2024-10-14"
+    "title": "CAMBIO A 3 MESES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-2.jpg"
   },
   {
     "id": 3,
     "product": "alto-rendimiento",
-    "title": "40 días de cambio con GALOPE®",
-    "before_img": "assets/images/casos/id-3-before.png",
-    "after_img": "assets/images/casos/id-3-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 40 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-13"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-3.jpg"
   },
   {
     "id": 4,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 35 días de su consumo!",
-    "before_img": "assets/images/casos/id-4-before.png",
-    "after_img": "assets/images/casos/id-4-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 35 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-12",
-    "products_combo": ["alto-rendimiento", "protein", "energy"]
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-4.jpg"
   },
   {
     "id": 5,
-    "product": "alto-rendimiento",
-    "title": "¡Cambio a 3 meses de su consumo!",
-    "before_img": "assets/images/casos/id-5-before.png",
-    "after_img": "assets/images/casos/id-5-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 3 meses, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-11",
-    "products_combo": ["alto-rendimiento", "protein", "energy"]
+    "product": "zen",
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-5.jpg"
   },
   {
     "id": 6,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 2 meses de su consumo!",
-    "before_img": "assets/images/casos/id-6-before.png",
-    "after_img": "assets/images/casos/id-6-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 2 meses, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-10"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-6.jpg"
   },
   {
     "id": 7,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 3 semanas de su consumo!",
-    "before_img": "assets/images/casos/id-7-before.png",
-    "after_img": "assets/images/casos/id-7-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en las 3 semanas, cada semana de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-09"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-7.jpg"
   },
   {
     "id": 8,
-    "product": "alto-rendimiento",
-    "title": "¡Cambio a 3 meses de su consumo!",
-    "before_img": "assets/images/casos/id-8-before.png",
-    "after_img": "assets/images/casos/id-8-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 3 meses, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-08"
+    "product": "300-varas",
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-8.jpg"
   },
   {
     "id": 9,
-    "product": "alto-rendimiento",
-    "title": "¡Cambio a 3 meses de su consumo!",
-    "before_img": "assets/images/casos/id-9-before.png",
-    "after_img": "assets/images/casos/id-9-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 3 meses, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-07"
+    "product": "300-varas",
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-9.jpg"
   },
   {
     "id": 10,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 3 meses de su consumo!",
-    "before_img": "assets/images/casos/id-10-before.png",
-    "after_img": "assets/images/casos/id-10-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 3 meses, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-06"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-10.jpg"
   },
   {
     "id": 11,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 2 meses de su consumo!",
-    "before_img": "assets/images/casos/id-11-before.png",
-    "after_img": "assets/images/casos/id-11-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 2 meses, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-05"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 3 MESES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-11.jpg"
   },
   {
     "id": 12,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 1 mes de su consumo!",
-    "before_img": "assets/images/casos/id-12-before.png",
-    "after_img": "assets/images/casos/id-12-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en el 1 mes, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-04"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-12.jpg"
   },
   {
     "id": 13,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 1 mes de su consumo!",
-    "before_img": "assets/images/casos/id-13-before.png",
-    "after_img": "assets/images/casos/id-13-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en el 1 mes, cada semana de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-03"
+    "title": "CAMBIO A 23 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-13.jpg"
   },
   {
     "id": 14,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 45 días de su consumo!",
-    "before_img": "assets/images/casos/id-14-before.png",
-    "after_img": "assets/images/casos/id-14-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 45 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-02"
+    "title": "CAMBIO A 40 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-14.jpg"
   },
   {
     "id": 15,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 40 días de su consumo!",
-    "before_img": "assets/images/casos/id-15-before.png",
-    "after_img": "assets/images/casos/id-15-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 40 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-10-01",
-    "products_combo": ["alto-rendimiento", "protein", "energy"]
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 25 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-15.jpg"
   },
   {
     "id": 16,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 30 días de su consumo!",
-    "before_img": "assets/images/casos/id-16-before.png",
-    "after_img": "assets/images/casos/id-16-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 30 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-09-30"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 32 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-16.jpg"
   },
   {
     "id": 17,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 30 días de su consumo!",
-    "before_img": "assets/images/casos/id-17-before.png",
-    "after_img": "assets/images/casos/id-17-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 30 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-09-29"
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-17.jpg"
   },
   {
     "id": 18,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 35 días de su consumo!",
-    "before_img": "assets/images/casos/id-18-before.png",
-    "after_img": "assets/images/casos/id-18-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 35 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-09-28"
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-18.jpg"
   },
   {
     "id": 19,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 30 días de su consumo!",
-    "before_img": "assets/images/casos/id-19-before.png",
-    "after_img": "assets/images/casos/id-19-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 30 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-09-27",
-    "products_combo": ["alto-rendimiento", "protein", "energy"]
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-19.jpg"
   },
   {
     "id": 20,
     "product": "alto-rendimiento",
-    "title": "¡Cambio a 30 días de su consumo!",
-    "before_img": "assets/images/casos/id-20-before.png",
-    "after_img": "assets/images/casos/id-20-after.png",
-    "caption": "¡Es importante mencionar que estos cambios no se quedan en los 30 días, cada mes de uso los cambios son más evidentes!",
-    "testimonial": null,
-    "post_date": "2024-09-26"
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-20.jpg"
+  },
+  {
+    "id": 21,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-21.jpg"
+  },
+  {
+    "id": 22,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-22.jpg"
+  },
+  {
+    "id": 23,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-23.jpg"
+  },
+  {
+    "id": 24,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-24.jpg"
+  },
+  {
+    "id": 25,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 18 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-25.jpg"
+  },
+  {
+    "id": 26,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 2 MESES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-26.jpg"
+  },
+  {
+    "id": 27,
+    "product": "alto-rendimiento",
+    "title": "GANANCIA DE PESO DE 23 LIBRAS EN 15 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-27.jpg"
+  },
+  {
+    "id": 28,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-28.jpg"
+  },
+  {
+    "id": 29,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-29.jpg"
+  },
+  {
+    "id": 30,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-30.jpg"
+  },
+  {
+    "id": 31,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 3 MESES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-31.jpg"
+  },
+  {
+    "id": 32,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 3 SEMANAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-32.jpg"
+  },
+  {
+    "id": 33,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 2 MESES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-33.jpg"
+  },
+  {
+    "id": 34,
+    "product": "alto-rendimiento",
+    "title": "GANANCIA DE PESO DE 72 LIBRAS EN 45 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-34.jpg"
+  },
+  {
+    "id": 35,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-35.jpg"
+  },
+  {
+    "id": 36,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 27 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-36.jpg"
+  },
+  {
+    "id": 37,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 1 MES DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-37.jpg"
+  },
+  {
+    "id": 38,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 45 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-38.jpg"
+  },
+  {
+    "id": 39,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 40 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-39.jpg"
+  },
+  {
+    "id": 40,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-40.jpg"
+  },
+  {
+    "id": 41,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-41.jpg"
+  },
+  {
+    "id": 42,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-42.jpg"
+  },
+  {
+    "id": 43,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-43.jpg"
+  },
+  {
+    "id": 44,
+    "product": "alto-rendimiento",
+    "title": "CAMBIO A 30 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-44.jpg"
+  },
+  {
+    "id": 45,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 25 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-45.jpg"
+  },
+  {
+    "id": 46,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-46.jpg"
+  },
+  {
+    "id": 47,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-47.jpg"
+  },
+  {
+    "id": 48,
+    "product": "alto-rendimiento",
+    "products_combo": [
+      "alto-rendimiento",
+      "energy",
+      "protein"
+    ],
+    "title": "CAMBIO A 35 DÍAS DE SU CONSUMO",
+    "image": "assets/images/casos/antes-despues-48.jpg"
   }
 ]

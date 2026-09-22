@@ -316,6 +316,14 @@
             "<strong>Presentación:</strong> Partícula extruida"
         ],
         "technicalsheetlink": "assets/docs/NUT_GALOPE_REPRODUCTORAS_FICHA_TECNICA.pdf",
+        "testimonials": [
+            {
+                "image": "assets/images/reproductoras/Aldo.png",
+                "name": "MVZ. Aldo Olmo Sánchez",
+                "role": "Especialista en Reproducción y criador de caballos cuarto de milla",
+                "quote": "En nuestro programa usamos el alimento GALOPE®, ya llevo varios años usandolo con excelentes resultados, lo recomiendo a mis clientes y amigos ¡Puro GALOPE®!"
+            }
+        ],
         "galleryimages": [
             "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_1.jpg",
             "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_2.jpg",
@@ -450,7 +458,7 @@
         "technicalsheetlink": "assets/docs/NUT_GALOPE_BALANCE_FICHA_TECNICA.pdf",
         "testimonials": [
             {
-                "image": "assets/images/balance/issac_ibarra_vazquez.jpg",
+                "image": "assets/images/alto-rendimiento/edith_vega.jpg",
                 "name": "Edith Vega",
                 "role": "Experta en Dressage",
                 "quote": "GALOPE® es para mi el mejor. Los mantiene bien alimentados, fuertes y sin acelerar su temperamento."
@@ -801,10 +809,10 @@
             {
                 "use": "Aporta fuente de energía segura para potencializarla."
             },
-                        {
+            {
                 "use": "Mejoramiento de la calidad de la leche de la yegua."
             },
-                        {
+            {
                 "use": "Mejoramiento de la calidad del semen."
             }
         ],
@@ -875,12 +883,6 @@
                 "name": "Mina López",
                 "role": "Tricampeona Nacional de amarre de chiva, Selección mexicana de rodeo 2021-2023, 9 veces campeona estatal",
                 "quote": "Hoy en día, el mejor socio que puedo tener para el logro de mis objetivos deportivos, es un alimento de alto rendimiento que me asegura en mi caballo Odín, el mejor desempeño en mis competencias de amarre de chiva en rodeo. Lo que hemos logrado de la mano del Alimento GALOPE® es la mejora de almacenamiento de energía controlada con desarrollo de masa muscular y con ello incremento en la resistencia física en entrenamientos y competencias. Gracias GALOPE® y GRUPO NUTEC® por ser la clave para mejorar mis tiempos y mantener saludable a mi campeón."
-            },
-            {
-                "image": "assets/images/protein/sofia_cedillo.jpg",
-                "name": "Sofía Cedillo",
-                "role": "Competidora en carrera de barriles y Jefe de Distrito de National Barrel Horse Association Querétaro",
-                "quote": "Mis caballos llevan consumiendo alimento GALOPE® y GALOTEC®, ahora GALOPE® PROTEIN, aproximadamente 1 año. Los cambios son notorios tanto en su rendimiento y corporalidad. Lo que más me encanta de este alimento es que su temperamento no es alterado además que les encanta. Muchas gracias GRUPO NUTEC® por habernos hecho parte de su familia."
             }
         ],
         "galleryimages": [
@@ -962,8 +964,9 @@
             },
             {
                 "use": "Mejoramiento de la calidad de la leche de la yegua."
-            },{
-                "use":"Mejoramiento de la calidad del semen."
+            },
+            {
+                "use": "Mejoramiento de la calidad del semen."
             }
         ],
         "recomendation": "PARA POTENCIAR SUS BENEFICIOS, RECOMENDAMOS ADMINISTRAR CON GALOPE® ZEN, GALOPE® ALTO RENDIMIENTO, GALOPE® REPRODUCTORAS, GALOPE® BALANCE Y GALOPE® 300 VARAS.",

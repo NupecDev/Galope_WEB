@@ -48,6 +48,14 @@
     <link href="assets/css/module-css/footer.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
+    <style>
+        @media (max-width: 991px) {
+            #gallery-container { grid-template-columns: repeat(2, 1fr) !important; }
+        }
+        @media (max-width: 575px) {
+            #gallery-container { grid-template-columns: 1fr !important; }
+        }
+    </style>
 </head>
 
 
@@ -384,63 +392,22 @@
         <!-- sidebar-page-container -->
         <section class="sidebar-page-container pt_150 pb_150">
             <div class="auto-container">
+                <div class="cases-intro" style="text-align:center; max-width:820px; margin:0 auto 50px;">
+                    <h2 style="font-size:24px; font-weight:700; line-height:1.4; margin-bottom:18px;">
+                        LOS PRIMEROS CAMBIOS POSITIVOS PUEDEN OBSERVARSE<br>
+                        A PARTIR DE LOS 15 DÍAS DE USO CONSTANTE
+                    </h2>
+                    <p style="font-size:15px; color:#555; line-height:1.6;">
+                        Si bien el beneficio metabólico completo se establece entre las 4 y 6 semanas, la
+                        transformación física y de comportamiento es un proceso evolutivo que continúa
+                        optimizándose mes con mes.
+                    </p>
+                </div>
                 <div class="row clearfix">
-                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                        <div class="blog-sidebar mr_30">
-                            <!-- <div class="sidebar-widget search-widget mb_40">
-                                <div class="widget-title mb_20">
-                                    <h3>BUSCAR</h3>
-                                </div>
-                                <div class="search-form">
-                                    <form method="post" action="blog.html" id="search-form">
-                                        <div class="form-group">
-                                            <input type="search" name="search-field" placeholder="BUSCAR..." required>
-                                            <button type="submit"><i class="icon-4"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div> -->
-                            <div class="sidebar-widget category-widget mb_35">
-                                <div class="widget-title mb_15">
-                                    <h3>CATEGORÍAS</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="category-list clearfix" id="categories-list">
-                                        <!-- Categories will be loaded dynamically here -->
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- <div class="sidebar-widget post-widget mb_40">
-                                <div class="widget-title mb_20">
-                                    <h3>BLOGS RECIENTES</h3>
-                                </div>
-                                <div class="post-widget" id="recent-posts-container">
-                                    
-                                </div>
-                            </div> -->
-
-                            <!-- <div class="sidebar-widget tags-widget">
-                                <div class="widget-title mb_20">
-                                    <h3>Tags Populares</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="tags-list clearfix">
-                                        <li><a href="blog-details.html">Nutrición Equina</a></li>
-                                        <li><a href="blog-details.html">Alimentación para Caballos</a></li>
-                                        <li><a href="blog-details.html">Suplementos</a></li>
-                                        <li><a href="blog-details.html">Salud Animal</a></li>
-                                        <li><a href="blog-details.html">Entrenamiento</a></li>
-                                        <li><a href="blog-details.html">Consejos Nutricionales</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                        <div class="blog-grid-content" id="gallery-container" class="isotope">
+                    <div class="col-lg-12 content-side">
+                        <div class="blog-grid-content" id="gallery-container">
                             <!-- Gallery cases loaded dynamically here -->
                         </div>
-
                     </div>
                     <div class="pagination-wrapper pt_20 centred" id="pagination-container">
                         <!-- Pagination will be loaded dynamically here -->
@@ -582,7 +549,7 @@
         let allCases = [];
         let filteredCases = [];
         let currentPage = 1;
-        const casesPerPage = 6;
+        const casesPerPage = 12;
 
         const productLabels = {
             'zen': 'ZEN',
@@ -591,26 +558,12 @@
             'balance': 'Balance',
             '300-varas': '300 Varas',
             'energy': 'Energy',
-            'protein': 'Protein'
+            'protein': 'Protein',
+            'evolution': 'Evolution'
         };
 
         document.addEventListener('DOMContentLoaded', function () {
             fetchGalleryCases();
-
-            document.getElementById('search-form').addEventListener('submit', function (e) {
-                e.preventDefault();
-                const query = document.querySelector('input[name="search-field"]').value.toLowerCase().trim();
-                filteredCases = query === ''
-                    ? [...allCases]
-                    : allCases.filter(c =>
-                        (c.title || '').toLowerCase().includes(query) ||
-                        (c.caption || '').toLowerCase().includes(query) ||
-                        (c.testimonial || (c.products_combo ? c.products_combo.map(p => productLabels[p] || p).join(' + ') : (productLabels[c.product] || c.product)) || '').toLowerCase().includes(query)
-                    );
-                currentPage = 1;
-                displayGallery(currentPage);
-                setupPagination();
-            });
         });
 
         function fetchGalleryCases() {
@@ -621,8 +574,6 @@
                     filteredCases = [...allCases];
                     displayGallery(currentPage);
                     setupPagination();
-                    setupCategories();
-                    // setupRecentPosts();
                 })
                 .catch(err => {
                     console.error('Error fetching gallery cases:', err);
@@ -633,8 +584,8 @@
         function displayGallery(page) {
             const container = document.getElementById('gallery-container');
             container.innerHTML = '';
-            container.style.display = 'flex';
-            container.style.flexWrap = 'wrap';
+            container.style.display = 'grid';
+            container.style.gridTemplateColumns = 'repeat(4, 1fr)';
             container.style.gap = '24px';
 
             const start = (page - 1) * casesPerPage;
@@ -646,43 +597,32 @@
             }
 
             items.forEach(c => {
-                const label = productLabels[c.product] || c.product;
+                const productsText = c.products_combo
+                    ? c.products_combo.map(p => `GALOPE® ${productLabels[p] || p}`).join(' + ')
+                    : `GALOPE® ${productLabels[c.product] || c.product}`;
                 const card = document.createElement('div');
-                card.style.cssText = 'width:calc(50% - 12px); min-width:260px; flex:1 1 260px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08);';
+                card.style.cssText = 'background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column;';
                 card.innerHTML = `
-<div class="gallery-flip case-image" style="position:relative; width:100%; padding-top:65%; overflow:hidden; cursor:pointer;"
-                 data-case-id="${c.id}" data-before="${c.before_img}" data-after="${c.after_img}" data-title="${c.title}"
-                 onmouseenter="showAfter(this)" onmouseleave="showBefore(this)" onclick="openCaseModal(this)">
-                <img class="img-before" src="${c.before_img}" alt="Antes: ${c.title}"
-                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.4s ease;">
-                <img class="img-after" src="${c.after_img}" alt="Después: ${c.title}"
-                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:opacity 0.4s ease;opacity:0;">
-                <span style="position:absolute;top:10px;left:10px;background:rgba(0,0,0,0.6);color:#fff;font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;letter-spacing:0.05em;pointer-events:none;" class="before-label">ANTES</span>
-                <span style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.45);color:#fff;font-size:11px;padding:3px 8px;border-radius:999px;pointer-events:none;">Click para fullscreen</span>
-            </div>
-                <div style="padding:16px 18px 18px;">
-                <span class="product-tag" data-product="${c.products_combo ? c.products_combo[0] || c.product : c.product}" style="display:inline-block;font-size:11px;font-weight:600;color:#fff;border-radius:999px;padding:3px 12px;margin-bottom:8px;letter-spacing:0.04em;text-transform:uppercase;">GALOPE® ${label}</span>
-                <h3 style="font-size:15px;font-weight:600;margin:0 0 6px;color:#1a1a1a;" class="case-title" data-title="${c.title}">${c.title}</h3>
-                <p style="font-size:13px;color:#555;line-height:1.55;margin:0 0 10px;">${c.caption}</p>
-                <p style="font-size:12px;color:#888;border-top:1px solid #f0f0f0;padding-top:8px;margin:0;">
-                    — ${c.products_combo ? c.products_combo.map(p => productLabels[p] || p).join(' + ') : (productLabels[c.product] || c.product)}
-                </p>
-            </div>
+                <div style="padding:14px 14px 0;">
+                    <div style="display:flex; justify-content:space-between; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#1a1a1a; margin-bottom:8px;">
+                        <span>ANTES</span>
+                        <span>DESPUÉS</span>
+                    </div>
+                    <div class="case-image" style="position:relative; width:100%; cursor:pointer; border-radius:6px; overflow:hidden; background:#f2f2f2;"
+                         data-case-id="${c.id}" data-image="${c.image}" data-title="${c.title}"
+                         onclick="openCaseModal(this)">
+                        <img src="${c.image}" alt="${c.title}" style="display:block; width:100%; height:140px; object-fit:contain;">
+                    </div>
+                </div>
+                <div style="padding:16px 16px 18px; text-align:center; flex:1; display:flex; flex-direction:column; justify-content:space-between;">
+                    <h3 style="font-size:15px;font-weight:700;margin:0 0 10px;color:#1a1a1a;letter-spacing:0.01em;">${c.title}</h3>
+                    <p style="font-size:12px;font-weight:600;color:#555;line-height:1.6;margin:10px 0 0;border-top:1px solid #eee;padding-top:10px;">
+                        ${productsText}
+                    </p>
+                </div>
         `;
                 container.appendChild(card);
             });
-        }
-
-        function showAfter(el) {
-            el.querySelector('.img-before').style.opacity = '0';
-            el.querySelector('.img-after').style.opacity = '1';
-            el.querySelector('.before-label').textContent = 'DESPUÉS';
-        }
-
-        function showBefore(el) {
-            el.querySelector('.img-before').style.opacity = '1';
-            el.querySelector('.img-after').style.opacity = '0';
-            el.querySelector('.before-label').textContent = 'ANTES';
         }
 
         function setupPagination() {
@@ -715,37 +655,6 @@
             document.querySelector('.sidebar-page-container').scrollIntoView({ behavior: 'smooth' });
         }
 
-        function setupCategories() {
-            const container = document.getElementById('categories-list');
-            const allProducts = new Set();
-            allCases.forEach(c => {
-                allProducts.add(c.product);
-                if (c.products_combo) {
-                    c.products_combo.forEach(p => allProducts.add(p));
-                }
-            });
-            const products = Array.from(allProducts);
-
-            container.innerHTML = products.map(p => `
-        <li>
-            <a href="#" onclick="filterByProduct('${p}'); return false;">
-                ${(productLabels[p] || p).toUpperCase()}
-                <span style="float:right;background:#f0f0f0;border-radius:999px;padding:1px 8px;font-size:11px;">
-                    ${allCases.filter(c => c.product === p || (c.products_combo && c.products_combo.includes(p))).length}
-                </span>
-                <i class="far fa-angle-right"></i>
-            </a>
-        </li>
-    `).join('');
-        }
-
-        function filterByProduct(product) {
-            filteredCases = allCases.filter(c => c.product === product || (c.products_combo && c.products_combo.includes(product)));
-            currentPage = 1;
-            displayGallery(currentPage);
-            setupPagination();
-        }
-
         // function setupRecentPosts() {
         //     const container = document.getElementById('recent-posts-container');
         //     const recent = [...allCases]
@@ -769,14 +678,12 @@
         // }
         // Case modal functions
         function openCaseModal(el) {
-            document.getElementById('modal-before').src = el.dataset.before;
-            document.getElementById('modal-after').src = el.dataset.after;
+            document.getElementById('modal-image').src = el.dataset.image;
             document.getElementById('modal-title').textContent = el.dataset.title;
             document.getElementById('case-modal').style.display = 'flex';
             document.body.style.overflow = 'hidden';
         }
 
-        // REPLACE with this:
         function closeCaseModal() {
             document.getElementById('case-modal').style.display = 'none';
             document.body.style.overflow = 'auto';
@@ -785,16 +692,6 @@
         // Modal interactions
         document.addEventListener('click', function (e) {
             if (e.target.id === 'case-modal') closeCaseModal();
-        });
-
-        document.getElementById('case-modal').addEventListener('mouseenter', function () {
-            document.querySelector('#case-modal #modal-before').style.opacity = '0';
-            document.querySelector('#case-modal #modal-after').style.opacity = '1';
-        });
-
-        document.getElementById('case-modal').addEventListener('mouseleave', function () {
-            document.querySelector('#case-modal #modal-before').style.opacity = '1';
-            document.querySelector('#case-modal #modal-after').style.opacity = '0';
         });
 
         document.addEventListener('keydown', function (e) {
@@ -810,58 +707,10 @@
         <div id="modal-title"
             style="color:#fff;font-size:18px;font-weight:600;text-align:center;margin-bottom:16px;padding:0 60px;z-index:10;">
         </div>
-        <div style="display:flex;gap:12px;width:90vw;height:80vh;">
-            <!-- ANTES -->
-            <div style="flex:1;position:relative;overflow:hidden;border-radius:8px;">
-                <img id="modal-before" src="" alt="Antes" style="width:100%;height:100%;object-fit:contain;">
-                <span
-                    style="position:absolute;top:12px;left:12px;background:rgba(0,0,0,0.6);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;">ANTES</span>
-            </div>
-            <!-- DESPUÉS -->
-            <div style="flex:1;position:relative;overflow:hidden;border-radius:8px;">
-                <img id="modal-after" src="" alt="Después" style="width:100%;height:100%;object-fit:contain;">
-                <span
-                    style="position:absolute;top:12px;left:12px;background:rgba(0,0,0,0.6);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;">DESPUÉS</span>
-            </div>
+        <div style="width:90vw;height:80vh;position:relative;">
+            <img id="modal-image" src="" alt="" style="width:100%;height:100%;object-fit:contain;">
         </div>
     </div>
-
-    <script>
-        (function () {
-            let isDragging = false;
-
-            function setSliderPosition(pct) {
-                pct = Math.max(0, Math.min(100, pct));
-                document.getElementById('before-wrapper').style.width = pct + '%';
-                document.getElementById('slider-line').style.left = pct + '%';
-            }
-
-            function getPct(clientX) {
-                const rect = document.getElementById('slider-container').getBoundingClientRect();
-                return ((clientX - rect.left) / rect.width) * 100;
-            }
-
-            // Mouse
-            document.getElementById('slider-container').addEventListener('mousedown', function (e) {
-                isDragging = true;
-                setSliderPosition(getPct(e.clientX));
-            });
-            document.addEventListener('mousemove', function (e) {
-                if (isDragging) setSliderPosition(getPct(e.clientX));
-            });
-            document.addEventListener('mouseup', function () { isDragging = false; });
-
-            // Touch
-            document.getElementById('slider-container').addEventListener('touchstart', function (e) {
-                isDragging = true;
-                setSliderPosition(getPct(e.touches[0].clientX));
-            }, { passive: true });
-            document.addEventListener('touchmove', function (e) {
-                if (isDragging) setSliderPosition(getPct(e.touches[0].clientX));
-            }, { passive: true });
-            document.addEventListener('touchend', function () { isDragging = false; });
-        })();
-    </script>
 
 </body><!-- End of .page_wrapper -->
 
