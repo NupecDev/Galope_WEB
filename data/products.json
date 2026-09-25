@@ -6,7 +6,8 @@
         "packageimage": "assets/images/zen/package.png",
         "copy": "Con ingredientes innovadores como pulpa de remolacha y pulido de arroz. Gracias a su alto contenido de Gamma Oryzanol (Omega 9), ofrece una potente acción antioxidante y antiinflamatoria que protege la salud muscular y digestiva de tu caballo.",
         "tagline": "EL EQUILIBRIO DEL CAMPEÓN",
-        "video": "https://youtu.be/IatExT6sjJw?si=QgVmhRV7vh62lOmn",
+        "video": "https://youtu.be/n30rfz08jvs?si=AGbc_U2pw9RcxpGp",
+        
         "feeding-guide": "assets/images/zen/Tabla-Zen.png",
         "benefits": [
             "<strong>Triptófano:</strong> Precursor de la serotonina que favorece la relajación y concentración del caballo.",
@@ -206,7 +207,15 @@
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_5.jpg",
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_6.jpg",
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_7.jpg",
-            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_8.jpg"
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_8.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_9.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_10.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_11.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_12.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_13.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_14.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_15.jpg",
+            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_16.jpg"
         ],
         "faq": [
             {
@@ -290,7 +299,7 @@
         "packageimage": "assets/images/reproductoras/package.png",
         "copy": "Es el futuro que alimentas desde su primer latido, no es solo genética.",
         "tagline": "DONDE COMIENZA LA GRANDEZA",
-        "video": "https://youtu.be/QRraEIU99k0?si=GOrX2P2OMcRmMPx-",
+        "video": "https://youtu.be/frnEdpJOCaQ?si=LrMmlmEAAH7_wnMa",
         "feeding-guide": "assets/images/reproductoras/Tabla-Reproductoras.png",
         "benefits": [
             "<strong>Ácido fólico:</strong> Para desarrollo exitoso en gestación.",
@@ -332,7 +341,12 @@
             "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_5.jpg",
             "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_6.jpg",
             "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_7.jpg",
-            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_8.jpg"
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_8.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_9.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_10.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_11.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_12.jpg",
+            "assets/images/reproductoras/Gallery-Reproductoras/imagen_reproductoras_13.jpg"
         ],
         "faq": [
             {
@@ -430,7 +444,7 @@
         "packageimage": "assets/images/balance/package.png",
         "copy": "Nutrición avanzada con una fórmula ultra bajo en almidón que utiliza ingredientes innovadores como pulido de arroz y pulpa de remolacha.<br> Gracias a su alto contenido de Gamma Oryzanol = Omega 9, ofrece una potente acción antioxidante y antiinflamatoria que protege la salud muscular y digestiva de tu caballo.",
         "tagline": "EQUILIBRIO NUTRICIONAL",
-        "video": "https://youtu.be/_4D-BBfkskY?si=_MkrpssMa3rP0a4k",
+        "video": "https://youtu.be/6F_VCrd3EZo?si=LNzhy6NfVgBEeJRP",
         "feeding-guide": "assets/images/balance/Tabla-Balance.png",
         "benefits": [
             "<strong>Bajo en almidón:</strong> Digestión que fluye sin complicaciones.",
@@ -472,7 +486,13 @@
             "assets/images/balance/Gallery-Balance/imagen_balance_5.jpg",
             "assets/images/balance/Gallery-Balance/imagen_balance_6.jpg",
             "assets/images/balance/Gallery-Balance/imagen_balance_7.jpg",
-            "assets/images/balance/Gallery-Balance/imagen_balance_8.jpg"
+            "assets/images/balance/Gallery-Balance/imagen_balance_8.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_10.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_11.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_12.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_13.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_14.jpg",
+            "assets/images/balance/Gallery-Balance/imagen_balance_15.jpg"
         ],
         "faq": [
             {
@@ -615,7 +635,10 @@
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_5.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_6.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_7.jpg",
-            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_8.jpg"
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_8.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_9.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_10.jpg",
+            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_11.jpg"
         ],
         "faq": [
             {
@@ -749,7 +772,14 @@
             "assets/images/energy/Gallery-Energy/imagen_energy_5.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_6.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_7.jpg",
-            "assets/images/energy/Gallery-Energy/imagen_energy_8.jpg"
+            "assets/images/energy/Gallery-Energy/imagen_energy_8.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_9.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_10.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_11.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_12.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_13.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_14.jpg",
+            "assets/images/energy/Gallery-Energy/imagen_energy_15.jpg"
         ],
         "faq": [
             {
@@ -850,7 +880,7 @@
         "packageimage": "assets/images/protein/package.png",
         "description": "Los músculos que admiras no se construyeron solos. Se nutren con precisión científica.",
         "tagline": "MÚSCULOS QUE HABLAN POR SÍ SOLOS",
-        "video": "https://youtu.be/OrW2WQkILkY?si=2T97AQn1qmpXm54Z",
+        "video": "https://youtu.be/fUCpBIxmVig?si=R4NHkYqICy3LCt-Q",
         "feeding-guide": "assets/images/protein/Tabla-Protein.png",
         "benefits": [
             "<strong>Aminoácidos esenciales:</strong> Promueven la ganancia muscular.",
@@ -893,7 +923,15 @@
             "assets/images/protein/Gallery-Protein/imagen_protein_5.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_6.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_7.jpg",
-            "assets/images/protein/Gallery-Protein/imagen_protein_8.jpg"
+            "assets/images/protein/Gallery-Protein/imagen_protein_8.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_9.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_10.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_11.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_12.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_13.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_14.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_15.jpg",
+            "assets/images/protein/Gallery-Protein/imagen_protein_16.jpg"
         ],
         "faq": [
             {
