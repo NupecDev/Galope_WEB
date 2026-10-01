@@ -50,10 +50,15 @@
 
     <style>
         @media (max-width: 991px) {
-            #gallery-container { grid-template-columns: repeat(2, 1fr) !important; }
+            #gallery-container {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
         }
+
         @media (max-width: 575px) {
-            #gallery-container { grid-template-columns: 1fr !important; }
+            #gallery-container {
+                grid-template-columns: 1fr !important;
+            }
         }
     </style>
 </head>
@@ -354,7 +359,8 @@
                 <div class="contact-info">
                     <h4>Contacto</h4>
                     <ul>
-                        <li>Parque industrial Bernardo Quintana, Av. de las Fuentes No.14, Parque Industrial Bernardo Quintana, C.P. 76246 El Marqués, Querétaro</li>
+                        <li>Parque industrial Bernardo Quintana, Av. de las Fuentes No.14, Parque Industrial Bernardo
+                            Quintana, C.P. 76246 El Marqués, Querétaro</li>
                         <li><a href="tel:+524421961000">+52 (442) 196-1000</a></li>
                         <li><a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a></li>
                     </ul>
@@ -398,9 +404,9 @@
                         A PARTIR DE LOS 15 DÍAS DE USO CONSTANTE
                     </h2>
                     <p style="font-size:15px; color:#555; line-height:1.6;">
-                        Si bien el beneficio metabólico completo se establece entre las 4 y 6 semanas, la
-                        transformación física y de comportamiento es un proceso evolutivo que continúa
-                        optimizándose mes con mes.
+                        Si bien el beneficio metabólico completo se establece desde las 2 semanas y las 6 semanas, la
+                        transformación física y de comportamiento es un proceso evolutivo que continúa optimizándose mes
+                        con mes.
                     </p>
                 </div>
                 <div class="row clearfix">
@@ -597,14 +603,14 @@
             }
 
             items.forEach(c => {
-                const productsText = c.products_combo
+                const productsText = (c.products_combo
                     ? c.products_combo.map(p => `GALOPE® ${productLabels[p] || p}`).join(' + ')
-                    : `GALOPE® ${productLabels[c.product] || c.product}`;
+                    : `GALOPE® ${productLabels[c.product] || c.product}`).toUpperCase();
                 const card = document.createElement('div');
                 card.style.cssText = 'background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column;';
                 card.innerHTML = `
                 <div style="padding:14px 14px 0;">
-                    <div style="display:flex; justify-content:space-between; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#1a1a1a; margin-bottom:8px;">
+                    <div style="display:flex; justify-content:space-between; font-size:11px; font-weight:700; letter-spacing:0.06em; color:#1a1a1a; font-family:'Collier', sans-serif; margin-bottom:8px;">
                         <span>ANTES</span>
                         <span>DESPUÉS</span>
                     </div>
@@ -616,7 +622,7 @@
                 </div>
                 <div style="padding:16px 16px 18px; text-align:center; flex:1; display:flex; flex-direction:column; justify-content:space-between;">
                     <h3 style="font-size:15px;font-weight:700;margin:0 0 10px;color:#1a1a1a;letter-spacing:0.01em;">${c.title}</h3>
-                    <p style="font-size:12px;font-weight:600;color:#555;line-height:1.6;margin:10px 0 0;border-top:1px solid #eee;padding-top:10px;">
+                    <p style="font-size:12px;font-weight:600;color:#555;line-height:1.6;margin:10px 0 0;border-top:1px solid #eee;padding-top:10px;font-family:'Collier', sans-serif;">
                         ${productsText}
                     </p>
                 </div>

@@ -7,7 +7,6 @@
         "copy": "Con ingredientes innovadores como pulpa de remolacha y pulido de arroz. Gracias a su alto contenido de Gamma Oryzanol (Omega 9), ofrece una potente acción antioxidante y antiinflamatoria que protege la salud muscular y digestiva de tu caballo.",
         "tagline": "EL EQUILIBRIO DEL CAMPEÓN",
         "video": "https://youtu.be/n30rfz08jvs?si=AGbc_U2pw9RcxpGp",
-        
         "feeding-guide": "assets/images/zen/Tabla-Zen.png",
         "benefits": [
             "<strong>Triptófano:</strong> Precursor de la serotonina que favorece la relajación y concentración del caballo.",
@@ -36,10 +35,10 @@
         "technicalsheetlink": "assets/docs/NUT_GALOPE_ZEN_FICHA_TECNICA.pdf",
         "testimonials": [
             {
-                "image": "assets/images/zen/mariana_quintana.jpg",
-                "name": "Mariana Quintana",
-                "role": "Jinete Profesional de Adiestramiento",
-                "quote": "Considero GALOPE® el mejor alimento del mercado ya que tiene el balance perfecto para darme el máximo rendimiento en cada uno de mis caballos. Alimentar a todos mis caballos con GALOPE® ha sido de las mejores decisiones que he tomado a lo largo de mi carrera ecuestre. Los resultados se muestran de manera inmediata,  su pelaje ahora brilla y es más fino, tienen mayor rendimiento, mejoran gradualmente su estado de humor, además les aporta la energía y nutrientes que su cuerpo necesita y al mismo tiempo estan más centrados al trabajar y más tranquilos cuando pasa tiempo en la caballeriza, entre muchos otros beneficios."
+                "image": "assets/images/zen/sergio_humberto_salinas_navarrete.jpg",
+                "name": "Dr. Sergio Humberto Salinas Navarrete",
+                "role": "Clínico de Equinos, Hospital Hípica Guadalajara",
+                "quote": "Para mi la tecnología científica de GALOPE® ha sido una gran ayuda en mi vida profesional, disminuyeron en su totalidad los cólicos por concentrados, los caballos están en excelente condición corporal, ya que es un alimento súper premium."
             }
         ],
         "galleryimages": [
@@ -197,12 +196,28 @@
                 "name": "ANCCEMEX - ASOCIACIÓN NACIONAL DE CRIADORES DE CABALLOS PURA RAZA ESPAÑOLA EN MÉXICO",
                 "role": "Aguascalientes y San Miguel de Allende",
                 "quote": "Preparamos desde hace más de 8 años nuestros caballos con alimento GALOPE®. Obteniendo una excelente nutrición que se nota en cada concurso obteniendo resultados con muchos premios."
+            },
+            {
+                "image": "assets/images/energy/adolfo_de_la_torre.jpg",
+                "name": "Adolfo de la Torre",
+                "role": "Experto en disciplina de lazo doble ",
+                "quote": "La nutrición de mis caballos es fundamental para lograr los mejores resultados en Team Roping. Confío en la línea GALOPE® de GRUPO NUTEC® porque ofrece soluciones para cada etapa de entrenamiento y competencia. GALOPE® ALTO RENDIMIENTO, GALOPE® ENERGY y GALOPE® PROTEIN me ayudan a mantener a mis caballos con la energía, condición física y recuperación muscular que necesitan para competir al máximo nivel. Saber que reciben una nutrición de calidad me da la tranquilidad de que están sanos, fuertes y listos para dar lo mejor en cada entrenamiento y cada competencia."
+            },
+            {
+                "image": "assets/images/alto-rendimiento/sergio_humberto_salinas_navarrete.jpg",
+                "name": "Dr. Sergio Humberto Salinas Navarrete",
+                "role": "Clínico de Equinos, Hospital Hípica Guadalajara",
+                "quote": "Para mi la tecnología científica de GALOPE® ha sido una gran ayuda en mi vida profesional, disminuyeron en su totalidad los cólicos por concentrados, los caballos están en excelente condición corporal, ya que es un alimento súper premium."
+            },
+            {
+                "image": "assets/images/alto-rendimiento/rancho_el_texano.jpg",
+                "name": "Cuadra la Luz",
+                "role": "Carriles Rancho El Texano",
+                "quote": "Para nosotros no existe nada más importante que nuestros caballos de carreras reciban una nutrición científica, gracias a GALOPE®, nuestros caballos son campeones dónde se presenten."
             }
         ],
         "galleryimages": [
-            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_1.jpg",
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_2.jpg",
-            "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_3.jpg",
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_4.jpg",
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_5.jpg",
             "assets/images/alto-rendimiento/Gallery-Alto-Rendimiento/imagen_alto_rendimiento_6.jpg",
@@ -331,6 +346,24 @@
                 "name": "MVZ. Aldo Olmo Sánchez",
                 "role": "Especialista en Reproducción y criador de caballos cuarto de milla",
                 "quote": "En nuestro programa usamos el alimento GALOPE®, ya llevo varios años usandolo con excelentes resultados, lo recomiendo a mis clientes y amigos ¡Puro GALOPE®!"
+            },
+            {
+                "image": "assets/images/reproductoras/sergio_humberto_salinas_navarrete.jpg",
+                "name": "Dr. Sergio Humberto Salinas Navarrete",
+                "role": "Clínico de Equinos, Hospital Hípica Guadalajara",
+                "quote": "Para mi la tecnología científica de GALOPE® ha sido una gran ayuda en mi vida profesional, disminuyeron en su totalidad los cólicos por concentrados, los caballos están en excelente condición corporal, ya que es un alimento súper premium."
+            },
+            {
+                "image": "assets/images/reproductoras/rancho_el_texano.jpg",
+                "name": "Cuadra la Luz",
+                "role": "Carriles Rancho El Texano",
+                "quote": "Para nosotros no existe nada más importante que nuestros caballos de carreras reciban una nutrición científica, gracias a GALOPE®, nuestros caballos son campeones dónde se presenten."
+            },
+            {
+                "image": "assets/images/reproductoras/alejandro_sanchez.jpg",
+                "name": "Dr. Alejandro Sánchez Córdova, MVZ",
+                "role": "Especialista en Reproducción Equina",
+                "quote": "Para mí lo más importante de utilizar GALOPE®, es garantizar que las gestaciones quedarán listas en el primer intento, además de mantener una gestación sana durante todo el periodo y en el caso de los sementales, garantizar mayor volumen y motilidad espermática."
             }
         ],
         "galleryimages": [
@@ -476,6 +509,18 @@
                 "name": "Edith Vega",
                 "role": "Experta en Dressage",
                 "quote": "GALOPE® es para mi el mejor. Los mantiene bien alimentados, fuertes y sin acelerar su temperamento."
+            },
+            {
+                "image": "assets/images/balance/",
+                "name": "Mariana Quintana",
+                "role": "Jinete Profesional de Adiestramiento",
+                "quote": "Considero GALOPE® el mejor alimento del mercado ya que tiene el balance perfecto para darme el máximo rendimiento en cada uno de mis caballos. Alimentar a todos mis caballos con GALOPE® ha sido de las mejores decisiones que he tomado a lo largo de mi carrera ecuestre. Los resultados se muestran de manera inmediata,  su pelaje ahora brilla y es más fino, tienen mayor rendimiento, mejoran gradualmente su estado de humor, además les aporta la energía y nutrientes que su cuerpo necesita y al mismo tiempo estan más centrados al trabajar y más tranquilos cuando pasa tiempo en la caballeriza, entre muchos otros beneficios."
+            },
+            {
+                "image": "assets/images/alto-rendimiento/rancho_el_texano.jpg",
+                "name": "Cuadra la Luz",
+                "role": "Carriles Rancho El Texano",
+                "quote": "Para nosotros no existe nada más importante que nuestros caballos de carreras reciban una nutrición científica, gracias a GALOPE®, nuestros caballos son campeones dónde se presenten."
             }
         ],
         "galleryimages": [
@@ -629,13 +674,11 @@
         ],
         "galleryimages": [
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_1.jpg",
-            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_2.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_3.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_4.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_5.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_6.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_7.jpg",
-            "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_8.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_9.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_10.jpg",
             "assets/images/300-varas/Gallery-300-Varas/imagen_300_varas_11.jpg"
@@ -770,9 +813,7 @@
             "assets/images/energy/Gallery-Energy/imagen_energy_3.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_4.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_5.jpg",
-            "assets/images/energy/Gallery-Energy/imagen_energy_6.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_7.jpg",
-            "assets/images/energy/Gallery-Energy/imagen_energy_8.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_9.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_10.jpg",
             "assets/images/energy/Gallery-Energy/imagen_energy_11.jpg",
@@ -923,7 +964,6 @@
             "assets/images/protein/Gallery-Protein/imagen_protein_5.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_6.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_7.jpg",
-            "assets/images/protein/Gallery-Protein/imagen_protein_8.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_9.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_10.jpg",
             "assets/images/protein/Gallery-Protein/imagen_protein_11.jpg",
