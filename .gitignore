@@ -11,3 +11,6 @@ assets/images/background/ZEN.png
 assets/images/background/REPRODUCTORAS_FNL.png
 assets/images/background/BALANCE_ILUSTRATION.png
 assets/images/background/GALOPE® *.png
+
+# Script local de despliegue (contiene datos del servidor)
+deploy.sh
