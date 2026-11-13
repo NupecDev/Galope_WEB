@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Ciencia y Tecnología | GALOPE®</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9L5N852S5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-Y9L5N852S5', {
+            send_page_view: false
+        });
+        gtag('event', 'page_view', {
+            page_path: window.location.pathname + window.location.search,
+            page_title: document.title
+        });
+    </script>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/buf8dqq.css">
+
+    <!-- Stylesheets -->
+    <link href="./assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="./assets/css/flaticon.css" rel="stylesheet">
+    <link href="./assets/css/owl.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <link href="./assets/css/nice-select.css" rel="stylesheet">
+    <link href="./assets/css/odometer.css" rel="stylesheet">
+    <link href="./assets/css/elpath.css" rel="stylesheet">
+    <link href="./assets/css/color.css" id="jssDefault" rel="stylesheet">
+    <link href="./assets/css/rtl.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/module-css/header.css" rel="stylesheet">
+    <link href="./assets/css/module-css/page-title.css" rel="stylesheet">
+    <link href="./assets/css/module-css/about.css" rel="stylesheet">
+    <link href="./assets/css/module-css/chooseus.css" rel="stylesheet">
+    <link href="./assets/css/module-css/faq.css" rel="stylesheet">
+    <link href="./assets/css/module-css/cta.css" rel="stylesheet">
+    <link href="./assets/css/module-css/footer.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper ltr">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="fal fa-times"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <!-- <div class="txt-loading">
+                            <span data-text-preloader="G" class="letters-loading">
+                                G
+                            </span>
+                            <span data-text-preloader="A" class="letters-loading">
+                                A
+                            </span>
+                            <span data-text-preloader="L" class="letters-loading">
+                                L
+                            </span>
+                            <span data-text-preloader="O" class="letters-loading">
+                                O
+                            </span>
+                            <span data-text-preloader="P" class="letters-loading">
+                                P
+                            </span>
+                            <span data-text-preloader="E" class="letters-loading">
+                                E
+                            </span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- page-direction -->
+        <div class="page_direction">
+            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
+            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
+        </div>
+        <!-- page-direction end -->
+
+
+        <!-- <div class="chat-icon"><button type="button" class="chat-toggler"><i class="icon-26"></i></button></div> -->
+
+
+        <!--chat popup-->
+        <div id="chat-popup" class="chat-popup">
+            <div class="popup-inner">
+                <div class="close-chat"><i class="icon-24"></i></div>
+                <div class="chat-form">
+                    <p>Please fill out the form below and we will get back to you as soon as possible.</p>
+                    <form method="post" action="index.html">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Text"></textarea>
+                        </div>
+                        <div class="form-group message-btn">
+                            <button type="submit" class="theme-btn btn-one">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Search Popup-->
+        <!-- <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box">
+                    <figure class="logo-box"><a href="index.html"><img class="login-box-img" src="assets/images/logos/Light.png" alt=""></a>
+                    </figure>
+                    <div class="close-search"><span class="fas fa-times"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value=""
+                                        placeholder="Type your keyword and hit" required>
+                                    <button type="submit"><i class="icon-4"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!--Video Popup-->
+        <div id="video-popup" class="video-popup">
+            <div class="popup-inner">
+                <div class="close-video"><span class="fas fa-times"></span></div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="video-content">
+                        <iframe width="800" height="450" src="https://www.youtube.com/embed/kvfHSKojdiI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-top -->
+            <!-- <div class="header-top"> -->
+            <!-- <div class="top-inner"> -->
+            <!-- <ul class="info-list"> -->
+            <!-- <li><i class="icon-1"></i>Lun-Vie 9:00 am - 6:00 pm</li> -->
+            <!-- <li><i class="icon-2"></i><a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a></li> -->
+            <!-- <li><i class="icon-3"></i> Av. de las Fuentes No.14, Parque Industrial Bernardo Quintana, 76246 -->
+            <!-- El Marqués, Querétaro</li> -->
+            <!-- </ul> -->
+            <!-- <div class="header-info"> -->
+            <!-- <div class="search-toggler pr_30 mr_30"><i class="icon-4"></i></div> -->
+            <!-- <div class="login-box p_relative pr_30 mr_30"><a href="login.html">Login</a></div> -->
+            <!-- <ul class="social-links"> -->
+            <!-- <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li> -->
+            <!-- <li><a href="https://www.instagram.com/galope_gruponutec/?hl=en"><i class="fab fa-instagram"></i></a></li> -->
+            <!-- <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li> -->
+            <!-- </ul> -->
+            <!-- </div> -->
+
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-container p_relative pr_70">
+                    <div class="outer-box">
+                        <div class="left-column">
+                            <figure class="logo-box mr_50"><a href="index.html"><img class="login-box-img"
+                                        src="assets/images/logos/Light.png" alt=""></a></figure>
+                            <div class="menu-area">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler">
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                </div>
+                                <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class="current dropdown"><a href="index.html#productos">Productos</a>
+                                                <ul>
+                                                    <li class="dropdown"><a href="index.html#productos">Alimentos extruidos</a>
+                                                        <ul>
+                                                            <li><a href="alimento.html?product=alto-rendimiento">GALOPE® ALTO RENDIMIENTO</a></li>
+                                                            <li><a href="alimento.html?product=zen">GALOPE® ZEN</a></li>
+                                                            <li><a href="alimento.html?product=balance">GALOPE® BALANCE</a></li>
+                                                            <li><a href="alimento.html?product=reproductoras">GALOPE® REPRODUCTORAS</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="index.html#productos">Concentrados nutricionales</a>
+                                                        <ul>
+                                                            <li><a href="alimento.html?product=energy">GALOPE® ENERGY</a></li>
+                                                            <li><a href="alimento.html?product=protein">GALOPE® PROTEIN</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="index.html#productos">Nutrición multipartículas</a>
+                                                        <ul>
+                                                            <li><a href="alimento.html?product=300-varas">GALOPE® 300 VARAS</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="index.html#calculadora">Calculadora</a></li>
+                                            <li><a href="ciencia-tecnologia.html">Tecnología GALOPE®</a></li>
+                                            <!-- <li class="current dropdown"><a href="#">Home</a>
+                                                <ul>
+                                                    <li><a href="index.html">Home Main Course</a></li>
+                                                    <li><a href="index-2.html">Home Golf Accademy</a></li>
+                                                    <li><a href="index-3.html">Home Instructor</a></li>
+                                                    <li><a href="index-4.html">Home Golf Club</a></li>
+                                                    <li><a href="index-5.html">Home Driving Range</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Pages</a>
+                                                <ul>
+                                                    <li class="dropdown"><a href="#">Events</a>
+                                                        <ul>
+                                                            <li><a href="events.html">Events Grid</a></li>
+                                                            <li><a href="events-2.html">Events List</a></li>
+                                                            <li><a href="event-details.html">Event Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                                        <ul>
+                                                            <li><a href="portfolio.html">Portfolio Fullwidth</a></li>
+                                                            <li><a href="portfolio-2.html">Portfolio Grid 1</a></li>
+                                                            <li><a href="portfolio-3.html">Portfolio Grid 2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="about.html">About Us</a></li>
+                                                    <li><a href="academy.html">Academy</a></li>
+                                                    <li><a href="pricing.html">Membership Plan</a></li>
+                                                    <li><a href="faq.html">Faq'S</a></li>
+                                                    <li><a href="login.html">Log In</a></li>
+                                                    <li><a href="signup.html">Sign Up</a></li>
+                                                    <li><a href="error.html">404</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Courses</a>
+                                                <ul>
+                                                    <li><a href="courses.html">Courses 1</a></li>
+                                                    <li><a href="courses-2.html">Courses 2</a></li>
+                                                    <li><a href="course-details.html">Courses & Instructors</a></li>
+                                                    <li><a href="course-details-2.html">Golf Accommodation</a></li>
+                                                    <li><a href="course-details-3.html">Fitness Center</a></li>
+                                                    <li><a href="course-details-4.html">Golf Practice</a></li>
+                                                    <li><a href="course-details-5.html">Skill Development</a></li>
+                                                    <li><a href="course-details-6.html">Basic Foundation</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Shop</a>
+                                                <ul>
+                                                    <li><a href="shop.html">Shop Page</a></li>
+                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                </ul>
+                                            </li>  -->
+                                            <!-- <li class="dropdown"><a href="#">Blog</a>
+                                                <ul>
+                                                    <li><a href="blog.html">Blog Grid</a></li>
+                                                    <li><a href="blog-2.html">Blog Standard</a></li>
+                                                    <li><a href="blog-3.html">Blog List</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>   -->
+                                            <li><a href="casos.html">Casos de éxito</a></li>
+                                            <li><a href="https://naequina.com/" target="_blank">NAEQUINA</a></li>
+                                            <li><a href="contact.html">Contacto</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- <div class="menu-right-content">
+                            <div class="support-box mr_30"><a href="tel:4421961000"><i class="icon-5"></i> +52 (442) 196-1000</a></div>
+                            <div class="btn-box"><a href="index.html" class="theme-btn btn-one">Book A Visit</a></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-container p_relative pr_70">
+                    <div class="outer-box">
+                        <div class="left-column">
+                            <figure class="logo-box mr_50"><a href="index.html"><img class="login-box-img"
+                                        src="assets/images/logos/Light.png" alt=""></a></figure>
+                            <div class="menu-area">
+                                <nav class="main-menu clearfix">
+                                    <!--Keep This Empty / Menu will come through Javascript-->
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="support-box mr_30"><a href="tel:4421961000"><i class="icon-5"></i> +52 (442)
+                                    196-1000</a></div>
+                            <!-- <div class="btn-box"><a href="index.html" class="theme-btn btn-one">Book A Visit</a></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img class="login-box-img"
+                            src="assets/images/logos/Light.png" alt="" title=""></a>
+                </div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="contact-info">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>Parque industrial Bernardo Quintana, Av. de las Fuentes 14, Santa Ana, 76116 Santiago de
+                            Querétaro, Qro.</li>
+                        <li><a href="tel:+524421961000">+52 (442) 196-1000</a></li>
+                        <li><a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+
+        <!-- page-title / Banner principal -->
+        <section class="page-title science-hero centred pt_190 pb_190">
+            <div class="bg-layer"
+                style="background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(./assets/images/resource/Fondo2.png);">
+            </div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <span class="custom-text text-white">CIENCIA Y TECNOLOGÍA GALOPE®</span>
+                    <h1>La innovación que impulsa cada paso.</h1>
+                    <p class="text-white hero-text">La nutrición de un caballo comienza mucho antes de llegar a su
+                        comedero. Detrás de cada fórmula GALOPE® existe una combinación de conocimiento científico,
+                        selección de ingredientes, tecnología de procesamiento y compromiso con la calidad.</p>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- Sección 1. Investigación -->
+        <section class="about-section pt_120 pb_100" id="investigacion">
+            <div class="auto-container">
+                <div class="row clearfix align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content-box mr_40">
+                            <div class="sec-title mb_30">
+                                <span class="custom-text">INVESTIGACIÓN</span>
+                                <h2>La ciencia es nuestro punto de partida.</h2>
+                            </div>
+                            <p>Comprender las necesidades nutricionales de los animales es fundamental para desarrollar
+                                alimentos que contribuyan a su bienestar y desempeño.</p>
+                            <p>En GRUPO NUTEC® impulsamos la investigación y el desarrollo de soluciones nutricionales
+                                mediante conocimiento especializado, evaluación de ingredientes y tecnologías que buscan
+                                mejorar la eficiencia alimenticia.</p>
+                            <p>Esta experiencia constituye el respaldo científico y técnico de GALOPE®.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="info-card">
+                            <span class="custom-text">SANUREN</span>
+                            <h3>Nuestro centro de investigación SANUREN</h3>
+                            <h5>Conocimiento que se transforma en nutrición.</h5>
+                            <p>El centro de investigación de SANUREN forma parte de nuestra capacidad de innovación en
+                                nutrición animal. Su trabajo contribuye a generar conocimiento, evaluar alternativas
+                                nutricionales y fortalecer el desarrollo de soluciones orientadas a las necesidades de
+                                diferentes especies.</p>
+                            <p>En GALOPE® aprovechamos el respaldo de esta experiencia para impulsar una nutrición
+                                especializada para caballos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección 2. Extrusión -->
+        <section class="science-section bg-light-section pt_120 pb_120" id="extrusion">
+            <div class="auto-container">
+                <div class="sec-title centred mb_50">
+                    <span class="custom-text">TECNOLOGÍA DE PROCESAMIENTO</span>
+                    <h2>Más que alimentar. Aprovechar cada nutriente.</h2>
+                    <p class="section-intro">Los caballos tienen un sistema digestivo especializado, por lo que el
+                        procesamiento del alimento puede influir en la forma en que aprovechan sus nutrientes.</p>
+                    <p class="section-intro">En GRUPO NUTEC® utilizamos tecnología de extrusión para elaborar nuestros
+                        alimentos extruidos y concentrados nutricionales. Este proceso combina temperatura, humedad,
+                        presión y trabajo mecánico para modificar las características de los ingredientes, favoreciendo
+                        especialmente la digestibilidad del almidón.</p>
+                </div>
+
+                <h3 class="centred mb_30">¿Cómo funciona?</h3>
+                <div class="row g-4 mb_60">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card"><span class="step-num">1</span>
+                            <h5>Selección y preparación</h5>
+                            <p>Los ingredientes se seleccionan y preparan de acuerdo con las especificaciones de la
+                                formulación.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card"><span class="step-num">2</span>
+                            <h5>Cocción por extrusión</h5>
+                            <p>La combinación de temperatura, humedad y presión transforma las características físicas
+                                de los ingredientes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card"><span class="step-num">3</span>
+                            <h5>Mayor disponibilidad del almidón</h5>
+                            <p>La gelatinización del almidón favorece su digestión en el intestino delgado.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card"><span class="step-num">4</span>
+                            <h5>Alimento terminado</h5>
+                            <p>El producto se acondiciona y se somete a los controles de calidad correspondientes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="centred mb_30">¿Por qué es importante para tu caballo?</h3>
+                <div class="row g-4 mb_60">
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <h5>Mejor digestibilidad del almidón</h5>
+                            <p>La extrusión favorece la digestión del almidón en el intestino delgado, donde puede ser
+                                aprovechado por el organismo.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <h5>Mayor eficiencia alimenticia</h5>
+                            <p>El procesamiento y la formulación permiten desarrollar alimentos diseñados para cubrir
+                                necesidades nutricionales con raciones adecuadas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <h5>Bienestar digestivo</h5>
+                            <p>Una mejor digestión del almidón antes de llegar al intestino grueso puede contribuir a
+                                disminuir la fermentación excesiva de este nutriente.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="benefit-card">
+                            <h5>Nutrición para diferentes actividades</h5>
+                            <p>La tecnología se integra a fórmulas diseñadas para deporte, reproducción, necesidades
+                                nutricionales específicas y mantenimiento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="closing-banner centred">
+                    <h2>Menos en el comedero. Más en tu caballo.</h2>
+                    <p>La diferencia está en lo que tu caballo puede aprovechar de cada porción.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección 3. Tecnología industrial -->
+        <section class="about-section pt_120 pb_100" id="tecnologia-industrial">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="sec-title mb_30">
+                            <span class="custom-text">TECNOLOGÍA INDUSTRIAL</span>
+                            <h2>La calidad comienza en nuestras plantas.</h2>
+                        </div>
+                        <p>GALOPE® cuenta con el respaldo de la infraestructura industrial de GRUPO NUTEC®, donde la
+                            tecnología, los procesos de producción y el control de calidad forman parte del compromiso
+                            con la nutrición animal.</p>
+                        <p>Desde el manejo de materias primas hasta la elaboración del producto terminado, buscamos
+                            mantener la consistencia de nuestras formulaciones mediante procesos controlados.</p>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <h4 class="mb_20">Tecnología aplicada a la nutrición</h4>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="benefit-card">
+                                    <h5>Formulación especializada</h5>
+                                    <p>El conocimiento nutricional permite seleccionar y combinar ingredientes de
+                                        acuerdo con las necesidades de los animales.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="benefit-card">
+                                    <h5>Procesos de producción</h5>
+                                    <p>La tecnología industrial contribuye a transformar las materias primas en
+                                        alimentos con características específicas.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="benefit-card">
+                                    <h5>Control de calidad</h5>
+                                    <p>Los procedimientos de verificación y control acompañan las distintas etapas de
+                                        elaboración.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="benefit-card">
+                                    <h5>Mejora continua</h5>
+                                    <p>La investigación, el análisis y la innovación contribuyen al desarrollo y
+                                        perfeccionamiento de nuestras soluciones.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección 4. Compromiso con la calidad -->
+        <section class="chooseus-section bg-light-section pt_120 pb_120" id="calidad">
+            <div class="auto-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image-box mr_30">
+                            <figure class="image"><img src="assets/images/resource/Garantia.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content-box ml_30">
+                            <div class="sec-title mb_30">
+                                <span class="custom-text">COMPROMISO CON LA CALIDAD</span>
+                                <h2>La confianza también se construye con calidad.</h2>
+                            </div>
+                            <a href="https://www.gponutec.com/" target="_blank" rel="noopener" class="partner-logo mb_20"><img
+                                    src="assets/images/logos/grupo-nutec.jpg" alt="GRUPO NUTEC®" loading="lazy"></a>
+                            <p>Sabemos que la alimentación de tu caballo es una decisión importante.</p>
+                            <p>Por eso, en GRUPO NUTEC® con más de 30 años de ciencia en nutrición animal, trabajamos
+                                para ofrecer productos respaldados por procesos de elaboración, especificaciones
+                                nutricionales y más de 150 controles de calidad en nuestra Planta JCF.</p>
+                            <p>Nuestro compromiso es acompañar a quienes buscan una nutrición especializada para sus
+                                caballos.</p>
+                            <div class="btn-box mt_30">
+                                <a href="https://www.gponutec.com/" target="_blank" rel="noopener"
+                                    class="theme-btn btn-one">Conoce el respaldo de GRUPO NUTEC®</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card mt_60">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <a href="https://incasara.org/" target="_blank" rel="noopener" class="partner-logo"><img
+                                    src="assets/images/logos/fundacion-incasara.jpg" alt="FUNDACIÓN INCASARA®"
+                                    loading="lazy"></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <span class="custom-text">FUNDACIÓN INCASARA</span>
+                            <p class="mb_0">Desde 2012, con el respaldo de GRUPO NUTEC®, da terapias asistidas con
+                                caballos y perros a niños y adolescentes con discapacidad o que atraviesan desafíos
+                                emocionales. En 2025 dio <strong>2,500 sesiones de equinoterapia</strong> y
+                                <strong>3,484 de caninoterapia</strong>.</p>
+                        </div>
+                        <div class="col-lg-3 text-lg-end mt_20">
+                            <a href="https://incasara.org/" target="_blank" rel="noopener" class="theme-btn btn-one">Conoce INCASARA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- cta-section -->
+        <section class="cta-section alternat-2 centred bg-color-2 pt_140 pb_150">
+            <div class="pattern-layer" style="background-image: url(./assets/images/shape/shape-2.png);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <div class="sec-title light mb_40">
+                        <span class="sub-title text-white">CONTACTO</span>
+                        <h2 class="text-white">Estamos contigo en cada etapa</h2>
+                        <p class="text-white">¿Necesitas orientación para elegir un alimento o integrar un concentrado
+                            nutricional? Nuestro equipo puede ayudarte a conocer los productos GALOPE®.</p>
+                    </div>
+                    <div class="btn-box">
+                        <a href="contact.html" class="theme-btn btn-one border">CONTÁCTANOS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-section end -->
+        <!-- main-footer -->
+        <footer class="main-footer pt_150">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
+            <div class="auto-container">
+                <div class="footer-top">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-3 col-sm-3 centred">
+                            <img class="login-box-img" src="assets/images/logos/Light.png" alt="">
+                        </div>
+                        <!-- <div class="col-lg-4 col-md-12 col-sm-12 logo-column">
+                            <figure class="footer-logo"><a href="index.html"><img class="login-box-img" src="assets/images/logos/Light.png"
+                                        alt=""></a></figure>
+                        </div> -->
+                        <!-- <div class="col-lg-8 col-md-12 col-sm-12 subscribe-column">
+                            <div class="subscribe-content">
+                                <h3>Suscribirse</h3>
+                                <div class="form-inner">
+                                    <form method="post" action="contact.html">
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Correo electrónico" required>
+                                            <button type="submit" class="theme-btn btn-one">Suscribirse</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="widget-section pt_95 pb_95">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
+                            <div class="about-widget footer-widget mr_40">
+                                <!-- <div class="widget-title">
+                                    <h3>About</h3>
+                                </div> -->
+                                <div class="widget-content">
+                                    <p>"Hecho en México con ciencia e innovación de clase mundial. Para caballos
+                                        extraordinarios y las personas que los aman."</p>
+                                    <p>"Porque cada caballo merece alcanzar su máximo potencial. Porque cada propietario
+                                        merece ver a su campeón brillar. Porque la nutrición correcta no es un lujo, es
+                                        una necesidad que transforma vidas." </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 footer-column">
+                            <div class="contact-widget footer-widget">
+                                <div class="widget-title">
+                                    <h3>PÓNGASE EN CONTACTO CON NOSOTROS</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li>
+                                            <div class="icon-box"><i class="icon-17 text-white"></i></div>
+                                            Lun - Vie: 9:00AM - 6:00PM
+                                        </li>
+                                        <li>
+                                            <div class="icon-box"><i class="icon-3 text-white"></i></div>
+                                            Av. de las Fuentes No.14, Parque Industrial Bernardo Quintana, C.P. 76246 El
+                                            Marqués, Querétaro
+                                        </li>
+                                        <li>
+                                            <div class="icon-box"><i class="icon-2 text-white"></i></div>
+                                            Email: <a href="mailto:contacto@gponutec.com">contacto@gponutec.com</a>
+                                        </li>
+                                        <li>
+                                            <div class="icon-box"><i class="icon-5 text-white"></i></div>
+                                            Teléfono: <a href="tel:4421961000">442 196 1000</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="social-links">
+                                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/galope_gruponutec/?hl=en"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom centred">
+                <div class="copyright">
+                    <p>© 2025 Nueva Tecnología en Alimentación, S.A. de C.V. | Todos los derechos reservados </p>
+
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/owl.js"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script src="./assets/js/validation.js"></script>
+    <script src="./assets/js/jquery.fancybox.js"></script>
+    <script src="./assets/js/appear.js"></script>
+    <script src="./assets/js/isotope.js"></script>
+    <script src="./assets/js/parallax-scroll.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/scrolltop.min.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/odometer.js"></script>
+
+    <!-- main-js -->
+    <script src="./assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+
+</html>

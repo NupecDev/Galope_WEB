@@ -53,6 +53,7 @@
     <link href="./assets/css/module-css/footer.css" rel="stylesheet">
     <link href="./assets/css/responsive.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -161,7 +162,7 @@
 
 
         <!--Video Popup-->
-        <div id="video-popup" class="video-popup">
+        <!-- <div id="video-popup" class="video-popup">
             <div class="popup-inner">
                 <div class="close-video"><span class="fas fa-times"></span></div>
                 <div class="overlay-layer"></div>
@@ -174,7 +175,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <!-- main header -->
@@ -217,24 +218,31 @@
                                 <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation clearfix">
-                                            <li class="current dropdown"><a href="#">Alimentos</a>
+                                            <li class="current dropdown"><a href="index.html#productos">Productos</a>
                                                 <ul>
-                                                    <li><a href="alimento.html?product=zen">GALOPE® ZEN</a></li>
-                                                    <li><a href="alimento.html?product=alto-rendimiento">GALOPE® ALTO
-                                                            RENDIMIENTO</a></li>
-                                                    <li><a href="alimento.html?product=reproductoras">GALOPE®
-                                                            REPRODUCTORAS</a></li>
-                                                    <li><a href="alimento.html?product=balance">GALOPE® BALANCE</a></li>
-                                                    <li><a href="alimento.html?product=300-varas">GALOPE® 300 VARAS</a>
+                                                    <li class="dropdown"><a href="index.html#productos">Alimentos extruidos</a>
+                                                        <ul>
+                                                            <li><a href="alimento.html?product=alto-rendimiento">GALOPE® ALTO RENDIMIENTO</a></li>
+                                                            <li><a href="alimento.html?product=zen">GALOPE® ZEN</a></li>
+                                                            <li><a href="alimento.html?product=balance">GALOPE® BALANCE</a></li>
+                                                            <li><a href="alimento.html?product=reproductoras">GALOPE® REPRODUCTORAS</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="index.html#productos">Concentrados nutricionales</a>
+                                                        <ul>
+                                                            <li><a href="alimento.html?product=energy">GALOPE® ENERGY</a></li>
+                                                            <li><a href="alimento.html?product=protein">GALOPE® PROTEIN</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a href="index.html#productos">Nutrición multipartículas</a>
+                                                        <ul>
+                                                            <li><a href="alimento.html?product=300-varas">GALOPE® 300 VARAS</a></li>
+                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="current dropdown"><a href="#">Concentrados</a>
-                                                <ul>
-                                                    <li><a href="alimento.html?product=energy">GALOPE® ENERGY</a></li>
-                                                    <li><a href="alimento.html?product=protein">GALOPE® PROTEIN</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="index.html#calculadora">Calculadora</a></li>
+                                            <li><a href="ciencia-tecnologia.html">Tecnología GALOPE®</a></li>
                                             <!-- <li class="current dropdown"><a href="#">Home</a>
                                                 <ul>
                                                     <li><a href="index.html">Home Main Course</a></li>
@@ -372,16 +380,23 @@
 
 
         <!-- page-title -->
-        <section class="page-title centred pt_190 pb_190">
+        <section class="page-title product-hero">
             <div class="bg-layer" id="cover-product"
                 style="background-image: url(./assets/images/background/page-title.jpg);"></div>
             <div class="auto-container">
-                <div class="content-box">
-                    <h1 id="product-title">Product not specified</h1>
-                    <ul class="bread-crumb clearfix">
-                        <!-- <li><a href="index.html">Inicio</a></li> -->
-                        <!-- <li id="breadcrumb-product">Product not specified</li> -->
-                    </ul>
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="content-box">
+                            <span class="hero-kicker" id="hero-subtitle"></span>
+                            <h1 id="product-title"></h1>
+                            <p class="hero-claim" id="hero-claim"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <figure class="hero-render">
+                            <img id="hero-render" src="" alt="" hidden>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
@@ -389,7 +404,7 @@
 
 
         <!-- product-details -->
-        <section class="course-details pt_150 pb_150">
+        <section class="course-details pt_150 pb_150" id="product-details">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
@@ -424,76 +439,59 @@
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="course-details-content">
-                            <figure class="big-image">
-                                <!-- <img id="product-image" src="./assets/images/resource/course-7.jpg" alt=""> -->
+                            <!-- <figure class="big-image">
                                 <iframe id="product-video" width="800" height="450" src="" title="Product Video"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </figure>
+                            </figure> -->
+
+                            <!-- Claim y descripción principal -->
                             <div class="content-one mb_50">
+                                <span class="custom-text product-subtitle" id="product-subtitle"></span>
                                 <h2 id="product-name">Product Name</h2>
-                                <p id="product-copy" class="mb_50">Product description will be loaded here.</p>
-                                <!-- <iframe id="product-video" width="560" height="315" src="" title="Product Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                                <h3 id="product-tagline">Tagline</h3>
-                                <p id="product-description" class="mb_25">Detailed description.</p>
-                                <!-- <p id="product-description-2">Additional description.</p> -->
+                                <h4 class="product-claim" id="product-claim"></h4>
+                                <div id="product-description"></div>
                             </div>
-                            <div class="content-two mb_60">
-                                <h3>BENEFICIOS</h3>
-                                <ul class="list-item clearfix mb_65" id="benefits-list">
+
+                            <!-- Beneficios destacados -->
+                            <div class="content-two mb_50">
+                                <h3>BENEFICIOS DESTACADOS</h3>
+                                <div class="row g-4 product-benefits" id="benefits-list">
                                     <!-- Benefits will be populated here -->
-                                </ul>
-                                <div class="inner-box">
-                                    <!-- <figure class="image-box"><img id="how-it-works-image"
-                                            src="./assets/images/resource/course-8.jpg" alt="" class="package-image">
-                                    </figure> -->
-                                    <!-- background-image goes here -->
-                                    <!-- <div class="text-box">
-                                        <h3 id="how-it-works-title">How does this benefit you?</h3>
-                                        <ul id="how-it-works-description" class=" clearfix" style="list-style: none;"></ul>
-                                        <a href="#" class="theme-btn btn-two" id="cta-button">Learn More</a>
-                                    </div> -->
                                 </div>
                             </div>
-                            <div class="content-two mb_60 col-lg-12">
-                                <!-- <h3>Especificaciones Técnicas</h3>
-                                <ul class="list-item clearfix mb_65" id="specifications-list">
-                                    
-                                </ul> -->
-                                <div class="text-box">
-                                    <h3>MENOS KILOS POR DÍA</h3>
+
+                            <!-- Ingredientes -->
+                            <div class="content-two mb_50">
+                                <h3>INGREDIENTES QUE HACEN LA DIFERENCIA</h3>
+                                <ul class="list-item clearfix product-ingredients" id="ingredients-list">
+                                    <!-- Ingredients will be populated here -->
+                                </ul>
+                            </div>
+
+                            <!-- Recomendado para -->
+                            <div class="content-two mb_50">
+                                <div class="product-recommended">
+                                    <h3>¿PARA QUÉ CABALLOS ESTÁ RECOMENDADO?</h3>
+                                    <p id="product-recommended"></p>
                                 </div>
-                                <!-- <div class="text-box">
-                                    <h3>GUÍA DE ALIMENTACIÓN</h3>
-                                </div> -->
+                            </div>
+
+                            <!-- Guía de alimentación y análisis garantizado -->
+                            <div class="content-two mb_50 col-lg-12">
+                                <h3>GUÍA DE ALIMENTACIÓN Y ANÁLISIS GARANTIZADO</h3>
                                 <div class="inner-box">
                                     <figure>
                                         <img id="feeding-guide-image" src="" alt="" loading="lazy">
                                     </figure>
                                 </div>
-                                <p>Ejemplo basado en un caballo de 500 kilogramos, descargue la ficha técnica a
-                                    continuacion.</p>
-                                <br>
-                                <div class="row" id="downloadables-list">
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="course-details-content">
-                            <div class="content-two mb_60 col-lg-12">
-                                <!-- <h3>Especificaciones Técnicas</h3>
-                                <ul class="list-item clearfix mb_65" id="specifications-list">
-                                    
-                                </ul> -->
-                                <div class="inner-box">
-
+                                <p>Ejemplo basado en un caballo de 500 kilogramos. Consulta la ficha técnica para más
+                                    detalle.</p>
+                                <div class="inner-box mt_30">
                                     <div class="text-box">
-                                        <h3>ESPECIFICACIONES TÉCNICAS</h3>
-                                        <ul class="list-item clearfix mb_65" id="specifications-list">
+                                        <h4>ANÁLISIS GARANTIZADO</h4>
+                                        <ul class="list-item clearfix" id="specifications-list">
                                             <!-- Specifications will be populated here -->
                                         </ul>
                                     </div>
@@ -501,49 +499,58 @@
                                             src="./assets/images/resource/course-8.jpg" alt="" class="package-image">
                                     </figure>
                                 </div>
-
                             </div>
 
-                            <div class="content-two mb_60">
-                                <!-- <h3>TESTIMONIOS</h3> -->
-                                <div id="testimonials-container">
-                                    <!-- Testimonials will be populated here -->
-                                </div>
-                            </div>
-                            <div class="content-two mb_60">
-                                <h3>GALERÍA</h3>
-                                <div id="gallery-container">
-                                    <!-- Gallery images will be populated here -->
-                                </div>
-                            </div>
-                            <div class="content-two mb_60">
-                                <h3>GARANTÍA</h3>
-                                <ul class="list-item clearfix mb_65" id="guarantee-list">
-                                    <!-- Guarantee points will be populated here -->
-                                </ul>
-                            </div>
-
-                            <div class="content-two mb_60">
-                                <h3>CASOS DE USO</h3>
-                                <ul class="list-item clearfix mb_65" id="cases-list">
-                                    <!-- Cases will be populated here -->
-                                </ul>
-                            </div>
-                            <div class="content-two mb_60" id="complement-section">
-                                <!-- <h3>Concentrado RECOMENDADO</h3> -->
-                                <h5 id="complement-text"></h5>
-                            </div>
-                            <div class="content-three">
-                                <div class="content_block_three">
-                                    <div class="content-box mr_30">
-                                        <h3>FAQ</h3>
-                                        <ul class="accordion-box" id="faq-list">
-                                            <!-- FAQ will be populated here -->
-                                        </ul>
+                            <!-- Importancia de la pastura -->
+                            <div class="content-two mb_50">
+                                <div class="pasture-box">
+                                    <span class="custom-text">CONOCE LA IMPORTANCIA DE LA PASTURA</span>
+                                    <h3>La importancia del forraje en la alimentación de tu caballo</h3>
+                                    <p>Una buena nutrición comienza con un forraje de calidad. El sistema digestivo de los
+                                        caballos está diseñado para consumir fibra de manera continua, por lo que el
+                                        forraje, ya sea pastura fresca o heno, constituye la base de su alimentación y es
+                                        fundamental para mantener su salud y bienestar. Además de aportar nutrientes
+                                        esenciales, la fibra favorece la motilidad intestinal, estimula la masticación y la
+                                        producción de saliva, y contribuye al equilibrio de la microbiota intestinal. Su
+                                        fermentación en el intestino grueso también proporciona una fuente importante de
+                                        energía para el organismo. La calidad, cantidad y composición del forraje influyen
+                                        directamente en la condición corporal, el aprovechamiento de los nutrientes y el
+                                        desempeño de cada caballo.</p>
+                                    <p>En GALOPE® sabemos que una nutrición eficiente comienza con un excelente forraje.
+                                        Por eso, nuestros alimentos están formulados para complementar una dieta basada en
+                                        fibra, aportando los nutrientes necesarios de acuerdo con la etapa de vida,
+                                        condición física y nivel de actividad de cada caballo.</p>
+                                    <div class="pasture-cta">
+                                        <a href="https://laboratorioeuronutec.com" target="_blank" rel="noopener"
+                                            class="theme-btn btn-one">EVALÚA TU PASTURA</a>
+                                        <a href="https://laboratorioeuronutec.com" target="_blank" rel="noopener"
+                                            class="partner-logo"><img src="assets/images/logos/laboratorio-euronutec.png"
+                                                alt="LABORATORIO EURONUTEC®" loading="lazy"></a>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Productos complementarios -->
+                            <div class="content-two mb_50" id="complement-section">
+                                <h3 id="complement-title">PRODUCTOS COMPLEMENTARIOS</h3>
+                                <div class="row g-4" id="complement-list">
+                                    <!-- Complementary products will be populated here -->
+                                </div>
+                            </div>
+
+                            <!-- Descargas -->
+                            <div class="content-two mb_50">
+                                <h3>DESCARGA DE FICHA TÉCNICA Y FOLLETO</h3>
+                                <div class="row" id="downloadables-list">
+                                </div>
+                            </div>
+
+                            <!-- <div class="content-two mb_50" id="gallery-section">
+                                <h3>GALERÍA</h3>
+                                <div id="gallery-container">
+                                     Gallery images will be populated here
+                                </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -562,12 +569,12 @@
             <div class="auto-container">
                 <div class="content-box">
                     <div class="sec-title light mb_40">
-                        <span class="sub-title text-white">ÚNETE A NUESTRO NEWSLETTER</span>
-                        <h2 class="text-white"> AVANCES EN NUTRICIÓN EQUINA </h2>
-                        <p class="text-white">Recibe casos de éxito y consejos prácticos directamente en tu correo.</p>
+                        <span class="sub-title text-white">CONTACTO</span>
+                        <h2 class="text-white">Estamos contigo en cada etapa</h2>
+                        <p class="text-white">¿Necesitas orientación para elegir un alimento o integrar un concentrado
+                            nutricional? Nuestro equipo puede ayudarte a conocer los productos GALOPE®.</p>
                     </div>
                     <div class="btn-box">
-                        <a href="signup.html" class="theme-btn btn-one border">SUSCRÍBETE</a>
                         <a href="contact.html" class="theme-btn btn-one border">CONTÁCTANOS</a>
                     </div>
                 </div>
@@ -699,309 +706,188 @@
 
     <!-- Product Loading Script -->
     <script>
+        const CATEGORY_LABELS = {
+            'extruido': 'ALIMENTOS EXTRUIDOS',
+            'concentrado': 'CONCENTRADOS NUTRICIONALES',
+            'multiparticulas': 'NUTRICIÓN MULTIPARTÍCULAS'
+        };
+
         document.addEventListener('DOMContentLoaded', function () {
-            // Get URL parameters
             const urlParams = new URLSearchParams(window.location.search);
             const productParam = urlParams.get('product');
 
-            // Send custom event for product view
-            if (productParam) {
-                gtag('event', 'view_product', {
-                    product: productParam
-                });
+            if (productParam && typeof gtag === 'function') {
+                gtag('event', 'view_product', { product: productParam });
             }
 
-            // Fetch product data
             fetch('data/products.json')
                 .then(response => response.json())
                 .then(products => {
-                    populateSidebar(products);
-                    if (productParam) {
-                        const product = products.find(p => p.product === productParam);
-                        if (product) {
-                            loadProductData(product);
-                        } else {
-                            showError('Product not found');
-                        }
+                    populateSidebar(products, productParam);
+                    if (!productParam) return showError('No se especificó un producto');
+                    const product = products.find(p => p.product === productParam);
+                    if (product) {
+                        loadProductData(product, products);
                     } else {
-                        showError('No product specified');
+                        showError('Producto no encontrado');
                     }
                 })
                 .catch(error => {
                     console.error('Error loading product data:', error);
-                    showError('Error loading product data');
+                    showError('Error al cargar la información del producto');
                 });
         });
 
-        function populateSidebar(products) {
+        function populateSidebar(products, currentProduct) {
             const productList = document.getElementById('product-list');
             productList.innerHTML = '';
-            products.forEach(product => {
-                const li = document.createElement('li');
-                const urlParams = new URLSearchParams(window.location.search);
-                const currentProduct = urlParams.get('product');
-                const isCurrent = currentProduct === product.product;
-                li.innerHTML = `<a href="?product=${product.product}" class="${isCurrent ? 'current' : ''}">${product.title} <i class="icon-37"></i></a>`;
-                productList.appendChild(li);
+            Object.keys(CATEGORY_LABELS).forEach(category => {
+                const items = products.filter(p => p.category === category);
+                if (!items.length) return;
+                const header = document.createElement('li');
+                header.className = 'category-heading';
+                header.textContent = CATEGORY_LABELS[category];
+                productList.appendChild(header);
+                items.forEach(product => {
+                    const li = document.createElement('li');
+                    const isCurrent = currentProduct === product.product;
+                    li.innerHTML = `<a href="?product=${product.product}" class="${isCurrent ? 'current' : ''}">${product.title} <i class="icon-37"></i></a>`;
+                    productList.appendChild(li);
+                });
             });
         }
 
-        function loadProductData(product) {
-            // Update page title and breadcrumb
+        function loadProductData(product, products) {
+            document.title = `${product.title} | GALOPE®`;
             document.getElementById('product-title').textContent = product.title;
-            // document.getElementById('breadcrumb-product').textContent = product.title;
+            document.getElementById('hero-subtitle').textContent = product.subtitle || '';
+            document.getElementById('hero-claim').textContent = product.claim || '';
+            const heroRender = document.getElementById('hero-render');
+            if (product.packageimage) {
+                heroRender.src = product.packageimage;
+                heroRender.alt = product.title;
+                heroRender.hidden = false;
+            }
 
-            // Update product name and copy
+            // Claim y descripción
+            document.getElementById('product-subtitle').textContent = product.subtitle || '';
             document.getElementById('product-name').textContent = product.title;
-            document.getElementById('product-copy').innerHTML = product.copy;
+            document.getElementById('product-claim').textContent = product.claim || '';
+            document.getElementById('product-description').innerHTML =
+                (product.description || []).map(p => `<p>${p}</p>`).join('');
 
-            // Update main image
+            // Textura de fondo por producto (parallax en escritorio)
+            const detailsSection = document.getElementById('product-details');
+            if (product.texture) {
+                detailsSection.style.setProperty('--product-texture', `url("${new URL(product.texture, document.baseURI).href}")`);
+                detailsSection.classList.add('product-textured');
+            }
+            // Ilustración tipo marca de agua (centrada, fija al viewport)
+            if (product.watermark) {
+                detailsSection.style.setProperty('--product-watermark', `url("${new URL(product.watermark, document.baseURI).href}")`);
+                detailsSection.classList.add('product-watermarked');
+            }
+
+            // Imágenes
             document.getElementById('cover-product').style.backgroundImage = `url(${product.backgroundimage || './assets/images/background/page-title.jpg'})`;
             document.getElementById('how-it-works-image').src = product.packageimage || './assets/images/resource/course-8.jpg';
+            document.getElementById('how-it-works-image').alt = product.title;
             const fgImg = document.getElementById('feeding-guide-image');
-            fgImg.src = product['feeding-guide'] || 'assets/images/zen/Tabla-Zen.png';
+            fgImg.src = product['feeding-guide'] || '';
+            fgImg.alt = 'Guía de alimentación ' + product.title;
             fgImg.style.cursor = 'zoom-in';
             fgImg.onclick = function () { openFeedingModal(this.src); };
-            // document.getElementById('feeding-guide-image').alt = 'Guía de alimentación GALOPE® ' + product.title;
 
+            // Video
+            //let videoUrl = product.video;
+            //if (videoUrl && videoUrl.includes('youtu.be')) {
+                //const videoId = videoUrl.split('/').pop().split('?')[0];
+                //videoUrl = `https://www.youtube.com/embed/${videoId}`;
+            //}
+            //const videoEl = document.getElementById('product-video');
+            //if (videoUrl) {
+                //videoEl.src = videoUrl;
+            //} else {
+                //videoEl.closest('figure').style.display = 'none';
+            //}
 
-            // Update video
-            let videoUrl = product.video;
-            if (videoUrl && videoUrl.includes('youtu.be')) {
-                const videoId = videoUrl.split('/').pop().split('?')[0];
-                videoUrl = `https://www.youtube.com/embed/${videoId}`;
-            }
-            document.getElementById('product-video').src = videoUrl || '';
+            // Beneficios destacados
+            document.getElementById('benefits-list').innerHTML = (product.benefits || []).map(b => `
+                <div class="col-md-6">
+                    <div class="benefit-card">
+                        <h5>${b.title}</h5>
+                        <p>${b.text}</p>
+                    </div>
+                </div>`).join('');
 
-            // Update tagline and descriptions
-            document.getElementById('product-tagline').textContent = product.tagline;
-            document.getElementById('product-description').innerHTML = product.cienciecebehind || 'Description not available';
-            //document.getElementById('product-description-2').textContent = product.howitworks ? product.howitworks.join(' ') : '';
+            // Ingredientes
+            document.getElementById('ingredients-list').innerHTML = (product.ingredients || []).map(i =>
+                `<li><span></span> <strong>${i.name}:</strong> ${i.text}</li>`).join('');
 
-            // Update benefits
-            const benefitsList = document.getElementById('benefits-list');
-            benefitsList.innerHTML = '';
-            if (product.benefits) {
-                product.benefits.forEach(benefit => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span></span> ${benefit}`;
-                    benefitsList.appendChild(li);
-                });
-            }
+            // Recomendado para
+            document.getElementById('product-recommended').innerHTML = product.recommendedfor || '';
 
-            // Update how it works section
-            // document.getElementById('how-it-works-title').textContent = 'CÓMO FUNCIONA';
-            // const howItWorksList = document.getElementById('how-it-works-description');
-            // howItWorksList.innerHTML = '';
-            // if (product.howitworks) {
-            //     product.howitworks.forEach(step => {
-            //         const li = document.createElement('li');
-            //         li.innerHTML = `${step}`;
-            //         howItWorksList.appendChild(li);
-            //     });
-            // } else {
-            //     const li = document.createElement('li');
-            //     li.innerHTML = `Information not available`;
-            //     howItWorksList.appendChild(li);
-            // }
+            // Análisis garantizado
+            document.getElementById('specifications-list').innerHTML = (product.specifications || []).map(s =>
+                `<li><span></span> ${s}</li>`).join('');
 
-            // Update specifications
-            const specificationsList = document.getElementById('specifications-list');
-            specificationsList.innerHTML = '';
-            if (product.specifications) {
-                product.specifications.forEach(spec => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span></span> ${spec}`;
-                    specificationsList.appendChild(li);
-                });
-            }
-
-            // Update testimonials
-            const testimonialsContainer = document.getElementById('testimonials-container');
-            testimonialsContainer.innerHTML = '';
-            testimonialsContainer.className = 'owl-carousel owl-theme';
-            if (product.testimonials) {
-                const headerTestimonial = document.createElement('div');
-                headerTestimonial.innerHTML = `<h3>TESTIMONIOS</h3>`;                  
-                product.testimonials.forEach(testimonial => {
-                    const testimonialDiv = document.createElement('div');
-                    testimonialDiv.className = 'testimonial-item';
-                    testimonialDiv.innerHTML = `
-                        <figure class="testimonial-image">
-                            <img src="${testimonial.image}" alt="${testimonial.name}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" loading="lazy">
-                        </figure>
-                        <div class="testimonial-content">
-                            <p class="quote">"${testimonial.quote}"</p>
-                            <br>
-                            <div class="author-info">
-                                <h6>${testimonial.name}</h6>
-                                <span class="role">${testimonial.role}</span>
-                            </div>
-                        </div>
-                    `;
-                    testimonialsContainer.appendChild(testimonialDiv);
-                });
-                // Initialize Owl Carousel for testimonials
-                $(testimonialsContainer).owlCarousel({
-                    loop: true,
-                    margin: 20,
-                    nav: true,
-                    autoplay: true,
-                    autoplayTimeout: 5000,
-                    autoplayHoverPause: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 1
-                        },
-                        1000: {
-                            items: 1
-                        }
-                    }
-                });
-            }
-
-            // Update FAQ
-            const faqList = document.getElementById('faq-list');
-            faqList.innerHTML = '';
-            if (product.faq) {
-                product.faq.forEach((faq, index) => {
-                    const li = document.createElement('li');
-                    li.className = 'accordion block' + (index === 0 ? ' active-block' : '');
-                    li.innerHTML = `
-                        <div class="acc-btn${index === 0 ? ' active' : ''}">
-                            <h3>${faq.question}</h3>
-                            <div class="icon-box"><i class="icon-20"></i></div>
-                        </div>
-                        <div class="acc-content${index === 0 ? ' current' : ''}">
-                            <div class="text">
-                                <p>${faq.answer}</p>
-                            </div>
-                        </div>
-                    `;
-                    faqList.appendChild(li);
-                });
-            }
-
-            // Update gallery
-            const galleryContainer = document.getElementById('gallery-container');
-            galleryContainer.innerHTML = '';
-            if (product.galleryimages) {
-                const gridDiv = document.createElement('div');
-                gridDiv.className = 'grid grid-cols-2 md:grid-cols-4 gap-4';
-                const columns = [[], [], [], []];
-                product.galleryimages.forEach((image, index) => {
-                    const colIndex = index % 4;
-                    columns[colIndex].push(image);
-                });
-                columns.forEach(colImages => {
-                    const colDiv = document.createElement('div');
-                    colDiv.className = 'grid gap-4';
-                    colImages.forEach((image, index) => {
-                        const imgDiv = document.createElement('div');
-                        imgDiv.innerHTML = `
-                            <a href="${image}" class="lightbox-image" data-fancybox="gallery">
-                                <img class="h-auto max-w-full rounded-lg" src="${image}" alt="Gallery Image" loading="lazy">
-                            </a>
-                        `;
-                        colDiv.appendChild(imgDiv);
-                    });
-                    gridDiv.appendChild(colDiv);
-                });
-                galleryContainer.appendChild(gridDiv);
-            }
-
-            // Update guarantee
-            const guaranteeList = document.getElementById('guarantee-list');
-            guaranteeList.innerHTML = '';
-            if (product.guarantee) {
-                product.guarantee.forEach(guarantee => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span></span> ${guarantee.point}`;
-                    guaranteeList.appendChild(li);
-                });
-            }
-
-            // Update cases
-            const casesList = document.getElementById('cases-list');
-            casesList.innerHTML = '';
-            if (product.cases) {
-                product.cases.forEach(caseItem => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span></span> ${caseItem.use}`;
-                    casesList.appendChild(li);
-                });
-            }
-
-            // Update complement section
+            // Productos complementarios
+            const complements = (product.complementary || [])
+                .map(slug => products.find(p => p.product === slug))
+                .filter(Boolean);
             const complementSection = document.getElementById('complement-section');
-            const complementText = document.getElementById('complement-text');
-            if (product.recomendation) {
-                complementText.textContent = product.recomendation;
+            if (complements.length) {
+                document.getElementById('complement-title').textContent =
+                    product.category === 'concentrado' ? 'SE COMPLEMENTA CON TODOS NUESTROS ALIMENTOS' : 'COMPLEMENTA CON NUESTROS CONCENTRADOS';
+                document.getElementById('complement-list').innerHTML = complements.map(c => `
+                    <div class="col-6 col-md-4">
+                        <a class="complement-card" href="?product=${c.product}">
+                            <img src="${c.packageimage}" alt="${c.title}" loading="lazy">
+                            <h6>${c.title}</h6>
+                            <span>${c.subtitle || ''}</span>
+                        </a>
+                    </div>`).join('');
                 complementSection.style.display = 'block';
             } else {
                 complementSection.style.display = 'none';
             }
 
-            // Update downloadables
-            const downloadablesList = document.getElementById('downloadables-list');
-            downloadablesList.innerHTML = '';
-            if (product.downloadables) {
-                product.downloadables.forEach(downloadable => {
-                    const col = document.createElement('div');
-                    col.className = 'col-auto';
-                    col.innerHTML = `
-                        <a href="${downloadable.link}" target="_blank" class="theme-btn btn-one" download>
-                            <i class="fas fa-download"></i> ${downloadable.title}
-                        </a>
-                    `;
-                    downloadablesList.appendChild(col);
-                });
-            }
+            // Descargables
+            document.getElementById('downloadables-list').innerHTML = (product.downloadables || []).map(d => `
+                <div class="col-auto mb_15">
+                    <a href="${d.link}" target="_blank" class="theme-btn btn-one" download>
+                        <i class="fas fa-download"></i> ${d.title}
+                    </a>
+                </div>`).join('');
 
-            // Update video banner
-            // const videoBanner = document.getElementById('video-banner');
-            // videoBanner.innerHTML = '';
-            // if (product['video-banner']) {
-            //     let videoElement;
-            //     // Local video file from assets folder
-            //     videoElement = `
-            //         <div class="video-banner-container" style="width: 100vw; max-width: 100vw; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-            //             <video width="100%" height="450" autoplay muted loop style="display: block;">
-            //                 <source src="${product['video-banner']}" type="video/mp4">
-            //                 Your browser does not support the video tag.
-            //             </video>
-            //         </div>
-            //     `;
-            //     videoBanner.innerHTML = videoElement;
-            // }
-
-            // Update technical videos
-            //const technicalvideosContainer = document.getElementById('technicalvideos-container');
-            //technicalvideosContainer.innerHTML = '';
-            //if (product.technicalvideos) {
-            //product.technicalvideos.forEach(video => {
-            //const videoDiv = document.createElement('div');
-            //videoDiv.className = 'video-item mb_20';
-            //videoDiv.innerHTML = `
-            //<h5>${video.title}</h5>
-            //<a href="${video.link}" target="_blank" class="theme-btn btn-two">Ver Video</a>
-            //`;
-            //technicalvideosContainer.appendChild(videoDiv);
-            //});
+            // Galería
+            //const galleryContainer = document.getElementById('gallery-container');
+            //galleryContainer.innerHTML = '';
+            //if (product.galleryimages && product.galleryimages.length) {
+                //const gridDiv = document.createElement('div');
+                //gridDiv.className = 'grid grid-cols-2 md:grid-cols-4 gap-4';
+                //const columns = [[], [], [], []];
+                //product.galleryimages.forEach((image, index) => columns[index % 4].push(image));
+                //columns.forEach(colImages => {
+                    //const colDiv = document.createElement('div');
+                    //colDiv.className = 'grid gap-4';
+                    //colDiv.innerHTML = colImages.map(image => `
+                        //<div>
+                            //<a href="${image}" class="lightbox-image" data-fancybox="gallery">
+                                //<img class="h-auto max-w-full rounded-lg" src="${image}" alt="Galería ${product.title}" loading="lazy">
+                            //</a>
+                        //</div>`).join('');
+                    //gridDiv.appendChild(colDiv);
+                //});
+                //galleryContainer.appendChild(gridDiv);
+            //} else {
+                //document.getElementById('gallery-section').style.display = 'none';
             //}
-
-            // Update contact info if needed (placeholder)
-            // document.getElementById('contact-address').textContent = 'Updated address';
-            // document.getElementById('contact-phone').textContent = 'Updated phone';
-            // document.getElementById('contact-email').textContent = 'Updated email';
         }
 
         function showError(message) {
             document.getElementById('product-name').textContent = 'Error';
-            document.getElementById('product-copy').textContent = message;
+            document.getElementById('product-description').textContent = message;
         }
     </script>
     <!-- Feeding Guide Modal -->

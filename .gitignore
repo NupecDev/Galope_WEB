@@ -2,3 +2,12 @@
 golfer-golf-club-course-html-template-2024-11-18-08-51-22-utc.zip
 todo.md
 *.DS_Store
+.DS_Store
+*.xlsx
+
+# Fuentes de alta resolución (no se publican; en web se usan los .webp)
+assets/images/background/*_230.png
+assets/images/background/ZEN.png
+assets/images/background/REPRODUCTORAS_FNL.png
+assets/images/background/BALANCE_ILUSTRATION.png
+assets/images/background/GALOPE® *.png
