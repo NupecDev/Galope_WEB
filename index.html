@@ -55,6 +55,8 @@
     <link href="assets/css/module-css/fluid.css" rel="stylesheet">
     <link href="assets/css/module-css/video.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- Calculadora de ración: estilos aislados (usa las tipografías del sitio) -->
+    <link href="assets/css/galope-racion.css" rel="stylesheet">
 </head>
 
 
@@ -699,66 +701,84 @@
 
 
         <!-- ===================== SECCIÓN 3. CALCULA SU RACIÓN ===================== -->
-        <section class="calculator-section pt_100 pb_100" id="calculadora">
-            <div class="auto-container">
-                <div class="row clearfix align-items-start">
-                    <div class="col-lg-5 col-md-12 col-sm-12">
-                        <div class="sec-title mb_30">
-                            <span class="custom-text">CALCULA SU RACIÓN</span>
-                            <h2>El alimento ideal comienza con sus necesidades.</h2>
-                        </div>
-                        <p>La pastura es la base: al menos <strong>1.5% de su peso al día</strong>, y más conforme
-                            aumenta su trabajo. Dinos cómo es tu caballo y qué le das, y descubre qué producto GALOPE®
-                            puede integrarse a su alimentación.</p>
-                    </div>
-                    <div class="col-lg-7 col-md-12 col-sm-12">
-                        <form class="calculator-form" id="ration-calculator" novalidate>
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <label for="calc-weight">Peso aproximado (kg)</label>
-                                    <input type="number" id="calc-weight" min="100" max="1200" step="1"
-                                        placeholder="Ej. 500" required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="calc-forage">Forraje / pastura que consume al día (kg)</label>
-                                    <input type="number" id="calc-forage" min="0" max="60" step="0.5"
-                                        placeholder="Ej. 8">
-                                </div>
-                                <div class="col-md-12 form-group">
-                                    <label for="calc-stage">Etapa y actividad</label>
-                                    <select id="calc-stage" class="ignore" required>
-                                        <option value="" selected disabled>Selecciona una opción</option>
-                                        <option value="balance">Mantenimiento, recreativo o trabajo ligero a moderado</option>
-                                        <option value="alto-rendimiento">Deporte de alta exigencia (entrenamiento y competencia)</option>
-                                        <option value="zen">Deporte con necesidad de calma y concentración</option>
-                                        <option value="reproductoras">Yegua gestante o lactante</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="calc-type">Tipo de alimento que prefieres</label>
-                                    <select id="calc-type" class="ignore">
-                                        <option value="extruido" selected>Extruido</option>
-                                        <option value="multiparticulas">Multipartículas</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <label for="calc-goal">Necesidad adicional</label>
-                                    <select id="calc-goal" class="ignore">
-                                        <option value="" selected>Ninguna</option>
-                                        <option value="energy">Más energía / mejorar condición corporal</option>
-                                        <option value="protein">Desarrollo o mantenimiento muscular</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-12 form-group">
-                                    <button type="submit" class="theme-btn btn-one">Calcula su ración</button>
-                                </div>
-                            </div>
-                        </form>
-                        <div class="calculator-result" id="calc-result" hidden></div>
-                    </div>
-                </div>
+        <!-- Calculadora de galope-export (INTEGRACION_GALOPE.md). HTML, textos y JS sin cambios;
+             estilos en assets/css/galope-racion.css bajo .galope. Los sacos se leen de img/. -->
+        <div class="galope" id="calculadora">
+<section id="racion" class="sec tool">
+  <div class="wrap">
+    <div class="head">
+      <h2>Arma la ración de tu caballo.</h2>
+      <p class="lead">La pastura es la base: al menos 1.5% de su peso al día, y más conforme sube su trabajo. Dinos cómo es tu caballo y qué le das, y te sugerimos el Galope indicado y cuánto darle.</p>
+    </div>
+    <form class="tool-grid" id="tool" novalidate>
+      <div class="steps">
+        <fieldset class="step">
+          <legend>1. Tu caballo</legend>
+          <div class="q"><label for="t-peso">Peso aproximado (kg)</label><input id="t-peso" type="number" inputmode="numeric" min="150" max="1000" step="10" value="500"></div>
+          <div class="q"><span class="ql" id="q-mare">¿Es una yegua gestante o lactante?</span>
+            <div class="seg" role="radiogroup" aria-labelledby="q-mare"><input type="radio" name="mare" id="t-mare-no" value="0" checked><label for="t-mare-no">No</label><input type="radio" name="mare" id="t-mare-si" value="1"><label for="t-mare-si">Sí</label></div></div>
+          <div class="q" id="q-nerv-wrap"><span class="ql" id="q-nerv">¿Es nervioso o le cuesta concentrarse?</span>
+            <div class="seg" role="radiogroup" aria-labelledby="q-nerv"><input type="radio" name="nerv" id="t-nerv-no" value="0" checked><label for="t-nerv-no">No</label><input type="radio" name="nerv" id="t-nerv-si" value="1"><label for="t-nerv-si">Sí</label></div></div>
+        </fieldset>
+
+        <fieldset class="step">
+          <legend id="lv-title">2. Su trabajo</legend>
+          <div class="levels">
+            <div class="lv-head"><span id="lv-h1">Nivel</span><span>Ejemplos</span><span>Mcal al día</span></div>
+            <div id="lv-rows"></div>
+          </div>
+          <p class="src" id="lv-src"></p>
+          <div class="q" style="margin-top:22px"><label for="t-mcal">¿Ya conoces su requerimiento? Escríbelo en Mcal al día (opcional)</label><input id="t-mcal" type="number" inputmode="decimal" min="5" max="60" step="0.1" placeholder="Por ejemplo, 24.5"></div>
+        </fieldset>
+
+        <!-- PASO 3 · SU PASTURA — oculto por ahora (hidden).
+             No se elimina ni se comenta en HTML porque racion-ui.js lee estos campos al cargar;
+             mientras esté oculto, el cálculo usa la pastura por omisión (Heno de avena).
+             Para volver a mostrarlo, quita el atributo hidden. -->
+        <fieldset class="step" hidden>
+          <legend>3. Su pastura</legend>
+          <div class="q"><label for="t-forage">¿Qué pastura le das?</label><select id="t-forage" class="ignore"></select></div>
+          <p class="fo-out" id="fo-out"></p>
+          <details class="lab" id="lab">
+            <summary>Tengo un análisis de laboratorio de mi pastura</summary>
+            <p class="small">Escribe los valores de tu reporte en base seca. La humedad va tal como se ofrece.</p>
+            <div class="lab-grid">
+              <div class="q"><label for="l-hum">Humedad (%)</label><input id="l-hum" type="number" inputmode="decimal" min="0" max="90" step="0.1"></div>
+              <div class="q"><label for="l-pc">Proteína cruda (%)</label><input id="l-pc" type="number" inputmode="decimal" min="0" max="40" step="0.1"></div>
+              <div class="q"><label for="l-fdn">FDN (%)</label><input id="l-fdn" type="number" inputmode="decimal" min="10" max="90" step="0.1"></div>
+              <div class="q"><label for="l-fda">FDA (%)</label><input id="l-fda" type="number" inputmode="decimal" min="5" max="70" step="0.1"></div>
+              <div class="q"><label for="l-ee">Grasa o extracto etéreo (%)</label><input id="l-ee" type="number" inputmode="decimal" min="0" max="15" step="0.1"></div>
+              <div class="q"><label for="l-cen">Cenizas (%)</label><input id="l-cen" type="number" inputmode="decimal" min="0" max="30" step="0.1"></div>
             </div>
-        </section>
+          </details>
+          <p class="lab-cta">¿No tienes un análisis? En Eurolab, el laboratorio de Grupo Nutec, analizamos tu pastura. Llama al <b>(442) 196-0100</b> o <a href="#contacto">pídelo a tu asesor Galope</a>.</p>
+          <details class="lab how">
+            <summary>Cómo calculamos la energía de la pastura</summary>
+            <p class="small">Usamos la ecuación de Pagan (1998), la que adopta el NRC (2007) para estimar la energía digestible a partir del análisis de la pastura:</p>
+            <p class="eq">ED = 2,118 + 12.18 × PC − 9.37 × FDA − 3.83 × (FDN − FDA) + 47.18 × grasa + 20.35 × CNF − 26.3 × cenizas</p>
+            <p class="small" style="padding-bottom:16px">ED es la energía digestible en kcal por kg de materia seca. PC es la proteína cruda y CNF son los carbohidratos no fibrosos: 100 − FDN − grasa − cenizas − PC. Todo va en porcentaje de la materia seca. El resultado se pasa a Mcal y se ajusta por la humedad de la pastura.</p>
+          </details>
+          <p class="src">Los valores de cada pastura son típicos de referencia; la tuya puede variar mucho según el corte y la madurez. Con un análisis, el cálculo es más preciso.</p>
+        </fieldset>
+      </div>
+
+      <aside class="result" aria-live="polite" aria-label="Ración recomendada">
+        <p class="r-label">Te recomendamos</p>
+        <div class="r-prod"><img id="r-bag" src="img/saco-alto-rendimiento.webp" alt=""><div><h3 id="r-name"></h3><p id="r-tag"></p></div></div>
+        <div class="r-amounts" id="r-amounts"></div>
+        <div>
+          <div class="r-bar" id="r-bar" role="img"></div>
+          <div class="r-legend" id="r-legend"></div>
+        </div>
+        <p class="r-sum" id="r-sum"></p>
+        <ul class="r-notes" id="r-notes"></ul>
+        <a class="btn r-cta" href="#contacto">Revisarla con un asesor</a>
+      </aside>
+    </form>
+    <p class="src" style="margin-top:32px;max-width:90ch">Cálculo teórico de referencia, en energía digestible. Requerimientos: Nutrient Requirements of Horses, 6.ª edición, National Research Council (2007). Energía de la pastura: ecuación de Pagan (1998). Energía y almidón de Galope: datos de Grupo Nutec. Número de comidas: límite de 1.1 g de almidón por kg de peso en cada comida (Vervuert). Consulta a tu veterinario o a un asesor Galope antes de cambiar la dieta de tu caballo.</p>
+  </div>
+</section>
+        </div>
         <!-- calculadora end -->
 
 
@@ -857,7 +877,7 @@
 
 
         <!-- ===================== SECCIÓN 6. CONTACTO ===================== -->
-        <section class="cta-section alternat-2 centred bg-color-2 pt_120 pb_120">
+        <section class="cta-section alternat-2 centred bg-color-2 pt_120 pb_120" id="contacto">
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
@@ -994,62 +1014,10 @@
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
 
-    <!-- Calculadora de ración -->
-    <script>
-        (function () {
-            const form = document.getElementById('ration-calculator');
-            if (!form) return;
-            const result = document.getElementById('calc-result');
-            const FORAGE_MIN_PCT = 0.015; // La pastura es la base: al menos 1.5% de su peso al día
-            const NAMES = {
-                'alto-rendimiento': 'GALOPE® ALTO RENDIMIENTO',
-                'zen': 'GALOPE® ZEN',
-                'balance': 'GALOPE® BALANCE',
-                'reproductoras': 'GALOPE® REPRODUCTORAS',
-                '300-varas': 'GALOPE® 300 VARAS',
-                'energy': 'GALOPE® ENERGY',
-                'protein': 'GALOPE® PROTEIN'
-            };
-            const fmt = n => n.toLocaleString('es-MX', { maximumFractionDigits: 1 });
-            const link = slug => `<a href="alimento.html?product=${slug}">${NAMES[slug]}</a>`;
-
-            form.addEventListener('submit', function (e) {
-                e.preventDefault();
-                const weight = parseFloat(document.getElementById('calc-weight').value);
-                const forage = parseFloat(document.getElementById('calc-forage').value);
-                const stage = document.getElementById('calc-stage').value;
-                const type = document.getElementById('calc-type').value;
-                const goal = document.getElementById('calc-goal').value;
-
-                if (!weight || weight < 100 || weight > 1200 || !stage) {
-                    result.hidden = false;
-                    result.innerHTML = '<p class="calc-warning">Indica el peso de tu caballo (100 a 1,200 kg) y su etapa o actividad.</p>';
-                    return;
-                }
-
-                const forageMin = weight * FORAGE_MIN_PCT;
-                let html = `<h4>Resultado para un caballo de ${fmt(weight)} kg</h4>`;
-                html += `<p><strong>Pastura / forraje mínimo:</strong> ${fmt(forageMin)} kg al día, y más conforme aumenta su trabajo.</p>`;
-                if (!isNaN(forage)) {
-                    html += forage < forageMin
-                        ? `<p class="calc-warning">Actualmente le das ${fmt(forage)} kg de forraje: está por debajo del mínimo recomendado. Ajusta la base de su dieta antes de complementar.</p>`
-                        : `<p class="calc-ok">Le das ${fmt(forage)} kg de forraje: cubre la base mínima de su dieta.</p>`;
-                }
-
-                // Reproductoras es una fórmula específica; para el resto se respeta la preferencia de presentación
-                const main = (type === 'multiparticulas' && stage !== 'reproductoras') ? '300-varas' : stage;
-                html += `<p><strong>Alimento sugerido:</strong> ${link(main)}</p>`;
-                if (goal) {
-                    html += `<p><strong>Concentrado nutricional:</strong> ${link(goal)}</p>`;
-                }
-                html += `<p class="calc-note">Consulta la guía de alimentación del producto para definir la cantidad diaria, o <a href="contact.html">contáctanos</a> para recibir orientación.</p>`;
-
-                result.innerHTML = html;
-                result.hidden = false;
-                if (typeof gtag === 'function') gtag('event', 'ration_calculator', { stage: stage, product: main });
-            });
-        })();
-    </script>
+    <!-- Calculadora de ración (galope-export): racion-calculo.js antes que racion-ui.js -->
+    <script src="assets/js/racion-calculo.js"></script>
+    <script src="assets/js/racion-ui.js"></script>
+    <script src="assets/js/racion-fondo.js"></script>
 
 </body><!-- End of .page_wrapper -->
 

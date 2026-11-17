@@ -1,0 +1,152 @@
+/* =========================================================
+   Calculadora de ración GALOPE® — estilos de galope-export/web/css/galope.css
+   Solo el bloque "la ración" y la base, con todos los selectores bajo .galope
+   para no chocar con Bootstrap/tema (INTEGRACION_GALOPE.md, regla 3).
+   Sin modo oscuro (el sitio no lo usa, regla 7).
+   ========================================================= */
+.galope{
+  --paper:#FBFBF8; --ink:#1E2125; --graphite:#454950; --pencil:#676B72; --rule:#E2E1DC; --wash:#F2F1EC; --plinth:#FFFFFF;
+  --panel:#1E2125; --on-panel:#F4F3EF; --on-panel-soft:#C9C8C2; --panel-rule:#474B52;
+  --c-balance:#7995BA; --c-alto:#A88C08; --c-zen:#4E4483; --c-repro:#BC647D; --c-energy:#1A3D75; --c-protein:#E06A24; --c-varas:#1F5A44; --c-multi:#5A5E65;
+  --l-balance:#9DB6D9; --l-alto:#D4B54C; --l-zen:#A79BE0; --l-repro:#E59AAD; --l-energy:#8EA8DE; --l-forage:#8B8F96;
+  /* Tipografías del sitio (style.css): Collier para títulos, Myriad Pro para texto */
+  --sans:var(--text-font,"myriad-pro",sans-serif);
+  --serif:var(--text-font,"myriad-pro",sans-serif);
+  --display:var(--title-font,"Collier",sans-serif);
+  --max:1200px; --gutter:clamp(20px,4vw,56px); --logo-filter:none;
+}
+.galope *,.galope *::before,.galope *::after{box-sizing:border-box}
+.galope{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.6;overflow-x:hidden}
+.galope img{max-width:100%;display:block}
+.galope a{color:inherit}
+.galope :focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:2px}
+.galope .wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--gutter)}
+.galope h1,.galope h2,.galope h3{font-family:var(--sans);margin:0;color:var(--ink);text-wrap:balance}
+.galope h2{font-stretch:112%;font-style:italic;font-weight:800;font-size:clamp(30px,4.2vw,50px);line-height:1.05;letter-spacing:-.015em}
+.galope h3{font-weight:700;font-size:20px;line-height:1.25}
+.galope p{margin:0}
+.galope .lead{font-size:clamp(18px,1.5vw,20px);color:var(--graphite);max-width:58ch}
+.galope .small{font-size:14px;line-height:1.55;color:var(--pencil)}
+.galope .sec{padding-block:clamp(64px,9vw,120px)}
+.galope .head{display:flex;flex-direction:column;gap:18px;margin-bottom:clamp(32px,4.5vw,52px)}
+.galope .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 28px;font-family:var(--sans);font-weight:600;font-size:16px;text-decoration:none;border-radius:999px;border:1.5px solid var(--ink);transition:background .2s,color .2s}
+.galope .btn-solid{background:var(--ink);color:var(--paper)}
+.galope .btn-solid:hover{background:transparent;color:var(--ink)}
+.galope .btn-line{color:var(--ink)}
+.galope .btn-line:hover{background:var(--ink);color:var(--paper)}
+.galope .tool{background:transparent}
+.galope .tool-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(28px,4.5vw,64px);align-items:start}
+@media (max-width:940px){
+.galope .tool-grid{grid-template-columns:1fr}
+}
+.galope .steps{display:flex;flex-direction:column;gap:40px;min-width:0}
+.galope fieldset{border:0;padding:0;margin:0;min-width:0}
+.galope .step>legend,.galope .step-t{font-family:var(--sans);font-stretch:112%;font-style:italic;font-weight:800;font-size:24px;padding:0;margin-bottom:18px}
+.galope .q{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.galope .q>label,.galope .q>.ql{font-family:var(--sans);font-size:15px;font-weight:600;color:var(--graphite)}
+.galope .q input[type=number],.galope .q select{font:inherit;font-family:var(--sans);font-size:17px;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:8px;min-height:50px;padding:0 14px;width:100%;max-width:340px}
+.galope .q input:focus,.galope .q select:focus{outline:2px solid var(--ink);outline-offset:1px}
+.galope .seg{display:inline-flex;border:1px solid var(--pencil);border-radius:999px;overflow:hidden;align-self:flex-start}
+.galope .seg input{position:absolute;opacity:0;pointer-events:none}
+.galope .seg label{font-family:var(--sans);font-size:15px;font-weight:600;padding:0 22px;min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--graphite)}
+.galope .seg input:checked+label{background:var(--ink);color:var(--paper)}
+.galope .seg input:focus-visible+label{outline:2px solid var(--ink);outline-offset:-4px}
+.galope .levels{border-top:1.5px solid var(--ink);background:var(--paper)}
+.galope .lv-head,.galope .lv{display:grid;grid-template-columns:minmax(0,170px) minmax(0,1fr) 96px;gap:0 16px;padding:10px 14px;align-items:center}
+.galope .lv-head{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--pencil);border-bottom:1px solid var(--rule)}
+.galope .lv-head span:last-child,.galope .lv .mc{text-align:right}
+.galope .lv{border-bottom:1px solid var(--rule);cursor:pointer;position:relative}
+.galope .lv input{position:absolute;opacity:0;pointer-events:none}
+.galope .lv .nm{font-family:var(--sans);font-weight:700;font-size:16.5px;display:flex;flex-direction:column}
+.galope .lv .nm small{font-weight:500;font-size:13px;color:var(--pencil)}
+.galope .lv .ex{font-size:15px;line-height:1.4;color:var(--graphite)}
+.galope .lv .mc{font-family:var(--sans);font-weight:700;font-size:18px;font-variant-numeric:tabular-nums}
+.galope .lv:hover{background:var(--wash)}
+.galope .lv:has(input:checked){background:var(--ink)}
+.galope .lv:has(input:checked) .nm,.galope .lv:has(input:checked) .mc{color:var(--paper)}
+.galope .lv:has(input:checked) .nm small,.galope .lv:has(input:checked) .ex{color:color-mix(in srgb,var(--paper) 78%,transparent)}
+.galope .lv:has(input:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
+@media (max-width:560px){
+.galope .lv-head{display:none}
+.galope .lv{grid-template-columns:minmax(0,1fr) auto;row-gap:4px}
+.galope .lv .ex{grid-column:1/-1;grid-row:2}
+}
+.galope .src{margin-top:10px;font-size:13.5px;line-height:1.5;color:var(--pencil)}
+.galope .fo-out{font-family:var(--sans);font-size:15px;color:var(--graphite)}
+.galope .fo-out b{color:var(--ink)}
+.galope details.lab{margin-top:6px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.galope details.how{margin-top:0;border-top:0}
+.galope .lab-cta{font-family:var(--sans);font-size:15px;line-height:1.5;color:var(--graphite);padding:14px 0;border-bottom:1px solid var(--rule)}
+.galope .lab-cta b{color:var(--ink);white-space:nowrap;user-select:all}
+.galope .lab-cta a{color:var(--ink);text-underline-offset:3px}
+.galope .eq{font-family:var(--sans);font-weight:600;font-size:15px;line-height:1.6;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;margin:10px 0;overflow-x:auto}
+.galope details.lab summary{font-family:var(--sans);font-weight:600;font-size:15.5px;padding:14px 0;cursor:pointer}
+.galope .lab-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:6px 0 18px}
+@media (max-width:520px){
+.galope .lab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.galope .lab-grid .q{margin:0}
+.galope .result{position:sticky;top:calc(env(safe-area-inset-top,0px) + 96px);background:var(--panel);color:var(--on-panel);border-radius:14px;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:22px;min-width:0}
+@media (max-width:940px){
+.galope .result{position:static}
+}
+.galope .r-label{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--on-panel-soft)}
+.galope .r-prod{display:flex;gap:16px;align-items:center}
+.galope .r-prod img{width:64px;background:#fff;border-radius:6px;padding:4px;flex:none}
+.galope .r-prod h3{color:var(--on-panel);font-stretch:112%;font-style:italic;font-weight:800;font-size:30px;line-height:1.05}
+.galope .r-prod p{font-size:15.5px;line-height:1.4;color:var(--on-panel-soft);margin-top:4px}
+.galope .r-amounts{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:18px;border-top:1px solid var(--panel-rule);padding-top:20px}
+.galope .r-amounts b{display:block;font-family:var(--sans);font-stretch:112%;font-style:italic;font-weight:800;font-size:clamp(30px,3.4vw,40px);line-height:1;font-variant-numeric:tabular-nums}
+.galope .r-amounts span{display:block;margin-top:6px;font-size:15px;line-height:1.35;color:var(--on-panel-soft)}
+.galope .r-bar{display:flex;height:16px;border-radius:999px;overflow:hidden;background:var(--panel-rule);gap:2px}
+.galope .r-bar i{display:block;height:100%}
+.galope .r-legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--sans);font-size:14px;color:var(--on-panel-soft);margin-top:10px}
+.galope .r-legend span{display:inline-flex;align-items:center;gap:7px}
+.galope .r-legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+.galope .r-sum{font-size:16px;line-height:1.5}
+.galope .r-notes{list-style:none;margin:0;padding:18px 0 0;border-top:1px solid var(--panel-rule);display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.45;color:var(--on-panel-soft)}
+.galope .r-notes li.warn{color:var(--on-panel)}
+.galope .r-cta{align-self:flex-start;border-color:var(--on-panel);background:var(--on-panel);color:#1E2125}
+.galope .r-cta:hover{background:transparent;color:var(--on-panel)}
+
+/* --- Ajustes de integración: neutralizan estilos globales de Bootstrap / tema --- */
+.galope{background:transparent;color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.6;overflow:visible}
+.galope legend{float:none;width:auto;line-height:inherit}
+.galope label{margin-bottom:0}
+.galope p{color:inherit}
+.galope .lead,.galope .r-sum{font-family:var(--serif)}
+.galope .q select{appearance:auto;-webkit-appearance:menulist}
+
+/* --- Fondo por producto recomendado (assets/js/racion-fondo.js) ---
+   Reutiliza .product-textured / .product-watermarked de custom.css;
+   sin color de fondo: solo la textura y la ilustración. */
+.galope .tool.product-textured {
+    background-image: var(--product-texture);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.galope .tool.product-watermarked::before { opacity: 0.14; }
+@media (max-width: 991px), (hover: none) {
+    .galope .tool.product-textured {
+        background-attachment: scroll;
+        background-size: 100% auto;
+    }
+}
+
+/* --- Tipografía del sitio: títulos y cifras con la fuente de títulos (como .sec-title h2) --- */
+.galope h2,
+.galope .step>legend,
+.galope .r-prod h3,
+.galope .r-amounts b{
+    font-family:var(--display);
+    font-weight:400;
+    font-style:normal;
+    font-stretch:normal;
+    letter-spacing:0;
+}
+.galope h2{font-size:50px;line-height:60px;text-transform:uppercase}
+.galope .step>legend{text-transform:uppercase}
+@media (max-width:767px){.galope h2{font-size:36px;line-height:44px}}
+.galope .r-amounts b{font-variant-numeric:normal}
