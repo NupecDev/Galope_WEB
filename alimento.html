@@ -715,6 +715,9 @@
 
     <!-- Product Loading Script -->
     <script>
+        // Fotos provisionales (placeholders) hasta tener las definitivas
+        const PHOTO_HERO = './assets/images/resource/about-3.jpg';
+        const PHOTO_SECTION = './assets/images/resource/about-5.jpg';
         const BENEFIT_ICONS = ['fa-heart', 'fa-bullseye', 'fa-bolt', 'fa-seedling'];
 
         document.addEventListener('DOMContentLoaded', function () {
@@ -765,7 +768,7 @@
                 heroRender.alt = product.title;
                 heroRender.hidden = false;
             }
-            document.getElementById('cover-product').style.backgroundImage = `url(${product.backgroundimage || './assets/images/background/page-title.jpg'})`;
+            document.getElementById('cover-product').style.backgroundImage = `url(${PHOTO_HERO})`;
 
             // P2 · Descripción principal
             const { lead, rest } = splitLead(product.description);
@@ -804,7 +807,7 @@
             // P5 · Recomendado para
             document.getElementById('product-recommended').innerHTML = product.recommendedfor || '';
             const recImg = document.getElementById('recommended-image');
-            recImg.src = (product.galleryimages && product.galleryimages[0]) || product.backgroundimage || '';
+            recImg.src = PHOTO_SECTION;
             recImg.alt = `Caballo alimentado con ${product.title}`;
 
             // P6 · Guía de alimentación y análisis garantizado

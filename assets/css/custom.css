@@ -720,3 +720,9 @@
 @media (max-width: 575px) {
     .main-header .menu-right-content { display: none; }
 }
+
+/* Cards de producto (Home): recorte cuadrado para que el círculo no se deforme */
+.service-block-one .inner-box .image-box .image img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
