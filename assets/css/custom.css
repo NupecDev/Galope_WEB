@@ -413,3 +413,310 @@
         max-height: 320px;
     }
 }
+
+/* =========================================================
+   Wireframe sitio GALOPE® — grid y distribución
+   Solo modificadores sobre componentes existentes
+   (benefit-card, complement-card, info-card, step-card,
+   service-block-one, theme-btn).
+   ========================================================= */
+
+/* Botón secundario (contorno) sobre fondos oscuros: hero */
+.theme-btn.btn-two.btn-light {
+    border-color: #fff;
+    color: #fff !important;
+}
+.cta-section .content-box .theme-btn.btn-two.btn-light {
+    color: #fff !important;
+    border-color: #fff;
+}
+.hero-left .theme-btn.btn-one { border: 1px solid #fff; }
+/* Títulos de sección en columnas angostas (4 col) */
+.sec-title.sec-title--sm h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+.btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.btn-row .theme-btn { margin: 0 !important; }
+
+/* Hero alineado a la izquierda (Home, Producto, Ciencia) */
+.hero-left .content-box { text-align: left; max-width: 700px; }
+.hero-left .content-box h1 { text-transform: uppercase; }
+.hero-left .hero-lead {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 600;
+    margin: 15px 0 12px;
+}
+.hero-left .hero-text { color: #fff; margin: 0 0 30px; max-width: 620px; }
+.hero-breadcrumb {
+    display: flex;
+    gap: 8px;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.hero-breadcrumb a { color: #fff; text-decoration: underline; opacity: 0.85; }
+
+/* Sub-navegación de anclas bajo el hero */
+.page-subnav {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.page-subnav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 28px;
+    padding: 16px 0;
+    margin: 0;
+}
+.page-subnav a {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--title-color);
+}
+.page-subnav a:hover { text-decoration: underline; }
+
+/* Encabezado de grupo de productos: línea superior + etiquetas a la derecha */
+.group-head {
+    border-top: 2px solid #000;
+    padding-top: 18px;
+    margin-bottom: 30px;
+}
+.group-head h3 { margin-bottom: 8px; }
+.group-head p { margin: 0; }
+.group-tags {
+    display: block;
+    font-family: 'Antonio';
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+@media (min-width: 992px) {
+    .group-head--split {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .group-head--split .group-tags { margin: 0; white-space: nowrap; }
+}
+
+/* Kicker de categoría dentro de las cards */
+.card-kicker {
+    display: block;
+    font-family: 'Antonio';
+    font-size: 13px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    margin-bottom: 6px;
+}
+.service-block-one .inner-box .lower-content p.card-claim {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* benefit-card: icono circular y variante con línea superior (sin caja) */
+.benefit-card .card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.benefit-card--boxed {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+.benefit-card--line {
+    background: transparent;
+    border-radius: 0;
+    border-top: 1px solid #000;
+    padding: 18px 0 0;
+}
+
+/* Fotos de sección (marcos del wireframe) */
+.media-box {
+    margin: 0;
+    aspect-ratio: 4 / 3;
+    min-height: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.media-box img {
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    object-fit: cover;
+}
+.media-box--contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 30px;
+}
+.media-box--contain img {
+    width: auto;
+    height: auto;
+    min-height: 0;
+    max-height: 380px;
+    object-fit: contain;
+}
+
+/* Panel dividido imagen + contenido (SANUREN, INCASARA) */
+.split-panel {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fafafa;
+}
+.split-panel.bg-white { background: #fff; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06); }
+.split-panel .media-box { border-radius: 0; aspect-ratio: auto; height: 100%; }
+.split-panel .split-content { padding: 45px; }
+
+/* Tabla de ingredientes: nombre | descripción */
+.ingredient-table { border-top: 1px solid #ccc; }
+.ingredient-table li {
+    display: grid;
+    grid-template-columns: 34% 1fr;
+    gap: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+.ingredient-table li strong { color: var(--title-color); }
+.ingredient-table li span::first-letter { text-transform: uppercase; }
+
+/* Lista etiqueta / valor (análisis garantizado) */
+.spec-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+.spec-list li:last-child { border-bottom: 0; }
+.spec-list li b { white-space: nowrap; }
+.info-card h4 { margin-bottom: 15px; }
+.info-card .feeding-guide-img { width: 100%; height: auto; border-radius: 6px; }
+
+/* complement-card horizontal: productos complementarios y descargas */
+.complement-card--row {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    text-align: left;
+    background: #fff;
+    padding: 18px 24px 18px 18px;
+}
+.complement-card--row img {
+    flex: 0 0 34%;
+    max-width: 34%;
+    max-height: 170px;
+    object-fit: contain;
+    margin: 0;
+}
+.complement-card--row h6 { font-size: 20px; margin-bottom: 6px; }
+.complement-card--row p { font-size: 15px; line-height: 1.5; margin-bottom: 10px; }
+.complement-card--row .card-link { font-weight: 600; text-decoration: underline; }
+.complement-card--file { padding: 18px 22px; }
+.complement-card--file .file-icon {
+    flex: 0 0 44px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.complement-card--file h6 { font-size: 17px; margin-bottom: 2px; }
+.complement-card--file span { font-size: 13px; }
+
+/* step-card: número grande y flechas entre pasos */
+.step-card--outline { border: 1px solid #e5e5e5; }
+.step-card .step-big {
+    display: block;
+    font-family: var(--title-font);
+    font-size: 34px;
+    line-height: 1;
+    margin-bottom: 14px;
+    opacity: 0.6;
+}
+@media (min-width: 992px) {
+    .steps-flow > [class*='col-']:not(:last-child) .step-card::after {
+        content: '\2192';
+        position: absolute;
+        right: -22px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 22px;
+        opacity: 0.6;
+    }
+}
+
+/* info-card con cifra destacada */
+.stat-number {
+    display: block;
+    font-family: var(--title-font);
+    font-size: 54px;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: var(--title-color);
+}
+.stat-row { display: flex; flex-wrap: wrap; gap: 20px 45px; margin: 25px 0 30px; }
+.stat-row .stat-number { font-size: 40px; }
+
+/* Cierre en fila (texto izquierda, botones derecha) */
+.cta-section.cta-row .content-box { max-width: 100%; }
+.cta-section.cta-row .btn-box { justify-content: flex-end; }
+@media (max-width: 991px) {
+    .cta-section.cta-row .btn-box { justify-content: flex-start; margin-top: 25px; }
+    .split-panel .split-content { padding: 30px 25px; }
+    .complement-card--row { flex-direction: column; text-align: center; }
+    .complement-card--row img { max-width: 60%; }
+    .ingredient-table li { grid-template-columns: 1fr; gap: 4px; }
+}
+
+/* Header: botón "Calcula su ración" tipo píldora en la esquina */
+.main-header .outer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background: #000;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 26px;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: background 0.3s, transform 0.3s;
+}
+.header-cta i { font-size: 13px; transition: transform 0.3s; }
+.header-cta:hover { background: #333; color: #fff !important; }
+.header-cta:hover i { transform: translateX(3px); }
+@media (max-width: 991px) {
+    .header-cta { padding: 12px 18px; font-size: 14px; }
+}
+@media (max-width: 575px) {
+    .main-header .menu-right-content { display: none; }
+}

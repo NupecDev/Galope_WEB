@@ -241,7 +241,6 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="index.html#calculadora">Calculadora</a></li>
                                             <li><a href="ciencia-tecnologia.html">Tecnología GALOPE®</a></li>
                                             <!-- <li class="current dropdown"><a href="#">Home</a>
                                                 <ul>
@@ -305,7 +304,7 @@
                                                     <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
                                             </li>   -->
-                                            <li><a href="casos.html">Casos de éxito</a></li>
+                                            <!-- <li><a href="casos.html">Casos de éxito</a></li> -->
                                             <li><a href="https://naequina.com/" target="_blank">NAEQUINA</a></li>
                                             <li><a href="contact.html">Contacto</a></li>
                                         </ul>
@@ -313,10 +312,9 @@
                                 </nav>
                             </div>
                         </div>
-                        <!-- <div class="menu-right-content">
-                            <div class="support-box mr_30"><a href="tel:4421961000"><i class="icon-5"></i> +52 (442) 196-1000</a></div>
-                            <div class="btn-box"><a href="index.html" class="theme-btn btn-one">Book A Visit</a></div>
-                        </div> -->
+                        <div class="menu-right-content">
+                            <a href="index.html#calculadora" class="header-cta">Calcula su ración <i class="fas fa-chevron-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -335,9 +333,7 @@
                             </div>
                         </div>
                         <div class="menu-right-content">
-                            <div class="support-box mr_30"><a href="tel:4421961000"><i class="icon-5"></i> +52 (442)
-                                    196-1000</a></div>
-                            <!-- <div class="btn-box"><a href="index.html" class="theme-btn btn-one">Book A Visit</a></div> -->
+                            <a href="index.html#calculadora" class="header-cta">Calcula su ración <i class="fas fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -380,16 +376,24 @@
 
 
         <!-- page-title -->
-        <section class="page-title product-hero">
+        <section class="page-title product-hero hero-left">
             <div class="bg-layer" id="cover-product"
                 style="background-image: url(./assets/images/background/page-title.jpg);"></div>
             <div class="auto-container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-md-12">
                         <div class="content-box">
+                            <nav class="hero-breadcrumb" aria-label="Ruta">
+                                <a href="index.html">Inicio</a> / <a href="index.html#productos">Productos</a> /
+                                <span id="breadcrumb-current"></span>
+                            </nav>
                             <span class="hero-kicker" id="hero-subtitle"></span>
                             <h1 id="product-title"></h1>
                             <p class="hero-claim" id="hero-claim"></p>
+                            <div class="btn-row mt_30">
+                                <a href="#beneficios" class="theme-btn btn-one">Conoce sus beneficios</a>
+                                <a href="index.html#calculadora" class="theme-btn btn-two btn-light">Calcula su ración</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12">
@@ -402,180 +406,185 @@
         </section>
         <!-- page-title end -->
 
+        <!-- Sub-navegación de anclas -->
+        <nav class="page-subnav" aria-label="Secciones del producto">
+            <div class="auto-container">
+                <ul>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#ingredientes">Ingredientes</a></li>
+                    <li><a href="#recomendado">¿Para qué caballos?</a></li>
+                    <li><a href="#guia">Guía de alimentación</a></li>
+                    <li><a href="#descargas">Ficha técnica y folleto</a></li>
+                </ul>
+            </div>
+        </nav>
+
 
         <!-- product-details -->
-        <section class="course-details pt_150 pb_150" id="product-details">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                        <div class="course-sidebar mr_40">
-                            <div class="sidebar-widget category-widget">
-                                <div class="widget-title">
-                                    <h3 id="sidebar-title">NUESTROS PRODUCTOS</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="category-list clearfix" id="product-list">
-                                        <!-- Dynamic product list will be populated here -->
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-widget contact-widget">
-                                <div class="widget-title">
-                                    <h3>CONTACTO</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="info-list clearfix">
-                                        <li><i class="icon-38"></i><span id="contact-address">Av. de las Fuentes No.14,
-                                                Parque Industrial Bernardo Quintana, 76246 El Marqués, Querétaro</span>
-                                        </li>
-                                        <li><i class="icon-39"></i><a href="tel:+524421961000"
-                                                id="contact-phone">Teléfono: +52 (442) 196-1000</a></li>
-                                        <li><i class="icon-40"></i><a href="mailto:example@info.com"
-                                                id="contact-email">contacto@gponutec.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                        <div class="course-details-content">
-                            <!-- <figure class="big-image">
-                                <iframe id="product-video" width="800" height="450" src="" title="Product Video"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </figure> -->
+        <div id="product-details">
 
-                            <!-- Claim y descripción principal -->
-                            <div class="content-one mb_50">
+            <!-- P2 · Descripción principal: título 4 col + texto 8 col -->
+            <section class="bg-light-section pt_80 pb_80">
+                <div class="auto-container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="sec-title sec-title--sm mb_30">
                                 <span class="custom-text product-subtitle" id="product-subtitle"></span>
-                                <h2 id="product-name">Product Name</h2>
-                                <h4 class="product-claim" id="product-claim"></h4>
-                                <div id="product-description"></div>
+                                <h2 id="product-name"></h2>
                             </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div id="product-description"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                            <!-- Beneficios destacados -->
-                            <div class="content-two mb_50">
-                                <h3>BENEFICIOS DESTACADOS</h3>
-                                <div class="row g-4 product-benefits" id="benefits-list">
-                                    <!-- Benefits will be populated here -->
-                                </div>
+            <!-- P3 · Beneficios destacados: 4 cards -->
+            <section class="pt_80 pb_80" id="beneficios">
+                <div class="auto-container">
+                    <div class="sec-title mb_40">
+                        <h2>Beneficios destacados</h2>
+                    </div>
+                    <div class="row g-4" id="benefits-list"></div>
+                </div>
+            </section>
+
+            <!-- P4 · Ingredientes: imagen 5 col + tabla 7 col -->
+            <section class="bg-light-section pt_80 pb_80" id="ingredientes">
+                <div class="auto-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-12 mb_30">
+                            <figure class="media-box media-box--contain"><img id="ingredients-image" src="" alt=""
+                                    loading="lazy"></figure>
+                        </div>
+                        <div class="col-lg-7 col-md-12">
+                            <div class="sec-title mb_30">
+                                <h2>Ingredientes que hacen la diferencia</h2>
                             </div>
+                            <ul class="ingredient-table" id="ingredients-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                            <!-- Ingredientes -->
-                            <div class="content-two mb_50">
-                                <h3>INGREDIENTES QUE HACEN LA DIFERENCIA</h3>
-                                <ul class="list-item clearfix product-ingredients" id="ingredients-list">
-                                    <!-- Ingredients will be populated here -->
-                                </ul>
+            <!-- P5 · ¿Para qué caballos?: texto 6 col + foto 6 col -->
+            <section class="pt_80 pb_80" id="recomendado">
+                <div class="auto-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 mb_30">
+                            <div class="sec-title mb_25">
+                                <h2>¿Para qué caballos está recomendado?</h2>
                             </div>
+                            <p id="product-recommended"></p>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <figure class="media-box"><img id="recommended-image" src="" alt="" loading="lazy"></figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                            <!-- Recomendado para -->
-                            <div class="content-two mb_50">
-                                <div class="product-recommended">
-                                    <h3>¿PARA QUÉ CABALLOS ESTÁ RECOMENDADO?</h3>
-                                    <p id="product-recommended"></p>
-                                </div>
+            <!-- P6 · Guía de alimentación (7 col) + Análisis garantizado (5 col) -->
+            <section class="bg-light-section pt_80 pb_80" id="guia">
+                <div class="auto-container">
+                    <div class="sec-title mb_40">
+                        <h2>Guía de alimentación y análisis garantizado</h2>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-7 col-md-12">
+                            <div class="info-card h-100">
+                                <h4>Guía de alimentación</h4>
+                                <img id="feeding-guide-image" class="feeding-guide-img" src="" alt="" loading="lazy">
+                                <p class="calc-note mt_15">Ejemplo basado en un caballo de 500 kilogramos. Consulta la ficha
+                                    técnica para más detalle.</p>
                             </div>
-
-                            <!-- Guía de alimentación y análisis garantizado -->
-                            <div class="content-two mb_50 col-lg-12">
-                                <h3>GUÍA DE ALIMENTACIÓN Y ANÁLISIS GARANTIZADO</h3>
-                                <div class="inner-box">
-                                    <figure>
-                                        <img id="feeding-guide-image" src="" alt="" loading="lazy">
-                                    </figure>
-                                </div>
-                                <p>Ejemplo basado en un caballo de 500 kilogramos. Consulta la ficha técnica para más
-                                    detalle.</p>
-                                <div class="inner-box mt_30">
-                                    <div class="text-box">
-                                        <h4>ANÁLISIS GARANTIZADO</h4>
-                                        <ul class="list-item clearfix" id="specifications-list">
-                                            <!-- Specifications will be populated here -->
-                                        </ul>
-                                    </div>
-                                    <figure class="image-box"><img id="how-it-works-image"
-                                            src="./assets/images/resource/course-8.jpg" alt="" class="package-image">
-                                    </figure>
-                                </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12">
+                            <div class="info-card h-100">
+                                <h4>Análisis garantizado</h4>
+                                <ul class="spec-list" id="specifications-list"></ul>
                             </div>
-
-                            <!-- Importancia de la pastura -->
-                            <div class="content-two mb_50">
-                                <div class="pasture-box">
-                                    <span class="custom-text">CONOCE LA IMPORTANCIA DE LA PASTURA</span>
-                                    <h3>La importancia del forraje en la alimentación de tu caballo</h3>
-                                    <p>Una buena nutrición comienza con un forraje de calidad. El sistema digestivo de los
-                                        caballos está diseñado para consumir fibra de manera continua, por lo que el
-                                        forraje, ya sea pastura fresca o heno, constituye la base de su alimentación y es
-                                        fundamental para mantener su salud y bienestar. Además de aportar nutrientes
-                                        esenciales, la fibra favorece la motilidad intestinal, estimula la masticación y la
-                                        producción de saliva, y contribuye al equilibrio de la microbiota intestinal. Su
-                                        fermentación en el intestino grueso también proporciona una fuente importante de
-                                        energía para el organismo. La calidad, cantidad y composición del forraje influyen
-                                        directamente en la condición corporal, el aprovechamiento de los nutrientes y el
-                                        desempeño de cada caballo.</p>
-                                    <p>En GALOPE® sabemos que una nutrición eficiente comienza con un excelente forraje.
-                                        Por eso, nuestros alimentos están formulados para complementar una dieta basada en
-                                        fibra, aportando los nutrientes necesarios de acuerdo con la etapa de vida,
-                                        condición física y nivel de actividad de cada caballo.</p>
-                                    <div class="pasture-cta">
-                                        <a href="https://laboratorioeuronutec.com" target="_blank" rel="noopener"
-                                            class="theme-btn btn-one">EVALÚA TU PASTURA</a>
-                                        <a href="https://laboratorioeuronutec.com" target="_blank" rel="noopener"
-                                            class="partner-logo"><img src="assets/images/logos/laboratorio-euronutec.png"
-                                                alt="LABORATORIO EURONUTEC®" loading="lazy"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Productos complementarios -->
-                            <div class="content-two mb_50" id="complement-section">
-                                <h3 id="complement-title">PRODUCTOS COMPLEMENTARIOS</h3>
-                                <div class="row g-4" id="complement-list">
-                                    <!-- Complementary products will be populated here -->
-                                </div>
-                            </div>
-
-                            <!-- Descargas -->
-                            <div class="content-two mb_50">
-                                <h3>DESCARGA DE FICHA TÉCNICA Y FOLLETO</h3>
-                                <div class="row" id="downloadables-list">
-                                </div>
-                            </div>
-
-                            <!-- <div class="content-two mb_50" id="gallery-section">
-                                <h3>GALERÍA</h3>
-                                <div id="gallery-container">
-                                     Gallery images will be populated here
-                                </div>
-                            </div> -->
                         </div>
                     </div>
 
+                    <!-- Importancia de la pastura (contenido existente) -->
+                    <div class="pasture-box mt_40">
+                        <span class="custom-text">CONOCE LA IMPORTANCIA DE LA PASTURA</span>
+                        <h3>La importancia del forraje en la alimentación de tu caballo</h3>
+                        <p>Una buena nutrición comienza con un forraje de calidad. El sistema digestivo de los
+                            caballos está diseñado para consumir fibra de manera continua, por lo que el
+                            forraje, ya sea pastura fresca o heno, constituye la base de su alimentación y es
+                            fundamental para mantener su salud y bienestar. Además de aportar nutrientes
+                            esenciales, la fibra favorece la motilidad intestinal, estimula la masticación y la
+                            producción de saliva, y contribuye al equilibrio de la microbiota intestinal. Su
+                            fermentación en el intestino grueso también proporciona una fuente importante de
+                            energía para el organismo. La calidad, cantidad y composición del forraje influyen
+                            directamente en la condición corporal, el aprovechamiento de los nutrientes y el
+                            desempeño de cada caballo.</p>
+                        <p>En GALOPE® sabemos que una nutrición eficiente comienza con un excelente forraje.
+                            Por eso, nuestros alimentos están formulados para complementar una dieta basada en
+                            fibra, aportando los nutrientes necesarios de acuerdo con la etapa de vida,
+                            condición física y nivel de actividad de cada caballo.</p>
+                        <div class="pasture-cta">
+                            <a href="https://laboratorioeuronutec.com" target="_blank" rel="noopener"
+                                class="theme-btn btn-one">EVALÚA TU PASTURA</a>
+                            <a href="https://laboratorioeuronutec.com" target="_blank" rel="noopener"
+                                class="partner-logo"><img src="assets/images/logos/laboratorio-euronutec.png"
+                                    alt="LABORATORIO EURONUTEC®" loading="lazy"></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- <div id="video-banner" class="video-banner mb_60">                
-            </div> -->
+            </section>
 
-        </section>
+            <!-- P7 · Descargas: título 4 col + 2 cards -->
+            <section class="pt_60 pb_60" id="descargas">
+                <div class="auto-container">
+                    <div class="row align-items-center g-4">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="sec-title">
+                                <h2>Descargas</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="row g-3" id="downloadables-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- P8 · Productos complementarios: cards horizontales 2 por fila -->
+            <section class="bg-light-section pt_80 pb_80" id="complement-section">
+                <div class="auto-container">
+                    <div class="sec-title mb_40">
+                        <h2 id="complement-title">Complementa su alimentación</h2>
+                    </div>
+                    <div class="row g-4" id="complement-list"></div>
+                </div>
+            </section>
+        </div>
         <!-- product-details end -->
 
 
-        <!-- cta-section -->
-        <section class="cta-section alternat-2 centred bg-color-2 pt_140 pb_150">
+        <!-- P9 · Cierre: texto 8 col + botones 4 col -->
+        <section class="cta-section cta-row bg-color-2 pt_80 pb_80">
             <div class="pattern-layer" style="background-image: url(./assets/images/shape/shape-2.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
-                    <div class="sec-title light mb_40">
-                        <span class="sub-title text-white">CONTACTO</span>
-                        <h2 class="text-white">Estamos contigo en cada etapa</h2>
-                        <p class="text-white">¿Necesitas orientación para elegir un alimento o integrar un concentrado
-                            nutricional? Nuestro equipo puede ayudarte a conocer los productos GALOPE®.</p>
-                    </div>
-                    <div class="btn-box">
-                        <a href="contact.html" class="theme-btn btn-one border">CONTÁCTANOS</a>
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-12">
+                            <div class="sec-title light">
+                                <h2 class="text-white">Estamos contigo en cada etapa.</h2>
+                                <p class="text-white">¿Necesitas orientación para elegir un alimento o integrar un concentrado
+                                    nutricional? Nuestro equipo puede ayudarte a conocer los productos GALOPE®.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12">
+                            <div class="btn-box">
+                                <a href="index.html#calculadora" class="theme-btn btn-two btn-light">Calcula su ración</a>
+                                <a href="contact.html" class="theme-btn btn-one">Contáctanos</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -706,11 +715,7 @@
 
     <!-- Product Loading Script -->
     <script>
-        const CATEGORY_LABELS = {
-            'extruido': 'ALIMENTOS EXTRUIDOS',
-            'concentrado': 'CONCENTRADOS NUTRICIONALES',
-            'multiparticulas': 'NUTRICIÓN MULTIPARTÍCULAS'
-        };
+        const BENEFIT_ICONS = ['fa-heart', 'fa-bullseye', 'fa-bolt', 'fa-seedling'];
 
         document.addEventListener('DOMContentLoaded', function () {
             const urlParams = new URLSearchParams(window.location.search);
@@ -723,7 +728,6 @@
             fetch('data/products.json')
                 .then(response => response.json())
                 .then(products => {
-                    populateSidebar(products, productParam);
                     if (!productParam) return showError('No se especificó un producto');
                     const product = products.find(p => p.product === productParam);
                     if (product) {
@@ -738,27 +742,20 @@
                 });
         });
 
-        function populateSidebar(products, currentProduct) {
-            const productList = document.getElementById('product-list');
-            productList.innerHTML = '';
-            Object.keys(CATEGORY_LABELS).forEach(category => {
-                const items = products.filter(p => p.category === category);
-                if (!items.length) return;
-                const header = document.createElement('li');
-                header.className = 'category-heading';
-                header.textContent = CATEGORY_LABELS[category];
-                productList.appendChild(header);
-                items.forEach(product => {
-                    const li = document.createElement('li');
-                    const isCurrent = currentProduct === product.product;
-                    li.innerHTML = `<a href="?product=${product.product}" class="${isCurrent ? 'current' : ''}">${product.title} <i class="icon-37"></i></a>`;
-                    productList.appendChild(li);
-                });
-            });
+        // Separa la primera oración del primer párrafo para usarla como título (P2)
+        function splitLead(description) {
+            const paragraphs = (description || []).slice();
+            const first = paragraphs.shift() || '';
+            const match = first.match(/^(.+?[.!?])\s+(.+)$/);
+            if (match) return { lead: match[1], rest: [match[2], ...paragraphs] };
+            return { lead: first, rest: paragraphs };
         }
 
         function loadProductData(product, products) {
             document.title = `${product.title} | GALOPE®`;
+
+            // P1 · Hero
+            document.getElementById('breadcrumb-current').textContent = product.title;
             document.getElementById('product-title').textContent = product.title;
             document.getElementById('hero-subtitle').textContent = product.subtitle || '';
             document.getElementById('hero-claim').textContent = product.claim || '';
@@ -768,121 +765,98 @@
                 heroRender.alt = product.title;
                 heroRender.hidden = false;
             }
+            document.getElementById('cover-product').style.backgroundImage = `url(${product.backgroundimage || './assets/images/background/page-title.jpg'})`;
 
-            // Claim y descripción
-            document.getElementById('product-subtitle').textContent = product.subtitle || '';
-            document.getElementById('product-name').textContent = product.title;
-            document.getElementById('product-claim').textContent = product.claim || '';
-            document.getElementById('product-description').innerHTML =
-                (product.description || []).map(p => `<p>${p}</p>`).join('');
+            // P2 · Descripción principal
+            const { lead, rest } = splitLead(product.description);
+            document.getElementById('product-subtitle').textContent = product.title;
+            document.getElementById('product-name').textContent = lead;
+            document.getElementById('product-description').innerHTML = rest.map(p => `<p class="mb_15">${p}</p>`).join('');
 
-            // Textura de fondo por producto (parallax en escritorio)
+            // Textura y marca de agua por producto (secciones de detalle)
             const detailsSection = document.getElementById('product-details');
             if (product.texture) {
                 detailsSection.style.setProperty('--product-texture', `url("${new URL(product.texture, document.baseURI).href}")`);
                 detailsSection.classList.add('product-textured');
             }
-            // Ilustración tipo marca de agua (centrada, fija al viewport)
             if (product.watermark) {
                 detailsSection.style.setProperty('--product-watermark', `url("${new URL(product.watermark, document.baseURI).href}")`);
                 detailsSection.classList.add('product-watermarked');
             }
 
-            // Imágenes
-            document.getElementById('cover-product').style.backgroundImage = `url(${product.backgroundimage || './assets/images/background/page-title.jpg'})`;
-            document.getElementById('how-it-works-image').src = product.packageimage || './assets/images/resource/course-8.jpg';
-            document.getElementById('how-it-works-image').alt = product.title;
-            const fgImg = document.getElementById('feeding-guide-image');
-            fgImg.src = product['feeding-guide'] || '';
-            fgImg.alt = 'Guía de alimentación ' + product.title;
-            fgImg.style.cursor = 'zoom-in';
-            fgImg.onclick = function () { openFeedingModal(this.src); };
-
-            // Video
-            //let videoUrl = product.video;
-            //if (videoUrl && videoUrl.includes('youtu.be')) {
-                //const videoId = videoUrl.split('/').pop().split('?')[0];
-                //videoUrl = `https://www.youtube.com/embed/${videoId}`;
-            //}
-            //const videoEl = document.getElementById('product-video');
-            //if (videoUrl) {
-                //videoEl.src = videoUrl;
-            //} else {
-                //videoEl.closest('figure').style.display = 'none';
-            //}
-
-            // Beneficios destacados
-            document.getElementById('benefits-list').innerHTML = (product.benefits || []).map(b => `
-                <div class="col-md-6">
-                    <div class="benefit-card">
+            // P3 · Beneficios destacados
+            document.getElementById('benefits-list').innerHTML = (product.benefits || []).map((b, i) => `
+                <div class="col-lg-3 col-md-6">
+                    <div class="benefit-card benefit-card--boxed">
+                        <span class="card-icon"><i class="fas ${BENEFIT_ICONS[i % BENEFIT_ICONS.length]}"></i></span>
                         <h5>${b.title}</h5>
                         <p>${b.text}</p>
                     </div>
                 </div>`).join('');
 
-            // Ingredientes
+            // P4 · Ingredientes
+            const ingImg = document.getElementById('ingredients-image');
+            ingImg.src = product.packageimage || '';
+            ingImg.alt = product.title;
             document.getElementById('ingredients-list').innerHTML = (product.ingredients || []).map(i =>
-                `<li><span></span> <strong>${i.name}:</strong> ${i.text}</li>`).join('');
+                `<li><strong>${i.name}</strong><span>${i.text}</span></li>`).join('');
 
-            // Recomendado para
+            // P5 · Recomendado para
             document.getElementById('product-recommended').innerHTML = product.recommendedfor || '';
+            const recImg = document.getElementById('recommended-image');
+            recImg.src = (product.galleryimages && product.galleryimages[0]) || product.backgroundimage || '';
+            recImg.alt = `Caballo alimentado con ${product.title}`;
 
-            // Análisis garantizado
-            document.getElementById('specifications-list').innerHTML = (product.specifications || []).map(s =>
-                `<li><span></span> ${s}</li>`).join('');
+            // P6 · Guía de alimentación y análisis garantizado
+            const fgImg = document.getElementById('feeding-guide-image');
+            fgImg.src = product['feeding-guide'] || '';
+            fgImg.alt = 'Guía de alimentación ' + product.title;
+            fgImg.style.cursor = 'zoom-in';
+            fgImg.onclick = function () { openFeedingModal(this.src); };
+            document.getElementById('specifications-list').innerHTML = (product.specifications || []).map(spec => {
+                const m = spec.match(/<strong>(.*?):?<\/strong>\s*(.*)/);
+                return m ? `<li><span>${m[1].replace(/:$/, '')}</span><b>${m[2]}</b></li>` : `<li><span>${spec}</span></li>`;
+            }).join('');
 
-            // Productos complementarios
+            // P7 · Descargas
+            document.getElementById('downloadables-list').innerHTML = (product.downloadables || []).map(d => {
+                const label = /folleto/i.test(d.title) ? 'Folleto' : 'Ficha técnica';
+                return `
+                <div class="col-md-6">
+                    <a class="complement-card complement-card--row complement-card--file" href="${d.link}" target="_blank" download>
+                        <span class="file-icon">PDF</span>
+                        <div>
+                            <h6>${label}</h6>
+                            <span>${product.title} · PDF</span>
+                        </div>
+                    </a>
+                </div>`;
+            }).join('');
+
+            // P8 · Productos complementarios
             const complements = (product.complementary || [])
                 .map(slug => products.find(p => p.product === slug))
                 .filter(Boolean);
             const complementSection = document.getElementById('complement-section');
             if (complements.length) {
                 document.getElementById('complement-title').textContent =
-                    product.category === 'concentrado' ? 'SE COMPLEMENTA CON TODOS NUESTROS ALIMENTOS' : 'COMPLEMENTA CON NUESTROS CONCENTRADOS';
+                    product.category === 'concentrado' ? 'Se complementa con todos nuestros alimentos' : 'Complementa su alimentación';
                 document.getElementById('complement-list').innerHTML = complements.map(c => `
-                    <div class="col-6 col-md-4">
-                        <a class="complement-card" href="?product=${c.product}">
+                    <div class="col-lg-6 col-md-12">
+                        <a class="complement-card complement-card--row" href="?product=${c.product}">
                             <img src="${c.packageimage}" alt="${c.title}" loading="lazy">
-                            <h6>${c.title}</h6>
-                            <span>${c.subtitle || ''}</span>
+                            <div>
+                                <span class="card-kicker">${c.subtitle || ''}</span>
+                                <h6>${c.title}</h6>
+                                <p>${c.claim || ''}</p>
+                                <span class="card-link">Ver producto →</span>
+                            </div>
                         </a>
                     </div>`).join('');
-                complementSection.style.display = 'block';
+                complementSection.style.display = '';
             } else {
                 complementSection.style.display = 'none';
             }
-
-            // Descargables
-            document.getElementById('downloadables-list').innerHTML = (product.downloadables || []).map(d => `
-                <div class="col-auto mb_15">
-                    <a href="${d.link}" target="_blank" class="theme-btn btn-one" download>
-                        <i class="fas fa-download"></i> ${d.title}
-                    </a>
-                </div>`).join('');
-
-            // Galería
-            //const galleryContainer = document.getElementById('gallery-container');
-            //galleryContainer.innerHTML = '';
-            //if (product.galleryimages && product.galleryimages.length) {
-                //const gridDiv = document.createElement('div');
-                //gridDiv.className = 'grid grid-cols-2 md:grid-cols-4 gap-4';
-                //const columns = [[], [], [], []];
-                //product.galleryimages.forEach((image, index) => columns[index % 4].push(image));
-                //columns.forEach(colImages => {
-                    //const colDiv = document.createElement('div');
-                    //colDiv.className = 'grid gap-4';
-                    //colDiv.innerHTML = colImages.map(image => `
-                        //<div>
-                            //<a href="${image}" class="lightbox-image" data-fancybox="gallery">
-                                //<img class="h-auto max-w-full rounded-lg" src="${image}" alt="Galería ${product.title}" loading="lazy">
-                            //</a>
-                        //</div>`).join('');
-                    //gridDiv.appendChild(colDiv);
-                //});
-                //galleryContainer.appendChild(gridDiv);
-            //} else {
-                //document.getElementById('gallery-section').style.display = 'none';
-            //}
         }
 
         function showError(message) {
